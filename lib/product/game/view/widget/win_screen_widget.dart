@@ -1,43 +1,175 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tabu_app/features/utility/const/constant_color.dart';
 import 'package:tabu_app/features/utility/enum/enum_teams.dart';
 
 import '../../../../features/utility/const/constant_string.dart';
+import '../../../../features/utility/enum/enum_sound.dart';
+import '../../../../features/utility/sound_manager.dart';
 import '../../../../features/widget/custom_elevated_button.dart';
+import '../../../../features/widget/custom_outlined_button.dart';
 import '../../cubit/game_cubit.dart';
 
-class WinScreenWidget extends StatelessWidget {
+class WinScreenWidget extends StatefulWidget {
   final GameState state;
   const WinScreenWidget({super.key, required this.state});
 
   @override
+  State<WinScreenWidget> createState() => _WinScreenWidgetState();
+}
+
+class _WinScreenWidgetState extends State<WinScreenWidget> {
+  @override
+  void initState() {
+    super.initState();
+    SoundManager().playVibrationAndClick(sound: EnumSound.victory);
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        state.winTeam == null
-            ? Text(
-                "Beraber ile dostluk kazandı",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Color(0xffA31D1D),
-                    fontWeight: FontWeight.bold),
-              )
-            : Text(
-                "${state.winTeam == Teams.team1 ? state.teamPoint1 : state.teamPoint2} puan ile ${TeamManager(state.winTeam ?? Teams.team1).nameValue} Kazandı",
-                style: TextStyle(
-                    fontSize: 20,
-                    color: Color(0xffA31D1D),
-                    fontWeight: FontWeight.bold),
+        Expanded(
+          child: Container(
+              width: MediaQuery.sizeOf(context).width,
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage(ConstantString.nextGameBg),
+                    fit: BoxFit.fitWidth),
               ),
-        SizedBox(
-          height: 20,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(ConstantString.winnerImage),
+                  widget.state.winTeam == null
+                      ? Text(ConstantString.friendshipWon)
+                      : Text(
+                          TeamManager(widget.state.winTeam ?? Teams.team1)
+                              .nameValue,
+                          overflow: TextOverflow.ellipsis,
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineLarge
+                              ?.copyWith(
+                                color: ConstColor.white,
+                              ))
+                ],
+              )),
         ),
-        CustomElevatedButton(
+        Container(
+          width: MediaQuery.sizeOf(context).width - 60,
+          // height: (MediaQuery.sizeOf(context).width - 60) * .29,
+          decoration: BoxDecoration(
+              borderRadius: BorderRadius.all(Radius.circular(15)),
+              border: Border.all(width: 2, color: Color(0xffB87FFF))),
+          child: Column(
+            children: [
+              Container(
+                  padding: EdgeInsets.symmetric(horizontal: 30, vertical: 7),
+                  decoration: BoxDecoration(
+                      color: Color(0xffB87FFF),
+                      borderRadius:
+                          BorderRadius.vertical(bottom: Radius.circular(15))),
+                  child: Text(
+                    ConstantString.score,
+                    style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                          color: ConstColor.scoreTextColor,
+                        ),
+                  )),
+              Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20.0, vertical: 15),
+                child: Row(
+                  children: [
+                    Expanded(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        spacing: 10,
+                        children: [
+                          Expanded(
+                            child: Text(
+                              TeamManager(Teams.team1).nameValue,
+                              style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 18,
+                                  overflow: TextOverflow.ellipsis),
+                              maxLines: 2,
+                            ),
+                          ),
+                          Text(
+                            widget.state.teamPoint1.toString(),
+                            style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white),
+                          )
+                        ],
+                      ),
+                    ),
+                    Container(
+                      width: 2,
+                      height: 30,
+                      color: Colors.white,
+                      margin: EdgeInsets.symmetric(horizontal: 20),
+                    ),
+                    Expanded(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        spacing: 10,
+                        children: [
+                          Expanded(
+                            child: Text(TeamManager(Teams.team2).nameValue,
+                                overflow: TextOverflow.clip,
+                                maxLines: 2,
+                                style: TextStyle(
+                                    color: Colors.white, fontSize: 18)),
+                          ),
+                          Text(
+                            widget.state.teamPoint2.toString(),
+                            style: TextStyle(
+                                fontSize: 20,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white),
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              )
+            ],
+          ),
+        ),
+        SizedBox(
+          height: 60,
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 30.0),
+          child: CustomElevatedButton(
+            maxWidth: MediaQuery.sizeOf(context).width,
+            title: ConstantString.newGame,
+            onTap: () {
+              SoundManager().playVibrationAndClick();
+              context.read<GameCubit>().clear();
+            },
+            iconPath: ConstantString.playIc,
+          ),
+        ),
+        // SizedBox(
+        //   height: 20,
+        // ),
+        CustomOutlinedButton(
           title: ConstantString.backToHome,
           onPressed: () {
-            Navigator.pop(context);
+            SoundManager().playVibrationAndClick();
+            Navigator.popUntil(context, ModalRoute.withName('/'));
           },
+          maxWidth: MediaQuery.sizeOf(context).width,
+          icon: Icons.home,
         ),
+        SizedBox(
+          height: MediaQuery.paddingOf(context).bottom + 10,
+        )
       ],
     );
   }

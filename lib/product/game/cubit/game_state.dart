@@ -18,19 +18,20 @@ class GameState {
   final bool stopTime;
   final bool isPaused;
   final int passNum;
+  final int remainingPassNum;
 
-  GameState({
-    this.remainingSeconds = 10,
-    this.tabuModel,
-    this.currentTeam = Teams.team1,
-    this.winTeam,
-    this.teamPoint1 = 0,
-    this.teamPoint2 = 0,
-    this.status = Status.init,
-    this.stopTime = false,
-    this.isPaused = false,
-    this.passNum = 0,
-  });
+  GameState(
+      {this.remainingSeconds = 0,
+      this.tabuModel,
+      this.currentTeam = Teams.team1,
+      this.winTeam,
+      this.teamPoint1 = 0,
+      this.teamPoint2 = 0,
+      this.status = Status.init,
+      this.stopTime = false,
+      this.isPaused = false,
+      this.passNum = 0,
+      this.remainingPassNum = 0});
 
   GameState copyWith({
     int? remainingSeconds,
@@ -43,6 +44,7 @@ class GameState {
     bool? stopTime,
     bool? isPaused,
     int? passNum,
+    int? remainingPassNum,
   }) {
     return GameState(
       remainingSeconds: remainingSeconds ?? this.remainingSeconds,
@@ -55,6 +57,7 @@ class GameState {
       stopTime: stopTime ?? this.stopTime,
       isPaused: isPaused ?? this.isPaused,
       passNum: passNum ?? this.passNum,
+      remainingPassNum: remainingPassNum ?? this.remainingPassNum,
     );
   }
 }
