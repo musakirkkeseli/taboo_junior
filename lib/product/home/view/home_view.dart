@@ -58,7 +58,7 @@ class _HomeViewState extends State<HomeView> {
         return Container(
           decoration: BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage(ConstantString.homebg), fit: BoxFit.fill)),
+                  image: AssetImage(ConstantString.homeBg), fit: BoxFit.fill)),
           height: maxHeight,
           width: maxWidth,
           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 27),
