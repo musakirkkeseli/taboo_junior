@@ -1,10 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:tabu_app/features/utility/const/constant_string.dart';
+import 'package:tabu_app/product/game/view/game_view.dart';
 
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/cache_manager.dart';
+import '../../../features/utility/enum/enum_appbar.dart';
 import '../../../features/utility/enum/enum_slider_type.dart';
 import '../../../features/utility/enum/enum_teams.dart';
+import '../../../features/utility/sound_manager.dart';
+import '../../../features/widget/custom_appbar_widget.dart';
+import '../../../features/widget/custom_elevated_button.dart';
 import '../../../features/widget/custom_slider_widget.dart';
 import '../../../features/widget/team_name_widget.dart';
 
@@ -24,7 +29,6 @@ class _SettingsViewState extends State<SettingsView> {
   final ValueNotifier<double> maxPointCount = ValueNotifier<double>(20);
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     gameModel = CacheManager.db.getGameModel();
     if (gameModel == null) {
@@ -42,69 +46,96 @@ class _SettingsViewState extends State<SettingsView> {
   final formkey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(ConstantString.settings),
-      ),
-      body: SafeArea(
-        child: Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: SingleChildScrollView(
-            child: Column(
-              children: [
-                Form(
-                  key: formkey,
+    return Container(
+      height: MediaQuery.sizeOf(context).height,
+      width: MediaQuery.sizeOf(context).width,
+      decoration: BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage(ConstantString.soloMapBg), fit: BoxFit.fill)),
+      child: Scaffold(
+        body: Column(
+          children: [
+            CustomAppbarWidget(
+              appbarType: EnumCustomAppbarType.gameSettings,
+            ),
+            Expanded(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: SingleChildScrollView(
                   child: Column(
-                    children: teamsTypeList.map((e) {
-                      return TeamNameWidget(
-                        title: e.nameTitleValue,
-                        textEditingController: e == Teams.team1
-                            ? nameController1
-                            : nameController2,
-                        validator: (value) {
-                          if ((value ?? "").isEmpty) {
-                            return ConstantString.notEmptyTeamName;
-                          }
-                          return null;
-                        },
-                      );
-                    }).toList(),
+                    children: [
+                      Form(
+                        key: formkey,
+                        child: Column(
+                          children: teamsTypeList.map((e) {
+                            return TeamNameWidget(
+                              title: e.nameTitleValue,
+                              textEditingController: e == Teams.team1
+                                  ? nameController1
+                                  : nameController2,
+                              validator: (value) {
+                                if ((value ?? "").isEmpty) {
+                                  return ConstantString.notEmptyTeamName;
+                                }
+                                return null;
+                              },
+                            );
+                          }).toList(),
+                        ),
+                      ),
+                      Column(
+                        children: sliderTypeList.map((e) {
+                          return CustomSliderWidget(
+                            title: e.titleValue,
+                            max: e.maxValue,
+                            min: e.minValue,
+                            valueString: e.valueString,
+                            value: useValue(e),
+                          );
+                        }).toList(),
+                      ),
+                      SizedBox(
+                        height: (MediaQuery.sizeOf(context).width - 60) * .293 +
+                            MediaQuery.paddingOf(context).bottom +
+                            20,
+                      )
+                    ],
                   ),
                 ),
-                Column(
-                  children: sliderTypeList.map((e) {
-                    return CustomSliderWidget(
-                      title: e.titleValue,
-                      max: e.maxValue,
-                      min: e.minValue,
-                      value: useValue(e),
-                    );
-                  }).toList(),
-                ),
-                SizedBox(
-                  height: 40,
-                )
-              ],
+              ),
             ),
+          ],
+        ),
+        floatingActionButton: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 30),
+          child: CustomElevatedButton(
+            maxWidth: MediaQuery.sizeOf(context).width,
+            title: ConstantString.game,
+            onTap: () {
+              if (formkey.currentState!.validate()) {
+                formkey.currentState!.save();
+                print("save pass ${passCount.value}");
+                GameModel gameModel = GameModel(
+                    teamName1: nameController1.text,
+                    teamName2: nameController2.text,
+                    pass: passCount.value.toInt(),
+                    time: timeCount.value.toInt(),
+                    point: maxPointCount.value.toInt());
+                CacheManager.db.putAll(gameModel);
+                SoundManager().playVibrationAndClick();
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => GameView(
+                              gameModel: gameModel,
+                            )));
+              }
+            },
+            iconPath: ConstantString.playIc,
           ),
         ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),
-      floatingActionButton: ElevatedButton(
-          onPressed: () async {
-            if (formkey.currentState!.validate()) {
-              formkey.currentState!.save();
-              print("save pass ${passCount.value}");
-              CacheManager.db.putAll(GameModel(
-                  teamName1: nameController1.text,
-                  teamName2: nameController2.text,
-                  pass: passCount.value.toInt(),
-                  time: timeCount.value.toInt(),
-                  point: maxPointCount.value.toInt()));
-              Navigator.pop(context);
-            }
-          },
-          child: Text(ConstantString.save)),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 
