@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:tabu_app/features/utility/const/constant_color.dart';
 
 class TeamNameWidget extends StatelessWidget {
   final String title;
   final TextEditingController textEditingController;
   final String? Function(String?)? validator;
   const TeamNameWidget(
-      {super.key, required this.title, required this.textEditingController, this.validator});
+      {super.key,
+      required this.title,
+      required this.textEditingController,
+      this.validator});
 
   @override
   Widget build(BuildContext context) {
@@ -16,7 +20,10 @@ class TeamNameWidget extends StatelessWidget {
         children: [
           Text(
             title,
-            style: TextStyle(fontSize: 18),
+            style: Theme.of(context)
+                .textTheme
+                .bodyMedium
+                ?.copyWith(color: ConstColor.white),
           ),
           SizedBox(
             height: 10,
@@ -24,6 +31,11 @@ class TeamNameWidget extends StatelessWidget {
           TextFormField(
             controller: textEditingController,
             validator: validator,
+            textAlign: TextAlign.center,
+            style: Theme.of(context)
+                .textTheme
+                .bodyMedium
+                ?.copyWith(color: ConstColor.white),
           )
         ],
       ),
