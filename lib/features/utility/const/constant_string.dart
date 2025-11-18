@@ -8,53 +8,62 @@ class ConstantString {
   static const passSound = 'audio/pass.mp3';
   static const stopTimeSound = 'audio/stop_time.mp3';
 
-  // assets path
-  static const dataWords = 'assets/data/words.json';
-  static const homebg = 'assets/images/homebg.png';
-  static const appIc = 'assets/images/app_ic.png';
-  static const settingsIc = 'assets/images/settings_ic.png';
-  static const adsIc = 'assets/images/ads_ic.png';
-  static const appIcSvg = 'assets/images/app_ic.svg';
-  static const settingsIcSvg = 'assets/images/settings_ic.svg';
-  static const adsIcSvg = 'assets/images/ads_ic.svg';
-  static const soloGameButtonBg = 'assets/images/solo_game_button_bg.png';
-  static const teamGameButtonBg = 'assets/images/team_game_button_bg.png';
-  static const shareButtonBorder = 'assets/images/share_button_border.png';
-  static const settingsBg = 'assets/images/settings_bg.png';
-  static const switchOff = 'assets/images/switch_off.png';
-  static const switchOn = 'assets/images/switch_on.png';
-  static const soloMapBg = 'assets/images/solo_map_bg.png';
-  static const playGameButtonBg = 'assets/images/play_game_button_bg.png';
-  static const complatedLevelBg = 'assets/images/complated_level_bg.png';
-  static const playableLevelBg = 'assets/images/playable_level_bg.png';
-  static const unplayableLevelBg = 'assets/images/unplayable_level_bg.png';
-  static const complatedLevelIc = 'assets/images/complated_level_ic.png';
+  //category images
+  static const entertainmentImage =
+      'assets/images/categories/entertainment.png';
+  static const fashionImage = 'assets/images/categories/fashion.png';
+  static const musicImage = 'assets/images/categories/music.png';
+  static const cinemaImage = 'assets/images/categories/cinema.png';
+  static const footballImage = 'assets/images/categories/football.png';
+  static const historyImage = 'assets/images/categories/history.png';
+  static const scienceImage = 'assets/images/categories/science.png';
+  static const literatureImage = 'assets/images/categories/literature.png';
   static const categoryCardBg = 'assets/images/category_card_bg.png';
-  static const entertainmentImage = 'assets/images/entertainment.png';
-  static const fashionImage = 'assets/images/fashion.png';
-  static const musicImage = 'assets/images/music.png';
-  static const cinemaImage = 'assets/images/cinema.png';
-  static const footballImage = 'assets/images/football.png';
-  static const historyImage = 'assets/images/history.png';
-  static const scienceImage = 'assets/images/science.png';
-  static const literatureImage = 'assets/images/literature.png';
-  static const gameBg = 'assets/images/game_bg.png';
-  static const tabuWordBg = 'assets/images/tabu_word_bg.png';
-  static const bannedWordBg = 'assets/images/banned_word_bg.png';
-  static const trueButtonBg = 'assets/images/true_button_bg.png';
-  static const tabooButtonBg = 'assets/images/taboo_button_bg.png';
-  static const passButtonBg = 'assets/images/pass_button_bg.png';
-  static const nextGameBg = 'assets/images/next_game_bg.png';
-  static const nextGameTeam1Bg = 'assets/images/next_game_team1_bg.png';
-  static const nextGameTeam2Bg = 'assets/images/next_game_team2_bg.png';
-  static const winnerImage = 'assets/images/winner_image.png';
-  static const winnerBg = 'assets/images/winner_bg.png';
-  static const newGameButtonBg = 'assets/images/new_game_button_bg.png';
-  static const appbarLight = 'assets/images/appbar_light.png';
-  static const appbarDark = 'assets/images/appbar_dark.png';
-  static const teamGameIc = 'assets/images/team_game_ic.png';
-  static const appbarWinner = 'assets/images/appbar_winner.png';
-  static const playIc = 'assets/images/play_ic.png';
+
+  // appbar path
+  static const appbarLight = 'assets/images/appbars/appbar_light.png';
+  static const appbarDark = 'assets/images/appbars/appbar_dark.png';
+  static const appbarWinner = 'assets/images/appbars/appbar_winner.png';
+
+  // background path
+  static const bannedWordBg = 'assets/images/backgrounds/banned_word_bg.png';
+  static const gameBg = 'assets/images/backgrounds/game_bg.png';
+  static const homeBg = 'assets/images/backgrounds/home_bg.png';
+  static const nextGameBg = 'assets/images/backgrounds/next_game_bg.png';
+  static const settingsBg = 'assets/images/backgrounds/settings_bg.png';
+  static const soloMapBg = 'assets/images/backgrounds/solo_map_bg.png';
+  static const tabuWordBg = 'assets/images/backgrounds/tabu_word_bg.png';
+  static const winnerBg = 'assets/images/backgrounds/winner_bg.png';
+  // static const unplayableLevelBg = 'assets/images/backgrounds/unplayable_level_bg.png';
+  // static const complatedLevelBg = 'assets/images/backgrounds/complated_level_bg.png';
+  // static const playableLevelBg = 'assets/images/backgrounds/playable_level_bg.png';
+
+  // button path
+  static const teamGameButtonBg =
+      'assets/images/buttons/team_game_button_bg.png';
+  static const playGameButtonBg =
+      'assets/images/buttons/play_game_button_bg.png';
+  static const trueButtonBg = 'assets/images/buttons/true_button_bg.png';
+  static const tabooButtonBg = 'assets/images/buttons/taboo_button_bg.png';
+  static const passButtonBg = 'assets/images/buttons/pass_button_bg.png';
+  static const nextGameTeam1Bg = 'assets/images/buttons/next_game_team1_bg.png';
+  static const nextGameTeam2Bg = 'assets/images/buttons/next_game_team2_bg.png';
+  // static const soloGameButtonBg ='assets/images/buttons/solo_game_button_bg.png';
+
+  // icon path
+  static const appIc = 'assets/images/icons/app_ic.png';
+  static const settingsIc = 'assets/images/icons/settings_ic.png';
+  static const adsIc = 'assets/images/icons/ads_ic.png';
+  static const appIcSvg = 'assets/images/icons/app_ic.svg';
+  static const settingsIcSvg = 'assets/images/icons/settings_ic.svg';
+  static const adsIcSvg = 'assets/images/icons/ads_ic.svg';
+  static const complatedLevelIc = 'assets/images/icons/complated_level_ic.png';
+  static const playIc = 'assets/images/icons/play_ic.png';
+  static const winnerImage = 'assets/images/icons/winner_image.png';
+  static const teamGameIc = 'assets/images/icons/team_game_ic.png';
+
+  // words path
+  static const dataWords = 'assets/data/words.json';
 
   // strings
   static const game = "Oyna";
