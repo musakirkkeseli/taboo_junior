@@ -6,9 +6,9 @@ extension SliderTypeTitleExtension on SliderType {
   String get titleValue {
     switch (this) {
       case SliderType.pass:
-        return ConstantString.pass;
+        return ConstantString.passCount;
       case SliderType.time:
-        return ConstantString.time;
+        return ConstantString.gameTime;
       case SliderType.point:
         return ConstantString.maxPoint;
     }
@@ -37,6 +37,19 @@ extension SliderTypeMinValueExtension on SliderType {
         return 30;
       case SliderType.point:
         return 5;
+    }
+  }
+}
+
+extension SliderTypeValueStringExtension on SliderType {
+  String get valueString {
+    switch (this) {
+      case SliderType.pass:
+        return ConstantString.times;
+      case SliderType.time:
+        return ConstantString.second;
+      case SliderType.point:
+        return "";
     }
   }
 }
