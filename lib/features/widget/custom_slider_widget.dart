@@ -1,16 +1,19 @@
 import 'package:flutter/material.dart';
-import 'package:tabu_app/features/utility/const/constant_color.dart';
+
+import '../utility/const/constant_color.dart';
 
 class CustomSliderWidget extends StatefulWidget {
   final String title;
   final double max;
   final double min;
+  final String valueString;
   final ValueNotifier<double> value;
   const CustomSliderWidget(
       {super.key,
       required this.title,
       required this.max,
       required this.min,
+      required this.valueString,
       required this.value});
 
   @override
@@ -20,7 +23,6 @@ class CustomSliderWidget extends StatefulWidget {
 class _CustomSliderWidgetState extends State<CustomSliderWidget> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     if (widget.value.value > widget.min && widget.value.value < widget.max) {
     } else {
@@ -39,21 +41,21 @@ class _CustomSliderWidgetState extends State<CustomSliderWidget> {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Container(
-                color: ConstColor.primaryColor,
-                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-                child: Text(
-                  widget.title,
-                  style: TextStyle(color: ConstColor.secondColor, fontSize: 20),
-                ),
+              Text(
+                widget.title,
+                style: Theme.of(context)
+                    .textTheme
+                    .bodyMedium
+                    ?.copyWith(color: ConstColor.white),
               ),
               ValueListenableBuilder(
                 valueListenable: widget.value,
                 builder: (context, changevalue, child) => Text(
-                  changevalue.toInt().toString(),
-                  style:
-                      TextStyle(color: ConstColor.primaryColor, fontSize: 20),
-                ),
+                    "${changevalue.toInt().toString()} ${widget.valueString}",
+                    style: Theme.of(context)
+                        .textTheme
+                        .bodyMedium
+                        ?.copyWith(color: ConstColor.white)),
               )
             ],
           ),
