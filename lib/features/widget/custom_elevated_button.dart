@@ -1,21 +1,49 @@
 import 'package:flutter/material.dart';
 
+import '../utility/const/constant_color.dart';
+import '../utility/const/constant_string.dart';
+
 class CustomElevatedButton extends StatelessWidget {
   final String title;
-  final void Function()? onPressed;
+  final void Function()? onTap;
+  final double maxWidth;
+  final String iconPath;
   const CustomElevatedButton({
     super.key,
     required this.title,
-    this.onPressed,
+    this.onTap,
+    required this.maxWidth,
+    required this.iconPath,
   });
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
-        onPressed: onPressed,
-        child: Text(
-          title,
-          style: TextStyle(fontSize: 20),
-        ));
+    return InkWell(
+      onTap: onTap,
+      child: Container(
+          height: maxWidth * .243,
+          padding: EdgeInsets.symmetric(horizontal: 15),
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage(ConstantString.teamGameButtonBg),
+                  fit: BoxFit.fitWidth)),
+          alignment: Alignment.center,
+          child: Transform.translate(
+            offset: Offset(0, -10),
+            child: Row(
+              spacing: 10,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(iconPath),
+                Text(
+                  title,
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        color: ConstColor.buttonTextColor,
+                      ),
+                )
+              ],
+            ),
+          )),
+    );
   }
 }
