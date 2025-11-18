@@ -1,7 +1,8 @@
+import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:tabu_app/features/utility/const/constant_color.dart';
 
 import 'features/utility/cache_manager.dart';
+import 'features/utility/const/app_themes.dart';
 import 'product/home/view/home_view.dart';
 
 void main() async {
@@ -11,6 +12,13 @@ void main() async {
     print("getGameModel null");
     await CacheManager.db.clearGameModel();
   }
+  final audioContext = AudioContextConfig(
+    respectSilence: false,
+    stayAwake: false,
+    focus: AudioContextConfigFocus.mixWithOthers,
+  ).build();
+
+  await AudioPlayer.global.setAudioContext(audioContext);
   runApp(const MyApp());
 }
 
@@ -21,37 +29,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-          scaffoldBackgroundColor: ConstColor.secondColor,
-          appBarTheme: AppBarTheme(
-              backgroundColor: ConstColor.primaryColor,
-              foregroundColor: ConstColor.secondColor,
-              centerTitle: true,
-              titleTextStyle: TextStyle(fontSize: 20)),
-          elevatedButtonTheme: ElevatedButtonThemeData(
-              style: ElevatedButton.styleFrom(
-                  backgroundColor: ConstColor.primaryColor,
-                  foregroundColor: ConstColor.secondColor)),
-          inputDecorationTheme: InputDecorationTheme(
-            border: OutlineInputBorder(
-              borderRadius: BorderRadius.all(Radius.circular(20.0)),
-            ),
-            focusedBorder: OutlineInputBorder(
-              borderRadius: BorderRadius.all(Radius.circular(20.0)),
-            ),
-            filled: true,
-            fillColor: ConstColor.primaryColor,
-          ),
-          textTheme: TextTheme(
-            bodyLarge: TextStyle(color: ConstColor.secondColor),
-          ),
-          textSelectionTheme: TextSelectionThemeData(
-            cursorColor: ConstColor.secondColor,
-          ),
-          sliderTheme: SliderThemeData(
-            activeTrackColor: ConstColor.primaryColor,
-            thumbColor: ConstColor.primaryColor,
-          )),
+      theme: AppThemes.themeData,
       home: MyHomePage(),
     );
   }
