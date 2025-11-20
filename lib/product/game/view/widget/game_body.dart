@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:tabu_app/features/utility/const/constant_color.dart';
-import 'package:tabu_app/features/utility/const/constant_string.dart';
+import 'package:tabumium/features/utility/const/constant_color.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
 
 import '../../../../features/utility/enum/enum_control_button.dart';
 import '../../../../features/utility/enum/enum_teams.dart';

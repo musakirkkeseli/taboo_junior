@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tabu_app/features/utility/const/constant_string.dart';
-import 'package:tabu_app/product/game/view/game_view.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
+import 'package:tabumium/product/game/view/game_view.dart';
 
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/cache_manager.dart';

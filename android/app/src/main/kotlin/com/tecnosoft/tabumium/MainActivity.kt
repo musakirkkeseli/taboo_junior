@@ -1,4 +1,4 @@
-package com.example.tabu_app
+package com.tecnosoft.tabumium
 
 import io.flutter.embedding.android.FlutterActivity
 

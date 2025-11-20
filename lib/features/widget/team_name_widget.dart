@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tabu_app/features/utility/const/constant_color.dart';
+import 'package:tabumium/features/utility/const/constant_color.dart';
 
 class TeamNameWidget extends StatelessWidget {
   final String title;

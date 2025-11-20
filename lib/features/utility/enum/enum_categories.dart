@@ -1,4 +1,4 @@
-import 'package:tabu_app/features/utility/const/constant_string.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
 
 enum Categories {
   entertainment,

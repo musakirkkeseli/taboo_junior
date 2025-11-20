@@ -1,6 +1,6 @@
 {
-    "name": "tabu_app",
-    "short_name": "tabu_app",
+    "name": "tabumium",
+    "short_name": "tabumium",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

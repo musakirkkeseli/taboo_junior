@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "tabu_app" "\0"
+            VALUE "CompanyName", "com.tecnosoft" "\0"
+            VALUE "FileDescription", "tabumium" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "tabu_app" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "tabu_app.exe" "\0"
-            VALUE "ProductName", "tabu_app" "\0"
+            VALUE "InternalName", "tabumium" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.tecnosoft. All rights reserved." "\0"
+            VALUE "OriginalFilename", "tabumium.exe" "\0"
+            VALUE "ProductName", "tabumium" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

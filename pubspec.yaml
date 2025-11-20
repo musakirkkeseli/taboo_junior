@@ -1,4 +1,4 @@
-name: tabu_app
+name: tabumium
 description: "A new Flutter project."
 
 publish_to: 'none'
@@ -39,7 +39,11 @@ flutter:
 
   assets:
     - assets/data/
-    - assets/images/
+    - assets/images/appbars/
+    - assets/images/backgrounds/
+    - assets/images/buttons/
+    - assets/images/categories/
+    - assets/images/icons/
     - assets/audio/
 
   fonts:

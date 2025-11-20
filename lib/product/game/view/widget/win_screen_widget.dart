@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tabu_app/features/utility/const/constant_color.dart';
-import 'package:tabu_app/features/utility/enum/enum_teams.dart';
+import 'package:tabumium/features/utility/const/constant_color.dart';
+import 'package:tabumium/features/utility/enum/enum_teams.dart';
 
 import '../../../../features/utility/const/constant_string.dart';
 import '../../../../features/utility/enum/enum_sound.dart';

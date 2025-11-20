@@ -18,7 +18,7 @@ class ConstantString {
   static const historyImage = 'assets/images/categories/history.png';
   static const scienceImage = 'assets/images/categories/science.png';
   static const literatureImage = 'assets/images/categories/literature.png';
-  static const categoryCardBg = 'assets/images/category_card_bg.png';
+  static const categoryCardBg = 'assets/images/categories/category_card_bg.png';
 
   // appbar path
   static const appbarLight = 'assets/images/appbars/appbar_light.png';

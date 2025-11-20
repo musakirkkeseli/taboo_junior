@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tabu_app/features/utility/const/constant_color.dart';
-import 'package:tabu_app/features/utility/const/constant_string.dart';
-import 'package:tabu_app/product/game/cubit/game_cubit.dart';
-import 'package:tabu_app/features/utility/enum/enum_teams.dart';
+import 'package:tabumium/features/utility/const/constant_color.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
+import 'package:tabumium/product/game/cubit/game_cubit.dart';
+import 'package:tabumium/features/utility/enum/enum_teams.dart';
 
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/enum/enum_appbar.dart';

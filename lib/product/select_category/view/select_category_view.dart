@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tabu_app/features/utility/const/constant_color.dart';
+import 'package:tabumium/features/utility/const/constant_color.dart';
 
 import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/enum/enum_appbar.dart';

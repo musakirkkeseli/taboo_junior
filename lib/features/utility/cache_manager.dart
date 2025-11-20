@@ -1,6 +1,6 @@
 // keşleme işlemi için bir katman görevi görür ve paket bağımlılıklarını azaltır
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:tabu_app/features/utility/const/constant_string.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
 
 import '../model/game_model.dart';
 

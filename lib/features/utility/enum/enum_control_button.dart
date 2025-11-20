@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tabu_app/features/utility/const/constant_string.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
 
 import '../../../product/game/cubit/game_cubit.dart';
 import '../const/constant_color.dart';

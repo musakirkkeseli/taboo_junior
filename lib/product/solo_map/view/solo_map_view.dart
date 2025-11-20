@@ -1,5 +1,5 @@
 // import 'package:flutter/material.dart';
-// import 'package:tabu_app/features/utility/const/constant_string.dart';
+// import 'package:tabumium/features/utility/const/constant_string.dart';
 
 // import '../../select_category/view/select_category_view.dart';
 // import '../model/solo_game_model.dart';
