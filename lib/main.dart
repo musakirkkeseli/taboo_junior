@@ -8,10 +8,6 @@ import 'product/home/view/home_view.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await CacheManager.db.init();
-  if (CacheManager.db.getGameModel() == null) {
-    print("getGameModel null");
-    await CacheManager.db.clearGameModel();
-  }
   final audioContext = AudioContextConfig(
     respectSilence: false,
     stayAwake: false,
