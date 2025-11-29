@@ -1,0 +1,4802 @@
+[
+  {
+    "word": "Osmanlı İmparatorluğu",
+    "forbidden": [
+      "Padişah",
+      "Türk",
+      "İstanbul",
+      "Fetih",
+      "Devlet"
+    ],
+    "difficulty": "easy",
+    "id": "d44ea561-f35a-47c5-b84b-0aa328e47537"
+  },
+  {
+    "word": "Mustafa Kemal Atatürk",
+    "forbidden": [
+      "Türkiye",
+      "Cumhuriyet",
+      "Lider",
+      "Kurtuluş",
+      "Anıtkabir"
+    ],
+    "difficulty": "easy",
+    "id": "a3f801a6-e8fb-44d3-b893-721c1a7ef6e7"
+  },
+  {
+    "word": "Fatih Sultan Mehmet",
+    "forbidden": [
+      "İstanbul",
+      "Fetih",
+      "Osmanlı",
+      "Padişah",
+      "Hükümdar"
+    ],
+    "difficulty": "easy",
+    "id": "f527bfe5-7176-4512-92cc-5a96ec3eca35"
+  },
+  {
+    "word": "Antik Roma",
+    "forbidden": [
+      "İmparatorluk",
+      "Roma",
+      "Kolezyum",
+      "Sezar",
+      "Lejyon"
+    ],
+    "difficulty": "easy",
+    "id": "43396b84-5fb2-4f3a-9bf1-870e8c9f313c"
+  },
+  {
+    "word": "Dünya Savaşı",
+    "forbidden": [
+      "Savaş",
+      "Asker",
+      "Almanya",
+      "İngiltere",
+      "Müttefik"
+    ],
+    "difficulty": "easy",
+    "id": "6efd515f-47b6-40ae-8ec5-3f9f7fdc9e92"
+  },
+  {
+    "word": "Hititler",
+    "forbidden": [
+      "Anadolu",
+      "Uygarlık",
+      "Tunç Çağı",
+      "Devlet",
+      "Çivi Yazısı"
+    ],
+    "difficulty": "easy",
+    "id": "6f927e50-0d30-45f7-a50f-fc90b4a67c57"
+  },
+  {
+    "word": "Frigler",
+    "forbidden": [
+      "Anadolu",
+      "Midas",
+      "Kral",
+      "Uygarlık",
+      "Dokumacılık"
+    ],
+    "difficulty": "easy",
+    "id": "ff865353-b733-44b7-abcb-fecfd381e448"
+  },
+  {
+    "word": "Lidyalılar",
+    "forbidden": [
+      "Anadolu",
+      "Para",
+      "Kral Krezüs",
+      "Ticaret",
+      "Başkent Sardes"
+    ],
+    "difficulty": "easy",
+    "id": "16746b48-d6f6-44f1-9eb1-ca9169a4fb4c"
+  },
+  {
+    "word": "İyonlar",
+    "forbidden": [
+      "Anadolu",
+      "Şehir Devletleri",
+      "Felsefe",
+      "Bilim",
+      "Denizcilik"
+    ],
+    "difficulty": "easy",
+    "id": "62a54268-2c2b-400f-b3d5-57cabd760703"
+  },
+  {
+    "word": "Urartular",
+    "forbidden": [
+      "Doğu Anadolu",
+      "Devlet",
+      "Kale",
+      "Madencilik",
+      "Göl Van"
+    ],
+    "difficulty": "easy",
+    "id": "14fc2b4e-85b6-4025-8473-43a4b1b380ab"
+  },
+  {
+    "word": "Mezopotamya",
+    "forbidden": [
+      "Dicle Fırat",
+      "Bereketli Hilal",
+      "Sümerler",
+      "Asurlular",
+      "Babil"
+    ],
+    "difficulty": "easy",
+    "id": "60c7e81b-2b58-47e5-9c4c-8313eacfec06"
+  },
+  {
+    "word": "Mısır Uygarlığı",
+    "forbidden": [
+      "Nil Nehri",
+      "Firavun",
+      "Piramit",
+      "Hiyeroglif",
+      "Mumya"
+    ],
+    "difficulty": "easy",
+    "id": "754b28df-b8cf-4377-994b-bc8547e043f8"
+  },
+  {
+    "word": "Antik Yunan",
+    "forbidden": [
+      "Felsefe",
+      "Demokrasi",
+      "Olimpiyatlar",
+      "Tanrılar",
+      "Şehir Devletleri"
+    ],
+    "difficulty": "easy",
+    "id": "1cbc7ab6-ebb4-4319-8e77-0ff1bb32e6d1"
+  },
+  {
+    "word": "Pers İmparatorluğu",
+    "forbidden": [
+      "Büyük",
+      "İran",
+      "Kral",
+      "Dünya",
+      "Antik"
+    ],
+    "difficulty": "easy",
+    "id": "5946a9ed-eb31-4367-909f-477be6227b4e"
+  },
+  {
+    "word": "Büyük İskender",
+    "forbidden": [
+      "Makedonya",
+      "Kral",
+      "Fetih",
+      "İmparatorluk",
+      "Antik"
+    ],
+    "difficulty": "easy",
+    "id": "5d647b22-a06e-47f5-a4af-19ca96fff252"
+  },
+  {
+    "word": "Roma İmparatorluğu",
+    "forbidden": [
+      "İtalya",
+      "Sezar",
+      "Senato",
+      "Lejyon",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "c8f366df-09f6-4fd0-a68c-a3df68d1bcf6"
+  },
+  {
+    "word": "Bizans İmparatorluğu",
+    "forbidden": [
+      "Doğu Roma",
+      "İstanbul",
+      "Ortodoks",
+      "Konstantinopolis",
+      "Hristiyan"
+    ],
+    "difficulty": "easy",
+    "id": "6d336ead-2268-451e-a58d-2ad87afd0828"
+  },
+  {
+    "word": "Orta Çağ",
+    "forbidden": [
+      "Feodalite",
+      "Şövalye",
+      "Kilise",
+      "Avrupa",
+      "Karanlık"
+    ],
+    "difficulty": "easy",
+    "id": "3b8bb125-098e-4c62-9360-1502f61b7f5a"
+  },
+  {
+    "word": "Haçlı Seferleri",
+    "forbidden": [
+      "Kudüs",
+      "Savaş",
+      "Hristiyan",
+      "Müslüman",
+      "Din"
+    ],
+    "difficulty": "easy",
+    "id": "2fa5dc5a-3cea-4d6c-bd35-ea81839a741f"
+  },
+  {
+    "word": "Rönesans",
+    "forbidden": [
+      "Yeniden Doğuş",
+      "Sanat",
+      "Bilim",
+      "İtalya",
+      "Leonardo da Vinci"
+    ],
+    "difficulty": "easy",
+    "id": "dbb58645-1855-4995-bebe-f72719d6e800"
+  },
+  {
+    "word": "Reform",
+    "forbidden": [
+      "Kilise",
+      "Martin Luther",
+      "Protestanlık",
+      "Din",
+      "Avrupa"
+    ],
+    "difficulty": "easy",
+    "id": "920a8d2c-6f4b-47ba-951c-e395c81ea3d9"
+  },
+  {
+    "word": "Coğrafi Keşifler",
+    "forbidden": [
+      "Amerika",
+      "Yeni Dünya",
+      "Gemi",
+      "Denizci",
+      "Kristof Kolomb"
+    ],
+    "difficulty": "easy",
+    "id": "7e96c995-024f-4eb9-a631-e31e2aba536d"
+  },
+  {
+    "word": "Aydınlanma Çağı",
+    "forbidden": [
+      "Akıl",
+      "Bilim",
+      "Felsefe",
+      "Özgürlük",
+      "Fransa"
+    ],
+    "difficulty": "easy",
+    "id": "a5ea9ef5-8e82-4f25-8e71-ac73645f1196"
+  },
+  {
+    "word": "Fransız İhtilali",
+    "forbidden": [
+      "Devrim",
+      "Fransa",
+      "Kraliyet",
+      "Özgürlük",
+      "Eşitlik"
+    ],
+    "difficulty": "easy",
+    "id": "3c57726a-73bc-47c0-b708-79e870c23654"
+  },
+  {
+    "word": "Sanayi Devrimi",
+    "forbidden": [
+      "Makine",
+      "Buhar",
+      "Fabrika",
+      "İngiltere",
+      "Üretim"
+    ],
+    "difficulty": "easy",
+    "id": "bc35ea62-cfa8-4a46-84c2-7061e7f96f08"
+  },
+  {
+    "word": "Napolyon Bonapart",
+    "forbidden": [
+      "Fransa",
+      "İmparator",
+      "Savaş",
+      "Waterloo",
+      "General"
+    ],
+    "difficulty": "easy",
+    "id": "244f826b-b1b4-4877-90ee-eac86a3f3778"
+  },
+  {
+    "word": "Amerika Bağımsızlık Savaşı",
+    "forbidden": [
+      "İngiltere",
+      "Amerika",
+      "Koloni",
+      "Savaş",
+      "Özgürlük"
+    ],
+    "difficulty": "easy",
+    "id": "589df43b-79af-4d58-86e5-a2e07cb37679"
+  },
+  {
+    "word": "Birinci Dünya Savaşı",
+    "forbidden": [
+      "Savaş",
+      "Cephe",
+      "İttifak",
+      "Müttefik",
+      "Trablusgarp"
+    ],
+    "difficulty": "easy",
+    "id": "24f9e3f3-867f-47da-b797-6cb2e8746186"
+  },
+  {
+    "word": "İkinci Dünya Savaşı",
+    "forbidden": [
+      "Savaş",
+      "Nazi",
+      "Hitler",
+      "Hiroşima",
+      "Holokost"
+    ],
+    "difficulty": "easy",
+    "id": "1a1c982e-3fb6-4ce1-8ab5-891253d61b39"
+  },
+  {
+    "word": "Soğuk Savaş",
+    "forbidden": [
+      "Amerika",
+      "Sovyetler Birliği",
+      "Nükleer",
+      "Casusluk",
+      "İdeoloji"
+    ],
+    "difficulty": "easy",
+    "id": "09486a44-e1e8-4dde-ab36-2b85b6fddf11"
+  },
+  {
+    "word": "Berlin Duvarı",
+    "forbidden": [
+      "Almanya",
+      "Ayırmak",
+      "Doğu Batı",
+      "Soğuk Savaş",
+      "Yıkmak"
+    ],
+    "difficulty": "easy",
+    "id": "db34efc7-ffd6-4184-bc1b-5d8e78556798"
+  },
+  {
+    "word": "Uzay Yarışı",
+    "forbidden": [
+      "Amerika",
+      "Sovyetler",
+      "Ay",
+      "Yarışma",
+      "Uydu"
+    ],
+    "difficulty": "easy",
+    "id": "d6501cf5-6de3-4eb1-81aa-0469c5e04dde"
+  },
+  {
+    "word": "Türk Kurtuluş Savaşı",
+    "forbidden": [
+      "Mustafa Kemal",
+      "Anadolu",
+      "İşgal",
+      "Mücadele",
+      "Bağımsızlık"
+    ],
+    "difficulty": "easy",
+    "id": "2518c34b-f0a5-4746-bafd-03cb4573b4df"
+  },
+  {
+    "word": "Cumhuriyetin İlanı",
+    "forbidden": [
+      "Türkiye",
+      "Atatürk",
+      "29 Ekim",
+      "Yönetim",
+      "Bağımsızlık"
+    ],
+    "difficulty": "easy",
+    "id": "966dc134-7ec4-4e06-929c-a502dcc1cb94"
+  },
+  {
+    "word": "Harf Devrimi",
+    "forbidden": [
+      "Alfabe",
+      "Türkçe",
+      "Arapça",
+      "Latin",
+      "Değişim"
+    ],
+    "difficulty": "easy",
+    "id": "0b31d2bd-b7ce-4e0b-b65b-cb4353ab04bc"
+  },
+  {
+    "word": "Saltanatın Kaldırılması",
+    "forbidden": [
+      "Osmanlı",
+      "Padişah",
+      "Türkiye",
+      "Cumhuriyet",
+      "Yönetim"
+    ],
+    "difficulty": "easy",
+    "id": "94921519-6ccf-49ba-95ce-fc627f74cfe4"
+  },
+  {
+    "word": "Hilafetin Kaldırılması",
+    "forbidden": [
+      "Halife",
+      "Din",
+      "Osmanlı",
+      "Cumhuriyet",
+      "Devlet"
+    ],
+    "difficulty": "easy",
+    "id": "a5cb49f6-b7f9-413b-a6a7-0716975aaba2"
+  },
+  {
+    "word": "Tarih Öncesi",
+    "forbidden": [
+      "Yazı",
+      "Mağara",
+      "İnsan",
+      "Ateş",
+      "Taş Devri"
+    ],
+    "difficulty": "easy",
+    "id": "970ef4bb-afbd-43e0-b70c-5f9d2eadd5c8"
+  },
+  {
+    "word": "Cilalı Taş Devri",
+    "forbidden": [
+      "Tarım",
+      "Yerleşik Hayat",
+      "Hayvan",
+      "Mağara",
+      "Taş"
+    ],
+    "difficulty": "easy",
+    "id": "ef920d29-1dc8-49d1-a0f3-5cac3a8ff73e"
+  },
+  {
+    "word": "Bakır Çağı",
+    "forbidden": [
+      "Madencilik",
+      "Metal",
+      "Alet",
+      "Silah",
+      "İlk"
+    ],
+    "difficulty": "easy",
+    "id": "4903f0fe-132e-42b4-9f43-6ef1eb6a37bd"
+  },
+  {
+    "word": "Tunç Çağı",
+    "forbidden": [
+      "Bakır",
+      "Kalay",
+      "Alaşım",
+      "Silah",
+      "Alet"
+    ],
+    "difficulty": "easy",
+    "id": "06609280-8505-4734-9c73-58e19c80b6fa"
+  },
+  {
+    "word": "Demir Çağı",
+    "forbidden": [
+      "Metal",
+      "Silah",
+      "Alet",
+      "Daha Güçlü",
+      "Yaygın"
+    ],
+    "difficulty": "easy",
+    "id": "4f017c0c-efc1-49f9-8d5f-42469b832a92"
+  },
+  {
+    "word": "İlk Çağ",
+    "forbidden": [
+      "Yazı",
+      "Uygarlık",
+      "Antik",
+      "Devlet",
+      "Krallık"
+    ],
+    "difficulty": "easy",
+    "id": "2f912b10-6c57-496a-aad8-ef23400904a3"
+  },
+  {
+    "word": "Mitoloji",
+    "forbidden": [
+      "Tanrılar",
+      "Efsane",
+      "Hikaye",
+      "Yunan",
+      "Roma"
+    ],
+    "difficulty": "easy",
+    "id": "7a91c3c4-bb96-42cf-9b98-584c933b9915"
+  },
+  {
+    "word": "Vikingler",
+    "forbidden": [
+      "Gemi",
+      "Kuzey",
+      "Savaşçı",
+      "Keşif",
+      "İskandinav"
+    ],
+    "difficulty": "easy",
+    "id": "8505afd0-9ba8-48ed-a436-401f9e46437c"
+  },
+  {
+    "word": "Moğollar",
+    "forbidden": [
+      "Cengiz Han",
+      "Savaşçı",
+      "At",
+      "İmparatorluk",
+      "Asya"
+    ],
+    "difficulty": "easy",
+    "id": "e5cf3610-34a5-4351-9577-6f4fb5de8037"
+  },
+  {
+    "word": "İpek Yolu",
+    "forbidden": [
+      "Ticaret",
+      "Asya",
+      "Avrupa",
+      "Kervan",
+      "Baharat"
+    ],
+    "difficulty": "easy",
+    "id": "fd1b4aa1-8047-4d17-8dbd-f86401870bf6"
+  },
+  {
+    "word": "Barut",
+    "forbidden": [
+      "Çin",
+      "Silah",
+      "Patlayıcı",
+      "Savaş",
+      "Keşif"
+    ],
+    "difficulty": "easy",
+    "id": "00800b1d-8f4f-4939-8f59-519454398a3f"
+  },
+  {
+    "word": "Matbaa",
+    "forbidden": [
+      "Kitap",
+      "Yazı",
+      "Gutenberg",
+      "Basım",
+      "Haber"
+    ],
+    "difficulty": "easy",
+    "id": "00266a33-0eee-4d57-b439-e15926e5db1f"
+  },
+  {
+    "word": "Buhar Makinesi",
+    "forbidden": [
+      "James Watt",
+      "Sanayi Devrimi",
+      "Güç",
+      "Makine",
+      "Fabrika"
+    ],
+    "difficulty": "easy",
+    "id": "8c751ca5-9610-4376-b87e-4ff5362371b8"
+  },
+  {
+    "word": "Telgraf",
+    "forbidden": [
+      "Haber",
+      "Uzaktan",
+      "Elektrik",
+      "Morse",
+      "İletişim"
+    ],
+    "difficulty": "easy",
+    "id": "2c5353a3-8c37-4cd4-baf0-72fb949b2756"
+  },
+  {
+    "word": "Telefon",
+    "forbidden": [
+      "Alexander Graham Bell",
+      "Konuşma",
+      "İletişim",
+      "Kablo",
+      "Teknoloji"
+    ],
+    "difficulty": "easy",
+    "id": "81c0ec19-496e-489c-bc72-369df3ddda61"
+  },
+  {
+    "word": "Ampul",
+    "forbidden": [
+      "Thomas Edison",
+      "Işık",
+      "Elektrik",
+      "Karanlık",
+      "Bulmak"
+    ],
+    "difficulty": "easy",
+    "id": "614554e1-cb5d-492b-9d19-9b3b4c614292"
+  },
+  {
+    "word": "Uçak",
+    "forbidden": [
+      "Wright Kardeşler",
+      "Havalanmak",
+      "Kanat",
+      "Motor",
+      "Yolculuk"
+    ],
+    "difficulty": "easy",
+    "id": "1cc855cb-4194-4e03-837c-3ac9a0ac66b7"
+  },
+  {
+    "word": "Araba",
+    "forbidden": [
+      "Tekerlek",
+      "Motor",
+      "Yolculuk",
+      "Hız",
+      "Taşıt"
+    ],
+    "difficulty": "easy",
+    "id": "5a0fadee-6f10-4056-a4a6-f5228793fa4c"
+  },
+  {
+    "word": "Bilgisayar",
+    "forbidden": [
+      "İşlemci",
+      "Ekran",
+      "Hesaplama",
+      "Tuş Takımı",
+      "Yazılım"
+    ],
+    "difficulty": "easy",
+    "id": "18add845-03d4-45ef-a017-9b0ae85e3586"
+  },
+  {
+    "word": "İnternet",
+    "forbidden": [
+      "Bilgisayar",
+      "Ağ",
+      "Dünya",
+      "Bilgi",
+      "Bağlantı"
+    ],
+    "difficulty": "easy",
+    "id": "5511098f-3583-4d08-bc21-6c6dd98dcdef"
+  },
+  {
+    "word": "Ateş",
+    "forbidden": [
+      "Isı",
+      "Yanmak",
+      "Işık",
+      "Pişirmek",
+      "Duman"
+    ],
+    "difficulty": "easy",
+    "id": "9e3b1622-d483-474a-b1e3-776a1f2d1a6d"
+  },
+  {
+    "word": "Tekerlek",
+    "forbidden": [
+      "Dönmek",
+      "Araba",
+      "Yuvarlak",
+      "Taşıt",
+      "İcat"
+    ],
+    "difficulty": "easy",
+    "id": "acbd4ae6-bb4b-4cac-911a-899f38008e8c"
+  },
+  {
+    "word": "Tarım",
+    "forbidden": [
+      "Toprak",
+      "Ekmek",
+      "Biçmek",
+      "Yiyecek",
+      "Yerleşik"
+    ],
+    "difficulty": "easy",
+    "id": "142983df-8973-45d9-a5d2-fc758f67190a"
+  },
+  {
+    "word": "Şehir",
+    "forbidden": [
+      "Büyük",
+      "İnsan",
+      "Evler",
+      "Sokaklar",
+      "Kalabalık"
+    ],
+    "difficulty": "easy",
+    "id": "525e967b-38d7-4261-b1a9-e353aa9ee159"
+  },
+  {
+    "word": "Devlet",
+    "forbidden": [
+      "Yönetim",
+      "Kanun",
+      "Hükümet",
+      "Toplum",
+      "Sınır"
+    ],
+    "difficulty": "easy",
+    "id": "87fec8c9-2318-42c9-88fa-d7940328f27e"
+  },
+  {
+    "word": "Hukuk",
+    "forbidden": [
+      "Kanun",
+      "Adalet",
+      "Mahkeme",
+      "Yargı",
+      "Kural"
+    ],
+    "difficulty": "easy",
+    "id": "460a0030-ecd3-47b1-80da-96a4a0f3f3dd"
+  },
+  {
+    "word": "Para",
+    "forbidden": [
+      "Altın",
+      "Ticaret",
+      "Değer",
+      "Alışveriş",
+      "Madeni"
+    ],
+    "difficulty": "easy",
+    "id": "72cc95c9-ee42-4365-9ebc-23fea8b0b62a"
+  },
+  {
+    "word": "Savaş",
+    "forbidden": [
+      "Ordu",
+      "Asker",
+      "Kan",
+      "Mücadele",
+      "Çatışma"
+    ],
+    "difficulty": "easy",
+    "id": "7b23e916-8a50-4957-9fc2-d29c25c5ae98"
+  },
+  {
+    "word": "Barış",
+    "forbidden": [
+      "Savaşsız",
+      "Huzur",
+      "Anlaşma",
+      "Dünya",
+      "İyi"
+    ],
+    "difficulty": "easy",
+    "id": "68ae94aa-8fc7-4c59-8e78-99afed2466a7"
+  },
+  {
+    "word": "Antik",
+    "forbidden": [
+      "Eski",
+      "Çağ",
+      "Yunan",
+      "Roma",
+      "Tarih"
+    ],
+    "difficulty": "easy",
+    "id": "8cf8a543-e60c-4292-a7f6-e9ff3030323e"
+  },
+  {
+    "word": "Modern",
+    "forbidden": [
+      "Yeni",
+      "Günümüz",
+      "Teknoloji",
+      "Çağdaş",
+      "Gelişmiş"
+    ],
+    "difficulty": "easy",
+    "id": "692d8173-ae8e-4cf9-b40e-8e57d6c4805e"
+  },
+  {
+    "word": "Sanat",
+    "forbidden": [
+      "Resim",
+      "Heykel",
+      "Müzik",
+      "Edebiyat",
+      "Güzel"
+    ],
+    "difficulty": "easy",
+    "id": "64a38500-9b23-444a-bc76-7ef82a32d7c6"
+  },
+  {
+    "word": "Felsefe",
+    "forbidden": [
+      "Düşünce",
+      "Bilgelik",
+      "Soru Sormak",
+      "Hayat",
+      "Anlam"
+    ],
+    "difficulty": "easy",
+    "id": "d30fb5d5-4f15-4834-8012-de0d8a8b6396"
+  },
+  {
+    "word": "Bilim",
+    "forbidden": [
+      "Araştırma",
+      "Deney",
+      "Bilgi",
+      "Gerçek",
+      "Teknoloji"
+    ],
+    "difficulty": "easy",
+    "id": "43821662-2f46-443c-91cf-69a4fbca5dcb"
+  },
+  {
+    "word": "Düşünür",
+    "forbidden": [
+      "Felsefeci",
+      "Akıllı",
+      "Sorgulamak",
+      "Yazar",
+      "Zihin"
+    ],
+    "difficulty": "easy",
+    "id": "a96098c6-caae-44a5-ad3c-fb6e4a0089d3"
+  },
+  {
+    "word": "Kaşif",
+    "forbidden": [
+      "Yeni Yer",
+      "Yolculuk",
+      "Denizci",
+      "Maceracı",
+      "Bulmak"
+    ],
+    "difficulty": "easy",
+    "id": "686b26ef-376e-4ee1-8a2d-288e6efb8ca5"
+  },
+  {
+    "word": "Mimar",
+    "forbidden": [
+      "Bina",
+      "Tasarım",
+      "Çizmek",
+      "Yapı",
+      "Mühendis"
+    ],
+    "difficulty": "easy",
+    "id": "5fc2d898-c13f-4168-ac9f-89742d94d6fc"
+  },
+  {
+    "word": "Doktor",
+    "forbidden": [
+      "Sağlık",
+      "Tedavi",
+      "Hastalık",
+      "İlaç",
+      "Muayene"
+    ],
+    "difficulty": "easy",
+    "id": "9b741684-23ec-4e07-a7d3-01963d491822"
+  },
+  {
+    "word": "Öğretmen",
+    "forbidden": [
+      "Ders",
+      "Okul",
+      "Bilgi",
+      "Öğrenci",
+      "Eğitim"
+    ],
+    "difficulty": "easy",
+    "id": "7a206097-0d08-49d2-94a2-b1dd0b35b9fb"
+  },
+  {
+    "word": "Asker",
+    "forbidden": [
+      "Savaş",
+      "Ordu",
+      "Silah",
+      "Üniforma",
+      "Vatan"
+    ],
+    "difficulty": "easy",
+    "id": "856974e0-0cec-45ed-be7c-9271733c4112"
+  },
+  {
+    "word": "Hükümdar",
+    "forbidden": [
+      "Kral",
+      "Padişah",
+      "Devlet",
+      "Yönetmek",
+      "Taht"
+    ],
+    "difficulty": "easy",
+    "id": "ded7a693-55d1-4fab-8002-e7b5868e4b29"
+  },
+  {
+    "word": "Sultan",
+    "forbidden": [
+      "Osmanlı",
+      "Padişah",
+      "Devlet",
+      "Türk",
+      "Hükümdar"
+    ],
+    "difficulty": "easy",
+    "id": "f9d1b9af-91c9-427f-a894-bda011ed61ed"
+  },
+  {
+    "word": "Kraliçe",
+    "forbidden": [
+      "Kadın",
+      "Taç",
+      "Krallık",
+      "Yönetmek",
+      "Eş"
+    ],
+    "difficulty": "easy",
+    "id": "c14d41ba-6c66-46e8-9b77-620bd2b4b661"
+  },
+  {
+    "word": "General",
+    "forbidden": [
+      "Asker",
+      "Ordu",
+      "Lider",
+      "Savaş",
+      "Komutan"
+    ],
+    "difficulty": "easy",
+    "id": "26708778-018d-4262-a106-52d3ae730568"
+  },
+  {
+    "word": "Kağıt",
+    "forbidden": [
+      "Yazmak",
+      "Okumak",
+      "Ağaç",
+      "Mürekkep",
+      "Kitap"
+    ],
+    "difficulty": "easy",
+    "id": "f511568c-59fd-4a10-a169-7219792a970a"
+  },
+  {
+    "word": "Kalem",
+    "forbidden": [
+      "Yazmak",
+      "Çizmek",
+      "Mürekkep",
+      "Kağıt",
+      "El"
+    ],
+    "difficulty": "easy",
+    "id": "2b650caa-1bd2-43b6-a493-8b57a1d6a9de"
+  },
+  {
+    "word": "Mürekkep",
+    "forbidden": [
+      "Yazmak",
+      "Siyah",
+      "Sıvı",
+      "Kalem",
+      "Kağıt"
+    ],
+    "difficulty": "easy",
+    "id": "94e46345-4473-439e-9f0e-160c58c18599"
+  },
+  {
+    "word": "Kitaplık",
+    "forbidden": [
+      "Kitap",
+      "Okumak",
+      "Raf",
+      "Bilgi",
+      "Kütüphane"
+    ],
+    "difficulty": "easy",
+    "id": "2fbd08e3-6967-4c5f-ad0a-201b37342083"
+  },
+  {
+    "word": "Müze",
+    "forbidden": [
+      "Eski",
+      "Eşya",
+      "Sanat",
+      "Tarih",
+      "Görmek"
+    ],
+    "difficulty": "easy",
+    "id": "7d85b8b5-6578-4c7b-a1d7-1d50804b53e2"
+  },
+  {
+    "word": "Kütüphane",
+    "forbidden": [
+      "Kitap",
+      "Okumak",
+      "Bilgi",
+      "Sessiz",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "41b3628d-bc9f-4527-b7a0-7d5b7237594d"
+  },
+  {
+    "word": "Saray",
+    "forbidden": [
+      "Kral",
+      "Büyük",
+      "Ev",
+      "Lüks",
+      "Hükümdar"
+    ],
+    "difficulty": "easy",
+    "id": "b5728e5c-f820-4fbe-8326-dd9ba165f0e4"
+  },
+  {
+    "word": "Kale",
+    "forbidden": [
+      "Surlarla Çevrili",
+      "Koruma",
+      "Eski",
+      "Büyük",
+      "Asker"
+    ],
+    "difficulty": "easy",
+    "id": "ae4c85d8-610e-4c77-bcc1-7ce5e3c421f1"
+  },
+  {
+    "word": "Tapınak",
+    "forbidden": [
+      "Din",
+      "İbadet",
+      "Eski",
+      "Büyük",
+      "Tanrı"
+    ],
+    "difficulty": "easy",
+    "id": "7ec2edb1-2ab2-4283-abfd-4c55524569cc"
+  },
+  {
+    "word": "Mezar",
+    "forbidden": [
+      "Ölü",
+      "Toprak",
+      "Anıt",
+      "Kabr",
+      "Taş"
+    ],
+    "difficulty": "easy",
+    "id": "3483b884-3c5b-497e-87a4-7a238ef4a844"
+  },
+  {
+    "word": "Anıt",
+    "forbidden": [
+      "Hatıra",
+      "Büyük",
+      "Taş",
+      "Önemli",
+      "İnsan"
+    ],
+    "difficulty": "easy",
+    "id": "08e3e5aa-84f5-4b0d-ad46-03debe634a3b"
+  },
+  {
+    "word": "Heykel",
+    "forbidden": [
+      "Taş",
+      "İnsan",
+      "Sanat",
+      "Şekil",
+      "Yontmak"
+    ],
+    "difficulty": "easy",
+    "id": "c780e16e-2f0c-488a-b910-5457f1cee384"
+  },
+  {
+    "word": "Resim",
+    "forbidden": [
+      "Duvar",
+      "Mağara",
+      "Sanat",
+      "Eski",
+      "Çizim"
+    ],
+    "difficulty": "easy",
+    "id": "26da6b10-5d11-4061-8ba8-810d1180db75"
+  },
+  {
+    "word": "Harita",
+    "forbidden": [
+      "Yol",
+      "Ülke",
+      "Coğrafya",
+      "Gezmek",
+      "Çizim"
+    ],
+    "difficulty": "easy",
+    "id": "b774658b-f31e-48d8-aa93-ce08156664dc"
+  },
+  {
+    "word": "Pusula",
+    "forbidden": [
+      "Yön",
+      "Kuzey",
+      "Güney",
+      "Denizci",
+      "İcat"
+    ],
+    "difficulty": "easy",
+    "id": "4be64e69-42f5-45ef-9b2b-0d89687abacc"
+  },
+  {
+    "word": "Gemi",
+    "forbidden": [
+      "Deniz",
+      "Yolculuk",
+      "Savaş",
+      "Yelken",
+      "Taşımak"
+    ],
+    "difficulty": "easy",
+    "id": "206e3c88-7770-4c02-89b1-06f2e1f2f2fd"
+  },
+  {
+    "word": "Savaş Gemisi",
+    "forbidden": [
+      "Asker",
+      "Silah",
+      "Deniz",
+      "Donanma",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "e63daf45-3a58-432e-a6b6-08cbd2f39f6c"
+  },
+  {
+    "word": "Uçak",
+    "forbidden": [
+      "Wright Kardeşler",
+      "Havalanmak",
+      "Kanat",
+      "Motor",
+      "Yolculuk"
+    ],
+    "difficulty": "easy",
+    "id": "3c8f44bb-1e51-4401-b37c-081a95c4a4e4"
+  },
+  {
+    "word": "Zaman Çizelgesi",
+    "forbidden": [
+      "Tarih",
+      "Olay",
+      "Sıra",
+      "Dönem",
+      "kronoloji"
+    ],
+    "difficulty": "easy",
+    "id": "e7ca7f3f-a080-4c84-a5dc-f00cb16d72fb"
+  },
+  {
+    "word": "Selçuklu Devleti",
+    "forbidden": [
+      "Anadolu",
+      "Türk",
+      "Sultan",
+      "Miryokefalon",
+      "Malazgirt"
+    ],
+    "difficulty": "medium",
+    "id": "0dca9cf2-1b3a-4a59-836b-fc3c7c074a13"
+  },
+  {
+    "word": "Cengiz Han",
+    "forbidden": [
+      "Moğol",
+      "Savaşçı",
+      "İmparatorluk",
+      "At",
+      "Asya"
+    ],
+    "difficulty": "medium",
+    "id": "fd57f6cd-aca1-44e1-8efe-7317cd7d9af0"
+  },
+  {
+    "word": "Viyana Kuşatması",
+    "forbidden": [
+      "Osmanlı",
+      "Avusturya",
+      "Savaş",
+      "Kuşatma",
+      "Avrupa"
+    ],
+    "difficulty": "medium",
+    "id": "7911aeca-e151-4d37-bd74-6ae5406d168a"
+  },
+  {
+    "word": "Amerika İç Savaşı",
+    "forbidden": [
+      "Kuzey",
+      "Güney",
+      "Kölelik",
+      "Lincoln",
+      "Savaş"
+    ],
+    "difficulty": "medium",
+    "id": "d1563472-08ea-4858-a3ef-893f772c5e30"
+  },
+  {
+    "word": "Magna Carta",
+    "forbidden": [
+      "İngiltere",
+      "Belge",
+      "Kral",
+      "Hak",
+      "Özgürlük"
+    ],
+    "difficulty": "medium",
+    "id": "f673d6cd-3476-4dff-9eda-a5baccd3e6e7"
+  },
+  {
+    "word": "Göktürk Kağanlığı",
+    "forbidden": [
+      "Türk",
+      "Orhun Yazıtları",
+      "Asya",
+      "Devlet",
+      "Kağan"
+    ],
+    "difficulty": "medium",
+    "id": "e22501db-30fd-4266-ae68-911db53c4926"
+  },
+  {
+    "word": "Uygur Kağanlığı",
+    "forbidden": [
+      "Türk",
+      "Asya",
+      "Maniheizm",
+      "Tarım",
+      "Devlet"
+    ],
+    "difficulty": "medium",
+    "id": "45102c40-a363-4be7-aec1-0650c8d30bf3"
+  },
+  {
+    "word": "Karahanlılar",
+    "forbidden": [
+      "Türk",
+      "İslam",
+      "Orta Asya",
+      "Devlet",
+      "İlk Türk İslam"
+    ],
+    "difficulty": "medium",
+    "id": "66228e9d-691c-4ded-9f02-acad8efd2164"
+  },
+  {
+    "word": "Gazneliler",
+    "forbidden": [
+      "Türk",
+      "İslam",
+      "Hindistan",
+      "Sultan",
+      "Gazne"
+    ],
+    "difficulty": "medium",
+    "id": "5840b77b-27f3-4ab2-9c22-1aca549e97a6"
+  },
+  {
+    "word": "Büyük Selçuklu Devleti",
+    "forbidden": [
+      "Malazgirt",
+      "Tuğrul Bey",
+      "İslam",
+      "Anadolu",
+      "Devlet"
+    ],
+    "difficulty": "medium",
+    "id": "f80fd3ad-a304-49ef-93d4-b127c1c99d9f"
+  },
+  {
+    "word": "Anadolu Selçukluları",
+    "forbidden": [
+      "Sultan",
+      "Konya",
+      "Haçlı",
+      "Kervansaray",
+      "Beylik"
+    ],
+    "difficulty": "medium",
+    "id": "ec0d19ac-9e51-4155-92c5-777daa0d50ac"
+  },
+  {
+    "word": "Memlükler",
+    "forbidden": [
+      "Mısır",
+      "Köle",
+      "Türk",
+      "Suriye",
+      "Moğol"
+    ],
+    "difficulty": "medium",
+    "id": "90bbba87-7a8f-4fd8-8fb3-c7a72d3961bc"
+  },
+  {
+    "word": "Eyyübiler",
+    "forbidden": [
+      "Selahaddin Eyyübi",
+      "Mısır",
+      "Kudüs",
+      "Haçlı",
+      "Suriye"
+    ],
+    "difficulty": "medium",
+    "id": "7ddfa408-1ee7-4003-9919-df8770915ce2"
+  },
+  {
+    "word": "Babür İmparatorluğu",
+    "forbidden": [
+      "Hindistan",
+      "Moğol",
+      "Türk",
+      "Taç Mahal",
+      "İslam"
+    ],
+    "difficulty": "medium",
+    "id": "38d328c5-d65b-4df4-a27d-00cf1f1a060a"
+  },
+  {
+    "word": "Safevi Devleti",
+    "forbidden": [
+      "İran",
+      "Şii",
+      "Safevi",
+      "Şah",
+      "Devlet"
+    ],
+    "difficulty": "medium",
+    "id": "0baf01e1-cb99-492c-9afd-8320a2464f68"
+  },
+  {
+    "word": "Timur İmparatorluğu",
+    "forbidden": [
+      "Timur",
+      "Semerkant",
+      "Asya",
+      "Türk",
+      "Savaşçı"
+    ],
+    "difficulty": "medium",
+    "id": "334a26ed-3a0e-4996-b7ab-ddd1642d530f"
+  },
+  {
+    "word": "Akkoyunlular",
+    "forbidden": [
+      "Türkmen",
+      "Doğu Anadolu",
+      "Uzun Hasan",
+      "Devlet",
+      "Otlukbeli"
+    ],
+    "difficulty": "medium",
+    "id": "89ae965b-f465-4327-b1ec-151b5fa40b32"
+  },
+  {
+    "word": "Karakoyunlular",
+    "forbidden": [
+      "Türkmen",
+      "Doğu Anadolu",
+      "Devlet",
+      "Kara Yusuf",
+      "Tebriz"
+    ],
+    "difficulty": "medium",
+    "id": "a2de6f74-a960-4fca-b635-87778e71d96a"
+  },
+  {
+    "word": "Osmanlı'nın Kuruluşu",
+    "forbidden": [
+      "Ertuğrul Gazi",
+      "Osman Bey",
+      "Söğüt",
+      "Beylik",
+      "Uç Beyliği"
+    ],
+    "difficulty": "medium",
+    "id": "bee6bb88-4809-448e-90ae-faa1e89c0963"
+  },
+  {
+    "word": "İstanbul'un Fethi",
+    "forbidden": [
+      "Fatih Sultan Mehmet",
+      "1453",
+      "Bizans",
+      "Top",
+      "Konstantinopolis"
+    ],
+    "difficulty": "medium",
+    "id": "a01dd6e4-bd4c-4834-94d1-2ae223bedb58"
+  },
+  {
+    "word": "Kanuni Sultan Süleyman",
+    "forbidden": [
+      "Osmanlı",
+      "Padişah",
+      "Macaristan",
+      "Zigetvar",
+      "Kanun"
+    ],
+    "difficulty": "medium",
+    "id": "4369f93e-056a-4935-a994-8ceffb29cfa8"
+  },
+  {
+    "word": "Yavuz Sultan Selim",
+    "forbidden": [
+      "Osmanlı",
+      "Padişah",
+      "Mısır",
+      "Halife",
+      "Memlük"
+    ],
+    "difficulty": "medium",
+    "id": "38da4d69-d5c4-4974-9b9b-0699647b87e1"
+  },
+  {
+    "word": "II. Abdülhamid",
+    "forbidden": [
+      "Osmanlı",
+      "Padişah",
+      "İstibdat",
+      "Meşrutiyet",
+      "Yıldız Sarayı"
+    ],
+    "difficulty": "medium",
+    "id": "22920176-ea48-4cb6-a697-96ae17c2ef8d"
+  },
+  {
+    "word": "Genç Türkler",
+    "forbidden": [
+      "İttihat Terakki",
+      "Jön Türkler",
+      "Meşrutiyet",
+      "Osmanlı",
+      "Muhalefet"
+    ],
+    "difficulty": "medium",
+    "id": "aa9013c6-dcfc-4bab-8519-224e7196aed2"
+  },
+  {
+    "word": "I. Meşrutiyet",
+    "forbidden": [
+      "Osmanlı",
+      "Anayasa",
+      "Kanun-i Esasi",
+      "Padişah",
+      "Meclis"
+    ],
+    "difficulty": "medium",
+    "id": "02abbb63-ad3e-4e1a-aa87-56acf06d4556"
+  },
+  {
+    "word": "II. Meşrutiyet",
+    "forbidden": [
+      "İttihat Terakki",
+      "Osmanlı",
+      "Hürriyet",
+      "Padişah",
+      "Anayasa"
+    ],
+    "difficulty": "medium",
+    "id": "9c80a74d-203f-451f-b350-99c0094c1529"
+  },
+  {
+    "word": "Trablusgarp Savaşı",
+    "forbidden": [
+      "İtalya",
+      "Osmanlı",
+      "Libya",
+      "Deniz",
+      "Mustafa Kemal"
+    ],
+    "difficulty": "medium",
+    "id": "30868a81-88f9-4089-8847-f448fc86e5d0"
+  },
+  {
+    "word": "Balkan Savaşları",
+    "forbidden": [
+      "Osmanlı",
+      "Balkan Ülkeleri",
+      "Savaş",
+      "Toprak Kaybı",
+      "Edirne"
+    ],
+    "difficulty": "medium",
+    "id": "4f2e22d3-ae7d-4e1f-8b57-d5924aeef188"
+  },
+  {
+    "word": "Çanakkale Savaşı",
+    "forbidden": [
+      "I. Dünya Savaşı",
+      "Mustafa Kemal",
+      "Destan",
+      "Deniz",
+      "Kara"
+    ],
+    "difficulty": "medium",
+    "id": "dc5ad428-b9c3-432f-aa41-dcf95bca2cce"
+  },
+  {
+    "word": "Mondros Ateşkes Antlaşması",
+    "forbidden": [
+      "Osmanlı",
+      "İşgal",
+      "I. Dünya Savaşı",
+      "Teslim",
+      "Antlaşma"
+    ],
+    "difficulty": "medium",
+    "id": "ad137623-59b8-4ae8-84ee-23b21201b849"
+  },
+  {
+    "word": "Sevr Antlaşması",
+    "forbidden": [
+      "Osmanlı",
+      "Parçalama",
+      "İşgal",
+      "Türkiye",
+      "Geçersiz"
+    ],
+    "difficulty": "medium",
+    "id": "3cfc9f19-b557-4596-9826-e97454796045"
+  },
+  {
+    "word": "Misak-ı Milli",
+    "forbidden": [
+      "Türk",
+      "Sınır",
+      "Ant",
+      "Kurtuluş Savaşı",
+      "Bağımsızlık"
+    ],
+    "difficulty": "medium",
+    "id": "5dbad867-ac40-456d-aab5-49c886cca8ce"
+  },
+  {
+    "word": "Ankara Hükümeti",
+    "forbidden": [
+      "TBMM",
+      "Mustafa Kemal",
+      "Milli Mücadele",
+      "Başkent",
+      "Hükümet"
+    ],
+    "difficulty": "medium",
+    "id": "ed4be4e8-6f05-4e99-92f5-e53f945da787"
+  },
+  {
+    "word": "Lozan Antlaşması",
+    "forbidden": [
+      "Türkiye",
+      "Kurtuluş Savaşı",
+      "Bağımsızlık",
+      "Sınır",
+      "Uluslararası"
+    ],
+    "difficulty": "medium",
+    "id": "f9067837-0cf6-436c-b623-7aeebb5ccd34"
+  },
+  {
+    "word": "Tek Parti Dönemi",
+    "forbidden": [
+      "CHP",
+      "Atatürk",
+      "İsmet İnönü",
+      "Türkiye",
+      "Demokrasi"
+    ],
+    "difficulty": "medium",
+    "id": "3a8b6d09-0e28-4e33-a8d3-671302753a37"
+  },
+  {
+    "word": "Çok Partili Hayat",
+    "forbidden": [
+      "Demokrasi",
+      "Seçim",
+      "Partiler",
+      "Türkiye",
+      "Adnan Menderes"
+    ],
+    "difficulty": "medium",
+    "id": "d5c13d25-7263-4311-8402-ceae7b270990"
+  },
+  {
+    "word": "1960 Darbesi",
+    "forbidden": [
+      "Askeri",
+      "Hükümet",
+      "Demokrasi",
+      "Adnan Menderes",
+      "İdam"
+    ],
+    "difficulty": "medium",
+    "id": "fc8e4949-c943-4dcc-950e-edf4ee960d44"
+  },
+  {
+    "word": "12 Mart Muhtırası",
+    "forbidden": [
+      "Askeri",
+      "Hükümet",
+      "Türkiye",
+      "Demokrasi",
+      "Muhtıra"
+    ],
+    "difficulty": "medium",
+    "id": "752acaa4-364b-4402-9bb6-c7a943328870"
+  },
+  {
+    "word": "1980 Darbesi",
+    "forbidden": [
+      "Askeri",
+      "Türkiye",
+      "Kenan Evren",
+      "İnsan Hakları",
+      "Siyaset"
+    ],
+    "difficulty": "medium",
+    "id": "c1b61877-7696-4077-8e76-b048820d4790"
+  },
+  {
+    "word": "Modern Türk Sanatı",
+    "forbidden": [
+      "Batılılaşma",
+      "Resim",
+      "Heykel",
+      "Osmanlı",
+      "Akım"
+    ],
+    "difficulty": "medium",
+    "id": "fde4a1cb-fd05-4ab5-9ca1-9bb4eddfa52f"
+  },
+  {
+    "word": "Türk Edebiyatı Tarihi",
+    "forbidden": [
+      "Divan",
+      "Halk",
+      "Batılılaşma",
+      "Cumhuriyet",
+      "Şiir"
+    ],
+    "difficulty": "medium",
+    "id": "b223881d-2ff6-4bb3-9304-74d840c07c23"
+  },
+  {
+    "word": "Türk Müziği Tarihi",
+    "forbidden": [
+      "Klasik",
+      "Halk",
+      "Arabesk",
+      "Batı",
+      "Sanat"
+    ],
+    "difficulty": "medium",
+    "id": "9442b9e6-9625-4207-b4e5-65fc9e523320"
+  },
+  {
+    "word": "Antik Çağ Tarihçiliği",
+    "forbidden": [
+      "Herodot",
+      "Tukidides",
+      "Roma",
+      "Yunan",
+      "Yazılı"
+    ],
+    "difficulty": "medium",
+    "id": "51df42d8-c632-4ddf-9064-a9ea20b31f36"
+  },
+  {
+    "word": "Orta Çağ Tarihçiliği",
+    "forbidden": [
+      "Kilise",
+      "Kronik",
+      "Rahipler",
+      "Hristiyanlık",
+      "Batı"
+    ],
+    "difficulty": "medium",
+    "id": "754681ea-8051-47c3-9a97-cace06342d1d"
+  },
+  {
+    "word": "Rönesans Tarihçiliği",
+    "forbidden": [
+      "Hümanizm",
+      "Seküler",
+      "İtalya",
+      "Machiavelli",
+      "Dönem"
+    ],
+    "difficulty": "medium",
+    "id": "aee33415-b766-4e95-964d-669240dcd947"
+  },
+  {
+    "word": "Modern Tarih Yazımı",
+    "forbidden": [
+      "Bilimsel",
+      "Kaynak",
+      "Belge",
+      "Objektif",
+      "Eleştirel"
+    ],
+    "difficulty": "medium",
+    "id": "faf265cb-7fab-40c4-99ff-e515aa4c00cb"
+  },
+  {
+    "word": "Kritik Tarih Yaklaşımı",
+    "forbidden": [
+      "Eleştiri",
+      "Sorgulama",
+      "Objektif",
+      "Kaynak",
+      "Olaylar"
+    ],
+    "difficulty": "medium",
+    "id": "7c50b0ab-6eef-431d-b8e1-eb831f9ba553"
+  },
+  {
+    "word": "Historiografi",
+    "forbidden": [
+      "Tarih Yazımı",
+      "Metodoloji",
+      "Yöntem",
+      "Kaynak",
+      "Yaklaşım"
+    ],
+    "difficulty": "medium",
+    "id": "c055b1a2-e0b6-418d-86bb-5868313c33c7"
+  },
+  {
+    "word": "Arkeoloji",
+    "forbidden": [
+      "Kazı",
+      "Eski",
+      "Eşya",
+      "Toprak",
+      "Uygarlık"
+    ],
+    "difficulty": "medium",
+    "id": "e8535ea0-0dfa-4324-a9ae-9a2240822f6f"
+  },
+  {
+    "word": "Epigrafi",
+    "forbidden": [
+      "Yazıt",
+      "Eski",
+      "Taş",
+      "Kitabe",
+      "Okumak"
+    ],
+    "difficulty": "medium",
+    "id": "4a028f69-51d4-45f3-8592-0f1c24eb7045"
+  },
+  {
+    "word": "Paleografi",
+    "forbidden": [
+      "Eski Yazı",
+      "El Yazması",
+      "Metin",
+      "Okumak",
+      "Belge"
+    ],
+    "difficulty": "medium",
+    "id": "dbc17493-9858-4430-bd44-cb336e8bfa9d"
+  },
+  {
+    "word": "Nümizmatik",
+    "forbidden": [
+      "Para",
+      "Madeni",
+      "Eski",
+      "Tarih",
+      "Koleksiyon"
+    ],
+    "difficulty": "medium",
+    "id": "f894f517-7a80-4c87-9d85-54e16713c9e1"
+  },
+  {
+    "word": "Sikkelere Göre Tarih",
+    "forbidden": [
+      "Para",
+      "Eski",
+      "Ekonomi",
+      "Hükümdar",
+      "Devlet"
+    ],
+    "difficulty": "medium",
+    "id": "7cf99a08-71b7-41fc-b8e0-172553757cec"
+  },
+  {
+    "word": "Filoloji",
+    "forbidden": [
+      "Dil",
+      "Yazı",
+      "Eski",
+      "Metin",
+      "Dil Bilim"
+    ],
+    "difficulty": "medium",
+    "id": "33a5c339-a479-495a-9cc4-6752d1bc87dc"
+  },
+  {
+    "word": "Diplomatik",
+    "forbidden": [
+      "Belge",
+      "Resmi",
+      "Anlaşma",
+      "Mektup",
+      "Devletler"
+    ],
+    "difficulty": "medium",
+    "id": "99229c12-99fd-4f37-a24b-843ecac90803"
+  },
+  {
+    "word": "Kronoloji",
+    "forbidden": [
+      "Zaman",
+      "Sıra",
+      "Olaylar",
+      "Tarih",
+      "Yıl"
+    ],
+    "difficulty": "medium",
+    "id": "ffcdf0df-0bed-44b4-9c4c-77f8c83f3c60"
+  },
+  {
+    "word": "Heraldik",
+    "forbidden": [
+      "Arma",
+      "Soy",
+      "Hanedan",
+      "Sembol",
+      "Tarih"
+    ],
+    "difficulty": "medium",
+    "id": "3914b22b-e992-4ca6-8f2e-4cb3a9124d8b"
+  },
+  {
+    "word": "Soyağacı",
+    "forbidden": [
+      "Aile",
+      "Geçmiş",
+      "Soy",
+      "Bağlantı",
+      "Kök"
+    ],
+    "difficulty": "medium",
+    "id": "ff3b0d50-05ed-4438-afbc-13e4ab341050"
+  },
+  {
+    "word": "Toponimi",
+    "forbidden": [
+      "Yer Adları",
+      "Coğrafya",
+      "Dil",
+      "Tarih",
+      "Köken"
+    ],
+    "difficulty": "medium",
+    "id": "4d47d93b-47bd-4204-b2b0-9a5bed0860c5"
+  },
+  {
+    "word": "Onomastik",
+    "forbidden": [
+      "Kişi Adları",
+      "İsim",
+      "Tarih",
+      "Kültür",
+      "Anlam"
+    ],
+    "difficulty": "medium",
+    "id": "b9d82735-b9ad-4426-9763-d6f9896d3e6a"
+  },
+  {
+    "word": "Arşivcilik",
+    "forbidden": [
+      "Belge",
+      "Saklama",
+      "Tarih",
+      "Koleksiyon",
+      "Düzenleme"
+    ],
+    "difficulty": "medium",
+    "id": "3726246b-5660-4295-89fa-022379113fe2"
+  },
+  {
+    "word": "Müzede Rehberlik",
+    "forbidden": [
+      "Gezi",
+      "Eser",
+      "Anlatmak",
+      "Ziyaretçi",
+      "Bilgi"
+    ],
+    "difficulty": "medium",
+    "id": "2a1ac234-3ad9-46f8-8c47-b57219035d6b"
+  },
+  {
+    "word": "Antik Kent Ziyareti",
+    "forbidden": [
+      "Harabe",
+      "Eski",
+      "Turist",
+      "Gezmek",
+      "Tarih"
+    ],
+    "difficulty": "medium",
+    "id": "84a781af-8b21-4eb6-8e92-d8954d2df296"
+  },
+  {
+    "word": "Belgesel Film",
+    "forbidden": [
+      "Gerçek",
+      "Geçmiş",
+      "Hikaye",
+      "Görüntü",
+      "Araştırma"
+    ],
+    "difficulty": "medium",
+    "id": "4d765b30-2c31-46ab-9e37-4939511c0399"
+  },
+  {
+    "word": "Tarihi Roman",
+    "forbidden": [
+      "Kurgu",
+      "Geçmiş",
+      "Hikaye",
+      "Yazar",
+      "Karakter"
+    ],
+    "difficulty": "medium",
+    "id": "17d0b0f7-1b45-4cb7-9451-8cc14fbc0424"
+  },
+  {
+    "word": "Biyografi",
+    "forbidden": [
+      "Hayat",
+      "Kişi",
+      "Yazmak",
+      "Gerçek",
+      "Ünlü"
+    ],
+    "difficulty": "medium",
+    "id": "b77a6978-a762-4394-a61c-f0423066a5d1"
+  },
+  {
+    "word": "Otobiyografi",
+    "forbidden": [
+      "Kendi Hayatı",
+      "Yazar",
+      "Anlatmak",
+      "Geçmiş",
+      "Yaşantı"
+    ],
+    "difficulty": "medium",
+    "id": "b087ca57-6faa-4fbb-a329-2be274ba09a7"
+  },
+  {
+    "word": "Mitoloji Araştırmaları",
+    "forbidden": [
+      "Efsane",
+      "Tanrılar",
+      "Hikaye",
+      "Din",
+      "Kültür"
+    ],
+    "difficulty": "medium",
+    "id": "cd4fa0bc-826a-4614-9aa7-9466a0e9dde9"
+  },
+  {
+    "word": "Destanlar",
+    "forbidden": [
+      "Kahramanlık",
+      "Uzun Hikaye",
+      "Millet",
+      "Savaş",
+      "Efsane"
+    ],
+    "difficulty": "medium",
+    "id": "9af7d595-1b36-4378-b9a8-7a03694d3d81"
+  },
+  {
+    "word": "Anekdot",
+    "forbidden": [
+      "Kısa Hikaye",
+      "Gerçek",
+      "Komik",
+      "Öğretici",
+      "Olay"
+    ],
+    "difficulty": "medium",
+    "id": "f03a0feb-5c3a-41e4-97ed-16c49e01384f"
+  },
+  {
+    "word": "Kafkas Cephesi",
+    "forbidden": [
+      "I. Dünya Savaşı",
+      "Osmanlı",
+      "Rusya",
+      "Sarıkamış",
+      "Doğu"
+    ],
+    "difficulty": "medium",
+    "id": "bd92d45f-00b2-42be-ac07-f17550728a07"
+  },
+  {
+    "word": "Filistin Cephesi",
+    "forbidden": [
+      "I. Dünya Savaşı",
+      "Osmanlı",
+      "İngiltere",
+      "Arap",
+      "Kudüs"
+    ],
+    "difficulty": "medium",
+    "id": "715d5cde-0f6d-4667-b80a-668325d237a5"
+  },
+  {
+    "word": "Galiçya Cephesi",
+    "forbidden": [
+      "I. Dünya Savaşı",
+      "Osmanlı",
+      "Avusturya",
+      "Rusya",
+      "Doğu Avrupa"
+    ],
+    "difficulty": "medium",
+    "id": "6b1740c0-42b4-4277-bd27-662eec642e1b"
+  },
+  {
+    "word": "Kut'ül Amare Kuşatması",
+    "forbidden": [
+      "I. Dünya Savaşı",
+      "Osmanlı",
+      "İngiliz",
+      "Kuşatma",
+      "Bağdat"
+    ],
+    "difficulty": "medium",
+    "id": "dd112c47-3ca1-4093-9076-daac3334dbae"
+  },
+  {
+    "word": "Teşkilat-ı Mahsusa",
+    "forbidden": [
+      "Osmanlı",
+      "İttihat Terakki",
+      "Gizli Örgüt",
+      "İstihbarat",
+      "Milli Mücadele"
+    ],
+    "difficulty": "medium",
+    "id": "1ef00ed4-67d6-40fb-80ef-cdd1a164bfc5"
+  },
+  {
+    "word": "Sivas Kongresi",
+    "forbidden": [
+      "Milli Mücadele",
+      "Mustafa Kemal",
+      "Temsil Heyeti",
+      "Toplantı",
+      "Karar"
+    ],
+    "difficulty": "medium",
+    "id": "05c6d907-0937-405c-a180-742540c8b2a0"
+  },
+  {
+    "word": "Amasya Genelgesi",
+    "forbidden": [
+      "Mustafa Kemal",
+      "Milli Mücadele",
+      "Bildiri",
+      "Samsun",
+      "Bağımsızlık"
+    ],
+    "difficulty": "medium",
+    "id": "4148978e-5b78-4a47-acb0-6bb3dde08252"
+  },
+  {
+    "word": "Erzurum Kongresi",
+    "forbidden": [
+      "Milli Mücadele",
+      "Mustafa Kemal",
+      "Doğu Anadolu",
+      "Toplantı",
+      "Karar"
+    ],
+    "difficulty": "medium",
+    "id": "437d27a3-f286-4858-b756-d6643d9abab5"
+  },
+  {
+    "word": "Büyük Taarruz",
+    "forbidden": [
+      "Kurtuluş Savaşı",
+      "Mustafa Kemal",
+      "Yunanistan",
+      "Savaş",
+      "Zafer"
+    ],
+    "difficulty": "medium",
+    "id": "cfdffa61-0745-4e14-963a-1383613c8c4e"
+  },
+  {
+    "word": "Sakarya Meydan Muharebesi",
+    "forbidden": [
+      "Kurtuluş Savaşı",
+      "Mustafa Kemal",
+      "Yunanistan",
+      "Savaş",
+      "Başkomutan"
+    ],
+    "difficulty": "medium",
+    "id": "86e94d28-fbae-4817-83ab-a56787f11906"
+  },
+  {
+    "word": "Kütahya-Eskişehir Savaşları",
+    "forbidden": [
+      "Kurtuluş Savaşı",
+      "Yunanistan",
+      "Mağlubiyet",
+      "Mustafa Kemal",
+      "Ordu"
+    ],
+    "difficulty": "medium",
+    "id": "12cd25a4-903a-4682-ac48-0c7b35b24560"
+  },
+  {
+    "word": "I. İnönü Savaşı",
+    "forbidden": [
+      "Kurtuluş Savaşı",
+      "İsmet İnönü",
+      "Yunanistan",
+      "Zafer",
+      "Asker"
+    ],
+    "difficulty": "medium",
+    "id": "6514f7ab-b720-4905-b390-851d033c899d"
+  },
+  {
+    "word": "II. İnönü Savaşı",
+    "forbidden": [
+      "Kurtuluş Savaşı",
+      "İsmet İnönü",
+      "Yunanistan",
+      "Zafer",
+      "Asker"
+    ],
+    "difficulty": "medium",
+    "id": "1bf4cb8c-541d-4004-8515-c0b8fa46aa21"
+  },
+  {
+    "word": "Çerkez Ethem İsyanı",
+    "forbidden": [
+      "Milli Mücadele",
+      "Ayaklanma",
+      "İsyan",
+      "Mustafa Kemal",
+      "Hain"
+    ],
+    "difficulty": "medium",
+    "id": "46805967-68d1-4dd9-8436-43e767c68b61"
+  },
+  {
+    "word": "Tekalif-i Milliye",
+    "forbidden": [
+      "Kurtuluş Savaşı",
+      "Ordu",
+      "Malzeme",
+      "Halk",
+      "Yardım"
+    ],
+    "difficulty": "medium",
+    "id": "e646ec79-e4e0-4344-a38f-46c4d306ca5b"
+  },
+  {
+    "word": "Nutuk",
+    "forbidden": [
+      "Atatürk",
+      "Söylev",
+      "Tarih",
+      "Konuşma",
+      "Cumhuriyet"
+    ],
+    "difficulty": "medium",
+    "id": "d4922949-6902-42fb-9194-f760060d9bb0"
+  },
+  {
+    "word": "Dersim İsyanı",
+    "forbidden": [
+      "Cumhuriyet",
+      "İsyan",
+      "Devlet",
+      "Askeri",
+      "Bölgesel"
+    ],
+    "difficulty": "medium",
+    "id": "3336cdae-9a8a-43e4-b287-685b8ffbfc56"
+  },
+  {
+    "word": "Menemen Olayı",
+    "forbidden": [
+      "Cumhuriyet",
+      "Gerici",
+      "İsyan",
+      "Şehit",
+      "Laiklik"
+    ],
+    "difficulty": "medium",
+    "id": "15d59f7d-badd-40c6-8992-8f57b7fe85dd"
+  },
+  {
+    "word": "Varlık Vergisi",
+    "forbidden": [
+      "II. Dünya Savaşı",
+      "Vergi",
+      "Azınlık",
+      "Ekonomi",
+      "Türkiye"
+    ],
+    "difficulty": "medium",
+    "id": "e717c71f-be9c-486e-8d50-4955a45cfc70"
+  },
+  {
+    "word": "Köy Enstitüleri",
+    "forbidden": [
+      "Eğitim",
+      "Cumhuriyet",
+      "Öğretmen",
+      "Köy",
+      "Halk"
+    ],
+    "difficulty": "medium",
+    "id": "c005abac-91f4-4846-a11d-fd12e002d06a"
+  },
+  {
+    "word": "Marshall Yardımları",
+    "forbidden": [
+      "Amerika",
+      "II. Dünya Savaşı Sonrası",
+      "Ekonomi",
+      "Yardım",
+      "Avrupa"
+    ],
+    "difficulty": "medium",
+    "id": "1c5dd17c-ee50-4253-8281-f15538b5e5ae"
+  },
+  {
+    "word": "NATO'ya Giriş",
+    "forbidden": [
+      "Türkiye",
+      "Askeri",
+      "İttifak",
+      "Kore Savaşı",
+      "Batı"
+    ],
+    "difficulty": "medium",
+    "id": "eabb25ec-e8ea-4138-abc8-8b013199fa4b"
+  },
+  {
+    "word": "Kore Savaşı",
+    "forbidden": [
+      "Türkiye",
+      "BM",
+      "Savaş",
+      "Kuzey Güney",
+      "Asya"
+    ],
+    "difficulty": "medium",
+    "id": "6ccd3ceb-2f9a-492b-b641-e225254aa713"
+  },
+  {
+    "word": "Kıbrıs Barış Harekatı",
+    "forbidden": [
+      "Türkiye",
+      "Kıbrıs",
+      "Yunanistan",
+      "Savaş",
+      "Barış"
+    ],
+    "difficulty": "medium",
+    "id": "5d9b2a3a-4633-46c9-ad8a-f9cd47bfbc6b"
+  },
+  {
+    "word": "Soğuk Savaş Sonrası",
+    "forbidden": [
+      "Yeni Dünya Düzeni",
+      "SSCB",
+      "Amerika",
+      "Globalleşme",
+      "Teknoloji"
+    ],
+    "difficulty": "medium",
+    "id": "6eec0f79-a158-4975-95a5-ff130357a3cd"
+  },
+  {
+    "word": "Çini Sanatı",
+    "forbidden": [
+      "Seramik",
+      "Desen",
+      "Fayans",
+      "Osmanlı",
+      "Mavi"
+    ],
+    "difficulty": "medium",
+    "id": "ba444931-46fe-427f-95cf-4a364bb56bfc"
+  },
+  {
+    "word": "Ebru Sanatı",
+    "forbidden": [
+      "Su",
+      "Boya",
+      "Kağıt",
+      "Desen",
+      "Türk"
+    ],
+    "difficulty": "medium",
+    "id": "9ec8c172-b01d-4510-8232-9546762c46a3"
+  },
+  {
+    "word": "Tezhip Sanatı",
+    "forbidden": [
+      "Kitap",
+      "Süsleme",
+      "Altın",
+      "El Yazması",
+      "Desen"
+    ],
+    "difficulty": "medium",
+    "id": "2e26db64-90cf-465b-8453-4d4fbf4c7789"
+  },
+  {
+    "word": "Cilt Sanatı",
+    "forbidden": [
+      "Kitap",
+      "Deri",
+      "Kapak",
+      "El İşçiliği",
+      "Süsleme"
+    ],
+    "difficulty": "medium",
+    "id": "33221bc4-2c0c-4414-ab99-46cb220b07aa"
+  },
+  {
+    "word": "Halı Dokumacılığı",
+    "forbidden": [
+      "Yün",
+      "İplik",
+      "Desen",
+      "El Dokuma",
+      "Türk"
+    ],
+    "difficulty": "medium",
+    "id": "fd8f11fd-c36a-4b8a-9a93-920ca5e646d6"
+  },
+  {
+    "word": "Paleolitik Çağ",
+    "forbidden": [
+      "Eski Taş",
+      "Avcılık Toplayıcılık",
+      "Mağara",
+      "Ateş",
+      "Göçebe"
+    ],
+    "difficulty": "hard",
+    "id": "375b2bc2-555e-4405-8e7f-b3b75755d73a"
+  },
+  {
+    "word": "Neolitik Devrim",
+    "forbidden": [
+      "Tarım",
+      "Yerleşik Hayat",
+      "Köy",
+      "Yeni Taş",
+      "Topluluk"
+    ],
+    "difficulty": "hard",
+    "id": "832fc456-e589-4cc1-ad34-a806ae7e942f"
+  },
+  {
+    "word": "Enlil",
+    "forbidden": [
+      "Sümer",
+      "Tanrı",
+      "Gökyüzü",
+      "Yaratılış",
+      "Mezopotamya"
+    ],
+    "difficulty": "hard",
+    "id": "47a55b67-7344-452a-bd33-cf074743e045"
+  },
+  {
+    "word": "Hammurabi Kanunları",
+    "forbidden": [
+      "Mezopotamya",
+      "Babil",
+      "Hukuk",
+      "İlk Yazılı",
+      "Kral"
+    ],
+    "difficulty": "hard",
+    "id": "59b35334-69a8-4517-9043-49f61f7ab2e0"
+  },
+  {
+    "word": "Akdeniz Medeniyetleri",
+    "forbidden": [
+      "Deniz",
+      "Ticaret",
+      "Yunan",
+      "Roma",
+      "Doğu"
+    ],
+    "difficulty": "hard",
+    "id": "c94a2488-fbf3-48fa-ad8c-9112ee975b2e"
+  },
+  {
+    "word": "Hitit İmparatorluğu",
+    "forbidden": [
+      "Anadolu",
+      "Çivi Yazısı",
+      "Puduhepa",
+      "Kadeş",
+      "Demir"
+    ],
+    "difficulty": "hard",
+    "id": "ab786b47-1c02-4b50-8676-92617ef4beff"
+  },
+  {
+    "word": "Miken Uygarlığı",
+    "forbidden": [
+      "Yunan",
+      "Bronz Çağı",
+      "Truva",
+      "Agamemnon",
+      "Saray"
+    ],
+    "difficulty": "hard",
+    "id": "cd09da81-363e-4fb8-9db9-1be37aa9b9f5"
+  },
+  {
+    "word": "Dor Göçleri",
+    "forbidden": [
+      "Yunan",
+      "Bronz Çağı Sonu",
+      "Karanlık Çağ",
+      "Göç",
+      "Akdeniz"
+    ],
+    "difficulty": "hard",
+    "id": "a0e8d40a-6ab3-4355-8ab3-ea7330b5712a"
+  },
+  {
+    "word": "Arkaik Dönem",
+    "forbidden": [
+      "Şehir Devletleri",
+      "Kolonizasyon",
+      "Alfabe",
+      "Homeros",
+      "Demokrasi"
+    ],
+    "difficulty": "hard",
+    "id": "0c2e5630-1403-45f5-95a9-697f232eff49"
+  },
+  {
+    "word": "Klasik Dönem",
+    "forbidden": [
+      "Pers Savaşları",
+      "Perikles",
+      "Felsefe",
+      "Tiyatro",
+      "Altın Çağ"
+    ],
+    "difficulty": "hard",
+    "id": "f8c9ed86-cee8-44d2-8033-6571e872f289"
+  },
+  {
+    "word": "Helenistik Dönem",
+    "forbidden": [
+      "Büyük İskender",
+      "Yunan",
+      "Doğu",
+      "İmparatorluk",
+      "Kültür"
+    ],
+    "difficulty": "hard",
+    "id": "b4f0bdef-2137-42f2-8624-f54b7a961896"
+  },
+  {
+    "word": "Pön Savaşları",
+    "forbidden": [
+      "Roma",
+      "Kartaca",
+      "Hannibal",
+      "Scipio",
+      "Akdeniz"
+    ],
+    "difficulty": "hard",
+    "id": "80f2ddda-be92-4f5f-a41e-dc9a7d6c1657"
+  },
+  {
+    "word": "Gracchus Kardeşler",
+    "forbidden": [
+      "Roma",
+      "Reform",
+      "Toprak",
+      "Halk",
+      "Siyaset"
+    ],
+    "difficulty": "hard",
+    "id": "2c3a0d85-9c2b-4a64-abdc-7c5c7c4f2969"
+  },
+  {
+    "word": "Spartaküs İsyanı",
+    "forbidden": [
+      "Roma",
+      "Köle",
+      "Gladyatör",
+      "İsyan",
+      "Özgürlük"
+    ],
+    "difficulty": "hard",
+    "id": "9eac3cd2-d0b0-4f8e-8adb-3f73196a8975"
+  },
+  {
+    "word": "Konstantinopolis",
+    "forbidden": [
+      "Bizans",
+      "Doğu Roma",
+      "İstanbul",
+      "Başkent",
+      "Hristiyanlık"
+    ],
+    "difficulty": "hard",
+    "id": "ddc8c08c-1316-42b4-ae7a-132d0f5fd298"
+  },
+  {
+    "word": "Justinianus Kanunları",
+    "forbidden": [
+      "Bizans",
+      "Hukuk",
+      "İmparator",
+      "Roma",
+      "Toplamak"
+    ],
+    "difficulty": "hard",
+    "id": "45785e94-9900-47a7-bad9-1382cbecef08"
+  },
+  {
+    "word": "İkonoklazm",
+    "forbidden": [
+      "Bizans",
+      "Resim",
+      "Yıkım",
+      "Din",
+      "Tartışma"
+    ],
+    "difficulty": "hard",
+    "id": "f1a93927-97f2-44a8-bd73-105ff76a599b"
+  },
+  {
+    "word": "Feodalite",
+    "forbidden": [
+      "Orta Çağ",
+      "Toprak",
+      "Lord",
+      "Vassal",
+      "Kral"
+    ],
+    "difficulty": "hard",
+    "id": "79bb9357-d2b8-467f-a393-1f5a2f4b8d88"
+  },
+  {
+    "word": "Şövalyelik",
+    "forbidden": [
+      "Orta Çağ",
+      "At",
+      "Savaşçı",
+      "Onur",
+      "Kral"
+    ],
+    "difficulty": "hard",
+    "id": "d2e1fd51-251b-4d17-9feb-bc4815b44af8"
+  },
+  {
+    "word": "Kara Veba",
+    "forbidden": [
+      "Veba",
+      "Ölüm",
+      "Orta Çağ",
+      "Salgın",
+      "Avrupa"
+    ],
+    "difficulty": "hard",
+    "id": "f4f68583-af26-46f7-8b56-409943e209f9"
+  },
+  {
+    "word": "Yüz Yıl Savaşları",
+    "forbidden": [
+      "İngiltere",
+      "Fransa",
+      "Jeanne d'Arc",
+      "Taht",
+      "Orta Çağ"
+    ],
+    "difficulty": "hard",
+    "id": "cf528d71-22b8-4eb9-aff8-4e3ae02eadbd"
+  },
+  {
+    "word": "Güller Savaşı",
+    "forbidden": [
+      "İngiltere",
+      "Hanedan",
+      "Lancaster",
+      "York",
+      "Taht"
+    ],
+    "difficulty": "hard",
+    "id": "acd81810-63c2-4148-8f1b-0e5d25499e0d"
+  },
+  {
+    "word": "Aydınlanma Felsefesi",
+    "forbidden": [
+      "Akıl",
+      "Rasyonalizm",
+      "Eleştiri",
+      "Siyaset",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "2d663bb7-b4a6-4ddd-93ec-ec719ad9976f"
+  },
+  {
+    "word": "Voltaire",
+    "forbidden": [
+      "Aydınlanma",
+      "Fransa",
+      "Yazar",
+      "Felsefe",
+      "Eleştiri"
+    ],
+    "difficulty": "hard",
+    "id": "72f94a5e-258c-4954-b5ce-6d68b0a52009"
+  },
+  {
+    "word": "Rousseau",
+    "forbidden": [
+      "Aydınlanma",
+      "Toplum Sözleşmesi",
+      "Doğal Haklar",
+      "Eşitlik",
+      "Fransa"
+    ],
+    "difficulty": "hard",
+    "id": "de948316-7cd1-4cba-8d8c-93c9c98dc8d8"
+  },
+  {
+    "word": "Montesquieu",
+    "forbidden": [
+      "Aydınlanma",
+      "Kuvvetler Ayrılığı",
+      "Fransa",
+      "Kanunlar",
+      "Devlet"
+    ],
+    "difficulty": "hard",
+    "id": "b22dace2-0164-44bf-aad1-927be6482350"
+  },
+  {
+    "word": "Amerikan Devrimi",
+    "forbidden": [
+      "Bağımsızlık",
+      "Koloni",
+      "Vergi",
+      "İngiltere",
+      "George Washington"
+    ],
+    "difficulty": "hard",
+    "id": "ee9a2f91-26d0-42e8-acbb-83dd97069c80"
+  },
+  {
+    "word": "Fransız İhtilali",
+    "forbidden": [
+      "Bastille",
+      "Terör",
+      "Cumhuriyet",
+      "Kraliyet",
+      "Robespierre"
+    ],
+    "difficulty": "hard",
+    "id": "acf2ea84-e6fb-49f1-9b77-14f51095de86"
+  },
+  {
+    "word": "Viyana Kongresi",
+    "forbidden": [
+      "Napolyon",
+      "Avrupa",
+      "Sınırlar",
+      "Restorasyon",
+      "Metternich"
+    ],
+    "difficulty": "hard",
+    "id": "d2de54d4-b392-42f0-97ed-86cb71bc2c0b"
+  },
+  {
+    "word": "1848 Devrimleri",
+    "forbidden": [
+      "Avrupa",
+      "Milliyetçilik",
+      "Liberalizm",
+      "Sosyalizm",
+      "Ayaklanma"
+    ],
+    "difficulty": "hard",
+    "id": "dfd2b896-f6d3-46bf-b096-ebf625da8ac6"
+  },
+  {
+    "word": "Almanya'nın Birleşmesi",
+    "forbidden": [
+      "Otto von Bismarck",
+      "Prusya",
+      "Savaş",
+      "İmparatorluk",
+      "Milliyetçilik"
+    ],
+    "difficulty": "hard",
+    "id": "7c1e6333-752b-43fe-8be9-f447fbeeeb71"
+  },
+  {
+    "word": "İtalya'nın Birleşmesi",
+    "forbidden": [
+      "Garibaldi",
+      "Cavour",
+      "Milliyetçilik",
+      "Savaş",
+      "Krallık"
+    ],
+    "difficulty": "hard",
+    "id": "8fb0480b-a8bc-45f0-800d-97ab807f1dff"
+  },
+  {
+    "word": "Kırım Savaşı",
+    "forbidden": [
+      "Osmanlı",
+      "Rusya",
+      "İngiltere",
+      "Fransa",
+      "Karadeniz"
+    ],
+    "difficulty": "hard",
+    "id": "de333c14-8237-42c6-80c5-0f3b010104c7"
+  },
+  {
+    "word": "Paris Komünü",
+    "forbidden": [
+      "Fransa",
+      "İşçi",
+      "Ayaklanma",
+      "Sosyalizm",
+      "1871"
+    ],
+    "difficulty": "hard",
+    "id": "037fa428-3a00-41e0-b58d-f9e04950d63d"
+  },
+  {
+    "word": "Dreyfus Olayı",
+    "forbidden": [
+      "Fransa",
+      "Casusluk",
+      "Antisemitizm",
+      "Adalet",
+      "Ordu"
+    ],
+    "difficulty": "hard",
+    "id": "8c51888d-4947-488c-87ec-9ee372a99166"
+  },
+  {
+    "word": "Büyük Buhran",
+    "forbidden": [
+      "Ekonomi",
+      "Kriz",
+      "Amerika",
+      "İşsizlik",
+      "1929"
+    ],
+    "difficulty": "hard",
+    "id": "c92d58c0-b8da-4f57-ac2b-a4025a44dfc9"
+  },
+  {
+    "word": "New Deal",
+    "forbidden": [
+      "Amerika",
+      "Ekonomi",
+      "Roosevelt",
+      "Kriz",
+      "Program"
+    ],
+    "difficulty": "hard",
+    "id": "801e2876-c513-416c-a53b-a4d26c8a7d47"
+  },
+  {
+    "word": "II. Dünya Savaşı Cepheleri",
+    "forbidden": [
+      "Doğu",
+      "Batı",
+      "Pasifik",
+      "Afrika",
+      "Savaş"
+    ],
+    "difficulty": "hard",
+    "id": "485b9b0f-89e9-4caa-9289-ef34c95b8b25"
+  },
+  {
+    "word": "Hiroşima ve Nagasaki",
+    "forbidden": [
+      "Atom Bombası",
+      "Japonya",
+      "Savaş Sonu",
+      "Amerika",
+      "Ölüm"
+    ],
+    "difficulty": "hard",
+    "id": "4e777cac-5366-423a-aacb-74733d11ca40"
+  },
+  {
+    "word": "Marshall Planı",
+    "forbidden": [
+      "Amerika",
+      "Avrupa",
+      "Yardım",
+      "Savaş Sonrası",
+      "Ekonomi"
+    ],
+    "difficulty": "hard",
+    "id": "953dbb84-bf9f-4f16-b737-5580dfb6cba1"
+  },
+  {
+    "word": "NATO",
+    "forbidden": [
+      "Askeri",
+      "İttifak",
+      "Amerika",
+      "Sovyetler",
+      "Savaş"
+    ],
+    "difficulty": "hard",
+    "id": "2d8713f8-c32a-40a3-a9ab-a3c95e7b7bdc"
+  },
+  {
+    "word": "Varşova Paktı",
+    "forbidden": [
+      "Sovyetler",
+      "Doğu Bloku",
+      "Askeri",
+      "İttifak",
+      "Soğuk Savaş"
+    ],
+    "difficulty": "hard",
+    "id": "b6419c74-e46d-408f-9f20-8bd3655e6217"
+  },
+  {
+    "word": "Küba Füze Krizi",
+    "forbidden": [
+      "Füze",
+      "Küba",
+      "Amerika",
+      "Sovyetler",
+      "Nükleer"
+    ],
+    "difficulty": "hard",
+    "id": "46ee2421-1caa-443d-b41c-19d74d24571e"
+  },
+  {
+    "word": "Vietnam Savaşı",
+    "forbidden": [
+      "Amerika",
+      "Vietnam",
+      "Komünizm",
+      "Gerilla",
+      "Savaş"
+    ],
+    "difficulty": "hard",
+    "id": "9f68feef-b36f-49a8-8cab-b9110fea9ba9"
+  },
+  {
+    "word": "Prag Baharı",
+    "forbidden": [
+      "Çekoslovakya",
+      "Reform",
+      "Sovyetler",
+      "İşgal",
+      "Alexander Dubçek"
+    ],
+    "difficulty": "hard",
+    "id": "999d5b44-b27d-4d90-b20f-e2ad7f55a40e"
+  },
+  {
+    "word": "Kadife Devrim",
+    "forbidden": [
+      "Çekoslovakya",
+      "Barışçıl",
+      "Devrim",
+      "Komünizm",
+      "1989"
+    ],
+    "difficulty": "hard",
+    "id": "b0a90fa4-9bb0-43e8-aadd-d9c515bc0b12"
+  },
+  {
+    "word": "Glasnost ve Perestroyka",
+    "forbidden": [
+      "Gorbaçov",
+      "Sovyetler",
+      "Açıklık",
+      "Yeniden Yapılanma",
+      "Reform"
+    ],
+    "difficulty": "hard",
+    "id": "12ffdc0f-1fd3-4af8-8cc3-02bacec1103d"
+  },
+  {
+    "word": "Sovyetler Birliği'nin Dağılması",
+    "forbidden": [
+      "SSCB",
+      "Cumhuriyetler",
+      "Son",
+      "Soğuk Savaş",
+      "1991"
+    ],
+    "difficulty": "hard",
+    "id": "7bcd4d86-d63c-4069-8599-2a23af6c62d0"
+  },
+  {
+    "word": "9/11 Saldırıları",
+    "forbidden": [
+      "İkiz Kuleler",
+      "Terör",
+      "Amerika",
+      "El Kaide",
+      "Uçak"
+    ],
+    "difficulty": "hard",
+    "id": "466bf72a-0a7e-43d8-9383-3f7138a33693"
+  },
+  {
+    "word": "Arap Baharı",
+    "forbidden": [
+      "Ayaklanma",
+      "Orta Doğu",
+      "Demokrasi",
+      "Sosyal Medya",
+      "Diktatörlük"
+    ],
+    "difficulty": "hard",
+    "id": "be31bca7-a82b-493c-8482-5e23844fbb59"
+  },
+  {
+    "word": "Halifeliğin Kaldırılması",
+    "forbidden": [
+      "Osmanlı",
+      "Din",
+      "Türkiye",
+      "Cumhuriyet",
+      "1924"
+    ],
+    "difficulty": "hard",
+    "id": "29c6f220-51c2-46c4-87ae-f95340aeb443"
+  },
+  {
+    "word": "Şeyh Said İsyanı",
+    "forbidden": [
+      "Cumhuriyet",
+      "İsyan",
+      "Kürt",
+      "Dini",
+      "Doğu"
+    ],
+    "difficulty": "hard",
+    "id": "b69d78d0-b4f6-4f24-81d4-7fb6df0a1632"
+  },
+  {
+    "word": "Takrir-i Sükun Kanunu",
+    "forbidden": [
+      "Cumhuriyet",
+      "İsyan",
+      "Basın",
+      "Sansür",
+      "Hükümet"
+    ],
+    "difficulty": "hard",
+    "id": "9e5ccf28-7784-4eb0-b910-11f6d4a5a776"
+  },
+  {
+    "word": "Serbest Cumhuriyet Fırkası",
+    "forbidden": [
+      "Atatürk",
+      "Demokrasi",
+      "Fethi Okyar",
+      "Muhalefet",
+      "Ekonomi"
+    ],
+    "difficulty": "hard",
+    "id": "e70b66ee-0639-4181-8631-12ea5d15025d"
+  },
+  {
+    "word": "Cumhuriyet Halk Fırkası",
+    "forbidden": [
+      "Atatürk",
+      "Tek Parti",
+      "Devletçilik",
+      "Parti",
+      "Türkiye"
+    ],
+    "difficulty": "hard",
+    "id": "8c983ad9-996c-4ee4-b013-9c0484bc677d"
+  },
+  {
+    "word": "Demokrat Parti",
+    "forbidden": [
+      "Adnan Menderes",
+      "Çok Partili",
+      "Tarım",
+      "Amerika",
+      "Seçim"
+    ],
+    "difficulty": "hard",
+    "id": "7aa0dbad-a83a-4be1-9c23-dc27d60de5f0"
+  },
+  {
+    "word": "27 Mayıs Darbesi",
+    "forbidden": [
+      "Askeri",
+      "Hükümet",
+      "Darbe",
+      "İdam",
+      "1960"
+    ],
+    "difficulty": "hard",
+    "id": "5e2a9a29-7913-4bcf-8639-942bafaa8694"
+  },
+  {
+    "word": "12 Eylül Darbesi",
+    "forbidden": [
+      "Askeri",
+      "Kenan Evren",
+      "Darbe",
+      "İnsan Hakları",
+      "1980"
+    ],
+    "difficulty": "hard",
+    "id": "47e4a368-9fdb-419c-87b3-9fabf09378c1"
+  },
+  {
+    "word": "Postmodernizm",
+    "forbidden": [
+      "Büyük Anlatılar",
+      "Gerçeklik",
+      "Yorum",
+      "Çeşitlilik",
+      "Kimlik"
+    ],
+    "difficulty": "hard",
+    "id": "6e590ee5-e65a-4630-abc4-bcc35e1429db"
+  },
+  {
+    "word": "Annales Okulu",
+    "forbidden": [
+      "Fransız",
+      "Tarih Yazımı",
+      "Zihniyetler",
+      "Coğrafya",
+      "Uzun Süre"
+    ],
+    "difficulty": "hard",
+    "id": "7d04085f-d645-48d9-a658-dac4a19a6a89"
+  },
+  {
+    "word": "Mikro Tarih",
+    "forbidden": [
+      "Küçük Ölçek",
+      "Bireysel",
+      "Yerel",
+      "Detay",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "1a31f697-6a35-4493-b67d-26d757ef04ab"
+  },
+  {
+    "word": "Oral Tarih",
+    "forbidden": [
+      "Sözlü",
+      "Anlatı",
+      "Görüşme",
+      "Bellek",
+      "Geçmiş"
+    ],
+    "difficulty": "hard",
+    "id": "6b9c4396-0095-4974-8801-0c16d6260fd1"
+  },
+  {
+    "word": "Kuantitatif Tarih",
+    "forbidden": [
+      "Sayısal",
+      "Veri",
+      "İstatistik",
+      "Ekonomi",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "a0015e72-9c03-48f5-afdc-86c078ef9ec4"
+  },
+  {
+    "word": "Kültür Tarihi",
+    "forbidden": [
+      "Sanat",
+      "Yaşam Tarzı",
+      "Gelenek",
+      "Düşünce",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "ca305032-64e2-49be-8d49-04bd7b5096cf"
+  },
+  {
+    "word": "Sosyal Tarih",
+    "forbidden": [
+      "Sınıf",
+      "Gruplar",
+      "Toplum",
+      "Değişim",
+      "Hareketler"
+    ],
+    "difficulty": "hard",
+    "id": "e66fb74a-bd84-45b3-8bdb-fd01779cbd61"
+  },
+  {
+    "word": "Ekonomi Tarihi",
+    "forbidden": [
+      "Üretim",
+      "Ticaret",
+      "Para",
+      "Kriz",
+      "Sistem"
+    ],
+    "difficulty": "hard",
+    "id": "823d9a21-72d9-4128-b118-605271dd7561"
+  },
+  {
+    "word": "Siyasi Tarih",
+    "forbidden": [
+      "Devlet",
+      "Hükümet",
+      "İktidar",
+      "Diplomasi",
+      "Savaş"
+    ],
+    "difficulty": "hard",
+    "id": "f94ea3e8-a42c-4d33-85ee-afe1ad2954cc"
+  },
+  {
+    "word": "Milli Tarih",
+    "forbidden": [
+      "Ulus",
+      "Kimlik",
+      "Kahramanlık",
+      "Propaganda",
+      "Eğitim"
+    ],
+    "difficulty": "hard",
+    "id": "7be37216-0024-4e5a-958e-8f3554f2b120"
+  },
+  {
+    "word": "Resmi Tarih",
+    "forbidden": [
+      "Devlet",
+      "Anlatı",
+      "Eleştiri",
+      "Otorite",
+      "Doğruluk"
+    ],
+    "difficulty": "hard",
+    "id": "ff222c60-43b2-4baa-869f-bd3284925f2a"
+  },
+  {
+    "word": "Gayriresmi Tarih",
+    "forbidden": [
+      "Halk",
+      "Muhalif",
+      "Alternatif",
+      "Kaynak",
+      "Yorum"
+    ],
+    "difficulty": "hard",
+    "id": "b7188c86-7df6-45dc-bf4b-e388c32bc610"
+  },
+  {
+    "word": "Tarih Felsefesi",
+    "forbidden": [
+      "Anlam",
+      "Yorum",
+      "Amaç",
+      "İnsan",
+      "Geçmiş"
+    ],
+    "difficulty": "hard",
+    "id": "e137c1bc-2548-478a-9bba-0c817d358908"
+  },
+  {
+    "word": "Tarih Metodolojisi",
+    "forbidden": [
+      "Kaynak",
+      "Eleştiri",
+      "Sorgulama",
+      "Kanıt",
+      "Yöntem"
+    ],
+    "difficulty": "hard",
+    "id": "1711b7fe-f96f-478f-ad2c-b1a4fd46a1c6"
+  },
+  {
+    "word": "Tarih Bilinci",
+    "forbidden": [
+      "Geçmiş",
+      "Farkındalık",
+      "Öğrenmek",
+      "Kimlik",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "e6e3d06b-3a90-403e-a349-187f0454953e"
+  },
+  {
+    "word": "Tarih ve Bellek",
+    "forbidden": [
+      "Hatırlamak",
+      "Unutmak",
+      "Kolektif",
+      "Geçmiş",
+      "Anı"
+    ],
+    "difficulty": "hard",
+    "id": "13fe03b4-9025-4ede-8231-ddd790c55cc6"
+  },
+  {
+    "word": "Kimlik ve Tarih",
+    "forbidden": [
+      "Kültür",
+      "Millet",
+      "Birey",
+      "Geçmiş",
+      "Aidiyet"
+    ],
+    "difficulty": "hard",
+    "id": "ded07b16-5e68-4a26-84ce-a716e022f212"
+  },
+  {
+    "word": "Olayın Tarihçiliği",
+    "forbidden": [
+      "Büyük Olay",
+      "Nedensellik",
+      "Sonuç",
+      "Aktör",
+      "Yazım"
+    ],
+    "difficulty": "hard",
+    "id": "7c040924-9453-4c56-96f2-37041763f94f"
+  },
+  {
+    "word": "Yapısal Tarihçilik",
+    "forbidden": [
+      "Derin Yapı",
+      "Uzun Süre",
+      "Coğrafya",
+      "Ekonomi",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "e873b312-f9ff-475e-b6e5-dfb0f9d0bbee"
+  },
+  {
+    "word": "İnsan Merkezli Tarih",
+    "forbidden": [
+      "Birey",
+      "Deneyim",
+      "Duygu",
+      "Gündelik Hayat",
+      "Aktör"
+    ],
+    "difficulty": "hard",
+    "id": "07278794-f291-454d-93a3-b0c6b3533491"
+  },
+  {
+    "word": "Mikro Tarih Yaklaşımı",
+    "forbidden": [
+      "Küçük Ölçek",
+      "Bireysel",
+      "Detay",
+      "Gündelik",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "5ba88316-72ec-465a-b38b-7a7a4a48cffc"
+  },
+  {
+    "word": "Global Tarih",
+    "forbidden": [
+      "Dünya",
+      "Küresel",
+      "Bağlantı",
+      "Etkileşim",
+      "Olaylar"
+    ],
+    "difficulty": "hard",
+    "id": "46e87b5e-d45c-496f-bb06-fd335818d37c"
+  },
+  {
+    "word": "Karşılaştırmalı Tarih",
+    "forbidden": [
+      "Benzerlik",
+      "Farklılık",
+      "İki Toplum",
+      "Dönem",
+      "Analiz"
+    ],
+    "difficulty": "hard",
+    "id": "5c2732b3-e71f-4ed6-a17c-1c31b867a649"
+  },
+  {
+    "word": "Sözlü Tarih Yöntemi",
+    "forbidden": [
+      "Görüşme",
+      "Bellek",
+      "Deneyim",
+      "Geçmiş",
+      "Bireysel"
+    ],
+    "difficulty": "hard",
+    "id": "5caaa3ef-4108-42e6-8ffb-d40a80220350"
+  },
+  {
+    "word": "Savaşların Tarihçiliği",
+    "forbidden": [
+      "Çatışma",
+      "Neden Sonuç",
+      "Askeri",
+      "Politik",
+      "Toplumsal"
+    ],
+    "difficulty": "hard",
+    "id": "60ee9430-0c65-4891-a220-a09903234c2d"
+  },
+  {
+    "word": "Barış Tarihi",
+    "forbidden": [
+      "Anlaşma",
+      "Diplomasi",
+      "Savaşsız",
+      "Huzur",
+      "Uluslararası"
+    ],
+    "difficulty": "hard",
+    "id": "6fc38c88-c828-4467-a76d-2d414f141049"
+  },
+  {
+    "word": "Kadınlar Tarihi",
+    "forbidden": [
+      "Cinsiyet",
+      "Toplum",
+      "Rol",
+      "Mücadele",
+      "Görünmez"
+    ],
+    "difficulty": "hard",
+    "id": "9d4b3442-b462-4e85-a376-5ffd4c8ce47b"
+  },
+  {
+    "word": "Çocukluk Tarihi",
+    "forbidden": [
+      "Yaş",
+      "Toplum",
+      "Eğitim",
+      "Oyun",
+      "Aile"
+    ],
+    "difficulty": "hard",
+    "id": "8c68a8d3-c222-4702-af69-bda584997903"
+  },
+  {
+    "word": "Demiryolu Devrimi Tarihi",
+    "forbidden": [
+      "Ray",
+      "Buhar",
+      "Ulaşım",
+      "Sanayi",
+      "Hat"
+    ],
+    "difficulty": "hard",
+    "id": "43af2a9d-8084-4289-b4b0-9a189dadc63c"
+  },
+  {
+    "word": "Sömürgecilik Tarihi",
+    "forbidden": [
+      "İşgal",
+      "Sömürü",
+      "Güç",
+      "Avrupa",
+      "Asya"
+    ],
+    "difficulty": "hard",
+    "id": "7e463a35-ddcb-4a46-8ac9-90d57a03020a"
+  },
+  {
+    "word": "Postkolonyal Tarihçilik",
+    "forbidden": [
+      "Sömürge Sonrası",
+      "Kimlik",
+      "Direniş",
+      "Kültür",
+      "Eleştiri"
+    ],
+    "difficulty": "hard",
+    "id": "17036eb3-def7-4a1b-a5d9-3ee5c338232c"
+  },
+  {
+    "word": "Çevre Tarihi",
+    "forbidden": [
+      "Doğa",
+      "İnsan",
+      "Etkileşim",
+      "Kirlilik",
+      "Kaynak"
+    ],
+    "difficulty": "hard",
+    "id": "4fb97b84-ba36-4555-a25f-4af1fd9389ab"
+  },
+  {
+    "word": "Kent Tarihi",
+    "forbidden": [
+      "Şehir",
+      "Gelişim",
+      "Mimari",
+      "Sosyal",
+      "Nüfus"
+    ],
+    "difficulty": "hard",
+    "id": "987dd64f-7905-4deb-9dd9-1f9e19b65443"
+  },
+  {
+    "word": "Kırsal Tarih",
+    "forbidden": [
+      "Köy",
+      "Tarım",
+      "Toplum",
+      "Doğa",
+      "Yaşam"
+    ],
+    "difficulty": "hard",
+    "id": "7c78f6bc-5cc2-4efb-baf3-fc2d23648231"
+  },
+  {
+    "word": "Gündelik Hayat Tarihi",
+    "forbidden": [
+      "Sıradan",
+      "İnsan",
+      "Yaşam Tarzı",
+      "Detay",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "2cf39847-4580-40ac-850d-e4b32bb168ee"
+  },
+  {
+    "word": "Duygular Tarihi",
+    "forbidden": [
+      "İnsan",
+      "His",
+      "Toplum",
+      "Değişim",
+      "Kültür"
+    ],
+    "difficulty": "hard",
+    "id": "56385015-f18b-4550-9830-1afb659f28af"
+  },
+  {
+    "word": "Korku Tarihi",
+    "forbidden": [
+      "İnsan",
+      "Toplum",
+      "Korku",
+      "Tehlike",
+      "Kültür"
+    ],
+    "difficulty": "hard",
+    "id": "dec80703-e0da-4537-b510-1727f4bb6257"
+  },
+  {
+    "word": "Ölüm Tarihi",
+    "forbidden": [
+      "İnsan",
+      "Toplum",
+      "Miras",
+      "Adet",
+      "Din"
+    ],
+    "difficulty": "hard",
+    "id": "cd56424d-43d7-453f-8d9f-022bae2dade9"
+  },
+  {
+    "word": "Hastalıklı Toplumlar",
+    "forbidden": [
+      "Salgın",
+      "Tıp",
+      "Korku",
+      "Tarih",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "01bcbb87-7d39-4e71-8b9f-b9d86327eddc"
+  },
+  {
+    "word": "Tarihsel Demografi",
+    "forbidden": [
+      "Nüfus",
+      "Doğum",
+      "Ölüm",
+      "Göç",
+      "Toplum"
+    ],
+    "difficulty": "hard",
+    "id": "b02785d3-db92-42d6-a20f-cec019537435"
+  },
+  {
+    "word": "Tarihsel Coğrafya",
+    "forbidden": [
+      "Mekan",
+      "Harita",
+      "Sınır",
+      "Değişim",
+      "Etki"
+    ],
+    "difficulty": "hard",
+    "id": "1f7a23a3-ada0-42d9-89e6-63c0e512fdf1"
+  },
+  {
+    "word": "Paleontoloji",
+    "forbidden": [
+      "Fosiller",
+      "Hayvan",
+      "Bitki",
+      "Eski",
+      "Kazı"
+    ],
+    "difficulty": "hard",
+    "id": "ef1faa17-ae7e-4ccf-9a9a-52d77b631846"
+  },
+  {
+    "word": "Postmodern Tarih Yazımı",
+    "forbidden": [
+      "Büyük Anlatı",
+      "Gerçeklik",
+      "Yorum",
+      "Metin",
+      "Yapısalcılık"
+    ],
+    "difficulty": "expert",
+    "id": "c45636a1-1cd6-478d-9d88-5db4cf5afe5f"
+  },
+  {
+    "word": "Subaltern Çalışmalar",
+    "forbidden": [
+      "Alt Sınıf",
+      "Güç",
+      "Sömürge",
+      "Tarih",
+      "Ses"
+    ],
+    "difficulty": "expert",
+    "id": "379fc740-0623-447d-8489-afc2fb9d7c39"
+  },
+  {
+    "word": "Kuantitatif Tarihçilik",
+    "forbidden": [
+      "Veri",
+      "Sayısal",
+      "İstatistik",
+      "Ekonomi",
+      "Analiz"
+    ],
+    "difficulty": "expert",
+    "id": "26f9bb67-a4a4-4c9b-acb1-2a8e143ee94d"
+  },
+  {
+    "word": "Historiografi",
+    "forbidden": [
+      "Tarih Yazımı",
+      "Yöntem",
+      "Kaynak",
+      "Eleştiri",
+      "Yaklaşım"
+    ],
+    "difficulty": "expert",
+    "id": "803a6250-bb74-4d26-9dd1-9416d01c2706"
+  },
+  {
+    "word": "Oryantalizm",
+    "forbidden": [
+      "Doğu",
+      "Batı",
+      "Temsil",
+      "Güç",
+      "Sömürgecilik"
+    ],
+    "difficulty": "expert",
+    "id": "f360cc6e-f7fc-4523-9b01-bafc30f6632c"
+  },
+  {
+    "word": "Kültürel Hegemonya",
+    "forbidden": [
+      "İktidar",
+      "Kültür",
+      "Rıza",
+      "Sınıf",
+      "İdeoloji"
+    ],
+    "difficulty": "expert",
+    "id": "59bdc834-e059-42b1-a813-4693ba94d393"
+  },
+  {
+    "word": "Arşiv Belgeleri Analizi",
+    "forbidden": [
+      "Kaynak",
+      "Birincil",
+      "Belge",
+      "Doğruluk",
+      "Yorum"
+    ],
+    "difficulty": "expert",
+    "id": "60594ccf-c2ad-4564-aa81-554cd02176c4"
+  },
+  {
+    "word": "Paleografi",
+    "forbidden": [
+      "El Yazması",
+      "Eski",
+      "Metin",
+      "Okuma",
+      "Harf"
+    ],
+    "difficulty": "expert",
+    "id": "120ba337-0288-4346-913b-a92a259f228f"
+  },
+  {
+    "word": "Nümizmatik",
+    "forbidden": [
+      "Antik Para",
+      "Sikke",
+      "Ekonomi",
+      "Tarih",
+      "Maden"
+    ],
+    "difficulty": "expert",
+    "id": "62e036af-4e27-4533-b22f-de01541e7cd7"
+  },
+  {
+    "word": "Epigrafi",
+    "forbidden": [
+      "Yazıt",
+      "Taş",
+      "Kitabe",
+      "Eski",
+      "Okuma"
+    ],
+    "difficulty": "expert",
+    "id": "de95827d-3dfd-40a1-b73c-21fba312a0ec"
+  },
+  {
+    "word": "Filoloji",
+    "forbidden": [
+      "Dil",
+      "Metin",
+      "Kaynak",
+      "Anlam",
+      "Değişim"
+    ],
+    "difficulty": "expert",
+    "id": "a15fdff6-1c9c-4e74-93b7-107f40b99273"
+  },
+  {
+    "word": "Diplomatik",
+    "forbidden": [
+      "Belge",
+      "Resmi",
+      "Anlaşma",
+      "Mektup",
+      "Kurum"
+    ],
+    "difficulty": "expert",
+    "id": "f732ede1-92ad-4e64-8864-7d0d847fc7e3"
+  },
+  {
+    "word": "Kritik Kaynak İncelemesi",
+    "forbidden": [
+      "Birincil",
+      "İkincil",
+      "Doğruluk",
+      "Taraflı",
+      "Yorum"
+    ],
+    "difficulty": "expert",
+    "id": "28d3fa45-84ba-4a52-8bd7-1cf6c457fbae"
+  },
+  {
+    "word": "Anlamlandırma",
+    "forbidden": [
+      "Yorum",
+      "Gerçeklik",
+      "Objektiflik",
+      "Subjektiflik",
+      "Tarihçi"
+    ],
+    "difficulty": "expert",
+    "id": "647791ae-0ba2-462f-86f8-1a4d4b1ae22a"
+  },
+  {
+    "word": "Tarihsel Empati",
+    "forbidden": [
+      "Geçmiş",
+      "İnsan",
+      "Duygu",
+      "Anlama",
+      "Deneyim"
+    ],
+    "difficulty": "expert",
+    "id": "b76f0644-ea6e-46af-889f-c0686ac1b328"
+  },
+  {
+    "word": "Tarihsel Bilinç",
+    "forbidden": [
+      "Geçmiş",
+      "Farkındalık",
+      "Kimlik",
+      "Öğrenme",
+      "Eleştirel"
+    ],
+    "difficulty": "expert",
+    "id": "3d07b510-d30b-4bd3-8eab-827bd921a384"
+  },
+  {
+    "word": "Geçmişin İnşası",
+    "forbidden": [
+      "Tarihçi",
+      "Anlatı",
+      "Kaynak",
+      "Yorum",
+      "Gerçeklik"
+    ],
+    "difficulty": "expert",
+    "id": "8d22ac3e-303b-42f7-996d-412f6364fb7f"
+  },
+  {
+    "word": "Tarih Felsefesi",
+    "forbidden": [
+      "Anlam",
+      "Amaç",
+      "İlerleme",
+      "Döngü",
+      "İnsan"
+    ],
+    "difficulty": "expert",
+    "id": "51d833fb-2633-44e5-acf2-0910123abf0f"
+  },
+  {
+    "word": "Post-Yapısalcı Tarih",
+    "forbidden": [
+      "Metin",
+      "Dil",
+      "Anlam",
+      "Olay",
+      "Yorum"
+    ],
+    "difficulty": "expert",
+    "id": "c68cfdd6-f9d0-4222-8f6b-ccc81f553283"
+  },
+  {
+    "word": "Toplumsal Cinsiyet Tarihi",
+    "forbidden": [
+      "Kadın",
+      "Erkek",
+      "Rol",
+      "Kimlik",
+      "Güç"
+    ],
+    "difficulty": "expert",
+    "id": "7fcb5047-38b2-4a5b-b366-d5704a48a516"
+  },
+  {
+    "word": "Feodalizmin Evrimi Tarihi",
+    "forbidden": [
+      "Derebeylik",
+      "Toprak",
+      "Vassal",
+      "Orta Çağ",
+      "Şövalye"
+    ],
+    "difficulty": "expert",
+    "id": "93bdad91-3fa8-4412-9eb4-498d4cf6c19a"
+  },
+  {
+    "word": "Postkolonyalizm",
+    "forbidden": [
+      "Sömürge Sonrası",
+      "Kimlik",
+      "Direniş",
+      "Söylem",
+      "Eleştiri"
+    ],
+    "difficulty": "expert",
+    "id": "9ae3ae68-522a-4f06-acf2-ad723ac5d09d"
+  },
+  {
+    "word": "Global Tarih",
+    "forbidden": [
+      "Küresel",
+      "Bağlantı",
+      "Etkileşim",
+      "Olay",
+      "Sistem"
+    ],
+    "difficulty": "expert",
+    "id": "5282a0db-3d1a-4f1d-8081-cd3d0176970b"
+  },
+  {
+    "word": "Karşılaştırmalı Tarih",
+    "forbidden": [
+      "Benzerlik",
+      "Farklılık",
+      "Analiz",
+      "Model",
+      "Çoklu"
+    ],
+    "difficulty": "expert",
+    "id": "ee893de2-9ebd-4109-b90b-3e88f63788b8"
+  },
+  {
+    "word": "Sözlü Tarih",
+    "forbidden": [
+      "Görüşme",
+      "Bellek",
+      "Tanıklık",
+      "Subjektif",
+      "Kayıt"
+    ],
+    "difficulty": "expert",
+    "id": "b0139c3b-0cc5-4406-88b4-04cd83e2820d"
+  },
+  {
+    "word": "Tarihsel Antropoloji",
+    "forbidden": [
+      "Kültür",
+      "Toplum",
+      "Ritüel",
+      "Yaşam Tarzı",
+      "Geçmiş"
+    ],
+    "difficulty": "expert",
+    "id": "345760c1-7032-4be3-8f5e-b17f60e773db"
+  },
+  {
+    "word": "Maddi Kültür Tarihi",
+    "forbidden": [
+      "Eşya",
+      "Günlük Hayat",
+      "Üretim",
+      "Tüketim",
+      "Tarih"
+    ],
+    "difficulty": "expert",
+    "id": "8d3d3cce-d5f8-4a5b-8ba0-dc1a91d30fe0"
+  },
+  {
+    "word": "Duygular Tarihi",
+    "forbidden": [
+      "His",
+      "Toplum",
+      "Değişim",
+      "İnsan",
+      "Kültür"
+    ],
+    "difficulty": "expert",
+    "id": "1f304886-628b-426e-bba6-63c3430dcd77"
+  },
+  {
+    "word": "Mentaliteler Tarihi",
+    "forbidden": [
+      "Zihniyet",
+      "Kollektif",
+      "İnanç",
+      "Düşünce",
+      "Orta Çağ"
+    ],
+    "difficulty": "expert",
+    "id": "83e60641-6bb1-4f02-89aa-a4c612a949d6"
+  },
+  {
+    "word": "Mirasın Politikası",
+    "forbidden": [
+      "Geçmiş",
+      "Kullanım",
+      "İktidar",
+      "Kimlik",
+      "Çatışma"
+    ],
+    "difficulty": "expert",
+    "id": "a8fae529-4c89-451a-89d6-fd4fab4ae7ba"
+  },
+  {
+    "word": "Tarih ve Bellek Çalışmaları",
+    "forbidden": [
+      "Hafıza",
+      "Kollektif",
+      "Travma",
+      "Geçmiş",
+      "İnşa"
+    ],
+    "difficulty": "expert",
+    "id": "70de4bac-e641-4752-b7b0-2e34779b8af2"
+  },
+  {
+    "word": "Arkeogenetik",
+    "forbidden": [
+      "Genetik",
+      "DNA",
+      "Antik İnsan",
+      "Göç",
+      "Köken"
+    ],
+    "difficulty": "expert",
+    "id": "a1adcb7d-4762-43b4-87ad-1e578018d800"
+  },
+  {
+    "word": "Dendrokronoloji",
+    "forbidden": [
+      "Ağaç Halkası",
+      "Yaş Belirleme",
+      "İklim",
+      "Tarih",
+      "Odun"
+    ],
+    "difficulty": "expert",
+    "id": "ac69bfb4-aac3-4d16-9eaf-2ad5f743c3e2"
+  },
+  {
+    "word": "Karbon 14 Metodu",
+    "forbidden": [
+      "Radyoaktif",
+      "Tarihleme",
+      "Organik",
+      "Yaş",
+      "Arkeoloji"
+    ],
+    "difficulty": "expert",
+    "id": "4ffea9bd-6264-47a4-889d-7c61ecd63941"
+  },
+  {
+    "word": "Termolüminesans",
+    "forbidden": [
+      "Seramik",
+      "Kil",
+      "Tarihleme",
+      "Isı",
+      "Işık"
+    ],
+    "difficulty": "expert",
+    "id": "c8f470d9-053f-4f49-8315-2079e8c9fd98"
+  },
+  {
+    "word": "Arkeometallurji",
+    "forbidden": [
+      "Metal",
+      "Antik",
+      "Üretim",
+      "Teknoloji",
+      "Maden"
+    ],
+    "difficulty": "expert",
+    "id": "7ee145a7-b595-490f-ac72-b1e4f669aeda"
+  },
+  {
+    "word": "Arkeobotanik",
+    "forbidden": [
+      "Bitki",
+      "Antik",
+      "Tarım",
+      "Beslenme",
+      "İnsan"
+    ],
+    "difficulty": "expert",
+    "id": "3d69c3bf-73ab-4fc5-a824-fa9632fb7ce8"
+  },
+  {
+    "word": "Arkeozooloji",
+    "forbidden": [
+      "Hayvan",
+      "Kemik",
+      "Avcılık",
+      "Beslenme",
+      "Antik"
+    ],
+    "difficulty": "expert",
+    "id": "6855c99a-0f52-4e8e-a90c-bae8b4169938"
+  },
+  {
+    "word": "Paleopatoloji",
+    "forbidden": [
+      "Hastalık",
+      "Eski",
+      "İnsan",
+      "Kemik",
+      "Tıp"
+    ],
+    "difficulty": "expert",
+    "id": "f4f1eaf5-8c6d-48ee-bdd1-a15e86d54798"
+  },
+  {
+    "word": "Jeoarkeoloji",
+    "forbidden": [
+      "Toprak",
+      "Mekan",
+      "Çevre",
+      "Antik",
+      "Yerleşim"
+    ],
+    "difficulty": "expert",
+    "id": "f7bdcb04-96e5-4a4c-9458-53fc08d70314"
+  },
+  {
+    "word": "Sualtı Arkeolojisi",
+    "forbidden": [
+      "Gemi Batığı",
+      "Deniz Altı",
+      "Kazı",
+      "Antik",
+      "Objeler"
+    ],
+    "difficulty": "expert",
+    "id": "6764a7af-ebd7-4a95-afb0-9eed1c57da9f"
+  },
+  {
+    "word": "Tarihi Coğrafya",
+    "forbidden": [
+      "Mekan",
+      "Harita",
+      "Sınır",
+      "Değişim",
+      "Etki"
+    ],
+    "difficulty": "expert",
+    "id": "2dd368e0-1b4d-4ba0-a9bb-9653c5610136"
+  },
+  {
+    "word": "Kartoğrafya Tarihi",
+    "forbidden": [
+      "Harita",
+      "Çizim",
+      "Coğrafya",
+      "Keşif",
+      "Bilgi"
+    ],
+    "difficulty": "expert",
+    "id": "83f60784-6d88-40a3-840f-c3590935ca24"
+  },
+  {
+    "word": "Astronomi Tarihi",
+    "forbidden": [
+      "Yıldız",
+      "Gezegen",
+      "Gözlem",
+      "Bilim",
+      "Antik"
+    ],
+    "difficulty": "expert",
+    "id": "aea6e144-e7f6-459c-a543-8f8ed9daef9a"
+  },
+  {
+    "word": "Tıp Tarihi",
+    "forbidden": [
+      "Hastalık",
+      "Tedavi",
+      "Doktor",
+      "Bilim",
+      "İnsan"
+    ],
+    "difficulty": "expert",
+    "id": "0d1c6d74-b2f5-4c9f-b22f-cf571eae7260"
+  },
+  {
+    "word": "Bilim Tarihi",
+    "forbidden": [
+      "Keşif",
+      "İcat",
+      "Düşünce",
+      "Bilim Adamı",
+      "Gelişim"
+    ],
+    "difficulty": "expert",
+    "id": "5148ad87-32cf-4cd8-9dc7-46a20da1aa73"
+  },
+  {
+    "word": "Teknoloji Tarihi",
+    "forbidden": [
+      "Alet",
+      "Makine",
+      "İcat",
+      "Sanayi",
+      "Gelişim"
+    ],
+    "difficulty": "expert",
+    "id": "fbe304e3-6252-42b8-9d2a-ab6919a1ae8b"
+  },
+  {
+    "word": "Hukuk Tarihi",
+    "forbidden": [
+      "Kanun",
+      "Adalet",
+      "Mahkeme",
+      "Devlet",
+      "Toplum"
+    ],
+    "difficulty": "expert",
+    "id": "540a2cd7-8210-434f-b007-ae0b796efcb9"
+  },
+  {
+    "word": "İktisat Tarihi",
+    "forbidden": [
+      "Ekonomi",
+      "Ticaret",
+      "Para",
+      "Üretim",
+      "Sistem"
+    ],
+    "difficulty": "expert",
+    "id": "2e736fd5-1254-4f25-9eb9-c8a2ad7dad47"
+  },
+  {
+    "word": "Felsefe Tarihi",
+    "forbidden": [
+      "Düşünce",
+      "Antik",
+      "Modern",
+      "Fikir",
+      "Akım"
+    ],
+    "difficulty": "expert",
+    "id": "c32a9775-12f7-4700-b4a2-a72cd2ffe57b"
+  },
+  {
+    "word": "Sanat Tarihi",
+    "forbidden": [
+      "Resim",
+      "Heykel",
+      "Akım",
+      "Dönem",
+      "Estetik"
+    ],
+    "difficulty": "expert",
+    "id": "5011856f-2a89-4c8f-b7f3-430c19b63c6c"
+  },
+  {
+    "word": "Edebiyat Tarihi",
+    "forbidden": [
+      "Yazar",
+      "Şiir",
+      "Roman",
+      "Akım",
+      "Dönem"
+    ],
+    "difficulty": "expert",
+    "id": "f9878349-180d-4faa-997d-39ca399890a0"
+  },
+  {
+    "word": "Dinler Tarihi",
+    "forbidden": [
+      "İnanç",
+      "Tanrı",
+      "Ritüel",
+      "Peygamber",
+      "Kutsal"
+    ],
+    "difficulty": "expert",
+    "id": "8494afeb-0bde-47ff-8e20-5615b32557f1"
+  },
+  {
+    "word": "Müzik Tarihi",
+    "forbidden": [
+      "Beste",
+      "Enstrüman",
+      "Akım",
+      "Dönem",
+      "Sanat"
+    ],
+    "difficulty": "expert",
+    "id": "e3935ac0-8d9e-42dd-bb82-d5ddede2ee17"
+  },
+  {
+    "word": "Tiyatro Tarihi",
+    "forbidden": [
+      "Sahne",
+      "Oyun",
+      "Aktör",
+      "Dönem",
+      "Antik"
+    ],
+    "difficulty": "expert",
+    "id": "8eceabc3-e30a-4037-bff8-bc3f39809152"
+  },
+  {
+    "word": "Mimarlık Tarihi",
+    "forbidden": [
+      "Bina",
+      "Yapı",
+      "Stil",
+      "Dönem",
+      "Tasarım"
+    ],
+    "difficulty": "expert",
+    "id": "da390281-ba09-4859-b671-f22c79167793"
+  },
+  {
+    "word": "Ulaşım Tarihi",
+    "forbidden": [
+      "Araba",
+      "Tren",
+      "Gemi",
+      "Uçak",
+      "Yolculuk"
+    ],
+    "difficulty": "expert",
+    "id": "0bd192ec-80ab-414e-a8be-22f54dcfbf1a"
+  },
+  {
+    "word": "İletişim Tarihi",
+    "forbidden": [
+      "Telgraf",
+      "Telefon",
+      "Radyo",
+      "Televizyon",
+      "İnternet"
+    ],
+    "difficulty": "expert",
+    "id": "fd76ea6b-650c-4d99-8584-cfc9ff81e0c0"
+  },
+  {
+    "word": "Savaş Teknolojileri Tarihi",
+    "forbidden": [
+      "Silah",
+      "Barut",
+      "Top",
+      "Uçak",
+      "Atom Bombası"
+    ],
+    "difficulty": "expert",
+    "id": "7deab649-18fe-49e7-969f-40e4b34bc57b"
+  },
+  {
+    "word": "Sanayi Devrimi'nin Sosyal Etkileri",
+    "forbidden": [
+      "İşçi Sınıfı",
+      "Şehirleşme",
+      "Kadın Emek",
+      "Çocuk İşçi",
+      "Toplumsal Değişim"
+    ],
+    "difficulty": "expert",
+    "id": "a1366110-24f3-4d7f-9dc7-35e170ae59d9"
+  },
+  {
+    "word": "Kapitalizm Tarihi",
+    "forbidden": [
+      "Ekonomi",
+      "Sistem",
+      "Para",
+      "Pazar",
+      "Üretim"
+    ],
+    "difficulty": "expert",
+    "id": "7b5097f5-8e81-45e8-af9d-7a7961a19d06"
+  },
+  {
+    "word": "Sosyalizm Tarihi",
+    "forbidden": [
+      "Marks",
+      "İşçi",
+      "Devrim",
+      "Eşitlik",
+      "Sınıf"
+    ],
+    "difficulty": "expert",
+    "id": "0b4f6934-d521-45f6-9d15-9f073953538f"
+  },
+  {
+    "word": "Komünizm Tarihi",
+    "forbidden": [
+      "Sovyetler",
+      "İdeoloji",
+      "Devrim",
+      "Rusya",
+      "Marksizm"
+    ],
+    "difficulty": "expert",
+    "id": "bfb81c59-7ab2-417d-a0df-e7829eaf3d46"
+  },
+  {
+    "word": "Faşizm Tarihi",
+    "forbidden": [
+      "Mussolini",
+      "İtalya",
+      "Diktatörlük",
+      "Milliyetçilik",
+      "Siyaset"
+    ],
+    "difficulty": "expert",
+    "id": "7b327b5e-5912-4334-8319-69b349c093fb"
+  },
+  {
+    "word": "Nazizm Tarihi",
+    "forbidden": [
+      "Hitler",
+      "Almanya",
+      "Holokost",
+      "Irkçılık",
+      "II. Dünya Savaşı"
+    ],
+    "difficulty": "expert",
+    "id": "982462db-cfb7-485d-8373-327620f2b9bd"
+  },
+  {
+    "word": "Sömürgecilik Sonrası Dönem",
+    "forbidden": [
+      "Bağımsızlık",
+      "Yeni Devletler",
+      "Kimlik",
+      "Milliyetçilik",
+      "Küreselleşme"
+    ],
+    "difficulty": "expert",
+    "id": "e9d3b932-e6d4-43e8-a10d-b0f0efee82ea"
+  },
+  {
+    "word": "Küreselleşme Tarihi",
+    "forbidden": [
+      "Ticaret",
+      "İletişim",
+      "Teknoloji",
+      "Sınır",
+      "Dünya"
+    ],
+    "difficulty": "expert",
+    "id": "aef3c1ca-e84d-47c5-a5a7-6d21762dcf50"
+  },
+  {
+    "word": "Dijital Çağ Tarihi",
+    "forbidden": [
+      "İnternet",
+      "Bilgisayar",
+      "Teknoloji",
+      "Veri",
+      "Bilgi"
+    ],
+    "difficulty": "expert",
+    "id": "fc8bc79b-d503-47c8-a4d8-951047eace14"
+  },
+  {
+    "word": "Post-Truth Çağı",
+    "forbidden": [
+      "Gerçek Ötesi",
+      "Hakikat",
+      "Yorum",
+      "Manipülasyon",
+      "Siyaset"
+    ],
+    "difficulty": "expert",
+    "id": "33fc3569-2cbc-4c59-8db2-55112137317d"
+  },
+  {
+    "word": "Tarihsel Revizyonizm",
+    "forbidden": [
+      "Geçmiş",
+      "Yeniden Yazma",
+      "Doğruluk",
+      "İdeoloji",
+      "Çarpıtma"
+    ],
+    "difficulty": "expert",
+    "id": "db2a3d8f-30e1-489d-a888-08da0feb8b7a"
+  },
+  {
+    "word": "Kültürel Bellek Çalışmaları",
+    "forbidden": [
+      "Hafıza",
+      "Kollektif",
+      "Geçmiş",
+      "Anı",
+      "Kimlik"
+    ],
+    "difficulty": "expert",
+    "id": "44153e98-3b73-4a7d-84c3-0a93abdc6483"
+  },
+  {
+    "word": "Travma ve Tarih",
+    "forbidden": [
+      "Savaş",
+      "Acı",
+      "Unutmak",
+      "Hatırlamak",
+      "İnsan"
+    ],
+    "difficulty": "expert",
+    "id": "68f9741f-70ec-4422-aec4-9f2b71eaac00"
+  },
+  {
+    "word": "Tarihsel Kimlik İnşası",
+    "forbidden": [
+      "Millet",
+      "Geçmiş",
+      "Anlatı",
+      "Devlet",
+      "Eğitim"
+    ],
+    "difficulty": "expert",
+    "id": "cc522518-ccb8-407e-8cc9-2cd0d7cc63c1"
+  },
+  {
+    "word": "Sözlü Tarih ve Toplumsal Bellek",
+    "forbidden": [
+      "Görüşme",
+      "Tanıklık",
+      "Geçmiş",
+      "Kollektif",
+      "Hikaye"
+    ],
+    "difficulty": "expert",
+    "id": "c204d21a-cd83-43da-a758-02cf48092527"
+  },
+  {
+    "word": "Dijital Beşeri Bilimler",
+    "forbidden": [
+      "Veri",
+      "Bilgisayar",
+      "Analiz",
+      "Kaynak",
+      "Araştırma"
+    ],
+    "difficulty": "expert",
+    "id": "e3594569-5317-4eb4-a2de-5ce100bfcae2"
+  },
+  {
+    "word": "Açık Kaynak Tarihçiliği",
+    "forbidden": [
+      "Veri",
+      "Paylaşım",
+      "Kullanıcı",
+      "Katılım",
+      "Bilgi"
+    ],
+    "difficulty": "expert",
+    "id": "e289b5c8-f475-411a-965c-c6d58087fa91"
+  },
+  {
+    "word": "Crowdsourcing Tarih",
+    "forbidden": [
+      "Halk",
+      "Katılım",
+      "Proje",
+      "Veri",
+      "Toplama"
+    ],
+    "difficulty": "expert",
+    "id": "e2b7ae0d-c8b4-41ad-b2cf-f1ff2710efe5"
+  },
+  {
+    "word": "Tarihsel Simülasyonlar",
+    "forbidden": [
+      "Oyun",
+      "Model",
+      "Geçmiş",
+      "Deneyim",
+      "Öğrenme"
+    ],
+    "difficulty": "expert",
+    "id": "52db2356-595d-4fe1-b26c-10a545ea91c7"
+  },
+  {
+    "word": "Sanal Gerçeklik Tarih Deneyimi",
+    "forbidden": [
+      "VR",
+      "Müze",
+      "Canlandırma",
+      "Geçmiş",
+      "Etkileşim"
+    ],
+    "difficulty": "expert",
+    "id": "fdc4963f-3087-47ec-92bd-037bcabd20ad"
+  },
+  {
+    "word": "Oyunlaştırma Tarih",
+    "forbidden": [
+      "Eğitim",
+      "Öğrenme",
+      "Etkileşim",
+      "Puan",
+      "Yarışma"
+    ],
+    "difficulty": "expert",
+    "id": "5e3f491c-550b-45d8-b9db-a796c902c5b1"
+  },
+  {
+    "word": "Nörotarih",
+    "forbidden": [
+      "Beyin",
+      "Geçmiş",
+      "Bellek",
+      "Bilişsel",
+      "Anlama"
+    ],
+    "difficulty": "expert",
+    "id": "5baa525c-e690-4407-81d9-9409aa6f5e2a"
+  },
+  {
+    "word": "Antik Çağ'da Bilim ve Teknoloji",
+    "forbidden": [
+      "Yunan",
+      "Mısır",
+      "Roma",
+      "İcat",
+      "Buluş"
+    ],
+    "difficulty": "expert",
+    "id": "c66ddc3a-3c0f-4e97-b49d-9c9dfa19d32f"
+  },
+  {
+    "word": "Orta Çağ İslam Bilimi",
+    "forbidden": [
+      "Altın Çağ",
+      "Buluş",
+      "Tıp",
+      "Astronomi",
+      "Matematik"
+    ],
+    "difficulty": "expert",
+    "id": "fbb9170a-966b-4ceb-ac2f-a5aad7ffe855"
+  },
+  {
+    "word": "Rönesans'ta Bilim ve Sanat",
+    "forbidden": [
+      "Leonardo",
+      "Galileo",
+      "İtalya",
+      "Keşif",
+      "İnsan"
+    ],
+    "difficulty": "expert",
+    "id": "05d0f03e-f350-4edc-b45f-0207d1df95bf"
+  },
+  {
+    "word": "Bilimsel Devrim",
+    "forbidden": [
+      "Kopernik",
+      "Newton",
+      "Evren",
+      "Bilim",
+      "Değişim"
+    ],
+    "difficulty": "expert",
+    "id": "9f392d20-2818-4535-b837-3c993226ff06"
+  },
+  {
+    "word": "İkinci Sanayi Devrimi",
+    "forbidden": [
+      "Elektrik",
+      "Petrol",
+      "Kimya",
+      "Çelik",
+      "Ford"
+    ],
+    "difficulty": "expert",
+    "id": "d15b07a2-6f8d-43ca-a150-3217ca45d5c0"
+  },
+  {
+    "word": "Üçüncü Sanayi Devrimi",
+    "forbidden": [
+      "Bilgisayar",
+      "İnternet",
+      "Dijital",
+      "Teknoloji",
+      "Bilgi"
+    ],
+    "difficulty": "expert",
+    "id": "4168f685-0024-4970-b97f-e40121553ebe"
+  },
+  {
+    "word": "Post-Endüstriyel Toplum",
+    "forbidden": [
+      "Bilgi",
+      "Hizmet",
+      "Teknoloji",
+      "Değişim",
+      "Sanayi"
+    ],
+    "difficulty": "expert",
+    "id": "5e6f1719-d410-43ce-8199-19261a7c0fc1"
+  },
+  {
+    "word": "Uzay Çağı",
+    "forbidden": [
+      "Ay",
+      "Yarış",
+      "Uydular",
+      "Amerika",
+      "Sovyetler"
+    ],
+    "difficulty": "expert",
+    "id": "478ad298-c502-4ef2-b93c-2a0a21eda89c"
+  },
+  {
+    "word": "Nükleer Çağ",
+    "forbidden": [
+      "Atom Bombası",
+      "Soğuk Savaş",
+      "Savaş",
+      "Enerji",
+      "Teknoloji"
+    ],
+    "difficulty": "expert",
+    "id": "4bfae2c6-f28a-41f7-b5af-d37c10d71ffc"
+  },
+  {
+    "word": "Biyoteknoloji Tarihi",
+    "forbidden": [
+      "Gen",
+      "DNA",
+      "Tıp",
+      "Bilim",
+      "Mühendislik"
+    ],
+    "difficulty": "expert",
+    "id": "2449a676-7777-46e5-803f-584c8a00b101"
+  },
+  {
+    "word": "Yapay Zeka Tarihi",
+    "forbidden": [
+      "Bilgisayar",
+      "Zeka",
+      "Algoritma",
+      "Yazılım",
+      "Gelişim"
+    ],
+    "difficulty": "expert",
+    "id": "2036086f-ae9f-4e3f-96fe-15240ef7975c"
+  },
+  {
+    "word": "Büyük Veri Tarihi",
+    "forbidden": [
+      "İnternet",
+      "Bilgisayar",
+      "Veri",
+      "Depolama",
+      "Analiz"
+    ],
+    "difficulty": "expert",
+    "id": "a724e976-3006-4f7d-ab91-d7e5de47e6ca"
+  },
+  {
+    "word": "Siber Savaş Tarihi",
+    "forbidden": [
+      "Hack",
+      "İnternet",
+      "Devlet",
+      "Casusluk",
+      "Savaş"
+    ],
+    "difficulty": "expert",
+    "id": "cb424a8c-5767-4454-a0c8-39bcaf167e50"
+  },
+  {
+    "word": "Dezenformasyon Tarihi",
+    "forbidden": [
+      "Yanlış Bilgi",
+      "Propaganda",
+      "Medya",
+      "Savaş",
+      "Siyaset"
+    ],
+    "difficulty": "expert",
+    "id": "c249940e-6c65-481f-a878-ccf654bec8dc"
+  },
+  {
+    "word": "Post-Truth ve Tarih",
+    "forbidden": [
+      "Gerçek",
+      "Yalan",
+      "Siyaset",
+      "Medya",
+      "Kamuoyu"
+    ],
+    "difficulty": "expert",
+    "id": "f995c499-b84e-40f7-9671-603f93181996"
+  },
+  {
+    "word": "Siyasal Propaganda Tarihi",
+    "forbidden": [
+      "Medya",
+      "İkna",
+      "Siyaset",
+      "Devlet",
+      "Kamuoyu"
+    ],
+    "difficulty": "expert",
+    "id": "790647e9-0be9-4465-9014-9bb948fdaa69"
+  },
+  {
+    "word": "Kamusal Alan Tarihi",
+    "forbidden": [
+      "Şehir",
+      "Toplum",
+      "Tartışma",
+      "Fikir",
+      "Devlet"
+    ],
+    "difficulty": "expert",
+    "id": "a43fa5f4-9ab8-4543-be08-154028337e79"
+  },
+  {
+    "word": "Müzeoloji",
+    "forbidden": [
+      "Müze",
+      "Sergileme",
+      "Eser",
+      "Koleksiyon",
+      "Eğitim"
+    ],
+    "difficulty": "expert",
+    "id": "a503d6be-49ab-4e4f-ba13-ae27b0c48857"
+  },
+  {
+    "word": "Kültürel Miras Yönetimi",
+    "forbidden": [
+      "Koruma",
+      "Tarih",
+      "Miras",
+      "Alan",
+      "Değer"
+    ],
+    "difficulty": "expert",
+    "id": "da52ab19-5fd8-4a89-8c55-2e6dd2448c0b"
+  }
+]

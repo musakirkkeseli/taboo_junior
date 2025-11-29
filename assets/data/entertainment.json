@@ -1,0 +1,4802 @@
+[
+  {
+    "word": "Lunapark",
+    "forbidden": [
+      "Dönme Dolap",
+      "Gondol",
+      "Çarpışan Araba",
+      "Eğlence",
+      "Park"
+    ],
+    "difficulty": "easy",
+    "id": "f6b3a00a-2ace-48c5-b927-d63013be0c75"
+  },
+  {
+    "word": "Palyaço",
+    "forbidden": [
+      "Sirk",
+      "Komik",
+      "Burun",
+      "Kırmızı",
+      "Boya"
+    ],
+    "difficulty": "easy",
+    "id": "41abbf3a-5f6f-4221-8a39-f73cda796838"
+  },
+  {
+    "word": "Sinema",
+    "forbidden": [
+      "Film",
+      "İzlemek",
+      "Mısır",
+      "Perde",
+      "Salon"
+    ],
+    "difficulty": "easy",
+    "id": "3ce1169b-c7ce-428f-89c5-eabd28a6f94e"
+  },
+  {
+    "word": "Konser",
+    "forbidden": [
+      "Müzik",
+      "Şarkıcı",
+      "Sahne",
+      "Bilet",
+      "Seyirci"
+    ],
+    "difficulty": "easy",
+    "id": "b9bc5574-91d7-4453-be1b-b2213b1b63ff"
+  },
+  {
+    "word": "Televizyon",
+    "forbidden": [
+      "Dizi",
+      "Ekran",
+      "Kumanda",
+      "İzlemek",
+      "Kanal"
+    ],
+    "difficulty": "easy",
+    "id": "b67c061b-1a7f-4b95-bbdd-48c7aa16f42e"
+  },
+  {
+    "word": "Dans",
+    "forbidden": [
+      "Müzik",
+      "Oynamak",
+      "Ritim",
+      "Pist",
+      "Figür"
+    ],
+    "difficulty": "easy",
+    "id": "fc373cb6-02f6-4080-8a05-0de76beea882"
+  },
+  {
+    "word": "Oyun Parkı",
+    "forbidden": [
+      "Kaydırak",
+      "Salıncak",
+      "Çocuk",
+      "Bahçe",
+      "Oynamak"
+    ],
+    "difficulty": "easy",
+    "id": "7699472c-4d2f-4dce-8856-706276247aa4"
+  },
+  {
+    "word": "Puzzle",
+    "forbidden": [
+      "Yapboz",
+      "Parça",
+      "Resim",
+      "Birleştirmek",
+      "Tablo"
+    ],
+    "difficulty": "easy",
+    "id": "8985a11c-d0ba-4f37-9c19-955f265a314e"
+  },
+  {
+    "word": "Tavla",
+    "forbidden": [
+      "Zar",
+      "Mars",
+      "Pul",
+      "Kapı",
+      "Oynamak"
+    ],
+    "difficulty": "easy",
+    "id": "c826ef4c-d93a-40f8-ad10-7e68e267669b"
+  },
+  {
+    "word": "İskambil",
+    "forbidden": [
+      "Kağıt",
+      "Kart",
+      "Pişti",
+      "Batak",
+      "Deste"
+    ],
+    "difficulty": "easy",
+    "id": "4c967040-cd97-4895-bb08-832272b55bd7"
+  },
+  {
+    "word": "Karaoke",
+    "forbidden": [
+      "Mikrofon",
+      "Şarkı",
+      "Söylemek",
+      "Söz",
+      "Müzik"
+    ],
+    "difficulty": "easy",
+    "id": "b38a8a9a-f827-4b73-9e01-1de47a779893"
+  },
+  {
+    "word": "Piknik",
+    "forbidden": [
+      "Sepet",
+      "Örtü",
+      "Mangal",
+      "Orman",
+      "Yemek"
+    ],
+    "difficulty": "easy",
+    "id": "ab298bd5-ee68-4676-b5bf-1e0688f4bcf4"
+  },
+  {
+    "word": "Uçurtma",
+    "forbidden": [
+      "İp",
+      "Rüzgar",
+      "Uçmak",
+      "Kuyruk",
+      "Kağıt"
+    ],
+    "difficulty": "easy",
+    "id": "d246fcac-6d83-4bef-9ed7-760debd77ef1"
+  },
+  {
+    "word": "Balon",
+    "forbidden": [
+      "Şişirmek",
+      "Patlamak",
+      "Hava",
+      "Renkli",
+      "Doğum Günü"
+    ],
+    "difficulty": "easy",
+    "id": "4d72532f-4229-421e-b481-128957f18481"
+  },
+  {
+    "word": "Sihirbaz",
+    "forbidden": [
+      "Şapka",
+      "Tavşan",
+      "Asa",
+      "Hokus Pokus",
+      "Gösteri"
+    ],
+    "difficulty": "easy",
+    "id": "50bae626-5366-4f5a-adea-c28e198cad23"
+  },
+  {
+    "word": "Sirk",
+    "forbidden": [
+      "Çadır",
+      "Hayvan",
+      "Akrobat",
+      "Gösteri",
+      "Palyaço"
+    ],
+    "difficulty": "easy",
+    "id": "e7cd3bf8-afb6-40dc-94d1-3e09d8633a71"
+  },
+  {
+    "word": "Bowling",
+    "forbidden": [
+      "Labut",
+      "Top",
+      "Devirmek",
+      "Strike",
+      "Salon"
+    ],
+    "difficulty": "easy",
+    "id": "f0d6df95-7f20-4370-91c9-b552f7ab4dc3"
+  },
+  {
+    "word": "Düğün",
+    "forbidden": [
+      "Gelin",
+      "Damat",
+      "Halay",
+      "Takı",
+      "Eğlence"
+    ],
+    "difficulty": "easy",
+    "id": "35ccd5c9-e1e7-4f68-8141-d3d192a75878"
+  },
+  {
+    "word": "Parti",
+    "forbidden": [
+      "Kutlama",
+      "Pasta",
+      "Müzik",
+      "Balon",
+      "Dans"
+    ],
+    "difficulty": "easy",
+    "id": "5c6bb619-1afa-4cfe-a910-4dc1ec845c02"
+  },
+  {
+    "word": "Tiyatro",
+    "forbidden": [
+      "Sahne",
+      "Oyuncu",
+      "Perde",
+      "Oyun",
+      "Seyirci"
+    ],
+    "difficulty": "easy",
+    "id": "6adff472-8d12-4fdc-b583-a93fb31d9955"
+  },
+  {
+    "word": "Gülmek",
+    "forbidden": [
+      "Ses",
+      "Komik",
+      "Sevinç",
+      "Tebessüm",
+      "Mizah"
+    ],
+    "difficulty": "easy",
+    "id": "6337c913-a6be-4825-bc0b-da8ac46336ae"
+  },
+  {
+    "word": "Şaka",
+    "forbidden": [
+      "Gülmek",
+      "Komik",
+      "Espri",
+      "Mizah",
+      "Eğlence"
+    ],
+    "difficulty": "easy",
+    "id": "b9f23707-bf20-4821-9d52-ae44cec5ff0b"
+  },
+  {
+    "word": "Gezi",
+    "forbidden": [
+      "Yolculuk",
+      "Tatil",
+      "Keşif",
+      "Seyahat",
+      "Gezmek"
+    ],
+    "difficulty": "easy",
+    "id": "c6de6b0b-f5c8-4e29-87fd-a5a8981f9c79"
+  },
+  {
+    "word": "Oyun",
+    "forbidden": [
+      "Oynamak",
+      "Eğlence",
+      "Kural",
+      "Çocuk",
+      "Yarışma"
+    ],
+    "difficulty": "easy",
+    "id": "147d08dd-bc53-4e3b-9f18-f19a62b41900"
+  },
+  {
+    "word": "Kitap",
+    "forbidden": [
+      "Okumak",
+      "Sayfa",
+      "Yazar",
+      "Hikaye",
+      "Roman"
+    ],
+    "difficulty": "easy",
+    "id": "7a2390ae-b3fc-4573-a719-2b4c7f65420f"
+  },
+  {
+    "word": "Dergi",
+    "forbidden": [
+      "Makale",
+      "Haber",
+      "Resim",
+      "Okumak",
+      "Kağıt"
+    ],
+    "difficulty": "easy",
+    "id": "89110eea-4422-4227-be71-c70a032737da"
+  },
+  {
+    "word": "Video Oyunu",
+    "forbidden": [
+      "Bilgisayar",
+      "Konsol",
+      "Oynamak",
+      "Ekran",
+      "Kontrol"
+    ],
+    "difficulty": "easy",
+    "id": "0e635e3f-900e-4cf1-ab0e-d8681296aad8"
+  },
+  {
+    "word": "Park",
+    "forbidden": [
+      "Ağaç",
+      "Çim",
+      "Oturmak",
+      "Yürümek",
+      "Yeşil"
+    ],
+    "difficulty": "easy",
+    "id": "69885e06-0186-4f22-8225-5d4bb6e0efdd"
+  },
+  {
+    "word": "Hayvanat Bahçesi",
+    "forbidden": [
+      "Hayvan",
+      "Kafes",
+      "Gezmek",
+      "Vahşi",
+      "Afrika"
+    ],
+    "difficulty": "easy",
+    "id": "3fb8a635-ceaf-4247-a97d-b2c1aee254c1"
+  },
+  {
+    "word": "Ak varyum",
+    "forbidden": [
+      "Balık",
+      "Su",
+      "Deniz",
+      "Cam",
+      "Beslemek"
+    ],
+    "difficulty": "easy",
+    "id": "fa00d20c-2d23-45d0-af1e-20dfdee095d5"
+  },
+  {
+    "word": "Dans Pisti",
+    "forbidden": [
+      "Müzik",
+      "Oynamak",
+      "Kulüp",
+      "Eğlence",
+      "Kalabalık"
+    ],
+    "difficulty": "easy",
+    "id": "5da955cc-2240-4222-ba4a-260f5de50482"
+  },
+  {
+    "word": "Kostüm",
+    "forbidden": [
+      "Giymek",
+      "Parti",
+      "Kıyafet",
+      "Karakter",
+      "Cadılar Bayramı"
+    ],
+    "difficulty": "easy",
+    "id": "7e8acb8c-7ff1-415f-a131-9635b162d56f"
+  },
+  {
+    "word": "Maske",
+    "forbidden": [
+      "Yüz",
+      "Gizlemek",
+      "Parti",
+      "Takmak",
+      "Gizem"
+    ],
+    "difficulty": "easy",
+    "id": "ee488569-243d-41eb-9760-96202ba85389"
+  },
+  {
+    "word": "Kukla",
+    "forbidden": [
+      "El",
+      "Oyun",
+      "Sahne",
+      "Konuşmak",
+      "İp"
+    ],
+    "difficulty": "easy",
+    "id": "c30f143c-8c45-460d-b5dd-73d153699925"
+  },
+  {
+    "word": "Fuar",
+    "forbidden": [
+      "Gösteri",
+      "Stant",
+      "Ürün",
+      "Kalabalık",
+      "Tanıtım"
+    ],
+    "difficulty": "easy",
+    "id": "3b187bc5-3ff6-47db-9b79-2135cd4bce07"
+  },
+  {
+    "word": "Festival",
+    "forbidden": [
+      "Müzik",
+      "Kutlama",
+      "Dans",
+      "Eğlence",
+      "Etkinlik"
+    ],
+    "difficulty": "easy",
+    "id": "19ce1cfb-2097-4bd6-860e-8a4dd1c64ff2"
+  },
+  {
+    "word": "Havai Fişek",
+    "forbidden": [
+      "Patlama",
+      "Gökyüzü",
+      "Renk",
+      "Işık",
+      "Kutlama"
+    ],
+    "difficulty": "easy",
+    "id": "f0030010-a5a2-480b-8558-c7f9e0cf482c"
+  },
+  {
+    "word": "Büyücü",
+    "forbidden": [
+      "Sihir",
+      "Hokus Pokus",
+      "Gösteri",
+      "Numara",
+      "Asa"
+    ],
+    "difficulty": "easy",
+    "id": "c64afe1a-1c41-422f-b17a-58bf73a40ffa"
+  },
+  {
+    "word": "Karnaval",
+    "forbidden": [
+      "Maske",
+      "Kutlama",
+      "Geçit",
+      "Eğlence",
+      "Rio"
+    ],
+    "difficulty": "easy",
+    "id": "2d43f3d7-b6e0-48e1-b8ca-35c34b83578b"
+  },
+  {
+    "word": "Go Kart",
+    "forbidden": [
+      "Araba",
+      "Yarış",
+      "Hız",
+      "Pist",
+      "Sürmek"
+    ],
+    "difficulty": "easy",
+    "id": "a37b8d57-16e7-4a0c-89cf-b6b68fc9dac6"
+  },
+  {
+    "word": "Tekerlekli Paten",
+    "forbidden": [
+      "Kaymak",
+      "Tekerlek",
+      "Ayak",
+      "Spor",
+      "Hız"
+    ],
+    "difficulty": "easy",
+    "id": "c8eb5277-7cdb-4d50-9f74-0b2d4b95c699"
+  },
+  {
+    "word": "Uçan Balon",
+    "forbidden": [
+      "Hava",
+      "Şişirmek",
+      "Gökyüzü",
+      "Yükselmek",
+      "Helyum"
+    ],
+    "difficulty": "easy",
+    "id": "944c37e9-91b8-4719-a3f3-5b8a2003b88e"
+  },
+  {
+    "word": "Fotoğraf Çekmek",
+    "forbidden": [
+      "Kamera",
+      "Resim",
+      "Deklanşör",
+      "Anı",
+      "Poz"
+    ],
+    "difficulty": "easy",
+    "id": "c68def88-a2ba-4b25-9ac5-99b41dce496e"
+  },
+  {
+    "word": "Boyama",
+    "forbidden": [
+      "Renk",
+      "Fırça",
+      "Kağıt",
+      "Sanat",
+      "Resim"
+    ],
+    "difficulty": "easy",
+    "id": "1f601e9d-4ab4-4248-b3d2-49a0542d3225"
+  },
+  {
+    "word": "Yemek Yapmak",
+    "forbidden": [
+      "Mutfak",
+      "Aşçı",
+      "Tarif",
+      "Pişirmek",
+      "Lezzetli"
+    ],
+    "difficulty": "easy",
+    "id": "23c1d8e6-370d-46f3-8b10-2cfa0f8c908d"
+  },
+  {
+    "word": "Bahçe İşleri",
+    "forbidden": [
+      "Çiçek",
+      "Toprak",
+      "Bitki",
+      "Sulama",
+      "Ekmek"
+    ],
+    "difficulty": "easy",
+    "id": "174497bc-efe6-4b3e-a6b0-2cb34b07a5bd"
+  },
+  {
+    "word": "Kamp",
+    "forbidden": [
+      "Çadır",
+      "Doğa",
+      "Ateş",
+      "Orman",
+      "Uyku"
+    ],
+    "difficulty": "easy",
+    "id": "1c613b1b-35dd-44ba-bbee-96285e0547c2"
+  },
+  {
+    "word": "Balık Tutmak",
+    "forbidden": [
+      "Olta",
+      "Deniz",
+      "Nehir",
+      "Yem",
+      "Yakalamak"
+    ],
+    "difficulty": "easy",
+    "id": "9ab453d9-a00b-48f4-9f06-d83344c613a1"
+  },
+  {
+    "word": "Yüzmek",
+    "forbidden": [
+      "Su",
+      "Havuz",
+      "Deniz",
+      "Mayo",
+      "Dalmak"
+    ],
+    "difficulty": "easy",
+    "id": "8cc71e84-026f-4f26-b668-3a0f9a27afe7"
+  },
+  {
+    "word": "Güneşlenmek",
+    "forbidden": [
+      "Plaj",
+      "Deniz",
+      "Kum",
+      "Yaz",
+      "Bronzlaşmak"
+    ],
+    "difficulty": "easy",
+    "id": "e38dbaf4-bee8-40ac-b97d-61a5dec96324"
+  },
+  {
+    "word": "Kayak",
+    "forbidden": [
+      "Kar",
+      "Dağ",
+      "Kış",
+      "Teleferik",
+      "Spor"
+    ],
+    "difficulty": "easy",
+    "id": "02f3d886-8704-491d-beee-ab725b822af9"
+  },
+  {
+    "word": "Bisiklet Sürmek",
+    "forbidden": [
+      "Tekerlek",
+      "Pedal",
+      "Yol",
+      "Kask",
+      "Spor"
+    ],
+    "difficulty": "easy",
+    "id": "bc15b382-2651-4f3c-91c5-453b5f626c95"
+  },
+  {
+    "word": "Tenis",
+    "forbidden": [
+      "Raket",
+      "Top",
+      "Kort",
+      "File",
+      "Vurmak"
+    ],
+    "difficulty": "easy",
+    "id": "705bd04b-fe66-48d9-b813-0046ff903d0a"
+  },
+  {
+    "word": "Basketbol",
+    "forbidden": [
+      "Top",
+      "Pota",
+      "Sayı",
+      "Maç",
+      "Smaç"
+    ],
+    "difficulty": "easy",
+    "id": "fe8fbfe5-63cb-4701-975c-dadd413c71ac"
+  },
+  {
+    "word": "Voleybol",
+    "forbidden": [
+      "Top",
+      "File",
+      "Plaj",
+      "Servis",
+      "Pas"
+    ],
+    "difficulty": "easy",
+    "id": "9de73afa-bbf0-444e-80ac-a3ed8ea737e3"
+  },
+  {
+    "word": "Koşmak",
+    "forbidden": [
+      "Ayak",
+      "Hız",
+      "Yarış",
+      "Atlet",
+      "Nefes"
+    ],
+    "difficulty": "easy",
+    "id": "93913425-2617-4039-b2f2-e0249eeb2b3e"
+  },
+  {
+    "word": "Yürüyüş Yapmak",
+    "forbidden": [
+      "Ayak",
+      "Doğa",
+      "Patika",
+      "Gezmek",
+      "Adım"
+    ],
+    "difficulty": "easy",
+    "id": "41d17f4b-b25c-48cf-b215-f026fdbbdca0"
+  },
+  {
+    "word": "Paten Kaymak",
+    "forbidden": [
+      "Tekerlek",
+      "Kaymak",
+      "Buz",
+      "Pist",
+      "Ayak"
+    ],
+    "difficulty": "easy",
+    "id": "1459bcc4-9440-4623-b2cb-56c77010e1e9"
+  },
+  {
+    "word": "Tırmanmak",
+    "forbidden": [
+      "Dağ",
+      "İp",
+      "Zirve",
+      "Kaya",
+      "Yukarı"
+    ],
+    "difficulty": "easy",
+    "id": "2f17ffcc-343f-42fb-9344-0023ab99ae4e"
+  },
+  {
+    "word": "Paraşütle Atlamak",
+    "forbidden": [
+      "Gökyüzü",
+      "Uçak",
+      "Açılmak",
+      "Adrenalin",
+      "Yüksek"
+    ],
+    "difficulty": "easy",
+    "id": "db0c6204-d2d2-4e76-a3f2-31242364546a"
+  },
+  {
+    "word": "Paraşüt",
+    "forbidden": [
+      "Gökyüzü",
+      "Atlamak",
+      "Açılmak",
+      "İp",
+      "Yere İnmek"
+    ],
+    "difficulty": "easy",
+    "id": "7ef99162-b602-4a83-8fd6-8b254886d724"
+  },
+  {
+    "word": "Rafting",
+    "forbidden": [
+      "Nehir",
+      "Bot",
+      "Su",
+      "Kürek",
+      "Akıntı"
+    ],
+    "difficulty": "easy",
+    "id": "ced3d28f-f705-4198-b478-19f48d885c09"
+  },
+  {
+    "word": "Sörf",
+    "forbidden": [
+      "Deniz",
+      "Dalga",
+      "Tahta",
+      "Su",
+      "Yüzmek"
+    ],
+    "difficulty": "easy",
+    "id": "e9dfe1f4-a715-4ceb-9a8a-964a06f2637f"
+  },
+  {
+    "word": "Yelken",
+    "forbidden": [
+      "Tekne",
+      "Deniz",
+      "Rüzgar",
+      "Direk",
+      "Yüzmek"
+    ],
+    "difficulty": "easy",
+    "id": "eb2e062b-180f-4bc7-a981-8d83c612501f"
+  },
+  {
+    "word": "Dalış",
+    "forbidden": [
+      "Deniz",
+      "Su",
+      "Maske",
+      "Tüplü",
+      "Balık"
+    ],
+    "difficulty": "easy",
+    "id": "5c48eb05-f16a-449f-add9-df3b5f079bba"
+  },
+  {
+    "word": "Su Topu",
+    "forbidden": [
+      "Havuz",
+      "Top",
+      "Yüzmek",
+      "Sayı",
+      "Maç"
+    ],
+    "difficulty": "easy",
+    "id": "fe71e87c-3204-4f4b-9d38-952753a8fd39"
+  },
+  {
+    "word": "Jimnastik",
+    "forbidden": [
+      "Esneklik",
+      "Spor",
+      "Hareket",
+      "Vücut",
+      "Denge"
+    ],
+    "difficulty": "easy",
+    "id": "9839df33-a219-48fc-bd56-758491720c03"
+  },
+  {
+    "word": "Yoga",
+    "forbidden": [
+      "Nefes",
+      "Esneklik",
+      "Meditasyon",
+      "Poz",
+      "Rahatlama"
+    ],
+    "difficulty": "easy",
+    "id": "a09e356f-d3b9-4450-9990-81b1b5a764dd"
+  },
+  {
+    "word": "Meditasyon",
+    "forbidden": [
+      "Sakin",
+      "Zihin",
+      "Odaklanmak",
+      "Nefes",
+      "Dinlenmek"
+    ],
+    "difficulty": "easy",
+    "id": "094349b5-1ef7-4702-a0a4-cccef6339b17"
+  },
+  {
+    "word": "Masaj",
+    "forbidden": [
+      "Rahatlamak",
+      "Vücut",
+      "El",
+      "Sırt",
+      "Kas"
+    ],
+    "difficulty": "easy",
+    "id": "bfa4ba18-5975-4119-985b-d999c3386ad5"
+  },
+  {
+    "word": "Hamam",
+    "forbidden": [
+      "Banyo",
+      "Sıcak",
+      "Buhar",
+      "Yıkanmak",
+      "Kese"
+    ],
+    "difficulty": "easy",
+    "id": "61056a37-3fee-4e84-abc1-ab7b1ccabe78"
+  },
+  {
+    "word": "Sauna",
+    "forbidden": [
+      "Sıcak",
+      "Buhar",
+      "Terlemek",
+      "Ahşap",
+      "Rahatlama"
+    ],
+    "difficulty": "easy",
+    "id": "884da1b3-c7bf-4f80-9254-47779607d9ab"
+  },
+  {
+    "word": "Kaplıca",
+    "forbidden": [
+      "Sıcak Su",
+      "Şifa",
+      "Mineral",
+      "Banyo",
+      "Dinlenmek"
+    ],
+    "difficulty": "easy",
+    "id": "82e5e244-95ea-40a2-881e-2f64881702d9"
+  },
+  {
+    "word": "Güneş Banyosu",
+    "forbidden": [
+      "Güneş",
+      "Plaj",
+      "Yaz",
+      "Bronzlaşmak",
+      "Cilt"
+    ],
+    "difficulty": "easy",
+    "id": "dd7a6adb-78b5-49b6-a74f-c8c5599f413c"
+  },
+  {
+    "word": "Doğa Yürüyüşü",
+    "forbidden": [
+      "Ağaç",
+      "Orman",
+      "Patika",
+      "Temiz Hava",
+      "Yürümek"
+    ],
+    "difficulty": "easy",
+    "id": "e1bfa77d-a282-4a68-b8ab-fb6f0a5b8f61"
+  },
+  {
+    "word": "Piknik Alanı",
+    "forbidden": [
+      "Sepet",
+      "Örtü",
+      "Yemek",
+      "Masa",
+      "Sandalye"
+    ],
+    "difficulty": "easy",
+    "id": "0296d579-e7d9-4efa-bb17-2d67b747e465"
+  },
+  {
+    "word": "Deniz Kenarı",
+    "forbidden": [
+      "Kum",
+      "Su",
+      "Plaj",
+      "Dalga",
+      "Yaz"
+    ],
+    "difficulty": "easy",
+    "id": "c45b1016-c055-45b6-968d-8e4c93709ef9"
+  },
+  {
+    "word": "Dağ Evi",
+    "forbidden": [
+      "Orman",
+      "Doğa",
+      "Kış",
+      "Şömine",
+      "Sakin"
+    ],
+    "difficulty": "easy",
+    "id": "d4f34b6f-50d6-41ba-9ac4-f1088c37e2a1"
+  },
+  {
+    "word": "Yayla Evi",
+    "forbidden": [
+      "Doğa",
+      "Dağ",
+      "Temiz Hava",
+      "Çim",
+      "Sakin"
+    ],
+    "difficulty": "easy",
+    "id": "3925812d-8ea1-4655-b894-966122a2f25f"
+  },
+  {
+    "word": "Çiftlik Evi",
+    "forbidden": [
+      "Hayvan",
+      "Doğa",
+      "Tarım",
+      "Köylü",
+      "Sakin"
+    ],
+    "difficulty": "easy",
+    "id": "b058a0d8-b076-4db2-9cb2-d32e84b41ab9"
+  },
+  {
+    "word": "At Binmek",
+    "forbidden": [
+      "Hayvan",
+      "Eyer",
+      "Sürmek",
+      "Koşmak",
+      "Çiftlik"
+    ],
+    "difficulty": "easy",
+    "id": "e79768f3-7ead-4271-8b20-df8df31f4242"
+  },
+  {
+    "word": "Binicilik",
+    "forbidden": [
+      "At",
+      "Sürmek",
+      "Spor",
+      "Eyer",
+      "Koşmak"
+    ],
+    "difficulty": "easy",
+    "id": "8f681698-b9db-48a5-909c-906f41700629"
+  },
+  {
+    "word": "Okçuluk",
+    "forbidden": [
+      "Yay",
+      "Ok",
+      "Hedef",
+      "Nişan",
+      "Vurmak"
+    ],
+    "difficulty": "easy",
+    "id": "eaa77536-5b8f-4b6a-b18f-feb0431e39d8"
+  },
+  {
+    "word": "Boks",
+    "forbidden": [
+      "Yumruk",
+      "Ring",
+      "Eldiven",
+      "Maç",
+      "Vurmak"
+    ],
+    "difficulty": "easy",
+    "id": "4751f159-49f3-414a-8e08-f89fd0bcc983"
+  },
+  {
+    "word": "Güreş",
+    "forbidden": [
+      "Rakip",
+      "Minder",
+      "Tutmak",
+      "Yere Sermek",
+      "Güç"
+    ],
+    "difficulty": "easy",
+    "id": "4062b5b7-7431-4113-bd8c-eaba26a5b006"
+  },
+  {
+    "word": "Judo",
+    "forbidden": [
+      "Spor",
+      "Uzak Doğu",
+      "Kemer",
+      "Rakip",
+      "Tutmak"
+    ],
+    "difficulty": "easy",
+    "id": "08717e32-6970-4dc4-9083-ffbd33e20b98"
+  },
+  {
+    "word": "Karate",
+    "forbidden": [
+      "El",
+      "Ayak",
+      "Uzak Doğu",
+      "Vurmak",
+      "Spor"
+    ],
+    "difficulty": "easy",
+    "id": "ebb4a7f3-b50d-456f-9e5b-f18d6e8c0b59"
+  },
+  {
+    "word": "Tekvando",
+    "forbidden": [
+      "Ayak",
+      "Uzak Doğu",
+      "Vurmak",
+      "Spor",
+      "Tekme"
+    ],
+    "difficulty": "easy",
+    "id": "5b8294d4-9dd6-43bc-a1d9-f5cd7ab12097"
+  },
+  {
+    "word": "Basketbol Sahası",
+    "forbidden": [
+      "Pota",
+      "Top",
+      "Sayı",
+      "Maç",
+      "Oyun Alanı"
+    ],
+    "difficulty": "easy",
+    "id": "c02fe351-dc71-40ac-b66d-64e21c1b3c74"
+  },
+  {
+    "word": "Futbol Sahası",
+    "forbidden": [
+      "Kale",
+      "Top",
+      "Maç",
+      "Çim",
+      "Oyun Alanı"
+    ],
+    "difficulty": "easy",
+    "id": "0d18d8e2-a4aa-42a2-bded-c9e31284f8ed"
+  },
+  {
+    "word": "Tenis Kortu",
+    "forbidden": [
+      "Raket",
+      "Top",
+      "File",
+      "Oyun Alanı",
+      "Çizgi"
+    ],
+    "difficulty": "easy",
+    "id": "2d187449-0e1f-40be-8166-6282de3eb91f"
+  },
+  {
+    "word": "Voleybol Sahası",
+    "forbidden": [
+      "File",
+      "Top",
+      "Kum",
+      "Plaj",
+      "Oyun Alanı"
+    ],
+    "difficulty": "easy",
+    "id": "31351d7a-1ebe-4801-bede-6e5dac4df485"
+  },
+  {
+    "word": "Masa Tenisi",
+    "forbidden": [
+      "Raket",
+      "Top",
+      "Masa",
+      "File",
+      "Vurmak"
+    ],
+    "difficulty": "easy",
+    "id": "ed9598ff-deee-4994-a295-26ceedc0c81b"
+  },
+  {
+    "word": "Bilardo",
+    "forbidden": [
+      "Masa",
+      "Top",
+      "Istaka",
+      "Delik",
+      "Oynamak"
+    ],
+    "difficulty": "easy",
+    "id": "4c827475-ef2f-4ea9-a81c-e5de937447d4"
+  },
+  {
+    "word": "Dart",
+    "forbidden": [
+      "Hedef",
+      "Ok",
+      "Atmak",
+      "Puan",
+      "Tahta"
+    ],
+    "difficulty": "easy",
+    "id": "a22aedfc-84df-45ba-9ebd-668c672e4db2"
+  },
+  {
+    "word": "Okey",
+    "forbidden": [
+      "Taş",
+      "Oynamak",
+      "Zar",
+      "Per",
+      "Masa"
+    ],
+    "difficulty": "easy",
+    "id": "77625fec-37ca-4725-9eb1-82bea3084b7f"
+  },
+  {
+    "word": "Tavla Oynamak",
+    "forbidden": [
+      "Zar",
+      "Pul",
+      "Mars",
+      "Oynamak",
+      "Masa"
+    ],
+    "difficulty": "easy",
+    "id": "40bb0bae-9842-40a2-8aeb-edfc3465faef"
+  },
+  {
+    "word": "Sözcük Oyunu",
+    "forbidden": [
+      "Harf",
+      "Kelime",
+      "Yazmak",
+      "Bulmaca",
+      "Oynamak"
+    ],
+    "difficulty": "easy",
+    "id": "6d8d8101-0759-413a-a178-eb6b62c0c60a"
+  },
+  {
+    "word": "Yapboz Oyunu",
+    "forbidden": [
+      "Parça",
+      "Birleştirmek",
+      "Resim",
+      "Zor",
+      "Tablo"
+    ],
+    "difficulty": "easy",
+    "id": "65ad83d8-20dc-4b6c-b86e-7839f48d4d37"
+  },
+  {
+    "word": "Satranç",
+    "forbidden": [
+      "Tahta",
+      "Taş",
+      "Şah",
+      "Mat",
+      "Vezir"
+    ],
+    "difficulty": "easy",
+    "id": "1f313ba7-be27-43d2-90ac-8e752048d99e"
+  },
+  {
+    "word": "Venedik Karnavalı",
+    "forbidden": [
+      "İtalya",
+      "Maske",
+      "Gondol",
+      "Kanal",
+      "Şubat"
+    ],
+    "difficulty": "medium",
+    "id": "f0e6162c-57ee-4e5a-86ba-714a5d86f327"
+  },
+  {
+    "word": "Stand-up Gösterisi",
+    "forbidden": [
+      "Komedyen",
+      "Sahne",
+      "Mizah",
+      "Tek Kişilik",
+      "Güldürmek"
+    ],
+    "difficulty": "medium",
+    "id": "206e4a40-4ac8-4ab9-9ffe-9157dbeb580a"
+  },
+  {
+    "word": "Tema Parkı",
+    "forbidden": [
+      "Eğlence",
+      "Roller Coaster",
+      "Çocuk",
+      "Disney",
+      "Fantastik"
+    ],
+    "difficulty": "medium",
+    "id": "c50276bd-86c6-4f54-a175-6e62e0829030"
+  },
+  {
+    "word": "Sanal Gerçeklik",
+    "forbidden": [
+      "Gözlük",
+      "Bilgisayar",
+      "Oyun",
+      "Gerçekçi",
+      "Başka Dünya"
+    ],
+    "difficulty": "medium",
+    "id": "285d32f5-78b3-46ff-921e-c69bfc320ac8"
+  },
+  {
+    "word": "Caz Kulübü",
+    "forbidden": [
+      "Müzik",
+      "Saksafon",
+      "Gece",
+      "Dumanlı",
+      "Performans"
+    ],
+    "difficulty": "medium",
+    "id": "c82b9dfc-69f1-4cc5-a280-5131f99ffc85"
+  },
+  {
+    "word": "Bilim Kurgu Filmi",
+    "forbidden": [
+      "Uzay",
+      "Gelecek",
+      "Robot",
+      "Fantastik",
+      "Yıldız Savaşları"
+    ],
+    "difficulty": "medium",
+    "id": "ab45fba0-0eb0-4240-b65f-64c48a271689"
+  },
+  {
+    "word": "Klasik Müzik Konseri",
+    "forbidden": [
+      "Orkestra",
+      "Şef",
+      "Enstrüman",
+      "Salon",
+      "Beethoven"
+    ],
+    "difficulty": "medium",
+    "id": "ae3e8b55-d1ce-4dc7-a020-3acbb73736f0"
+  },
+  {
+    "word": "Bowling Turnuvası",
+    "forbidden": [
+      "Lig",
+      "Puan",
+      "Kupa",
+      "Yarışma",
+      "Profesyonel"
+    ],
+    "difficulty": "medium",
+    "id": "7db3f833-266c-44b5-87e5-513ecebfed79"
+  },
+  {
+    "word": "Gece Kulübü",
+    "forbidden": [
+      "Dans",
+      "Müzik",
+      "Alkollü",
+      "Eğlence",
+      "Karanlık"
+    ],
+    "difficulty": "medium",
+    "id": "d1790b36-e962-42e3-9e14-a08829382ff4"
+  },
+  {
+    "word": "Hafta Sonu Kaçamağı",
+    "forbidden": [
+      "Dinlenmek",
+      "Şehir Dışı",
+      "Kısa Tatil",
+      "Değişiklik",
+      "Stres Atmak"
+    ],
+    "difficulty": "medium",
+    "id": "929e9af5-0532-4ca3-98a2-06046846bc34"
+  },
+  {
+    "word": "Yılbaşı Kutlaması",
+    "forbidden": [
+      "Yeni Yıl",
+      "Parti",
+      "Hediye",
+      "Çam Ağacı",
+      "Geri Sayım"
+    ],
+    "difficulty": "medium",
+    "id": "f53e96b3-d69c-4b9c-99f3-49bd9c89de3c"
+  },
+  {
+    "word": "Oyun Konsolu",
+    "forbidden": [
+      "Televizyon",
+      "Oynamak",
+      "Joystick",
+      "PlayStation",
+      "Xbox"
+    ],
+    "difficulty": "medium",
+    "id": "81d31d14-f9cb-47ee-8e21-445901cf1efa"
+  },
+  {
+    "word": "Langırt",
+    "forbidden": [
+      "Masa",
+      "Futbolcu",
+      "Top",
+      "El Hareketi",
+      "Arkadaş"
+    ],
+    "difficulty": "medium",
+    "id": "cdc8db21-4a61-41ff-bdaf-87fd07e5f125"
+  },
+  {
+    "word": "Atari Salonu",
+    "forbidden": [
+      "Eski",
+      "Jeton",
+      "Oyun",
+      "Piksel",
+      "Nostalji"
+    ],
+    "difficulty": "medium",
+    "id": "0452404c-4597-4311-97c0-b46011959815"
+  },
+  {
+    "word": "Karaoke Yarışması",
+    "forbidden": [
+      "Mikrofon",
+      "Şarkı Söylemek",
+      "Jüri",
+      "Puanlama",
+      "Kazanan"
+    ],
+    "difficulty": "medium",
+    "id": "d8d0cfae-6795-4486-b1a1-331c91ef853e"
+  },
+  {
+    "word": "Bisiklet Turu",
+    "forbidden": [
+      "Yolculuk",
+      "Pedal",
+      "Manzara",
+      "Grup",
+      "Yorgunluk"
+    ],
+    "difficulty": "medium",
+    "id": "70153c20-ef65-4cfc-a8d5-986c4a19b749"
+  },
+  {
+    "word": "Doğa Kampı",
+    "forbidden": [
+      "Çadır",
+      "Ateş Yakmak",
+      "Yıldızlar",
+      "Sessizlik",
+      "Temiz Hava"
+    ],
+    "difficulty": "medium",
+    "id": "80e3d7c5-cce7-47eb-9e22-58de485a181f"
+  },
+  {
+    "word": "Balık Avı",
+    "forbidden": [
+      "Olta Atmak",
+      "Sabır",
+      "Deniz Kenarı",
+      "Beklemek",
+      "Hobi"
+    ],
+    "difficulty": "medium",
+    "id": "5abf84c7-24a5-4f10-94bf-63b74a5a2949"
+  },
+  {
+    "word": "Yamaç Paraşütü",
+    "forbidden": [
+      "Uçmak",
+      "Dağ",
+      "Manzara",
+      "Rüzgar",
+      "Adrenalin"
+    ],
+    "difficulty": "medium",
+    "id": "58de6ee3-fa1d-4c93-b288-01ab7531974e"
+  },
+  {
+    "word": "Deniz Paraşütü",
+    "forbidden": [
+      "Tekne",
+      "Gökyüzü",
+      "Suya İnmek",
+      "Hız",
+      "Yaz Tatili"
+    ],
+    "difficulty": "medium",
+    "id": "51bd63ab-7488-466b-b465-a4abed4da9d9"
+  },
+  {
+    "word": "Scuba Dalışı",
+    "forbidden": [
+      "Tüp",
+      "Maske",
+      "Derin",
+      "Mercan",
+      "Balıklar"
+    ],
+    "difficulty": "medium",
+    "id": "7d13dfc3-981a-496b-bcab-c5fb30424810"
+  },
+  {
+    "word": "Safari Turu",
+    "forbidden": [
+      "Vahşi Hayvan",
+      "Afrika",
+      "Jeep",
+      "Gözlem",
+      "Doğa"
+    ],
+    "difficulty": "medium",
+    "id": "846bd3c4-34a6-4763-8e3f-88db72c645ce"
+  },
+  {
+    "word": "Formula 1 Yarışı",
+    "forbidden": [
+      "Araba",
+      "Hız",
+      "Pilot",
+      "Pist",
+      "Şampiyonluk"
+    ],
+    "difficulty": "medium",
+    "id": "571d57bc-a68b-4198-85d5-510c43a30c46"
+  },
+  {
+    "word": "Motocross",
+    "forbidden": [
+      "Motor",
+      "Toprak",
+      "Yarış",
+      "Zıplamak",
+      "Kask"
+    ],
+    "difficulty": "medium",
+    "id": "6f748b52-a4eb-43f5-87a2-6fbea925b424"
+  },
+  {
+    "word": "Su Kayağı",
+    "forbidden": [
+      "Tekne",
+      "Deniz",
+      "Hız",
+      "Denge",
+      "Yaz Sporu"
+    ],
+    "difficulty": "medium",
+    "id": "2a541482-ecf5-4f22-a930-d160c89a35c0"
+  },
+  {
+    "word": "Snowboard",
+    "forbidden": [
+      "Kar",
+      "Dağ",
+      "Kaymak",
+      "Kış Sporu",
+      "Denge"
+    ],
+    "difficulty": "medium",
+    "id": "58f7e0b2-1ca3-4395-8378-7f67a2e31cf1"
+  },
+  {
+    "word": "Buz Pateni",
+    "forbidden": [
+      "Buz",
+      "Kaymak",
+      "Salon",
+      "Figür",
+      "Kış"
+    ],
+    "difficulty": "medium",
+    "id": "68278e61-c7f4-4688-925b-16945ce3a86a"
+  },
+  {
+    "word": "Paintball",
+    "forbidden": [
+      "Boyalı Top",
+      "Takım",
+      "Savaş",
+      "Maske",
+      "Strateji"
+    ],
+    "difficulty": "medium",
+    "id": "6110c1a4-f6c6-4a89-9b53-edc46d3a10d8"
+  },
+  {
+    "word": "Lazer Tag",
+    "forbidden": [
+      "Silah",
+      "Lazer",
+      "Karanlık Oda",
+      "Takım",
+      "Hedef"
+    ],
+    "difficulty": "medium",
+    "id": "c7b53c3d-ff32-47bf-9852-5a28212b5b37"
+  },
+  {
+    "word": "Go Kart Yarışı",
+    "forbidden": [
+      "Hız",
+      "Pist",
+      "Kask",
+      "Rekabet",
+      "Adrenalin"
+    ],
+    "difficulty": "medium",
+    "id": "0980a863-9502-473f-a084-fcc73377966f"
+  },
+  {
+    "word": "Okçuluk Dersi",
+    "forbidden": [
+      "Yay",
+      "Ok",
+      "Hedef",
+      "Nişan Almak",
+      "Konsantrasyon"
+    ],
+    "difficulty": "medium",
+    "id": "a33f4dde-96a4-4ed5-8591-d431afc57155"
+  },
+  {
+    "word": "Aksiyon Filmi",
+    "forbidden": [
+      "Patlama",
+      "Kavga",
+      "Kahraman",
+      "Gerilim",
+      "Kovalamaca"
+    ],
+    "difficulty": "medium",
+    "id": "47c9023a-0302-4c9d-af7b-fe83fcd163c7"
+  },
+  {
+    "word": "Romantik Komedi",
+    "forbidden": [
+      "Aşk",
+      "Gülmek",
+      "Mutlu Son",
+      "İlişki",
+      "Flört"
+    ],
+    "difficulty": "medium",
+    "id": "053d513f-aa62-4fb1-b66b-4d1ba31145a0"
+  },
+  {
+    "word": "Belgesel Film",
+    "forbidden": [
+      "Gerçek",
+      "Bilgi",
+      "Doğa",
+      "Tarih",
+      "Araştırma"
+    ],
+    "difficulty": "medium",
+    "id": "adfea2ff-10c6-4a4a-b167-02e29ca1eb6e"
+  },
+  {
+    "word": "Korku Filmi",
+    "forbidden": [
+      "Gerilim",
+      "Çığlık",
+      "Canavar",
+      "Hayalet",
+      "Gece"
+    ],
+    "difficulty": "medium",
+    "id": "3847ca9d-c923-46e4-9b76-f54596232279"
+  },
+  {
+    "word": "Anime Dizi",
+    "forbidden": [
+      "Japonya",
+      "Çizgi Film",
+      "Manga",
+      "Karakter",
+      "Fantastik"
+    ],
+    "difficulty": "medium",
+    "id": "90309554-0c6e-4335-abcc-95755b0f5b33"
+  },
+  {
+    "word": "Çizgi Roman",
+    "forbidden": [
+      "Süper Kahraman",
+      "Resim",
+      "Balon Konuşma",
+      "Macera",
+      "Koleksiyon"
+    ],
+    "difficulty": "medium",
+    "id": "23f54061-a3ef-4396-a7c8-c731e9d0fa0a"
+  },
+  {
+    "word": "Masaüstü Rol Yapma Oyunu",
+    "forbidden": [
+      "Zindan",
+      "Ejderha",
+      "Zar Atmak",
+      "Karakter",
+      "Hikaye Anlatmak"
+    ],
+    "difficulty": "medium",
+    "id": "f39e1595-e2e3-4fed-bf40-a4abd42a613d"
+  },
+  {
+    "word": "Video Oyun Turnuvası",
+    "forbidden": [
+      "E-spor",
+      "Takım",
+      "Büyük Ödül",
+      "Rekabet",
+      "Canlı Yayın"
+    ],
+    "difficulty": "medium",
+    "id": "cb8ef198-2531-4453-af6f-39f4bff6baef"
+  },
+  {
+    "word": "Escape Room",
+    "forbidden": [
+      "Oda",
+      "Bulmaca",
+      "Süre",
+      "Kaçmak",
+      "Gizem"
+    ],
+    "difficulty": "medium",
+    "id": "9e91ce80-0f7b-4540-9aa2-6d67e12fdf86"
+  },
+  {
+    "word": "Laser Tag Arenası",
+    "forbidden": [
+      "Karanlık",
+      "Yelek",
+      "Takım",
+      "Puan",
+      "Hedef"
+    ],
+    "difficulty": "medium",
+    "id": "8ffac348-6f82-44af-bd27-83b30dcb2434"
+  },
+  {
+    "word": "Paintball Sahası",
+    "forbidden": [
+      "Kıyafet",
+      "Maske",
+      "Takım",
+      "Senaryo",
+      "Boyalı Mermi"
+    ],
+    "difficulty": "medium",
+    "id": "fb120dea-5cc7-473a-9158-49cd37f81473"
+  },
+  {
+    "word": "Bungee Jumping",
+    "forbidden": [
+      "Yüksekten Atlamak",
+      "İp",
+      "Adrenalin",
+      "Köprü",
+      "Cesaret"
+    ],
+    "difficulty": "medium",
+    "id": "f42869ce-7073-48cd-b8be-6e553dab07fb"
+  },
+  {
+    "word": "Serbest Dalış",
+    "forbidden": [
+      "Nefes Tutmak",
+      "Derin",
+      "Sessizlik",
+      "Akciğer",
+      "Balık Avlamak"
+    ],
+    "difficulty": "medium",
+    "id": "fd2e86c8-472e-40af-9b97-e90c72d53a06"
+  },
+  {
+    "word": "Yürüyüş Parkuru",
+    "forbidden": [
+      "Doğa",
+      "Patika",
+      "Orman",
+      "Egzersiz",
+      "Manzara"
+    ],
+    "difficulty": "medium",
+    "id": "cb33e53e-874c-4201-a50d-63cb0cba0092"
+  },
+  {
+    "word": "Bisiklet Yolu",
+    "forbidden": [
+      "Şehir",
+      "Peyzaj",
+      "Sürüş",
+      "Ulaşım",
+      "Egzersiz"
+    ],
+    "difficulty": "medium",
+    "id": "cd0844d2-675e-41ab-9ee7-77e866624112"
+  },
+  {
+    "word": "At Çiftliği",
+    "forbidden": [
+      "Binicilik",
+      "Hayvan",
+      "Doğa",
+      "Eğitim",
+      "Ahır"
+    ],
+    "difficulty": "medium",
+    "id": "61322273-a964-4ff1-843f-011d06b69d58"
+  },
+  {
+    "word": "Golf Sahası",
+    "forbidden": [
+      "Çim",
+      "Sopa",
+      "Top",
+      "Delik",
+      "Yeşil Alan"
+    ],
+    "difficulty": "medium",
+    "id": "9943f525-f489-44df-8cac-c6cb76f75d52"
+  },
+  {
+    "word": "Yelkenli Yarışı",
+    "forbidden": [
+      "Deniz",
+      "Rüzgar",
+      "Tekne",
+      "Rekabet",
+      "Mavi"
+    ],
+    "difficulty": "medium",
+    "id": "fb6cde40-99b0-403c-b1e0-c7d407e825db"
+  },
+  {
+    "word": "Motor Sporları",
+    "forbidden": [
+      "Araba",
+      "Motor",
+      "Yarış",
+      "Hız",
+      "Adrenalin"
+    ],
+    "difficulty": "medium",
+    "id": "2ff400ac-4cf5-4eb2-8df1-207d2d26323b"
+  },
+  {
+    "word": "Fitness Merkezi",
+    "forbidden": [
+      "Spor",
+      "Kas",
+      "Ağırlık",
+      "Koşu Bandı",
+      "Egzersiz"
+    ],
+    "difficulty": "medium",
+    "id": "2f599fdb-ba7b-4abf-b0de-6cc0d68f5f1b"
+  },
+  {
+    "word": "Yoga Stüdyosu",
+    "forbidden": [
+      "Mat",
+      "Nefes",
+      "Esneklik",
+      "Rahatlama",
+      "Ders"
+    ],
+    "difficulty": "medium",
+    "id": "8121d9aa-7078-4cc3-83ea-f883b8143b4d"
+  },
+  {
+    "word": "Pilates Dersi",
+    "forbidden": [
+      "Esneklik",
+      "Kuvvet",
+      "Vücut",
+      "Mat",
+      "Egzersiz"
+    ],
+    "difficulty": "medium",
+    "id": "0b36685f-3383-4aa4-be31-84dd98983263"
+  },
+  {
+    "word": "Spa Merkezi",
+    "forbidden": [
+      "Masaj",
+      "Sauna",
+      "Hamam",
+      "Dinlenmek",
+      "Su"
+    ],
+    "difficulty": "medium",
+    "id": "35866064-acd7-4d00-81ec-d2e5faa27140"
+  },
+  {
+    "word": "Konser Salonu",
+    "forbidden": [
+      "Sahne",
+      "Müzik",
+      "Sanatçı",
+      "Akustik",
+      "Büyük"
+    ],
+    "difficulty": "medium",
+    "id": "658e0571-2539-4be5-8033-66b1bd9c1d34"
+  },
+  {
+    "word": "Galeri Gezisi",
+    "forbidden": [
+      "Sanat",
+      "Resim",
+      "Heykel",
+      "Sergi",
+      "Görmek"
+    ],
+    "difficulty": "medium",
+    "id": "54b0a6fa-9eee-401f-b39a-df44305df11f"
+  },
+  {
+    "word": "Antika Pazarı",
+    "forbidden": [
+      "Eski Eşya",
+      "Değerli",
+      "Koleksiyon",
+      "Satıcı",
+      "Pazarlık"
+    ],
+    "difficulty": "medium",
+    "id": "684e03d0-5f00-4511-8488-ff064d839bd4"
+  },
+  {
+    "word": "Kitap Fuarı",
+    "forbidden": [
+      "Yazar",
+      "İmza Günü",
+      "Yeni Kitap",
+      "Stand",
+      "Okuyucu"
+    ],
+    "difficulty": "medium",
+    "id": "39c80cba-90e3-4aaf-9308-1918986d5b89"
+  },
+  {
+    "word": "Çocuk Tiyatrosu",
+    "forbidden": [
+      "Sahne",
+      "Palyaço",
+      "Masal",
+      "Eğitici",
+      "Minikler"
+    ],
+    "difficulty": "medium",
+    "id": "2db1d949-931c-42ae-b31a-84142790a72e"
+  },
+  {
+    "word": "Marionet Gösterisi",
+    "forbidden": [
+      "İp",
+      "Kukla",
+      "Sahne",
+      "Hareket Ettirmek",
+      "Tahta"
+    ],
+    "difficulty": "medium",
+    "id": "12bdbc90-b8ef-49c2-888e-d36eaf09e0d0"
+  },
+  {
+    "word": "Balet Kursu",
+    "forbidden": [
+      "Dans",
+      "Puan",
+      "Zarafet",
+      "Ders",
+      "Sanat"
+    ],
+    "difficulty": "medium",
+    "id": "4fb58343-9ae7-411f-8478-753cabcb4e4e"
+  },
+  {
+    "word": "Orkestra Konseri",
+    "forbidden": [
+      "Müzik",
+      "Enstrümanlar",
+      "Senfoni",
+      "Şef",
+      "Klasik"
+    ],
+    "difficulty": "medium",
+    "id": "f4a0a673-4712-4032-841f-fefe1a2250ce"
+  },
+  {
+    "word": "Müzikal Gösteri",
+    "forbidden": [
+      "Şarkı",
+      "Dans",
+      "Oyunculuk",
+      "Broadway",
+      "Sahne"
+    ],
+    "difficulty": "medium",
+    "id": "93554dca-b839-4016-97b1-97c68bccae06"
+  },
+  {
+    "word": "Operet",
+    "forbidden": [
+      "Hafif Opera",
+      "Komik",
+      "Şarkı Söylemek",
+      "Sahne",
+      "Müzik"
+    ],
+    "difficulty": "medium",
+    "id": "357a19c3-01a0-4d2d-9d24-66d3d5457b6b"
+  },
+  {
+    "word": "Tarihi Yarımada Turu",
+    "forbidden": [
+      "İstanbul",
+      "Eski",
+      "Cami",
+      "Müze",
+      "Gezmek"
+    ],
+    "difficulty": "medium",
+    "id": "ddb92522-0652-4f3b-b71e-99fc645def5b"
+  },
+  {
+    "word": "Kapalı Çarşı",
+    "forbidden": [
+      "İstanbul",
+      "Alışveriş",
+      "Tarihi",
+      "Esnaf",
+      "Labirent"
+    ],
+    "difficulty": "medium",
+    "id": "85ef60ea-2822-4a87-8108-0c3564ac647e"
+  },
+  {
+    "word": "Boğaz Turu",
+    "forbidden": [
+      "Tekne",
+      "Deniz",
+      "İstanbul",
+      "Manzara",
+      "Yalı"
+    ],
+    "difficulty": "medium",
+    "id": "0fe17f59-a627-49e4-8202-a4a5d2652c4d"
+  },
+  {
+    "word": "Şarap Tadımı",
+    "forbidden": [
+      "Üzüm",
+      "Kadeh",
+      "Lezzet",
+      "Mahzen",
+      "Alkol"
+    ],
+    "difficulty": "medium",
+    "id": "06a7cc1b-b2bd-4d12-867f-de2760e92099"
+  },
+  {
+    "word": "Bira Fabrikası Gezisi",
+    "forbidden": [
+      "Malt",
+      "Şerbetçiotu",
+      "Üretim",
+      "Tadım",
+      "Alkollü"
+    ],
+    "difficulty": "medium",
+    "id": "b40dc6e7-72cb-4670-b06e-2b54127e3897"
+  },
+  {
+    "word": "Kahve Tadımı",
+    "forbidden": [
+      "Çekirdek",
+      "Aroma",
+      "Filtre",
+      "Barista",
+      "Lezzet"
+    ],
+    "difficulty": "medium",
+    "id": "17330cb1-6860-435f-84ee-8bbf3ce9adfb"
+  },
+  {
+    "word": "Çay Seremonisi",
+    "forbidden": [
+      "Japon",
+      "Ritüel",
+      "Sakinlik",
+      "Demlemek",
+      "Misafirperverlik"
+    ],
+    "difficulty": "medium",
+    "id": "b793bd68-5a3c-4221-a345-6b245a2f8d41"
+  },
+  {
+    "word": "Yemek Kursu",
+    "forbidden": [
+      "Mutfak",
+      "Şef",
+      "Tarif",
+      "Pişirmek",
+      "Öğrenmek"
+    ],
+    "difficulty": "medium",
+    "id": "ee9fad29-f5d3-44dc-99dc-be574eeb90c2"
+  },
+  {
+    "word": "Pasta Yapım Kursu",
+    "forbidden": [
+      "Şeker",
+      "Un",
+      "Tarif",
+      "Süslemek",
+      "Fırın"
+    ],
+    "difficulty": "medium",
+    "id": "b5e8d75a-94d0-46ef-a1d6-2ed7cef7dbc5"
+  },
+  {
+    "word": "Çömlek Yapımı",
+    "forbidden": [
+      "Toprak",
+      "Çark",
+      "Şekillendirmek",
+      "Fırınlamak",
+      "Sanat"
+    ],
+    "difficulty": "medium",
+    "id": "4f95fa41-3241-4b3f-8b9c-e323dc56f541"
+  },
+  {
+    "word": "Resim Dersi",
+    "forbidden": [
+      "Fırça",
+      "Boyama",
+      "Tuval",
+      "Sanatçı",
+      "Renk"
+    ],
+    "difficulty": "medium",
+    "id": "88d6f8ee-fcce-46bb-9d15-24a733b6793a"
+  },
+  {
+    "word": "Heykel Yapımı",
+    "forbidden": [
+      "Kil",
+      "Şekillendirmek",
+      "Sanat",
+      "Üç Boyutlu",
+      "Malzeme"
+    ],
+    "difficulty": "medium",
+    "id": "d20cbfe3-2819-48dd-aee3-60d33c04a374"
+  },
+  {
+    "word": "Fotoğrafçılık Kursu",
+    "forbidden": [
+      "Kamera",
+      "Lens",
+      "Çekmek",
+      "Işık",
+      "Kompozisyon"
+    ],
+    "difficulty": "medium",
+    "id": "05ab5ad8-76f0-41f4-ba42-09f3c1bb30a2"
+  },
+  {
+    "word": "Enstrüman Dersi",
+    "forbidden": [
+      "Piyano",
+      "Gitar",
+      "Müzik",
+      "Notalar",
+      "Öğrenmek"
+    ],
+    "difficulty": "medium",
+    "id": "5399d5a2-ab29-4612-ad17-fc6f8eaf3d40"
+  },
+  {
+    "word": "Şarkı Yazımı",
+    "forbidden": [
+      "Söz",
+      "Melodi",
+      "Bestelemek",
+      "Müzik",
+      "Yaratıcılık"
+    ],
+    "difficulty": "medium",
+    "id": "8c41649f-7000-4b1b-9e3e-888365b99776"
+  },
+  {
+    "word": "Dans Dersi",
+    "forbidden": [
+      "Ritim",
+      "Adım",
+      "Öğrenmek",
+      "Müzik",
+      "Eşli"
+    ],
+    "difficulty": "medium",
+    "id": "544de82e-2b95-47ac-8150-5e1b8ea48b7f"
+  },
+  {
+    "word": "Oyunculuk Atölyesi",
+    "forbidden": [
+      "Sahne",
+      "Karakter",
+      "Doğaçlama",
+      "Rol",
+      "Tiyatro"
+    ],
+    "difficulty": "medium",
+    "id": "9e536cb8-e9a2-49fe-ae24-ea86651faa70"
+  },
+  {
+    "word": "Diksiyon Dersi",
+    "forbidden": [
+      "Konuşma",
+      "Telaffuz",
+      "Ses",
+      "Artikülasyon",
+      "Doğru"
+    ],
+    "difficulty": "medium",
+    "id": "82a21d8f-89ec-4940-8a96-fc5344fdc72a"
+  },
+  {
+    "word": "Hikaye Anlatıcılığı",
+    "forbidden": [
+      "Masal",
+      "Dinleyici",
+      "Ses Tonu",
+      "Eğlenceli",
+      "Eski Sanat"
+    ],
+    "difficulty": "medium",
+    "id": "70358f58-05f9-4851-a719-a39526e72db5"
+  },
+  {
+    "word": "Komedi Kulübü",
+    "forbidden": [
+      "Gülmek",
+      "Şaka",
+      "Mizah",
+      "Sahne",
+      "Performans"
+    ],
+    "difficulty": "medium",
+    "id": "31427a63-6259-487c-9cf2-c8ff61535e0b"
+  },
+  {
+    "word": "Drama Kulübü",
+    "forbidden": [
+      "Sahne",
+      "Oyunculuk",
+      "Metin",
+      "Provalar",
+      "Tiyatro"
+    ],
+    "difficulty": "medium",
+    "id": "aaad8eb5-aa0f-4c9f-ac05-68656068eec0"
+  },
+  {
+    "word": "Film Atölyesi",
+    "forbidden": [
+      "Kamera",
+      "Yönetmen",
+      "Senaryo",
+      "Çekim",
+      "Kurgu"
+    ],
+    "difficulty": "medium",
+    "id": "12ba3ce4-aa5f-422d-8dc5-fbdaad3086d6"
+  },
+  {
+    "word": "Senaryo Yazımı",
+    "forbidden": [
+      "Film",
+      "Hikaye",
+      "Karakter",
+      "Diyalog",
+      "Yazmak"
+    ],
+    "difficulty": "medium",
+    "id": "24be9420-b56a-401f-adbb-7e9f7ab2d842"
+  },
+  {
+    "word": "Animasyon Stüdyosu",
+    "forbidden": [
+      "Çizgi Film",
+      "Hareket",
+      "Karakter",
+      "Bilgisayar",
+      "Yaratmak"
+    ],
+    "difficulty": "medium",
+    "id": "749014c7-b043-4272-9240-5664aba75c77"
+  },
+  {
+    "word": "Çizgi Film Festivali",
+    "forbidden": [
+      "Animasyon",
+      "Gösterim",
+      "Ödül",
+      "Yönetmen",
+      "Japon"
+    ],
+    "difficulty": "medium",
+    "id": "f5fa35ef-ad63-4419-ae8e-bae959cb47f0"
+  },
+  {
+    "word": "Kısa Film Yarışması",
+    "forbidden": [
+      "Video",
+      "Ödül",
+      "Amatör",
+      "Festival",
+      "Hikaye"
+    ],
+    "difficulty": "medium",
+    "id": "b62c67a9-4568-4c42-9a95-f003f0eb6adc"
+  },
+  {
+    "word": "Belgesel Çekimi",
+    "forbidden": [
+      "Gerçek",
+      "Araştırma",
+      "Kamera",
+      "Röportaj",
+      "Doğa"
+    ],
+    "difficulty": "medium",
+    "id": "96375e87-86be-4b9d-adb2-066f148be0e0"
+  },
+  {
+    "word": "Medya Okur Yazarlığı",
+    "forbidden": [
+      "Haber",
+      "Eleştirel Düşünme",
+      "Bilgi",
+      "Kaynak",
+      "Analiz"
+    ],
+    "difficulty": "medium",
+    "id": "84e0e529-cb10-4975-936a-a74a9bb85f1a"
+  },
+  {
+    "word": "Podcast Dinlemek",
+    "forbidden": [
+      "Ses",
+      "Program",
+      "Konuşma",
+      "Kulaklık",
+      "Bilgi"
+    ],
+    "difficulty": "medium",
+    "id": "e985637e-784d-4ea1-b5b7-d5e162cb7f57"
+  },
+  {
+    "word": "Radyo Programı",
+    "forbidden": [
+      "Yayın",
+      "Dinleyici",
+      "Konuşma",
+      "Müzik",
+      "Sunucu"
+    ],
+    "difficulty": "medium",
+    "id": "d660f0fe-6cfb-45bf-a197-5b047ac6b59b"
+  },
+  {
+    "word": "Televizyon Programı",
+    "forbidden": [
+      "Ekran",
+      "İzleyici",
+      "Kanal",
+      "Sunucu",
+      "Canlı"
+    ],
+    "difficulty": "medium",
+    "id": "7934b310-da08-4a87-bc9c-0025ab40e577"
+  },
+  {
+    "word": "Web Dizisi",
+    "forbidden": [
+      "İnternet",
+      "Kısa Bölüm",
+      "Çevrimiçi",
+      "Gençlik",
+      "Platform"
+    ],
+    "difficulty": "medium",
+    "id": "0f722747-2692-41c2-b1ba-37b7bbe64596"
+  },
+  {
+    "word": "Sokak Sanatçısı",
+    "forbidden": [
+      "Müzik",
+      "Para",
+      "Kaldırım",
+      "Gösteri",
+      "Enstrüman"
+    ],
+    "difficulty": "medium",
+    "id": "3ff1317f-107e-4d8c-930f-713f2c5c2a11"
+  },
+  {
+    "word": "Halk Oyunu",
+    "forbidden": [
+      "Yöre",
+      "Dans",
+      "Kıyafet",
+      "Halay",
+      "Kültür"
+    ],
+    "difficulty": "medium",
+    "id": "928381ba-3016-433e-a7e6-00a4a79b040b"
+  },
+  {
+    "word": "Kukla Tiyatrosu",
+    "forbidden": [
+      "İp",
+      "Sahne",
+      "Çocuk",
+      "Oynatmak",
+      "Perde"
+    ],
+    "difficulty": "medium",
+    "id": "c74e3d60-97b2-4ac0-87b0-53b2217e52fa"
+  },
+  {
+    "word": "Sihirbazlık Gösterisi",
+    "forbidden": [
+      "İllüzyon",
+      "Şapka",
+      "Numara",
+      "Seyirci",
+      "Hile"
+    ],
+    "difficulty": "medium",
+    "id": "e4eb202d-6d4f-4d2a-9760-0a753d115277"
+  },
+  {
+    "word": "Vantrilok",
+    "forbidden": [
+      "Kukla",
+      "Karın",
+      "Ses",
+      "Konuşmak",
+      "Gösteri"
+    ],
+    "difficulty": "hard",
+    "id": "e774aa96-53c2-4a6f-9670-1fb52eb96f8d"
+  },
+  {
+    "word": "Flamenko",
+    "forbidden": [
+      "Dans",
+      "İspanyol",
+      "Gitar",
+      "Topuk",
+      "Ateşli"
+    ],
+    "difficulty": "hard",
+    "id": "de204f34-9892-4826-95fe-6849287ee913"
+  },
+  {
+    "word": "Akapella",
+    "forbidden": [
+      "Şarkı",
+      "Müzik",
+      "Ses",
+      "Enstrüman",
+      "Vokal"
+    ],
+    "difficulty": "hard",
+    "id": "90c7023e-054b-4059-b90b-f7151e7c851a"
+  },
+  {
+    "word": "Pandomim Sanatçısı",
+    "forbidden": [
+      "Mimik",
+      "Hareket",
+      "Konuşma",
+      "Sahne",
+      "Beyaz Yüz"
+    ],
+    "difficulty": "hard",
+    "id": "ecc05e92-3c86-48cc-8830-4a5422ef2485"
+  },
+  {
+    "word": "Jonglör",
+    "forbidden": [
+      "Top",
+      "Atmak",
+      "Yakalamak",
+      "Sirk",
+      "El"
+    ],
+    "difficulty": "hard",
+    "id": "2f356bef-0dd7-45c7-b89a-4b2992610d24"
+  },
+  {
+    "word": "Beatbox",
+    "forbidden": [
+      "Ağız",
+      "Ses",
+      "Müzik",
+      "Ritim",
+      "Mikrofon"
+    ],
+    "difficulty": "hard",
+    "id": "a6912a44-5ef1-412d-8061-748053be191e"
+  },
+  {
+    "word": "Hula Hoop",
+    "forbidden": [
+      "Çember",
+      "Bel",
+      "Çevirmek",
+      "Dans",
+      "Oyuncak"
+    ],
+    "difficulty": "hard",
+    "id": "c378edb8-54e6-46c8-aa82-79281e5a0b28"
+  },
+  {
+    "word": "Step Dansı",
+    "forbidden": [
+      "Ayak",
+      "Vurmak",
+      "Ritim",
+      "Sahne",
+      "Tap"
+    ],
+    "difficulty": "hard",
+    "id": "25899b5a-39a1-4098-8332-dff8e3eab85e"
+  },
+  {
+    "word": "Breakin'",
+    "forbidden": [
+      "Hip-Hop",
+      "Dans",
+      "Yer",
+      "Akrobatik",
+      "Müzik"
+    ],
+    "difficulty": "hard",
+    "id": "b7ce362f-20cc-4d31-8b21-fedbb59a438e"
+  },
+  {
+    "word": "Kukla Oyunu",
+    "forbidden": [
+      "Parmak",
+      "İp",
+      "Sahne",
+      "Çocuk",
+      "Anlatmak"
+    ],
+    "difficulty": "hard",
+    "id": "878c3bb2-e238-4d65-97f2-60c2d37d6491"
+  },
+  {
+    "word": "İlizyonist",
+    "forbidden": [
+      "Sihirbaz",
+      "Gösteri",
+      "Hile",
+      "Yok Etmek",
+      "Şaşırtmak"
+    ],
+    "difficulty": "hard",
+    "id": "11e01d9c-07d2-4174-85ca-13a63b08ebb9"
+  },
+  {
+    "word": "Eğlence Gemisi",
+    "forbidden": [
+      "Deniz",
+      "Tatil",
+      "Yüzmek",
+      "Büyük",
+      "Kumarhane"
+    ],
+    "difficulty": "hard",
+    "id": "6dbda09b-58dd-4983-8071-26e6a7077139"
+  },
+  {
+    "word": "Casino",
+    "forbidden": [
+      "Kumar",
+      "Para",
+      "Oyun",
+      "Rulet",
+      "Kart"
+    ],
+    "difficulty": "hard",
+    "id": "217d91e6-7fbf-4dea-b703-511f7cae33c8"
+  },
+  {
+    "word": "Poker Turnuvası",
+    "forbidden": [
+      "Kart",
+      "Blöf",
+      "Kazanmak",
+      "Masada",
+      "Para"
+    ],
+    "difficulty": "hard",
+    "id": "2761a566-9c6d-4065-b7e7-442c94d7e465"
+  },
+  {
+    "word": "Su Topu",
+    "forbidden": [
+      "Havuz",
+      "Takım",
+      "Kale",
+      "Yüzmek",
+      "Atmak"
+    ],
+    "difficulty": "hard",
+    "id": "01a25da7-8e04-4ed2-8f23-ec3718e2df92"
+  },
+  {
+    "word": "Kriket",
+    "forbidden": [
+      "Sopa",
+      "Top",
+      "Takım",
+      "İngiliz",
+      "Atış"
+    ],
+    "difficulty": "hard",
+    "id": "8a4b16b2-2a5d-4c80-afa9-7462a81a0715"
+  },
+  {
+    "word": "Ragbi",
+    "forbidden": [
+      "Top",
+      "Omuz",
+      "Takım",
+      "Amerikan",
+      "Sayı"
+    ],
+    "difficulty": "hard",
+    "id": "287a6019-cf0e-4529-9b92-291334c7aa74"
+  },
+  {
+    "word": "Eskrim",
+    "forbidden": [
+      "Kılıç",
+      "Kıyafet",
+      "Rakip",
+      "Uç",
+      "Saygı"
+    ],
+    "difficulty": "hard",
+    "id": "2d444e4f-dc77-4638-b712-ebcdcd9f12b7"
+  },
+  {
+    "word": "Binicilik",
+    "forbidden": [
+      "At",
+      "Eyer",
+      "Engel Atlama",
+      "Yarışma",
+      "Denge"
+    ],
+    "difficulty": "hard",
+    "id": "77b1f63b-c776-486d-8de4-6caa2feaf56b"
+  },
+  {
+    "word": "Güreş",
+    "forbidden": [
+      "Mindere",
+      "Rakip",
+      "Tutmak",
+      "Sırt Üstü",
+      "Olimpiyat"
+    ],
+    "difficulty": "hard",
+    "id": "6ccdbd83-bb87-45bb-9c91-a30b38b2e429"
+  },
+  {
+    "word": "Halter",
+    "forbidden": [
+      "Ağırlık",
+      "Kaldırmak",
+      "Kas",
+      "Güç",
+      "Bar"
+    ],
+    "difficulty": "hard",
+    "id": "f6520a29-89a1-4d68-a654-4c103cade01d"
+  },
+  {
+    "word": "Buz Hokeyi",
+    "forbidden": [
+      "Buz",
+      "Paten",
+      "Sopa",
+      "Disk",
+      "Takım"
+    ],
+    "difficulty": "hard",
+    "id": "f5aa9d66-ba80-4711-a6da-92d1000bdab4"
+  },
+  {
+    "word": "Curling",
+    "forbidden": [
+      "Buz",
+      "Taş",
+      "Fırça",
+      "Kaydırmak",
+      "İskoç"
+    ],
+    "difficulty": "hard",
+    "id": "2c038328-78b7-4213-aef4-538e23f717ea"
+  },
+  {
+    "word": "Softbol",
+    "forbidden": [
+      "Beyzbol",
+      "Top",
+      "Sopa",
+      "Amerikan",
+      "Saha"
+    ],
+    "difficulty": "hard",
+    "id": "d2dd40d5-30e4-46f0-863a-56d6d3e5ef53"
+  },
+  {
+    "word": "Badminton",
+    "forbidden": [
+      "Raket",
+      "Tüy Top",
+      "File",
+      "Vurmak",
+      "Tek Kişilik"
+    ],
+    "difficulty": "hard",
+    "id": "3edcea8d-6182-494e-9bb2-4d4a88e9df17"
+  },
+  {
+    "word": "Squash",
+    "forbidden": [
+      "Top",
+      "Duvar",
+      "Raket",
+      "Kapalı Alan",
+      "Hızlı"
+    ],
+    "difficulty": "hard",
+    "id": "20ac5fea-35d2-4bb4-93d4-21bb4499bba9"
+  },
+  {
+    "word": "Bovling",
+    "forbidden": [
+      "Labut",
+      "Top",
+      "Devirmek",
+      "Sayı",
+      "Salon"
+    ],
+    "difficulty": "hard",
+    "id": "c39da11c-70ba-4e20-91a3-cd6b4d9ca6c6"
+  },
+  {
+    "word": "Dart",
+    "forbidden": [
+      "Ok",
+      "Hedef",
+      "Atış",
+      "Puan",
+      "Duvar"
+    ],
+    "difficulty": "hard",
+    "id": "c5d1f4c1-8a51-43f8-80a1-15c7b95bf871"
+  },
+  {
+    "word": "Bilardo",
+    "forbidden": [
+      "Masa",
+      "Top",
+      "Istaka",
+      "Delik",
+      "Yeşil"
+    ],
+    "difficulty": "hard",
+    "id": "9038d3f7-dfb0-49ff-8508-e62cca5df9e9"
+  },
+  {
+    "word": "Kızma Birader",
+    "forbidden": [
+      "Zar",
+      "Piyon",
+      "Oyun",
+      "Tahta",
+      "Ev"
+    ],
+    "difficulty": "hard",
+    "id": "f7804212-d348-4f56-af6f-8108bfa9e35c"
+  },
+  {
+    "word": "Scrabble",
+    "forbidden": [
+      "Harf",
+      "Kelime",
+      "Puan",
+      "Tahta",
+      "Yazmak"
+    ],
+    "difficulty": "hard",
+    "id": "17cc7298-988e-4313-86be-cfa84afb8838"
+  },
+  {
+    "word": "Trivial Pursuit",
+    "forbidden": [
+      "Soru",
+      "Cevap",
+      "Kategori",
+      "Bilgi",
+      "Tahta"
+    ],
+    "difficulty": "hard",
+    "id": "70a347a5-74e1-4b99-9706-5fcd381a72f8"
+  },
+  {
+    "word": "Risk",
+    "forbidden": [
+      "Savaş",
+      "Harita",
+      "Toprak",
+      "Ordu",
+      "Zar"
+    ],
+    "difficulty": "hard",
+    "id": "6dc65459-e906-43f8-bebc-c71ad40a0d1c"
+  },
+  {
+    "word": "Catan Yerleşimcileri",
+    "forbidden": [
+      "Kaynak",
+      "Ada",
+      "Ticaret",
+      "Yerleşim",
+      "Oyun"
+    ],
+    "difficulty": "hard",
+    "id": "30e120d5-f331-4ebd-90ca-5d6aa9737af2"
+  },
+  {
+    "word": "Monopoly",
+    "forbidden": [
+      "Emlak",
+      "Para",
+      "Banker",
+      "Hapishane",
+      "Kira"
+    ],
+    "difficulty": "hard",
+    "id": "f688c8ae-151e-4a12-a03f-d042f39a89b5"
+  },
+  {
+    "word": "Sözcük Avı",
+    "forbidden": [
+      "Bulmaca",
+      "Kare",
+      "Harf",
+      "Gizli",
+      "Kelimeler"
+    ],
+    "difficulty": "hard",
+    "id": "655ae4c4-61b2-47be-85be-f8f418cba948"
+  },
+  {
+    "word": "Sayısal Loto",
+    "forbidden": [
+      "Şans",
+      "Sayı",
+      "Çekiliş",
+      "Milyoner",
+      "İkramiye"
+    ],
+    "difficulty": "hard",
+    "id": "637a5dfd-5632-48a3-8ca9-feddea50bc02"
+  },
+  {
+    "word": "Piyango",
+    "forbidden": [
+      "Bilet",
+      "Çekiliş",
+      "Büyük İkramiye",
+      "Şans",
+      "Numara"
+    ],
+    "difficulty": "hard",
+    "id": "60c0a154-3384-488f-879d-27ed134b50ae"
+  },
+  {
+    "word": "Kazı Kazan",
+    "forbidden": [
+      "Bilet",
+      "Kazımak",
+      "Şans",
+      "Para",
+      "Hemen"
+    ],
+    "difficulty": "hard",
+    "id": "4b541962-8d57-4f40-b745-750a0a949563"
+  },
+  {
+    "word": "Tombala",
+    "forbidden": [
+      "Kart",
+      "Sayı",
+      "Çekiliş",
+      "Sıra",
+      "Çinko"
+    ],
+    "difficulty": "hard",
+    "id": "24382d55-fb5e-40cd-9a8b-4145acffd75a"
+  },
+  {
+    "word": "Maket Yapımı",
+    "forbidden": [
+      "Küçük",
+      "Parça",
+      "Birleştirmek",
+      "Yapıştırmak",
+      "Uçak"
+    ],
+    "difficulty": "hard",
+    "id": "f7abc3e8-acb3-47e8-9d9b-a8d7297a862b"
+  },
+  {
+    "word": "Origami",
+    "forbidden": [
+      "Kağıt",
+      "Katlamak",
+      "Japon",
+      "Şekil",
+      "Hayvan"
+    ],
+    "difficulty": "hard",
+    "id": "528aa225-9cfe-4866-acae-4320435edc21"
+  },
+  {
+    "word": "Minyatür Sanatı",
+    "forbidden": [
+      "Küçük",
+      "Detay",
+      "Boyamak",
+      "Osmanlı",
+      "İnce"
+    ],
+    "difficulty": "hard",
+    "id": "8c9dc2ed-32ae-442d-bdbf-6754b84d9da1"
+  },
+  {
+    "word": "Kaligrafi",
+    "forbidden": [
+      "Yazı",
+      "Güzel",
+      "Sanat",
+      "Fırça",
+      "Harf"
+    ],
+    "difficulty": "hard",
+    "id": "788277e4-0472-4fcb-a382-afe1c0e5fdc8"
+  },
+  {
+    "word": "Gravür",
+    "forbidden": [
+      "Oyma",
+      "Desen",
+      "Metal",
+      "Tahta",
+      "Sanat"
+    ],
+    "difficulty": "hard",
+    "id": "dac52488-a894-4a66-872f-8c089ed2ba95"
+  },
+  {
+    "word": "Hat Sanatı",
+    "forbidden": [
+      "Arapça",
+      "Yazı",
+      "İslam",
+      "Kalem",
+      "Güzel"
+    ],
+    "difficulty": "hard",
+    "id": "eddd93b3-51fd-43f8-b641-a5b589836cd9"
+  },
+  {
+    "word": "Filigran",
+    "forbidden": [
+      "Su",
+      "Kağıt",
+      "Gizli",
+      "Desen",
+      "Işık"
+    ],
+    "difficulty": "hard",
+    "id": "c9688c2f-8bbe-482b-8620-65bd7da23c67"
+  },
+  {
+    "word": "Mural",
+    "forbidden": [
+      "Duvar",
+      "Büyük",
+      "Resim",
+      "Sanat",
+      "Sokak"
+    ],
+    "difficulty": "hard",
+    "id": "7380ea8a-bfd2-422b-9504-2efb38609740"
+  },
+  {
+    "word": "Street Art",
+    "forbidden": [
+      "Sokak",
+      "Sanat",
+      "Graffiti",
+      "Duvar",
+      "Anonim"
+    ],
+    "difficulty": "hard",
+    "id": "c07faa64-126f-4768-a3a3-c7e88174c3bc"
+  },
+  {
+    "word": "Enstalasyon",
+    "forbidden": [
+      "Sanat",
+      "Mekân",
+      "Yerleştirme",
+      "Çağdaş",
+      "Deneyim"
+    ],
+    "difficulty": "hard",
+    "id": "26b09f33-fbc5-4751-b523-bdf93c71155b"
+  },
+  {
+    "word": "Performans Sanatı",
+    "forbidden": [
+      "Canlı",
+      "Sanatçı",
+      "Gösteri",
+      "Vücut",
+      "Anlık"
+    ],
+    "difficulty": "hard",
+    "id": "3cf55c02-abd4-44e4-aa4d-2a62656fd69b"
+  },
+  {
+    "word": "Gerilla Pazarlama",
+    "forbidden": [
+      "Reklam",
+      "Şaşırtıcı",
+      "Düşük Bütçe",
+      "Viral",
+      "Beklenmedik"
+    ],
+    "difficulty": "hard",
+    "id": "aaac2392-7651-435d-9dff-5e464a24d580"
+  },
+  {
+    "word": "Flash Mob",
+    "forbidden": [
+      "Kalabalık",
+      "Aniden",
+      "Dans",
+      "Gösteri",
+      "Sürpriz"
+    ],
+    "difficulty": "hard",
+    "id": "b136b6fc-af8b-45e1-af22-335448eddb7a"
+  },
+  {
+    "word": "Doğaçlama Tiyatro",
+    "forbidden": [
+      "Metin",
+      "Anlık",
+      "Sahne",
+      "Komik",
+      "Oyuncu"
+    ],
+    "difficulty": "hard",
+    "id": "5b1c11cc-1c2f-4704-8f21-60f867fa491b"
+  },
+  {
+    "word": "Absürd Komedi",
+    "forbidden": [
+      "Saçma",
+      "Mantıksız",
+      "Gülmek",
+      "Mizah",
+      "Siyah"
+    ],
+    "difficulty": "hard",
+    "id": "df236fcd-1e28-402c-a513-ca85df869085"
+  },
+  {
+    "word": "Siyah Komedi",
+    "forbidden": [
+      "Mizah",
+      "Karanlık",
+      "Ölüm",
+      "Hastalık",
+      "Ciddi Konu"
+    ],
+    "difficulty": "hard",
+    "id": "7bbdba49-ef77-4d8b-bf84-cafe5570c290"
+  },
+  {
+    "word": "Parodi",
+    "forbidden": [
+      "Taklit",
+      "Dalga Geçmek",
+      "Komik",
+      "Orijinal",
+      "Benzer"
+    ],
+    "difficulty": "hard",
+    "id": "6f012ade-9577-4f12-a82d-31bbc868c19f"
+  },
+  {
+    "word": "Sürrealizm",
+    "forbidden": [
+      "Gerçeküstü",
+      "Rüya",
+      "Sanat",
+      "Bilinaltı",
+      "Dali"
+    ],
+    "difficulty": "hard",
+    "id": "5ab0b87b-bc49-46ad-8731-09c291ceb249"
+  },
+  {
+    "word": "Fütürizm",
+    "forbidden": [
+      "Gelecek",
+      "Hız",
+      "Makine",
+      "Savaş",
+      "İtalya"
+    ],
+    "difficulty": "hard",
+    "id": "2dc37e19-1843-418b-ba50-ec45596edf61"
+  },
+  {
+    "word": "Kubizm",
+    "forbidden": [
+      "Geometrik",
+      "Resim",
+      "Picasso",
+      "Parça",
+      "Çok Yönlü"
+    ],
+    "difficulty": "hard",
+    "id": "a93d34bd-b870-4ad5-905b-064b4d77738f"
+  },
+  {
+    "word": "Dadaizm",
+    "forbidden": [
+      "Saçma",
+      "Anlamsız",
+      "Sanat",
+      "Hazır Nesne",
+      "Marcel Duchamp"
+    ],
+    "difficulty": "hard",
+    "id": "2bbca44e-229d-47cd-bb7b-e5938cb9c616"
+  },
+  {
+    "word": "Pop Art",
+    "forbidden": [
+      "Tüketim",
+      "Popüler",
+      "Sanat",
+      "Andy Warhol",
+      "Tekrar"
+    ],
+    "difficulty": "hard",
+    "id": "0a650dc6-cd2c-4c52-b5f7-bcb68efc9885"
+  },
+  {
+    "word": "Minimalizm",
+    "forbidden": [
+      "Az",
+      "Basit",
+      "Tekrar",
+      "Geometrik",
+      "Sanat"
+    ],
+    "difficulty": "hard",
+    "id": "d30289e2-0fd0-4ca7-a687-1eeb3e99aa2d"
+  },
+  {
+    "word": "Entelektüel Mizah",
+    "forbidden": [
+      "Zeka",
+      "Espri",
+      "Bilgi",
+      "İnce",
+      "Düşünmek"
+    ],
+    "difficulty": "hard",
+    "id": "3cee986e-1df9-47ea-85ca-eeff1af415cd"
+  },
+  {
+    "word": "Satir",
+    "forbidden": [
+      "Eleştiri",
+      "Mizah",
+      "Toplum",
+      "İğneleyici",
+      "Komik"
+    ],
+    "difficulty": "hard",
+    "id": "e401477b-9635-46bb-b47d-7e3ad530a02d"
+  },
+  {
+    "word": "Grotesk",
+    "forbidden": [
+      "Çirkin",
+      "Komik",
+      "Abartılı",
+      "Garip",
+      "Korkunç"
+    ],
+    "difficulty": "hard",
+    "id": "9d8e9242-e807-4e92-8e9a-196aefad1086"
+  },
+  {
+    "word": "Avangart",
+    "forbidden": [
+      "Öncü",
+      "Yenilikçi",
+      "Sanat",
+      "Modern",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "0a1a2237-eaa1-4305-92db-b4e034eec724"
+  },
+  {
+    "word": "Enstrümantal Müzik",
+    "forbidden": [
+      "Şarkı Sözü",
+      "Vokal",
+      "Sadece",
+      "Çalmak",
+      "Nota"
+    ],
+    "difficulty": "hard",
+    "id": "b548df53-3bae-4e48-89b9-6a7a2e37e1c9"
+  },
+  {
+    "word": "Ambient Müzik",
+    "forbidden": [
+      "Fon",
+      "Sakin",
+      "Enstrümantal",
+      "Rahatlama",
+      "Ses"
+    ],
+    "difficulty": "hard",
+    "id": "5f0a6f45-a147-4aa6-a586-05c6994ca6a4"
+  },
+  {
+    "word": "Elektronik Dans Müziği",
+    "forbidden": [
+      "DJ",
+      "Tekno",
+      "Ritüel",
+      "Kulüp",
+      "Sentezleyici"
+    ],
+    "difficulty": "hard",
+    "id": "323365d6-0a24-4111-8eeb-bbc9adf1f541"
+  },
+  {
+    "word": "Progresif Rock",
+    "forbidden": [
+      "Uzun Şarkı",
+      "Karmaşık",
+      "Deney",
+      "Enstrüman",
+      "Anlatı"
+    ],
+    "difficulty": "hard",
+    "id": "8b3728e1-4589-45a8-9be1-e890bb5b4fda"
+  },
+  {
+    "word": "Post-Rock",
+    "forbidden": [
+      "Sözsüz",
+      "Duygusal",
+      "Enstrümantal",
+      "Gitar",
+      "Yavaş"
+    ],
+    "difficulty": "hard",
+    "id": "f074239d-5585-4bed-b5ba-cbcd5ba1a2f3"
+  },
+  {
+    "word": "Caz Füzyon",
+    "forbidden": [
+      "Funk",
+      "Rock",
+      "Karma",
+      "Enstrümantal",
+      "Doğaçlama"
+    ],
+    "difficulty": "hard",
+    "id": "ba4a2bfe-3e3e-408e-9d0f-0f9b918b2ca3"
+  },
+  {
+    "word": "Blues",
+    "forbidden": [
+      "Hüzünlü",
+      "Gitar",
+      "Amerika",
+      "Afrika",
+      "Köken"
+    ],
+    "difficulty": "hard",
+    "id": "99daa203-0f52-4a6f-99e0-4c4d6af8e5b4"
+  },
+  {
+    "word": "Folk Müzik",
+    "forbidden": [
+      "Halk",
+      "Geleneksel",
+      "Akustik",
+      "Hikaye",
+      "Köy"
+    ],
+    "difficulty": "hard",
+    "id": "92b0abcc-4d1f-4ed7-96eb-dc5f7eda8c17"
+  },
+  {
+    "word": "Gotik Rock",
+    "forbidden": [
+      "Karanlık",
+      "Müzik",
+      "Giysi",
+      "Gothic",
+      "Atmosfer"
+    ],
+    "difficulty": "hard",
+    "id": "23aef51d-4186-4fa2-be8a-d69d76058789"
+  },
+  {
+    "word": "Endüstriyel Müzik",
+    "forbidden": [
+      "Gürültü",
+      "Fabrika",
+      "Makine",
+      "Deneysel",
+      "Sert"
+    ],
+    "difficulty": "hard",
+    "id": "fdfa03a2-5aba-42d2-add5-a478972c0add"
+  },
+  {
+    "word": "New Age Müzik",
+    "forbidden": [
+      "Rahatlama",
+      "Doğa",
+      "Manevi",
+      "Meditasyon",
+      "Enstrümantal"
+    ],
+    "difficulty": "hard",
+    "id": "eb8dcc64-90b8-41d7-9eac-23b8856fc012"
+  },
+  {
+    "word": "Sufi Müziği",
+    "forbidden": [
+      "Tasavvuf",
+      "Mevlana",
+      "Ney",
+      "Ruhani",
+      "Zikir"
+    ],
+    "difficulty": "hard",
+    "id": "4f34efc2-814e-4406-8362-18958605f230"
+  },
+  {
+    "word": "Barok Müzik",
+    "forbidden": [
+      "Dönem",
+      "Süslemeli",
+      "Kilise",
+      "Bach",
+      "Klasik"
+    ],
+    "difficulty": "hard",
+    "id": "ef29cb36-8e1e-4fe5-ab48-b9a2fbc570ed"
+  },
+  {
+    "word": "Rönesans Müziği",
+    "forbidden": [
+      "Dönem",
+      "Kilise",
+      "Hümanizm",
+      "Çok Sesli",
+      "Tarihi"
+    ],
+    "difficulty": "hard",
+    "id": "b2b54eb0-4e36-491b-84c3-4f43299eec68"
+  },
+  {
+    "word": "Ortaçağ Müziği",
+    "forbidden": [
+      "Manastır",
+      "Kilise",
+      "Gregorien",
+      "Tek Sesli",
+      "Dönem"
+    ],
+    "difficulty": "hard",
+    "id": "9c5e789b-82b2-431f-a421-b7ca7fc62c16"
+  },
+  {
+    "word": "Avant-Garde Müzik",
+    "forbidden": [
+      "Deneysel",
+      "Yeni",
+      "Sıra Dışı",
+      "Modern",
+      "Atılımcı"
+    ],
+    "difficulty": "hard",
+    "id": "e39a24d7-5856-480f-a752-7323ddbd7bee"
+  },
+  {
+    "word": "Deneysel Tiyatro",
+    "forbidden": [
+      "Geleneksel",
+      "Kuralsız",
+      "Modern",
+      "Seyirci Katılımı",
+      "Avangart"
+    ],
+    "difficulty": "hard",
+    "id": "898217af-d233-42ed-a0f2-d2a8c2773370"
+  },
+  {
+    "word": "Absürd Tiyatro",
+    "forbidden": [
+      "Mantıksız",
+      "Saçma",
+      "Beklemek",
+      "Gerçeküstü",
+      "Samuel Beckett"
+    ],
+    "difficulty": "hard",
+    "id": "bdadc8e0-f7ab-4b7a-9645-caf86f582855"
+  },
+  {
+    "word": "Epik Tiyatro",
+    "forbidden": [
+      "Brecht",
+      "Mesaj",
+      "Duygu",
+      "Uzun",
+      "Eğitici"
+    ],
+    "difficulty": "hard",
+    "id": "cace9667-878d-4b2e-84da-5e8145e7d20b"
+  },
+  {
+    "word": "Sokak Tiyatrosu",
+    "forbidden": [
+      "Kamusal Alan",
+      "Seyirci",
+      "Doğaçlama",
+      "Politik",
+      "Gezici"
+    ],
+    "difficulty": "hard",
+    "id": "cfbd7606-dbba-462f-bcde-58343412ca09"
+  },
+  {
+    "word": "Gerilla Tiyatrosu",
+    "forbidden": [
+      "Gizli",
+      "Politik",
+      "Aniden",
+      "Beklenmedik",
+      "Sosyal"
+    ],
+    "difficulty": "hard",
+    "id": "d412adbc-7f1b-49fb-8334-0de38e55e6c5"
+  },
+  {
+    "word": "Forum Tiyatrosu",
+    "forbidden": [
+      "Seyirci",
+      "Sorun",
+      "Çözüm",
+      "Etkileşim",
+      "Brecht"
+    ],
+    "difficulty": "hard",
+    "id": "1d6ba01c-3d0d-448a-9ac8-f8e0f94898f7"
+  },
+  {
+    "word": "Performans Şiiri",
+    "forbidden": [
+      "Şiir",
+      "Sahne",
+      "Ses",
+      "Hareket",
+      "Canlı"
+    ],
+    "difficulty": "hard",
+    "id": "0f6bc4c7-7513-48c0-b0df-70b48b0d34d7"
+  },
+  {
+    "word": "Slam Şiir",
+    "forbidden": [
+      "Yarışma",
+      "Sahne",
+      "Dinleyici",
+      "Hızlı",
+      "Duygusal"
+    ],
+    "difficulty": "hard",
+    "id": "7cc72000-5f38-4582-833a-babc2677a13e"
+  },
+  {
+    "word": "Doğaçlama Dans",
+    "forbidden": [
+      "Koreografi",
+      "Serbest",
+      "Müzik",
+      "Vücut",
+      "Anlık"
+    ],
+    "difficulty": "hard",
+    "id": "a7f544cb-8285-4482-9929-406f4e5f9be2"
+  },
+  {
+    "word": "Çağdaş Dans",
+    "forbidden": [
+      "Modern",
+      "Bale",
+      "Serbest",
+      "Duygusal",
+      "Yenilikçi"
+    ],
+    "difficulty": "hard",
+    "id": "2eaba2d6-1a86-4af7-a5c0-5970978f603e"
+  },
+  {
+    "word": "Hip-Hop Dansı",
+    "forbidden": [
+      "Breakdance",
+      "Sokak",
+      "Ritim",
+      "Vücut",
+      "Kültür"
+    ],
+    "difficulty": "hard",
+    "id": "5f375eeb-33b2-425e-a119-3acfdbb3c9d3"
+  },
+  {
+    "word": "Salsa Dansı",
+    "forbidden": [
+      "Latin",
+      "Eşli",
+      "Ritim",
+      "Sıcak",
+      "Sosyal"
+    ],
+    "difficulty": "hard",
+    "id": "6edf7196-dbd5-475c-a59d-e7d817584bd1"
+  },
+  {
+    "word": "Tango Dansı",
+    "forbidden": [
+      "Arjantin",
+      "Eşli",
+      "Tutku",
+      "Yakın",
+      "Müzik"
+    ],
+    "difficulty": "hard",
+    "id": "cbab8f65-88c3-482a-aec2-281046be23ea"
+  },
+  {
+    "word": "Modern Sanat Müzesi",
+    "forbidden": [
+      "Soyut",
+      "Çağdaş",
+      "Sergi",
+      "Yenilikçi",
+      "Bina"
+    ],
+    "difficulty": "hard",
+    "id": "ccdd3030-1d6f-4667-9fb6-9aacac276db6"
+  },
+  {
+    "word": "Antik Tiyatro",
+    "forbidden": [
+      "Yunan",
+      "Roma",
+      "Oyun",
+      "Dönem",
+      "Amfi"
+    ],
+    "difficulty": "hard",
+    "id": "41ecb970-8d63-419f-93ce-10e0d140d3d6"
+  },
+  {
+    "word": "Varyete",
+    "forbidden": [
+      "Gösteri",
+      "Karmaşık",
+      "Sahne",
+      "Müzikal",
+      "Eğlence"
+    ],
+    "difficulty": "hard",
+    "id": "9dbdb5b0-bc1a-4edf-846c-20852a7796cc"
+  },
+  {
+    "word": "Kabare",
+    "forbidden": [
+      "Tiyatro",
+      "Müzikli",
+      "Siyasi",
+      "Eleştiri",
+      "Sahne"
+    ],
+    "difficulty": "hard",
+    "id": "f376d706-2865-4bc1-95ec-cbb8da04ba1c"
+  },
+  {
+    "word": "Avangard Tiyatro",
+    "forbidden": [
+      "Deneysel",
+      "Yenilikçi",
+      "Modern",
+      "Sahne",
+      "Oyun"
+    ],
+    "difficulty": "expert",
+    "id": "2a9cea55-ebfb-4c52-98ac-ce1a27b5239d"
+  },
+  {
+    "word": "Post-Modern Mizah",
+    "forbidden": [
+      "Üstkurmaca",
+      "Parodi",
+      "İroni",
+      "Eleştirel",
+      "Kültür"
+    ],
+    "difficulty": "expert",
+    "id": "3b4de0c2-e947-4e60-b0e0-61f4aa22c9eb"
+  },
+  {
+    "word": "Happening",
+    "forbidden": [
+      "Etkinlik",
+      "Sanat",
+      "Katılımcı",
+      "Anlık",
+      "Gösteri"
+    ],
+    "difficulty": "expert",
+    "id": "c7f6d4f8-182b-4b36-857a-cbb6cf3f42ae"
+  },
+  {
+    "word": "Sinematografi",
+    "forbidden": [
+      "Görüntü Yönetimi",
+      "Kamera",
+      "Çekim",
+      "Işık",
+      "Kompozisyon"
+    ],
+    "difficulty": "expert",
+    "id": "75e1ddca-b396-47c5-b1df-e18b99151a92"
+  },
+  {
+    "word": "Fütüristik Eğlence",
+    "forbidden": [
+      "Gelecek",
+      "Teknoloji",
+      "Sanal",
+      "Robot",
+      "Yenilik"
+    ],
+    "difficulty": "expert",
+    "id": "7a41a006-2217-4b99-8a05-b306bca930ad"
+  },
+  {
+    "word": "Deneysel Sinema",
+    "forbidden": [
+      "Avangard",
+      "Konvansiyonel",
+      "Biçim",
+      "Anlatı",
+      "Geleneksel"
+    ],
+    "difficulty": "expert",
+    "id": "b185d6d3-409f-4820-bfd2-da3b6143f783"
+  },
+  {
+    "word": "Metaforik Anlatım",
+    "forbidden": [
+      "Benzetme",
+      "Dolaylı",
+      "Sembolik",
+      "Mecaz",
+      "İmgesel"
+    ],
+    "difficulty": "expert",
+    "id": "481b01f2-a088-4cb1-9989-51384fd7bd8b"
+  },
+  {
+    "word": "Kült Film",
+    "forbidden": [
+      "Fenomen",
+      "Fanatik",
+      "Tekrar",
+      "Sıra Dışı",
+      "Niş"
+    ],
+    "difficulty": "expert",
+    "id": "d35930c3-56c4-4459-9f2f-abe51d555342"
+  },
+  {
+    "word": "Sanat Filmi",
+    "forbidden": [
+      "Ticari",
+      "Gişe",
+      "Ana Akım",
+      "Bağımsız",
+      "Estetik"
+    ],
+    "difficulty": "expert",
+    "id": "d8e8efdf-bc54-4c42-a418-60b076077f78"
+  },
+  {
+    "word": "Mizansen",
+    "forbidden": [
+      "Sahneleme",
+      "Yerleştirme",
+      "Tasarım",
+      "Görsel",
+      "Düzenleme"
+    ],
+    "difficulty": "expert",
+    "id": "62325cc9-8ec7-4966-84df-ebe81f9bb06e"
+  },
+  {
+    "word": "Brechtvari Oyunculuk",
+    "forbidden": [
+      "Yabancılaştırma",
+      "Duygu",
+      "Özdeşleşme",
+      "Perde",
+      "Rol"
+    ],
+    "difficulty": "expert",
+    "id": "436e2a75-e5b3-4207-b615-fede434c25c3"
+  },
+  {
+    "word": "Absürdite",
+    "forbidden": [
+      "Saçmalık",
+      "Mantıksızlık",
+      "Uyumsuzluk",
+      "Gülünç",
+      "Anlamsızlık"
+    ],
+    "difficulty": "expert",
+    "id": "0b9d1be6-3a1b-4638-82da-19c92d75f2cf"
+  },
+  {
+    "word": "Grotesk Realizm",
+    "forbidden": [
+      "Çirkin",
+      "Komik",
+      "Abartılı",
+      "Gerçekçilik",
+      "Estetik"
+    ],
+    "difficulty": "expert",
+    "id": "9bec6f24-631d-45f0-a3e6-c84e54904348"
+  },
+  {
+    "word": "Post-Dramatik Tiyatro",
+    "forbidden": [
+      "Metin",
+      "Anlatı",
+      "Geleneksel",
+      "Oyun",
+      "Söz"
+    ],
+    "difficulty": "expert",
+    "id": "c067a66d-716b-4054-b034-e49601b58de5"
+  },
+  {
+    "word": "Yeni Dalga Sineması",
+    "forbidden": [
+      "Fransız",
+      "Godard",
+      "Genç",
+      "Devrimci",
+      "Kurallar"
+    ],
+    "difficulty": "expert",
+    "id": "76be98f9-3027-4b52-a3e6-8699cc89d50a"
+  },
+  {
+    "word": "Dogma 95",
+    "forbidden": [
+      "Danimarka",
+      "Manifesto",
+      "Kurallar",
+      "Teknoloji",
+      "Doğallık"
+    ],
+    "difficulty": "expert",
+    "id": "2fd96a36-d4c7-496e-8cd4-6c9847ebc440"
+  },
+  {
+    "word": "Found Footage",
+    "forbidden": [
+      "Buluntu",
+      "Kayıt",
+      "Gerçekçi",
+      "Amatör",
+      "Korku"
+    ],
+    "difficulty": "expert",
+    "id": "935b4894-9207-4f0b-9809-ec75bc519de9"
+  },
+  {
+    "word": "Mockumentary",
+    "forbidden": [
+      "Belgesel",
+      "Sahte",
+      "Gerçek",
+      "Komik",
+      "Kurgusal"
+    ],
+    "difficulty": "expert",
+    "id": "d55a26b6-9826-4c3f-ab82-3df2f5185b3c"
+  },
+  {
+    "word": "Cameo",
+    "forbidden": [
+      "Kısa",
+      "Ünlü",
+      "Rol",
+      "Görünüm",
+      "Konuk"
+    ],
+    "difficulty": "expert",
+    "id": "1b1883e5-c795-452e-8039-f334ab587f1f"
+  },
+  {
+    "word": "Dördüncü Duvar",
+    "forbidden": [
+      "Sahne",
+      "Seyirci",
+      "Kırmak",
+      "Karakter",
+      "İletişim"
+    ],
+    "difficulty": "expert",
+    "id": "7b3ba034-862e-4190-b2b5-101c2102c4ae"
+  },
+  {
+    "word": "Diegetik Ses",
+    "forbidden": [
+      "Film",
+      "Karakter",
+      "Dünya",
+      "Oyun",
+      "Gerçek"
+    ],
+    "difficulty": "expert",
+    "id": "90ecd665-5383-4486-93fc-7db28282b4ce"
+  },
+  {
+    "word": "Non-Diegetik Ses",
+    "forbidden": [
+      "Film",
+      "Dışarıdan",
+      "Müzik",
+      "Anlatıcı",
+      "Etki"
+    ],
+    "difficulty": "expert",
+    "id": "356b1329-6abe-40a3-ae3b-a6ab832b7256"
+  },
+  {
+    "word": "Leitmotif",
+    "forbidden": [
+      "Tekrarlayan",
+      "Tema",
+      "Müzik",
+      "Karakter",
+      "Motif"
+    ],
+    "difficulty": "expert",
+    "id": "8e20196b-3ab3-4d9f-8346-93552ee79a04"
+  },
+  {
+    "word": "Foley Sanatçısı",
+    "forbidden": [
+      "Ses Efekti",
+      "Film",
+      "Yaratmak",
+      "Gürültü",
+      "Taklit"
+    ],
+    "difficulty": "expert",
+    "id": "3623e9b9-7564-4e07-b0a7-f4da58d41ef8"
+  },
+  {
+    "word": "Synesthesia",
+    "forbidden": [
+      "Duyu",
+      "Birleşme",
+      "Renk",
+      "Ses",
+      "Tat"
+    ],
+    "difficulty": "expert",
+    "id": "716e6f1d-fa41-4283-a2b3-c80610216178"
+  },
+  {
+    "word": "Performans Enstalasyonu",
+    "forbidden": [
+      "Canlı",
+      "Mekan",
+      "Etkileşim",
+      "Sanat",
+      "Deneyimsel"
+    ],
+    "difficulty": "expert",
+    "id": "0757883b-6a40-41c2-a6ba-578461b81b9b"
+  },
+  {
+    "word": "Post-Prodüksiyon",
+    "forbidden": [
+      "Çekim Sonrası",
+      "Kurgu",
+      "Ses",
+      "Renk",
+      "Efekt"
+    ],
+    "difficulty": "expert",
+    "id": "3dfc395a-4ab5-4dac-8810-2223c030f224"
+  },
+  {
+    "word": "Aleatorik Müzik",
+    "forbidden": [
+      "Şans",
+      "Rastlantısal",
+      "Kontrolsüz",
+      "Kompozisyon",
+      "Doğaçlama"
+    ],
+    "difficulty": "expert",
+    "id": "f8ba90d9-e782-4854-bfff-f93f6bfa0ee2"
+  },
+  {
+    "word": "Konsept Albüm",
+    "forbidden": [
+      "Hikaye",
+      "Tema",
+      "Bütünlük",
+      "Şarkılar",
+      "Anlatı"
+    ],
+    "difficulty": "expert",
+    "id": "af6195fb-bd4d-4d58-a7d6-45425f6f6d49"
+  },
+  {
+    "word": "Soundscape",
+    "forbidden": [
+      "Ses Manzarası",
+      "Çevre",
+      "Akustik",
+      "Müzik",
+      "Atmosfer"
+    ],
+    "difficulty": "expert",
+    "id": "0cb87d40-c7dd-4da5-ab0d-683b9fe2a510"
+  },
+  {
+    "word": "Musique Concrète",
+    "forbidden": [
+      "Somut Müzik",
+      "Kayıt",
+      "Manipülasyon",
+      "Gürültü",
+      "Elektronik"
+    ],
+    "difficulty": "expert",
+    "id": "7290e963-f1f4-4d05-96ec-1ba13bd81294"
+  },
+  {
+    "word": "Dodekafoni",
+    "forbidden": [
+      "On İki Ton",
+      "Schoenberg",
+      "Atonal",
+      "Kompozisyon",
+      "Sıra"
+    ],
+    "difficulty": "expert",
+    "id": "f2bb53ff-a78c-4b39-95a1-a70b5f3a3de7"
+  },
+  {
+    "word": "Mikrotonal Müzik",
+    "forbidden": [
+      "Yarım Ses",
+      "Aralık",
+      "Geleneksel",
+      "Ölçü",
+      "Frederic Rzewski"
+    ],
+    "difficulty": "expert",
+    "id": "c52737ec-6c3b-4b6a-bdaa-90672ffa2d12"
+  },
+  {
+    "word": "Etnomüzikoloji",
+    "forbidden": [
+      "Müzik",
+      "Kültür",
+      "Antropoloji",
+      "Halk",
+      "Araştırma"
+    ],
+    "difficulty": "expert",
+    "id": "b5c0a293-0e61-4b1d-98e8-1ba7882f4448"
+  },
+  {
+    "word": "Filarmoni",
+    "forbidden": [
+      "Orkestra",
+      "Müzik",
+      "Sevenler",
+      "Birlik",
+      "Büyük"
+    ],
+    "difficulty": "expert",
+    "id": "b07bd929-eeaf-4b3e-a911-615b7b8068c0"
+  },
+  {
+    "word": "Dramaturg",
+    "forbidden": [
+      "Oyun Yazarı",
+      "Metin",
+      "Danışman",
+      "Tiyatro",
+      "Uyarlamak"
+    ],
+    "difficulty": "expert",
+    "id": "c1f77a3b-cf12-459d-ae3a-b75698b841ce"
+  },
+  {
+    "word": "Deconstruction",
+    "forbidden": [
+      "Yapısöküm",
+      "Metin",
+      "Anlam",
+      "Parçalama",
+      "Çözümleme"
+    ],
+    "difficulty": "expert",
+    "id": "cf8df50b-705e-438a-ae29-fdedc761df64"
+  },
+  {
+    "word": "Semiyotik",
+    "forbidden": [
+      "Göstergebilim",
+      "Anlam",
+      "İşaret",
+      "Kültür",
+      "Dil"
+    ],
+    "difficulty": "expert",
+    "id": "768935d8-9fa2-40ca-b86c-1f858dfa0c60"
+  },
+  {
+    "word": "Otoportre",
+    "forbidden": [
+      "Kendi",
+      "Resim",
+      "Sanatçı",
+      "Ayna",
+      "Yüz"
+    ],
+    "difficulty": "expert",
+    "id": "61c35b1b-54d1-473c-9963-fb7a9e21d70b"
+  },
+  {
+    "word": "Gerçeküstücülük",
+    "forbidden": [
+      "Sürrealizm",
+      "Rüya",
+      "Bilinaltı",
+      "Düş",
+      "Gerçeküstü"
+    ],
+    "difficulty": "expert",
+    "id": "4600ba3f-4e4c-44fd-aa06-1b08fb541274"
+  },
+  {
+    "word": "Metamodernizm",
+    "forbidden": [
+      "Sarkaç",
+      "Salınım",
+      "İroni",
+      "Samimiyet",
+      "Akım"
+    ],
+    "difficulty": "expert",
+    "id": "63077cb4-af7c-4acc-808f-478d28779619"
+  },
+  {
+    "word": "Intertekstüalite",
+    "forbidden": [
+      "Metinlerarasılık",
+      "Başka Metin",
+      "Referans",
+      "Alıntı",
+      "İlişki"
+    ],
+    "difficulty": "expert",
+    "id": "0ee1e5b8-549c-4cdb-9f55-e37961081ba1"
+  },
+  {
+    "word": "Pastiş",
+    "forbidden": [
+      "Taklit",
+      "Tarz",
+      "Kopyalama",
+      "Saygı",
+      "Farklı"
+    ],
+    "difficulty": "expert",
+    "id": "77ab8b81-41f8-4fbb-bf9d-14740481ef02"
+  },
+  {
+    "word": "Üstkurmaca",
+    "forbidden": [
+      "Kurmaca",
+      "Yazar",
+      "Anlatıcı",
+      "Okuyucu",
+      "Gerçeklik"
+    ],
+    "difficulty": "expert",
+    "id": "453ab80c-c3ff-43b8-8ab8-8f40fea2181b"
+  },
+  {
+    "word": "Patafizik",
+    "forbidden": [
+      "Bilim",
+      "Hayali",
+      "Alfred Jarry",
+      "Absürd",
+      "Çözüm"
+    ],
+    "difficulty": "expert",
+    "id": "18a79215-d5ce-4d0c-aae5-28354fb60efb"
+  },
+  {
+    "word": "Dada Manifestosu",
+    "forbidden": [
+      "Sanat Akımı",
+      "Bildiri",
+      "Tristan Tzara",
+      "Mantıksız",
+      "Gürültü"
+    ],
+    "difficulty": "expert",
+    "id": "2f41b780-ad28-4d93-afab-d17baa955f4a"
+  },
+  {
+    "word": "Fluxus",
+    "forbidden": [
+      "Sanat Akımı",
+      "Deneysel",
+      "Anti-Sanat",
+      "John Cage",
+      "Performans"
+    ],
+    "difficulty": "expert",
+    "id": "a8ec6d54-9c24-4eef-a2e6-6e50e1539c6e"
+  },
+  {
+    "word": "Konsept Sanat",
+    "forbidden": [
+      "Fikir",
+      "Nesne",
+      "Estetik",
+      "Görsel",
+      "Sanatçı"
+    ],
+    "difficulty": "expert",
+    "id": "6eabedd3-9e6a-43fa-a147-ddbfd32cd433"
+  },
+  {
+    "word": "Post-İnternet Sanatı",
+    "forbidden": [
+      "Dijital",
+      "Online",
+      "Meme",
+      "Kültür",
+      "Ekran"
+    ],
+    "difficulty": "expert",
+    "id": "45675149-a0e0-4e81-993e-b20339d36983"
+  },
+  {
+    "word": "Glitch Art",
+    "forbidden": [
+      "Hata",
+      "Dijital",
+      "Kusur",
+      "Estetik",
+      "Görsel"
+    ],
+    "difficulty": "expert",
+    "id": "d05f014f-f83b-42a2-abba-750f61efc52c"
+  },
+  {
+    "word": "Pixel Art",
+    "forbidden": [
+      "Piksel",
+      "Dijital",
+      "Oyun",
+      "Retro",
+      "Görsel"
+    ],
+    "difficulty": "expert",
+    "id": "e3df6e27-2951-418b-9622-8b36262e9512"
+  },
+  {
+    "word": "Chiptune",
+    "forbidden": [
+      "8 Bit",
+      "Oyun",
+      "Müzik",
+      "Retro",
+      "Sentezleyici"
+    ],
+    "difficulty": "expert",
+    "id": "c0c19079-8f7a-4b19-adf3-41bd62307dbc"
+  },
+  {
+    "word": "Vaporwave",
+    "forbidden": [
+      "Estetik",
+      "80ler",
+      "90lar",
+      "Retro",
+      "Dijital"
+    ],
+    "difficulty": "expert",
+    "id": "3e208c1d-5241-49e3-af82-ae209dd07256"
+  },
+  {
+    "word": "Synthwave",
+    "forbidden": [
+      "80ler",
+      "Retro",
+      "Elektronik",
+      "Müzik",
+      "Neon"
+    ],
+    "difficulty": "expert",
+    "id": "4607977e-d1f4-4aa1-9cd7-41b4d3fac522"
+  },
+  {
+    "word": "Kyogen",
+    "forbidden": [
+      "Japon",
+      "Komedi",
+      "Noh",
+      "Tiyatro",
+      "Gülme"
+    ],
+    "difficulty": "expert",
+    "id": "39d46c66-c314-4e8f-96a0-73d012754367"
+  },
+  {
+    "word": "Kabuki",
+    "forbidden": [
+      "Japon",
+      "Tiyatro",
+      "Makyaj",
+      "Kostüm",
+      "Dram"
+    ],
+    "difficulty": "expert",
+    "id": "8022cfb0-d4f9-44bd-ab2f-75ea0e6f5727"
+  },
+  {
+    "word": "Noh Tiyatrosu",
+    "forbidden": [
+      "Japon",
+      "Maske",
+      "Dans",
+      "Spiritüel",
+      "Müzik"
+    ],
+    "difficulty": "expert",
+    "id": "9b730a79-a1bc-4fd7-a3d2-f6e32429c2f8"
+  },
+  {
+    "word": "Gamelan",
+    "forbidden": [
+      "Endonezya",
+      "Orkestra",
+      "Metal",
+      "Müzik",
+      "Ritüel"
+    ],
+    "difficulty": "expert",
+    "id": "7f0b88a4-4817-423f-b1f9-0e05dad988ba"
+  },
+  {
+    "word": "Didgeridoo",
+    "forbidden": [
+      "Avustralya",
+      "Üflemeli",
+      "Enstrüman",
+      "Aborjin",
+      "Titreşim"
+    ],
+    "difficulty": "expert",
+    "id": "346eba6b-7f2b-4360-bfe4-8ed5f95f6772"
+  },
+  {
+    "word": "Theremin",
+    "forbidden": [
+      "Dokunmadan",
+      "Elektronik",
+      "Müzik",
+      "Enstrüman",
+      "Uzay"
+    ],
+    "difficulty": "expert",
+    "id": "0bc4a983-dea0-4f96-8839-098fd7b8cb46"
+  },
+  {
+    "word": "Kültürel Hegemonya",
+    "forbidden": [
+      "İktidar",
+      "Kültür",
+      "Baskın",
+      "Rıza",
+      "Gramsci"
+    ],
+    "difficulty": "expert",
+    "id": "2dab870b-5755-4589-b7f2-c72b1052e52a"
+  },
+  {
+    "word": "Post-Kolonyalizm",
+    "forbidden": [
+      "Sömürgecilik",
+      "Kimlik",
+      "Tarih",
+      "Edebiyat",
+      "Kültür"
+    ],
+    "difficulty": "expert",
+    "id": "5b98284f-a92c-46d2-8e85-656079ce5285"
+  },
+  {
+    "word": "Metanarratif",
+    "forbidden": [
+      "Büyük Anlatı",
+      "Evrensel",
+      "Hakikat",
+      "İlerleme",
+      "Modernizm"
+    ],
+    "difficulty": "expert",
+    "id": "f586514c-f2bb-4548-8e39-d6ec757384b6"
+  },
+  {
+    "word": "Baudrillard Simülasyonu",
+    "forbidden": [
+      "Gerçeklik",
+      "Kopya",
+      "Hipergerçeklik",
+      "Model",
+      "İmaj"
+    ],
+    "difficulty": "expert",
+    "id": "592cbf7a-a6c8-4dcd-aad4-3d26ba234a8a"
+  },
+  {
+    "word": "Spektakl Toplumu",
+    "forbidden": [
+      "Gösteri",
+      "Süreksiz",
+      "İmaj",
+      "Kapitalizm",
+      "Debord"
+    ],
+    "difficulty": "expert",
+    "id": "13ee36af-1786-49f6-90af-df58aab6f3bc"
+  },
+  {
+    "word": "Konsumerizm",
+    "forbidden": [
+      "Tüketim",
+      "Mal",
+      "Arzu",
+      "Mutluluk",
+      "Kapitalizm"
+    ],
+    "difficulty": "expert",
+    "id": "2fbbebc2-2446-47c0-86af-34a456da1e89"
+  },
+  {
+    "word": "Kitsch",
+    "forbidden": [
+      "Zevksiz",
+      "Ucuz",
+      "Sanatsal",
+      "Duygusal",
+      "Popüler"
+    ],
+    "difficulty": "expert",
+    "id": "a49a0b08-903a-4e00-ae67-36db954802cc"
+  },
+  {
+    "word": "Camp",
+    "forbidden": [
+      "Abartılı",
+      "Yapay",
+      "Kötü Zevk",
+      "İroni",
+      "Susan Sontag"
+    ],
+    "difficulty": "expert",
+    "id": "17d5d0ab-053f-42d7-b018-783fac662567"
+  },
+  {
+    "word": "Subliminal Mesaj",
+    "forbidden": [
+      "Bilinçaltı",
+      "Gizli",
+      "Etki",
+      "Algı",
+      "Reklam"
+    ],
+    "difficulty": "expert",
+    "id": "8a94d920-2af1-41b1-a6f8-4b4d8956c6d0"
+  },
+  {
+    "word": "Pulsar",
+    "forbidden": [
+      "Dans",
+      "Müzik",
+      "Lazer",
+      "Gece",
+      "Enerji"
+    ],
+    "difficulty": "expert",
+    "id": "526fa4f9-8122-4450-bd07-80bbec4f2d40"
+  },
+  {
+    "word": "Zen Bahçesi",
+    "forbidden": [
+      "Japon",
+      "Meditasyon",
+      "Kum",
+      "Taş",
+      "Sakinlik"
+    ],
+    "difficulty": "expert",
+    "id": "e0f224f7-2860-4ab9-aa1b-1bfb35dd8514"
+  },
+  {
+    "word": "Mandala Boyama",
+    "forbidden": [
+      "Desen",
+      "Spiral",
+      "Meditasyon",
+      "Sanat",
+      "Hindistan"
+    ],
+    "difficulty": "expert",
+    "id": "9d77ff13-2f76-4f79-a3be-ffd114583062"
+  },
+  {
+    "word": "Akıl Oyunları",
+    "forbidden": [
+      "Mantık",
+      "Bulmaca",
+      "Strateji",
+      "Problem",
+      "Çözmek"
+    ],
+    "difficulty": "expert",
+    "id": "87ce6246-e804-4aa8-8744-d55774a34c0a"
+  },
+  {
+    "word": "Kuantum Fiziği Eğlencesi",
+    "forbidden": [
+      "Bilim",
+      "Atom",
+      "Parçacık",
+      "Belirsizlik",
+      "Evren"
+    ],
+    "difficulty": "expert",
+    "id": "5d629b91-575f-4f76-a0d1-c41014e51aee"
+  },
+  {
+    "word": "Paleontoloji Kazısı",
+    "forbidden": [
+      "Dinozor",
+      "Fosiller",
+      "Kemik",
+      "Kazmak",
+      "Araştırma"
+    ],
+    "difficulty": "expert",
+    "id": "c4630c1a-18aa-42ea-846d-98f627af5470"
+  },
+  {
+    "word": "Astroturizm",
+    "forbidden": [
+      "Uzay",
+      "Seyahat",
+      "Yıldızlar",
+      "Gezegen",
+      "Gözlem"
+    ],
+    "difficulty": "expert",
+    "id": "df96c473-3e7a-4919-a5f8-1120483cef1c"
+  },
+  {
+    "word": "Glamping",
+    "forbidden": [
+      "Kamp",
+      "Lüks",
+      "Doğa",
+      "Çadır",
+      "Konfor"
+    ],
+    "difficulty": "expert",
+    "id": "71457fb2-caa4-4651-936b-e2da22ae8a8d"
+  },
+  {
+    "word": "Mikrobiyoloji Sanatı",
+    "forbidden": [
+      "Bakteri",
+      "Hücre",
+      "Desen",
+      "Mikroskop",
+      "Bilim"
+    ],
+    "difficulty": "expert",
+    "id": "76dc9687-5767-47fe-b0e1-4e50f8445bc5"
+  },
+  {
+    "word": "Moleküler Gastronomi",
+    "forbidden": [
+      "Bilim",
+      "Yemek",
+      "Kimya",
+      "Yenilikçi",
+      "Tat"
+    ],
+    "difficulty": "expert",
+    "id": "e6931d7a-9187-4937-b441-69d942da2f97"
+  },
+  {
+    "word": "Koku Sanatı",
+    "forbidden": [
+      "Parfüm",
+      "Aroma",
+      "Esans",
+      "Yaratmak",
+      "Duyu"
+    ],
+    "difficulty": "expert",
+    "id": "90365aaa-fe64-4846-b083-e59f95c17a90"
+  },
+  {
+    "word": "Ses Terapisi",
+    "forbidden": [
+      "Titreşim",
+      "Şifa",
+      "Rahatlama",
+      "Frekans",
+      "Duygu"
+    ],
+    "difficulty": "expert",
+    "id": "9973e6f3-311a-4ec1-9b00-f1f6ed26bd5f"
+  },
+  {
+    "word": "Lüminesans Gösterisi",
+    "forbidden": [
+      "Işık",
+      "Karanlık",
+      "Kimyasal",
+      "Dans",
+      "Parlak"
+    ],
+    "difficulty": "expert",
+    "id": "784dea8f-dc65-4a1b-99e6-aafd1f2237e2"
+  },
+  {
+    "word": "Bio-Art",
+    "forbidden": [
+      "Biyoloji",
+      "Canlı",
+      "Genetik",
+      "Sanat",
+      "Etik"
+    ],
+    "difficulty": "expert",
+    "id": "236bc7d8-2caf-4f67-b491-4955fdc77929"
+  },
+  {
+    "word": "Kinetik Heykel",
+    "forbidden": [
+      "Hareketli",
+      "Sanat",
+      "Mekanik",
+      "Denge",
+      "Görsel"
+    ],
+    "difficulty": "expert",
+    "id": "db0ff771-982d-4cc1-ba2d-428d46984463"
+  },
+  {
+    "word": "Robot Dans Gösterisi",
+    "forbidden": [
+      "Makine",
+      "Yapay Zeka",
+      "Hareket",
+      "Senkron",
+      "Fütüristik"
+    ],
+    "difficulty": "expert",
+    "id": "4c41e192-ac7b-4ef1-b1b0-cd7e9ae7dce9"
+  },
+  {
+    "word": "Holografik Konser",
+    "forbidden": [
+      "3D",
+      "Sanal",
+      "Sahne",
+      "Müzik",
+      "Gerçeküstü"
+    ],
+    "difficulty": "expert",
+    "id": "fe646cf6-f8e0-42e7-9769-76eb6ab1ed72"
+  },
+  {
+    "word": "Artırılmış Gerçeklik Oyunu",
+    "forbidden": [
+      "Sanal",
+      "Gerçek",
+      "Akıllı Telefon",
+      "Etkileşim",
+      "Oyun"
+    ],
+    "difficulty": "expert",
+    "id": "07863186-a379-4bdc-86b1-d0eaf7ac4388"
+  },
+  {
+    "word": "Nöro-Geri Bildirim Eğlencesi",
+    "forbidden": [
+      "Beyin Dalgaları",
+      "Odaklanma",
+      "Meditasyon",
+      "Teknoloji",
+      "Zihin"
+    ],
+    "difficulty": "expert",
+    "id": "48515d14-1568-4020-8dc7-a2215af6a812"
+  },
+  {
+    "word": "Ephemera Koleksiyonculuğu",
+    "forbidden": [
+      "Geçici",
+      "Kağıt",
+      "Anlık",
+      "Koleksiyon",
+      "Değer"
+    ],
+    "difficulty": "expert",
+    "id": "ccae526b-9a40-4992-b78d-caca0e010f2c"
+  },
+  {
+    "word": "Kentsel Keşif",
+    "forbidden": [
+      "Terkedilmiş",
+      "Bina",
+      "Gizem",
+      "Risk",
+      "Fotoğraf"
+    ],
+    "difficulty": "expert",
+    "id": "f0c5b48c-0979-4e5f-802a-ecbebdb2d027"
+  },
+  {
+    "word": "Alternatif Tarih Oyunları",
+    "forbidden": [
+      "Geçmiş",
+      "Farklı",
+      "Senaryo",
+      "Olasılık",
+      "Değişim"
+    ],
+    "difficulty": "expert",
+    "id": "c0489eb6-4a8c-47f9-b92e-19064d42ac8f"
+  },
+  {
+    "word": "Sanal Seyahat",
+    "forbidden": [
+      "Gözlük",
+      "Dünya",
+      "Gezmek",
+      "Ekran",
+      "Deneyim"
+    ],
+    "difficulty": "expert",
+    "id": "8afb35bc-4436-45dc-85fe-23b6d27fd422"
+  },
+  {
+    "word": "Dron Yarışı",
+    "forbidden": [
+      "Uçmak",
+      "Hız",
+      "Kumanda",
+      "Manevra",
+      "Gözlük"
+    ],
+    "difficulty": "expert",
+    "id": "9215ee41-3314-4f29-82a8-0aff86815ff9"
+  },
+  {
+    "word": "Esports Analistliği",
+    "forbidden": [
+      "Oyun",
+      "Strateji",
+      "Yorumcu",
+      "Profesyonel",
+      "Veri"
+    ],
+    "difficulty": "expert",
+    "id": "cbd9c12e-c780-465e-83eb-65ac26fb0f1d"
+  },
+  {
+    "word": "Sürrealist Sinema",
+    "forbidden": [
+      "Rüya",
+      "Gerçeküstü",
+      "Bunuel",
+      "Deneysel",
+      "Mantıksız"
+    ],
+    "difficulty": "expert",
+    "id": "9d6f2016-ae92-42cb-bc1f-3d9f9a0cb319"
+  },
+  {
+    "word": "Post-Dramatik Metin",
+    "forbidden": [
+      "Anlatı",
+      "Olay Örgüsü",
+      "Karakter",
+      "Geleneksel",
+      "Metin"
+    ],
+    "difficulty": "expert",
+    "id": "0a1eeaab-3bb7-481d-b60c-85ea1041554d"
+  },
+  {
+    "word": "Happening Sanat",
+    "forbidden": [
+      "Etkinlik",
+      "Seyirci",
+      "Doğaçlama",
+      "Anlık",
+      "Mekân"
+    ],
+    "difficulty": "expert",
+    "id": "c909f3f0-4b45-4336-be5f-c6570ec59dfb"
+  },
+  {
+    "word": "Video Art",
+    "forbidden": [
+      "Video",
+      "Kamera",
+      "Ekran",
+      "Dijital",
+      "Sanat"
+    ],
+    "difficulty": "expert",
+    "id": "0b91da80-5792-4d7a-9c57-565403ad8143"
+  },
+  {
+    "word": "Dijital Performans",
+    "forbidden": [
+      "Sanal",
+      "Sahne",
+      "Gerçek",
+      "Teknoloji",
+      "Hareket"
+    ],
+    "difficulty": "expert",
+    "id": "8938b361-ef74-4d74-abbb-96b1761e5303"
+  },
+  {
+    "word": "Algoritmik Müzik",
+    "forbidden": [
+      "Bilgisayar",
+      "Kod",
+      "Rastlantısal",
+      "Üretim",
+      "Kompozisyon"
+    ],
+    "difficulty": "expert",
+    "id": "870a7b34-984c-489c-9d3d-3fcad8d49d2e"
+  }
+]

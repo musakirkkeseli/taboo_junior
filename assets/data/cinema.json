@@ -1,0 +1,4803 @@
+[
+  {
+    "word": "Film",
+    "forbidden": [
+      "İzlemek",
+      "Sinema",
+      "Beyazperde",
+      "Kare",
+      "Hikaye"
+    ],
+    "difficulty": "easy",
+    "id": "6c9c2945-6a29-45cf-939d-a553d4a44168"
+  },
+  {
+    "word": "Aktör",
+    "forbidden": [
+      "Oynamak",
+      "Erkek",
+      "Oyuncu",
+      "Rol",
+      "Kamera"
+    ],
+    "difficulty": "easy",
+    "id": "5cda1055-29e1-4784-96a1-e23dfac6731a"
+  },
+  {
+    "word": "Aktris",
+    "forbidden": [
+      "Oynamak",
+      "Kadın",
+      "Oyuncu",
+      "Rol",
+      "Kamera"
+    ],
+    "difficulty": "easy",
+    "id": "8926281c-fee1-4a3a-9e82-1c67961caf61"
+  },
+  {
+    "word": "Yönetmen",
+    "forbidden": [
+      "Film",
+      "Yönetmek",
+      "Kamera",
+      "Senaryo",
+      "Çekim"
+    ],
+    "difficulty": "easy",
+    "id": "e6d347a3-be08-4127-8863-7ad4df802ec0"
+  },
+  {
+    "word": "Perde",
+    "forbidden": [
+      "Sinema",
+      "Beyaz",
+      "Ekran",
+      "İzlemek",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "3441a4ad-6ede-441b-b8ff-27aadddd17c8"
+  },
+  {
+    "word": "Kamera",
+    "forbidden": [
+      "Çekmek",
+      "Film",
+      "Lens",
+      "Görüntü",
+      "Kaydetmek"
+    ],
+    "difficulty": "easy",
+    "id": "79e195fa-b1c1-4d06-8b84-ade338942461"
+  },
+  {
+    "word": "Senaryo",
+    "forbidden": [
+      "Film",
+      "Yazmak",
+      "Hikaye",
+      "Diyalog",
+      "Metin"
+    ],
+    "difficulty": "easy",
+    "id": "0dd3dee2-e206-47c8-a52d-f3de308181fc"
+  },
+  {
+    "word": "Gişe",
+    "forbidden": [
+      "Bilet",
+      "Film",
+      "Para",
+      "Kuyruk",
+      "Salon"
+    ],
+    "difficulty": "easy",
+    "id": "a03b75ff-ff48-4de4-ae65-79a8f3200042"
+  },
+  {
+    "word": "Fragman",
+    "forbidden": [
+      "Film",
+      "Tanıtım",
+      "Kısa",
+      "İzlemek",
+      "Yeni"
+    ],
+    "difficulty": "easy",
+    "id": "2abb7b86-b627-433e-b390-8317a133585e"
+  },
+  {
+    "word": "Oscar",
+    "forbidden": [
+      "Ödül",
+      "Film",
+      "Altın",
+      "Heykelcik",
+      "Amerika"
+    ],
+    "difficulty": "easy",
+    "id": "4ff3ea94-055b-477c-bb03-2464b1b4870c"
+  },
+  {
+    "word": "Mısır",
+    "forbidden": [
+      "Patlamış",
+      "Sinema",
+      "Yemek",
+      "Kova",
+      "Tuzlu"
+    ],
+    "difficulty": "easy",
+    "id": "96a20637-891a-4ec4-bd1b-0e228b30951c"
+  },
+  {
+    "word": "Koltuk",
+    "forbidden": [
+      "Sinema",
+      "Oturmak",
+      "Rahat",
+      "Sıra",
+      "Salon"
+    ],
+    "difficulty": "easy",
+    "id": "795d71b6-10db-4af0-af5d-b6a87a26733f"
+  },
+  {
+    "word": "3D",
+    "forbidden": [
+      "Gözlük",
+      "Film",
+      "Derinlik",
+      "Gerçekçi",
+      "Ekran"
+    ],
+    "difficulty": "easy",
+    "id": "9ce8aeeb-95f9-4b4f-b669-c3e9c3c11253"
+  },
+  {
+    "word": "Dublaj",
+    "forbidden": [
+      "Seslendirme",
+      "Yabancı",
+      "Dil",
+      "Film",
+      "Konuşmak"
+    ],
+    "difficulty": "easy",
+    "id": "1869756a-2792-4773-8245-90dbfdf74e1f"
+  },
+  {
+    "word": "Altyazı",
+    "forbidden": [
+      "Yazı",
+      "Ekran",
+      "Çeviri",
+      "Film",
+      "Okumak"
+    ],
+    "difficulty": "easy",
+    "id": "ce3c1d9f-50a7-4a65-8ec5-9b84ee519e26"
+  },
+  {
+    "word": "Komed i",
+    "forbidden": [
+      "Gülmek",
+      "Film",
+      "Komik",
+      "Espri",
+      "Eğlence"
+    ],
+    "difficulty": "easy",
+    "id": "8b7c31ed-e37c-4c0c-8bb7-9b4006e6bcd7"
+  },
+  {
+    "word": "Dram",
+    "forbidden": [
+      "Hüzün",
+      "Film",
+      "Ağlamak",
+      "Duygusal",
+      "Hikaye"
+    ],
+    "difficulty": "easy",
+    "id": "033a80c9-1805-4330-90c7-81178195a0c0"
+  },
+  {
+    "word": "Aksiyon",
+    "forbidden": [
+      "Hız",
+      "Film",
+      "Kavga",
+      "Patlama",
+      "Kovalamaca"
+    ],
+    "difficulty": "easy",
+    "id": "3f134b51-c03b-43df-b40a-4b341b23b937"
+  },
+  {
+    "word": "Bilim Kurgu",
+    "forbidden": [
+      "Uzay",
+      "Gelecek",
+      "Robot",
+      "Film",
+      "Teknoloji"
+    ],
+    "difficulty": "easy",
+    "id": "000a2304-fa49-45f1-98ab-f5ac078ae589"
+  },
+  {
+    "word": "Korku",
+    "forbidden": [
+      "Gerilim",
+      "Film",
+      "Çığlık",
+      "Canavar",
+      "Hayalet"
+    ],
+    "difficulty": "easy",
+    "id": "3083965d-ad26-48eb-8008-d3568b13d418"
+  },
+  {
+    "word": "Gerilim",
+    "forbidden": [
+      "Heyecan",
+      "Film",
+      "Korku",
+      "Gizem",
+      "Beklenti"
+    ],
+    "difficulty": "easy",
+    "id": "0ba16087-66a4-41a0-ae10-302a45827381"
+  },
+  {
+    "word": "Animasyon",
+    "forbidden": [
+      "Çizgi Film",
+      "Hareket",
+      "Karakter",
+      "Çizim",
+      "Hikaye"
+    ],
+    "difficulty": "easy",
+    "id": "ab770c43-0036-4c47-976c-9880d52ae202"
+  },
+  {
+    "word": "Belgesel",
+    "forbidden": [
+      "Gerçek",
+      "Bilgi",
+      "Konu",
+      "Film",
+      "Araştırma"
+    ],
+    "difficulty": "easy",
+    "id": "acc9cec1-9713-4d39-8a94-f986674cb981"
+  },
+  {
+    "word": "Western",
+    "forbidden": [
+      "Kovboy",
+      "At",
+      "Silah",
+      "Vahşi Batı",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "a6a7332d-59b4-444f-ab90-fe7831624115"
+  },
+  {
+    "word": "Romantik",
+    "forbidden": [
+      "Aşk",
+      "Film",
+      "Duygu",
+      "Sevgili",
+      "Hikaye"
+    ],
+    "difficulty": "easy",
+    "id": "fa17d052-02ab-42ca-87c4-567ae6c9e03a"
+  },
+  {
+    "word": "Fantastik",
+    "forbidden": [
+      "Hayal",
+      "Sihir",
+      "Büyü",
+      "Film",
+      "Uydurma"
+    ],
+    "difficulty": "easy",
+    "id": "b3f5fc67-fdad-42f4-a58b-bf912b7c5eea"
+  },
+  {
+    "word": "Macera",
+    "forbidden": [
+      "Keşif",
+      "Yolculuk",
+      "Tehlike",
+      "Film",
+      "Heyecan"
+    ],
+    "difficulty": "easy",
+    "id": "12ac0217-fd8c-4906-9603-6a9bb9e64319"
+  },
+  {
+    "word": "Suç Filmi",
+    "forbidden": [
+      "Polis",
+      "Hırsız",
+      "Mafya",
+      "Cinayet",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "c13d1bd0-0a4e-4e83-8154-0595939571fa"
+  },
+  {
+    "word": "Biyografi Filmi",
+    "forbidden": [
+      "Hayat",
+      "Gerçek",
+      "Ünlü",
+      "Kişi",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "f058c8f7-9df9-4bfb-8941-379f16a8ecff"
+  },
+  {
+    "word": "Epik Film",
+    "forbidden": [
+      "Tarihi",
+      "Büyük",
+      "Savaş",
+      "Kahraman",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "72efba93-6716-418d-bfa1-dde40c6e9ca0"
+  },
+  {
+    "word": "Çizgi Film",
+    "forbidden": [
+      "Animasyon",
+      "Çizim",
+      "Karakter",
+      "Çocuk",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "88a8e354-07b3-4d78-90ba-772578b4fe0b"
+  },
+  {
+    "word": "Kısa Film",
+    "forbidden": [
+      "Kısa",
+      "Süre",
+      "Film",
+      "Hikaye",
+      "Çekmek"
+    ],
+    "difficulty": "easy",
+    "id": "5d61a2e3-0be5-4760-a6af-56e9f583d886"
+  },
+  {
+    "word": "Bağımsız Film",
+    "forbidden": [
+      "Stüdyo",
+      "Küçük Bütçe",
+      "Özgün",
+      "Yönetmen",
+      "Sanat"
+    ],
+    "difficulty": "easy",
+    "id": "2180ca52-978d-4ab2-b936-e887fb2e6a7e"
+  },
+  {
+    "word": "Hollywood",
+    "forbidden": [
+      "Amerika",
+      "Film",
+      "Ünlü",
+      "Stüdyo",
+      "Los Angeles"
+    ],
+    "difficulty": "easy",
+    "id": "938ec8e6-dc34-474b-9bd4-7e32cb468228"
+  },
+  {
+    "word": "Bollywood",
+    "forbidden": [
+      "Hindistan",
+      "Film",
+      "Müzikal",
+      "Dans",
+      "Renkli"
+    ],
+    "difficulty": "easy",
+    "id": "aff34058-c640-4a0f-9d05-288888c0ab5a"
+  },
+  {
+    "word": "Yeşil Perde",
+    "forbidden": [
+      "Arka Plan",
+      "Efekt",
+      "Değiştirmek",
+      "Bilgisayar",
+      "Renk"
+    ],
+    "difficulty": "easy",
+    "id": "2904a610-182d-40c9-8161-c2234cde00d6"
+  },
+  {
+    "word": "Makyaj",
+    "forbidden": [
+      "Yüz",
+      "Boyamak",
+      "Oyuncu",
+      "Karakter",
+      "Güzellik"
+    ],
+    "difficulty": "easy",
+    "id": "ff38e265-ad0b-4d9c-b557-a883961fa061"
+  },
+  {
+    "word": "Saç Tasarımı",
+    "forbidden": [
+      "Oyuncu",
+      "Karakter",
+      "Kesmek",
+      "Boyamak",
+      "Peruk"
+    ],
+    "difficulty": "easy",
+    "id": "2d775b03-421f-40e0-97e4-1a875897a15b"
+  },
+  {
+    "word": "Set",
+    "forbidden": [
+      "Çekim",
+      "Mekan",
+      "Film",
+      "Dekor",
+      "Ekip"
+    ],
+    "difficulty": "easy",
+    "id": "8a615e92-5076-498f-b4a5-b792f701e6a0"
+  },
+  {
+    "word": "Işıkçı",
+    "forbidden": [
+      "Işık",
+      "Aydınlatma",
+      "Kamera",
+      "Film",
+      "Ekip"
+    ],
+    "difficulty": "easy",
+    "id": "00e2deeb-c26f-476d-ab19-077ce959ee74"
+  },
+  {
+    "word": "Sesçi",
+    "forbidden": [
+      "Ses",
+      "Kayıt",
+      "Mikrofon",
+      "Film",
+      "Ekip"
+    ],
+    "difficulty": "easy",
+    "id": "2e538377-8cb7-4549-834d-17cd7de32c01"
+  },
+  {
+    "word": "Görüntü Yönetmeni",
+    "forbidden": [
+      "Kamera",
+      "Işık",
+      "Çekim",
+      "Film",
+      "Sanat"
+    ],
+    "difficulty": "easy",
+    "id": "0b907f17-88d5-48f3-8d7b-21d83c681ff4"
+  },
+  {
+    "word": "Yapımcı",
+    "forbidden": [
+      "Para",
+      "Film",
+      "Yönetmek",
+      "Bütçe",
+      "Proje"
+    ],
+    "difficulty": "easy",
+    "id": "09123fde-bb43-4c43-aaab-723927367cc5"
+  },
+  {
+    "word": "Senarist",
+    "forbidden": [
+      "Senaryo",
+      "Yazmak",
+      "Hikaye",
+      "Diyalog",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "ead64f69-e0cf-43dc-8f4c-a392ce549d1e"
+  },
+  {
+    "word": "Kurgucu",
+    "forbidden": [
+      "Film",
+      "Kesmek",
+      "Birleştirmek",
+      "Sıralamak",
+      "Sahne"
+    ],
+    "difficulty": "easy",
+    "id": "789ece35-56a4-435e-a16a-7f3011fc8535"
+  },
+  {
+    "word": "Müzik Direktörü",
+    "forbidden": [
+      "Film",
+      "Müzik",
+      "Seçmek",
+      "Yönetmek",
+      "Besteci"
+    ],
+    "difficulty": "easy",
+    "id": "0012b38b-fafb-4129-810c-03d808cd38e9"
+  },
+  {
+    "word": "Makyöz",
+    "forbidden": [
+      "Makyaj",
+      "Kadın",
+      "Sanatçı",
+      "Yüz",
+      "Oyuncu"
+    ],
+    "difficulty": "easy",
+    "id": "0fb9a2b1-4551-4719-9c31-0755006b2510"
+  },
+  {
+    "word": "Kostümcü",
+    "forbidden": [
+      "Kostüm",
+      "Kıyafet",
+      "Tasarım",
+      "Dikiş",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "e45b08d4-fdbe-462c-8cb5-579d355342cf"
+  },
+  {
+    "word": "Rejisör",
+    "forbidden": [
+      "Yönetmen",
+      "Film",
+      "Çekim",
+      "Sanat",
+      "Ekip"
+    ],
+    "difficulty": "easy",
+    "id": "801f78ce-33c9-4356-aa72-f380df8d0219"
+  },
+  {
+    "word": "Asistan Yönetmen",
+    "forbidden": [
+      "Yönetmen",
+      "Yardımcı",
+      "Planlama",
+      "Set",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "f1da9157-9d8e-4e4a-aba0-09b0da4b89a1"
+  },
+  {
+    "word": "Figüran",
+    "forbidden": [
+      "Ekstra",
+      "Kalabalık",
+      "Arka Plan",
+      "Rol",
+      "Film"
+    ],
+    "difficulty": "easy",
+    "id": "04c12874-c3ee-4d3d-8177-73dbddab7b68"
+  },
+  {
+    "word": "Dublör",
+    "forbidden": [
+      "Tehlikeli",
+      "Sahne",
+      "Oyuncu",
+      "Yerine",
+      "Dövüş"
+    ],
+    "difficulty": "easy",
+    "id": "f5e3ec8a-de6d-4f7c-aefb-7e24072f46b4"
+  },
+  {
+    "word": "Klip",
+    "forbidden": [
+      "Müzik",
+      "Video",
+      "Şarkı",
+      "Görüntü",
+      "Kısa"
+    ],
+    "difficulty": "easy",
+    "id": "58f0986a-4649-43c4-b296-af15cfcfaef6"
+  },
+  {
+    "word": "DVD",
+    "forbidden": [
+      "Film",
+      "İzlemek",
+      "Disk",
+      "Oynatıcı",
+      "Yuvarlak"
+    ],
+    "difficulty": "easy",
+    "id": "1f30e5d6-3612-4c30-b0bf-7ba80220e166"
+  },
+  {
+    "word": "Blu-ray",
+    "forbidden": [
+      "Film",
+      "Yüksek Çözünürlük",
+      "Disk",
+      "İzlemek",
+      "Oynatıcı"
+    ],
+    "difficulty": "easy",
+    "id": "aec5dc39-6c5a-4a64-a25b-6c18b46e810f"
+  },
+  {
+    "word": "VCR",
+    "forbidden": [
+      "Video",
+      "Kaset",
+      "Eski",
+      "Oynatıcı",
+      "Kayıt"
+    ],
+    "difficulty": "easy",
+    "id": "8dbe21db-a87a-4e66-8d68-19e49977eff1"
+  },
+  {
+    "word": "Sinemaskop",
+    "forbidden": [
+      "Geniş Ekran",
+      "Film",
+      "İzlemek",
+      "Teknik",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "2c654420-9e95-4c95-b27b-3ba5610d0779"
+  },
+  {
+    "word": "Puanlama",
+    "forbidden": [
+      "Beğeni",
+      "Yıldız",
+      "Değerlendirme",
+      "Eleştiri",
+      "İzleyici"
+    ],
+    "difficulty": "easy",
+    "id": "7b51ff0c-6ca8-41e8-8b33-63bd7a687972"
+  },
+  {
+    "word": "Eleştiri",
+    "forbidden": [
+      "Yorum",
+      "Değerlendirme",
+      "Film",
+      "Yazı",
+      "İyi Kötü"
+    ],
+    "difficulty": "easy",
+    "id": "9a7a17e5-d54a-4d58-936c-d0e5e671b85a"
+  },
+  {
+    "word": "Ödül Töreni",
+    "forbidden": [
+      "Oscar",
+      "Altın Küre",
+      "Heykelcik",
+      "Kırmızı Halı",
+      "Ünlü"
+    ],
+    "difficulty": "easy",
+    "id": "c6901573-20a8-40a9-84e6-9057bae1387b"
+  },
+  {
+    "word": "Kırmızı Halı",
+    "forbidden": [
+      "Ünlü",
+      "Etkinlik",
+      "Yürümek",
+      "Fotoğraf",
+      "Tören"
+    ],
+    "difficulty": "easy",
+    "id": "9393e7fa-008f-40c8-84c5-8c9ebffd20f4"
+  },
+  {
+    "word": "Popcorn",
+    "forbidden": [
+      "Patlamış Mısır",
+      "Tuzlu",
+      "Sinema",
+      "Kova",
+      "Yemek"
+    ],
+    "difficulty": "easy",
+    "id": "28bd86f3-7e62-42f0-979c-3f7c3ea27683"
+  },
+  {
+    "word": "Kola",
+    "forbidden": [
+      "İçecek",
+      "Sinema",
+      "Bardak",
+      "Gazlı",
+      "Şekerli"
+    ],
+    "difficulty": "easy",
+    "id": "c8cb6022-807e-4696-a331-1e5778f8a404"
+  },
+  {
+    "word": "Şeker",
+    "forbidden": [
+      "Tatlı",
+      "Sinema",
+      "Yemek",
+      "Mısır",
+      "Çikolata"
+    ],
+    "difficulty": "easy",
+    "id": "a9c8d751-ee24-4ae8-99a0-a48c6a3c7430"
+  },
+  {
+    "word": "Salon",
+    "forbidden": [
+      "Sinema",
+      "Koltuk",
+      "Perde",
+      "İzleyici",
+      "Bilet"
+    ],
+    "difficulty": "easy",
+    "id": "8b39c265-ec41-4a8f-9a01-aec3ae45ec08"
+  },
+  {
+    "word": "Sinema Müzesi",
+    "forbidden": [
+      "Eski",
+      "Ekipman",
+      "Kostüm",
+      "Tarih",
+      "Sergi"
+    ],
+    "difficulty": "easy",
+    "id": "2c7e3032-ecab-4a50-ba0f-ea609bb3b034"
+  },
+  {
+    "word": "Hollywood Walk of Fame",
+    "forbidden": [
+      "Yıldız",
+      "Ünlü",
+      "Yol",
+      "El İzi",
+      "Los Angeles"
+    ],
+    "difficulty": "easy",
+    "id": "47d47971-f28d-4b1b-b08d-2432b2283e29"
+  },
+  {
+    "word": "Cannes Film Festivali",
+    "forbidden": [
+      "Fransa",
+      "Film",
+      "Ödül",
+      "Palmiye",
+      "Ünlü"
+    ],
+    "difficulty": "easy",
+    "id": "1f3a352e-6230-43c5-823d-c977b329d8f3"
+  },
+  {
+    "word": "Berlin Film Festivali",
+    "forbidden": [
+      "Almanya",
+      "Film",
+      "Ödül",
+      "Altın Ayı",
+      "Avrupa"
+    ],
+    "difficulty": "easy",
+    "id": "a855e770-2a75-4a21-aa77-47afc7cf6f3f"
+  },
+  {
+    "word": "Venedik Film Festivali",
+    "forbidden": [
+      "İtalya",
+      "Film",
+      "Ödül",
+      "Altın Aslan",
+      "Avrupa"
+    ],
+    "difficulty": "easy",
+    "id": "ebe7df98-2664-452c-b664-9985483c2372"
+  },
+  {
+    "word": "Bağımsız Sinema",
+    "forbidden": [
+      "Küçük Bütçe",
+      "Stüdyo Dışı",
+      "Özgün",
+      "Yönetmen",
+      "Sanat"
+    ],
+    "difficulty": "easy",
+    "id": "2365999b-ca30-4fc7-9cc6-8f86b9fe3263"
+  },
+  {
+    "word": "Mainstream Sinema",
+    "forbidden": [
+      "Büyük Bütçe",
+      "Hollywood",
+      "Popüler",
+      "Gişe",
+      "Genel"
+    ],
+    "difficulty": "easy",
+    "id": "e6917d0e-2e9d-4bd8-bcdb-3d578bc3b7c8"
+  },
+  {
+    "word": "Çekim Yeri",
+    "forbidden": [
+      "Mekan",
+      "Film",
+      "Kamera",
+      "Sahne",
+      "Dekor"
+    ],
+    "difficulty": "easy",
+    "id": "7a2e1ffd-72a1-4fb0-92ac-286f9842c2cb"
+  },
+  {
+    "word": "Plato",
+    "forbidden": [
+      "Büyük Alan",
+      "Film",
+      "Set",
+      "Çekim",
+      "Stüdyo"
+    ],
+    "difficulty": "easy",
+    "id": "586b8e28-5ebf-4eb4-8a24-1996031a08fb"
+  },
+  {
+    "word": "Görüntü Efektleri",
+    "forbidden": [
+      "Bilgisayar",
+      "Yeşil Perde",
+      "Patlama",
+      "Sihir",
+      "Gerçekçi"
+    ],
+    "difficulty": "easy",
+    "id": "fd61ef4d-5e15-43bd-b7f8-1ea40297d885"
+  },
+  {
+    "word": "Ses Efektleri",
+    "forbidden": [
+      "Gürültü",
+      "Film",
+      "Yaratmak",
+      "Patlama",
+      "Hayvan"
+    ],
+    "difficulty": "easy",
+    "id": "27d655e8-1ef2-4701-8de4-cec0047375dc"
+  },
+  {
+    "word": "Müzik",
+    "forbidden": [
+      "Film",
+      "Sahne",
+      "Duygu",
+      "Gerilim",
+      "Korku"
+    ],
+    "difficulty": "easy",
+    "id": "0da64566-db6d-46d6-aee3-6c1e87fad803"
+  },
+  {
+    "word": "Sinema Bileti",
+    "forbidden": [
+      "Giriş",
+      "Film",
+      "Para",
+      "Kuyruk",
+      "İzlemek"
+    ],
+    "difficulty": "easy",
+    "id": "8cce8085-99bf-4f7c-a082-92901e7e38df"
+  },
+  {
+    "word": "Film Afişi",
+    "forbidden": [
+      "Resim",
+      "Film",
+      "Tanıtım",
+      "Duvar",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "08841858-609d-4ce0-8299-036451ac0905"
+  },
+  {
+    "word": "DVD Kapağı",
+    "forbidden": [
+      "Resim",
+      "Film",
+      "Bilgi",
+      "Kutu",
+      "Saklamak"
+    ],
+    "difficulty": "easy",
+    "id": "d7545359-9885-4558-8bb5-d0c810f91ddc"
+  },
+  {
+    "word": "Film Koleksiyonu",
+    "forbidden": [
+      "DVD",
+      "Blu-ray",
+      "Çok Sayıda",
+      "Saklamak",
+      "İzlemek"
+    ],
+    "difficulty": "easy",
+    "id": "a3b7f62d-34be-4de3-a9a5-3b6ca3ce66eb"
+  },
+  {
+    "word": "Popüler Film",
+    "forbidden": [
+      "Çok İzlenen",
+      "Gişe",
+      "Hollywood",
+      "Ünlü",
+      "Herkes"
+    ],
+    "difficulty": "easy",
+    "id": "45ed5b83-20cb-4fad-96b8-11bfb0c51aad"
+  },
+  {
+    "word": "Klasik Film",
+    "forbidden": [
+      "Eski",
+      "Ünlü",
+      "Önemli",
+      "Tarihi",
+      "Siyah Beyaz"
+    ],
+    "difficulty": "easy",
+    "id": "3bf4e6f0-498f-4117-8911-792ea7286ecc"
+  },
+  {
+    "word": "Siyah Beyaz Film",
+    "forbidden": [
+      "Renk",
+      "Eski",
+      "Nostalji",
+      "Geçmiş",
+      "İzlemek"
+    ],
+    "difficulty": "easy",
+    "id": "b4305539-4d06-4bc8-b333-05f836f25810"
+  },
+  {
+    "word": "Kamera Arkası",
+    "forbidden": [
+      "Çekim",
+      "Nasıl Yapıldı",
+      "Belgesel",
+      "Ekip",
+      "Eğlence"
+    ],
+    "difficulty": "easy",
+    "id": "f78f9974-4bb6-4d14-83fc-275eac10f93a"
+  },
+  {
+    "word": "Montaj",
+    "forbidden": [
+      "Kurgu",
+      "Kesmek",
+      "Birleştirmek",
+      "Sıralamak",
+      "Sahne"
+    ],
+    "difficulty": "easy",
+    "id": "094ade25-70d7-407b-b91d-98311dde0b41"
+  },
+  {
+    "word": "Dublör Sahnesi",
+    "forbidden": [
+      "Tehlikeli",
+      "Aksiyon",
+      "Dövüş",
+      "Oyuncu Yerine",
+      "Çekim"
+    ],
+    "difficulty": "easy",
+    "id": "7959721c-6cf9-4a3a-92d2-a43b74c3a653"
+  },
+  {
+    "word": "Film Dili",
+    "forbidden": [
+      "Anlatım",
+      "Görsel",
+      "Sinematografi",
+      "İletişim",
+      "Hikaye"
+    ],
+    "difficulty": "easy",
+    "id": "37573814-7a9d-424a-8f0a-a45588b28406"
+  },
+  {
+    "word": "Kamera Açısı",
+    "forbidden": [
+      "Yukarı",
+      "Aşağı",
+      "Çekim",
+      "Yönetmen",
+      "Görüş"
+    ],
+    "difficulty": "easy",
+    "id": "1ada1ff4-fe77-4e84-b7e0-5e9be389fd1b"
+  },
+  {
+    "word": "Yakın Çekim",
+    "forbidden": [
+      "Yüz",
+      "Detay",
+      "Kamera",
+      "Küçük",
+      "Odak"
+    ],
+    "difficulty": "easy",
+    "id": "861566c1-d27d-4b1e-a488-a116139213da"
+  },
+  {
+    "word": "Uzak Çekim",
+    "forbidden": [
+      "Genel Plan",
+      "Mekan",
+      "Karakter",
+      "Kamera",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "9e01a66c-0ec3-41c8-aac0-40ba0438d849"
+  },
+  {
+    "word": "Plan",
+    "forbidden": [
+      "Çekim",
+      "Kesme",
+      "Süre",
+      "Kamera",
+      "Bölüm"
+    ],
+    "difficulty": "easy",
+    "id": "dc178659-af26-4f1d-9420-532376cf6379"
+  },
+  {
+    "word": "Sahne Geçişi",
+    "forbidden": [
+      "Film",
+      "Birinden Diğerine",
+      "Kesme",
+      "Bağlantı",
+      "Anlatım"
+    ],
+    "difficulty": "easy",
+    "id": "6aa57daa-554c-4036-807c-876893d75a85"
+  },
+  {
+    "word": "Özel Efekt",
+    "forbidden": [
+      "Görsel",
+      "Patlama",
+      "Bilgisayar",
+      "Sihir",
+      "Gerçekçi"
+    ],
+    "difficulty": "easy",
+    "id": "da4dfcb4-6052-49f8-a987-fcee806ff060"
+  },
+  {
+    "word": "Jenerik",
+    "forbidden": [
+      "Başlangıç",
+      "Film",
+      "İsimler",
+      "Yazı",
+      "Müzik"
+    ],
+    "difficulty": "easy",
+    "id": "6ab6425f-0304-4ad2-a9a6-a267d23a4602"
+  },
+  {
+    "word": "Kapanış Jeneriği",
+    "forbidden": [
+      "Son",
+      "Film",
+      "İsimler",
+      "Yazı",
+      "Müzik"
+    ],
+    "difficulty": "easy",
+    "id": "146132f8-42b7-4fcc-8965-9bf57836fbc7"
+  },
+  {
+    "word": "Gösterim",
+    "forbidden": [
+      "Film",
+      "İzlemek",
+      "Salon",
+      "Başlamak",
+      "Özel"
+    ],
+    "difficulty": "easy",
+    "id": "3d881277-5259-4b40-90d9-d3e67f5fef70"
+  },
+  {
+    "word": "Prömiyer",
+    "forbidden": [
+      "İlk Gösterim",
+      "Film",
+      "Özel",
+      "Davet",
+      "Kırmızı Halı"
+    ],
+    "difficulty": "easy",
+    "id": "4309fd7b-478b-4a45-9a87-ab396dbcd564"
+  },
+  {
+    "word": "Film Eleştirmeni",
+    "forbidden": [
+      "Yorum",
+      "Film",
+      "Değerlendirme",
+      "Yazı",
+      "Tarafsız"
+    ],
+    "difficulty": "easy",
+    "id": "360afd77-b59b-4c1c-b09b-d8cad2dd45be"
+  },
+  {
+    "word": "Sinema Tarihi",
+    "forbidden": [
+      "Gelişim",
+      "Dönem",
+      "Filmler",
+      "Yönetmenler",
+      "Kamera"
+    ],
+    "difficulty": "easy",
+    "id": "49c279a7-8b07-46f3-8cab-2df8a0f8fc78"
+  },
+  {
+    "word": "Senaryo Yazarı",
+    "forbidden": [
+      "Hikaye",
+      "Film",
+      "Metin",
+      "Diyalog",
+      "Kalem"
+    ],
+    "difficulty": "medium",
+    "id": "8bf0e2b0-3697-4b50-bd6f-a0206aef58f3"
+  },
+  {
+    "word": "Set Tasarımcısı",
+    "forbidden": [
+      "Dekor",
+      "Mekan",
+      "Film",
+      "Görsel",
+      "Oluşturmak"
+    ],
+    "difficulty": "medium",
+    "id": "b8c50482-a940-48f0-b288-af6e556a4b66"
+  },
+  {
+    "word": "Film Müziği Bestecisi",
+    "forbidden": [
+      "Melodi",
+      "Film",
+      "Tema",
+      "Beste",
+      "Orkestra"
+    ],
+    "difficulty": "medium",
+    "id": "095edce1-badc-4826-9ce8-1834e923d28d"
+  },
+  {
+    "word": "Film Yapımcısı",
+    "forbidden": [
+      "Para",
+      "Bütçe",
+      "Finans",
+      "Projeyi Yönetmek",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "a24fb1fc-9879-4821-b0b2-a121b00720a2"
+  },
+  {
+    "word": "Yönetmen Yardımcısı",
+    "forbidden": [
+      "Asistan",
+      "Planlama",
+      "Set",
+      "Ekip",
+      "Program"
+    ],
+    "difficulty": "medium",
+    "id": "b29283a5-265f-4773-865b-c574d93cbf80"
+  },
+  {
+    "word": "Sanat Yönetmeni",
+    "forbidden": [
+      "Estetik",
+      "Görsel",
+      "Dekor",
+      "Kostüm",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "26be3dec-e4bd-449a-ba93-0c36d22de116"
+  },
+  {
+    "word": "Kurgu Yönetmeni",
+    "forbidden": [
+      "Montaj",
+      "Kesmek",
+      "Birleştirmek",
+      "Sahne",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "06fb0137-b630-437a-a441-1b7b59e880e5"
+  },
+  {
+    "word": "Ses Tasarımcısı",
+    "forbidden": [
+      "Efekt",
+      "Miksaj",
+      "Diyalog",
+      "Müzik",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "292089f0-5175-4142-8294-5de31fbcecac"
+  },
+  {
+    "word": "Renk Düzenleyici",
+    "forbidden": [
+      "Color Grading",
+      "Görüntü",
+      "Post Prodüksiyon",
+      "Estetik",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "a99633b7-b67b-4840-ac2d-8609cd467b11"
+  },
+  {
+    "word": "Kast Direktörü",
+    "forbidden": [
+      "Oyuncu",
+      "Seçim",
+      "Rol",
+      "Deneme Çekimi",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "f7de0c34-ce2c-477a-87e2-39750c98019c"
+  },
+  {
+    "word": "Dublaj Sanatçısı",
+    "forbidden": [
+      "Seslendirme",
+      "Diyalog",
+      "Karakter",
+      "Stüdyo",
+      "Yabancı Film"
+    ],
+    "difficulty": "medium",
+    "id": "138896aa-b608-487e-81b4-4791be4b8dee"
+  },
+  {
+    "word": "Devamlılık Asistanı",
+    "forbidden": [
+      "Script",
+      "Çekim",
+      "Detay",
+      "Kontrol",
+      "Uyum"
+    ],
+    "difficulty": "medium",
+    "id": "aba4ec41-1bf4-4d4b-9abc-68761ab15092"
+  },
+  {
+    "word": "Gaffer",
+    "forbidden": [
+      "Işık Şefi",
+      "Ekip",
+      "Elektrik",
+      "Aydınlatma",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "a83d651e-e46d-4d28-981f-310682a7c97f"
+  },
+  {
+    "word": "Key Grip",
+    "forbidden": [
+      "Işık",
+      "Kamera",
+      "Donanım",
+      "Kurulum",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "32f019fd-9b1b-419a-9019-fdd7b82a3b85"
+  },
+  {
+    "word": "Best Boy",
+    "forbidden": [
+      "Elektrik",
+      "Asistan",
+      "Işıkçı",
+      "Set",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "11809d2b-8e60-4560-a778-bae23b17c410"
+  },
+  {
+    "word": "Dolly Grip",
+    "forbidden": [
+      "Kamera",
+      "Ray",
+      "Hareket",
+      "Operatör",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "238bbb87-1520-4944-a299-0a10a5a9a75a"
+  },
+  {
+    "word": "Steadicam Operatörü",
+    "forbidden": [
+      "Sabit Kamera",
+      "Yürümek",
+      "Akıcı",
+      "Çekim",
+      "Denge"
+    ],
+    "difficulty": "medium",
+    "id": "9b48d33c-a2ec-43df-a9f5-37ebd72fef5f"
+  },
+  {
+    "word": "Drone Operatörü",
+    "forbidden": [
+      "Hava",
+      "Çekim",
+      "Yüksekten",
+      "Kontrol",
+      "Video"
+    ],
+    "difficulty": "medium",
+    "id": "a8867ec7-4a09-4863-bdcc-20c6fa4b6958"
+  },
+  {
+    "word": "Koreograf",
+    "forbidden": [
+      "Dans",
+      "Savaş",
+      "Hareket",
+      "Planlama",
+      "Sahne"
+    ],
+    "difficulty": "medium",
+    "id": "cfd18e7e-5130-42d3-b070-de8e5c52c599"
+  },
+  {
+    "word": "Diyalog Koçu",
+    "forbidden": [
+      "Oyuncu",
+      "Telaffuz",
+      "Şive",
+      "Konuşma",
+      "Eğitim"
+    ],
+    "difficulty": "medium",
+    "id": "990354cc-24e4-48bf-a25f-5b3cf5279ef0"
+  },
+  {
+    "word": "Stunt Koordinatörü",
+    "forbidden": [
+      "Tehlikeli Sahne",
+      "Güvenlik",
+      "Planlama",
+      "Dublör",
+      "Aksiyon"
+    ],
+    "difficulty": "medium",
+    "id": "b0ff9cdc-78df-45ed-bb0d-a48d077a43e1"
+  },
+  {
+    "word": "Özel Efektler Süpervizörü",
+    "forbidden": [
+      "VFX",
+      "Bilgisayar",
+      "Görsel",
+      "Patlama",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "2b835a28-a44e-492b-8444-a67c9608689c"
+  },
+  {
+    "word": "Görsel Efektler Sanatçısı",
+    "forbidden": [
+      "VFX",
+      "Bilgisayar",
+      "Görüntü",
+      "Yaratmak",
+      "Efekt"
+    ],
+    "difficulty": "medium",
+    "id": "63255739-8109-4316-9673-82189ad45729"
+  },
+  {
+    "word": "Matte Painter",
+    "forbidden": [
+      "Arka Plan",
+      "Dijital",
+      "Resim",
+      "Film",
+      "Manzara"
+    ],
+    "difficulty": "medium",
+    "id": "22bed4a1-b392-4792-9629-114f29eaeefb"
+  },
+  {
+    "word": "Concept Artist",
+    "forbidden": [
+      "Fikir",
+      "Çizim",
+      "Karakter",
+      "Mekan",
+      "Görselleştirme"
+    ],
+    "difficulty": "medium",
+    "id": "16b860a9-1fc5-48a7-ad95-3d5308314376"
+  },
+  {
+    "word": "Storyboard Sanatçısı",
+    "forbidden": [
+      "Çizim",
+      "Hikaye",
+      "Sıralama",
+      "Film",
+      "Kare"
+    ],
+    "difficulty": "medium",
+    "id": "aa1214e8-590c-4804-85dd-a654f3c8f1b3"
+  },
+  {
+    "word": "Pre-Viz Sanatçısı",
+    "forbidden": [
+      "Ön Görselleştirme",
+      "3D",
+      "Sahne",
+      "Planlama",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "0c0ec18c-ad58-4db7-977a-7c406d5340fb"
+  },
+  {
+    "word": "Green Screen",
+    "forbidden": [
+      "Yeşil Perde",
+      "Arka Plan",
+      "Değiştirmek",
+      "Bilgisayar",
+      "Efekt"
+    ],
+    "difficulty": "medium",
+    "id": "4656f07b-5d84-4c37-82b4-6e2c136eb818"
+  },
+  {
+    "word": "Motion Capture",
+    "forbidden": [
+      "Hareket",
+      "Oyuncu",
+      "Dijital",
+      "Karakter",
+      "Veri"
+    ],
+    "difficulty": "medium",
+    "id": "ea5d4c25-9d8f-4f55-baec-b790add7ba26"
+  },
+  {
+    "word": "Rotoscoping",
+    "forbidden": [
+      "Kare Kare",
+      "Çizim",
+      "Animasyon",
+      "Video",
+      "Efekt"
+    ],
+    "difficulty": "medium",
+    "id": "ae936121-a9df-4075-b5b7-0342cd1bfe14"
+  },
+  {
+    "word": "Compositing Artist",
+    "forbidden": [
+      "Katman",
+      "Görsel",
+      "Birleştirmek",
+      "Efekt",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "2f9f0bce-eb35-4d79-8f32-b27ab39dc77b"
+  },
+  {
+    "word": "3D Modeler",
+    "forbidden": [
+      "Üç Boyutlu",
+      "Nesne",
+      "Bilgisayar",
+      "Yaratmak",
+      "Şekil"
+    ],
+    "difficulty": "medium",
+    "id": "c7507283-9f06-4e16-94bf-dcf58cebe343"
+  },
+  {
+    "word": "Texture Artist",
+    "forbidden": [
+      "Doku",
+      "Yüzey",
+      "Renk",
+      "Görsel",
+      "Gerçekçi"
+    ],
+    "difficulty": "medium",
+    "id": "84a59226-ce3c-4317-b4bb-7a48106af207"
+  },
+  {
+    "word": "Lighting Artist",
+    "forbidden": [
+      "Işık",
+      "Sanat",
+      "Sahne",
+      "Atmosfer",
+      "Görsel"
+    ],
+    "difficulty": "medium",
+    "id": "17dbd361-65a2-43b2-bcfb-134352356cc5"
+  },
+  {
+    "word": "Render Farm",
+    "forbidden": [
+      "Bilgisayar",
+      "Render",
+      "Çiftlik",
+      "Hızlı",
+      "Görüntü"
+    ],
+    "difficulty": "medium",
+    "id": "4df25408-8aa4-47c8-b632-0aa10b3cc119"
+  },
+  {
+    "word": "Post Prodüksiyon",
+    "forbidden": [
+      "Çekim Sonrası",
+      "Kurgu",
+      "Ses",
+      "Renk",
+      "Efekt"
+    ],
+    "difficulty": "medium",
+    "id": "a858c55e-22dd-46c2-9afc-cf285a49ee88"
+  },
+  {
+    "word": "Color Grading",
+    "forbidden": [
+      "Renk Düzeltme",
+      "Görüntü",
+      "Estetik",
+      "Duygu",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "49cfdd13-36f1-4d49-add2-a6bae9fb280c"
+  },
+  {
+    "word": "Digital Intermediate",
+    "forbidden": [
+      "Film",
+      "Dijital",
+      "Aracı",
+      "Renk",
+      "Kurgu"
+    ],
+    "difficulty": "medium",
+    "id": "053c4e0d-deac-41d9-beaf-e85cf8c19aa5"
+  },
+  {
+    "word": "Scope",
+    "forbidden": [
+      "Geniş Ekran",
+      "En Boy Oranı",
+      "Sinema",
+      "Lens",
+      "Görüntü"
+    ],
+    "difficulty": "medium",
+    "id": "e4c72c8e-b933-44cb-8d6d-9a46ae6ae8a0"
+  },
+  {
+    "word": "Aspect Ratio",
+    "forbidden": [
+      "Görüntü",
+      "En Boy Oranı",
+      "Ekran",
+      "Oran",
+      "Sinema"
+    ],
+    "difficulty": "medium",
+    "id": "1e370c7e-2669-40ea-821f-fa948b9b1ab7"
+  },
+  {
+    "word": "Framing",
+    "forbidden": [
+      "Çerçeveleme",
+      "Görüntü",
+      "Kompozisyon",
+      "Kamera",
+      "Sanat"
+    ],
+    "difficulty": "medium",
+    "id": "98b37467-282c-4afb-aa1e-3b0121c8a475"
+  },
+  {
+    "word": "Mise-en-scène",
+    "forbidden": [
+      "Sahneleme",
+      "Yerleştirme",
+      "Dekor",
+      "Işık",
+      "Oyunculuk"
+    ],
+    "difficulty": "medium",
+    "id": "b6006a12-793e-4875-9d2f-f2f608d750af"
+  },
+  {
+    "word": "Deep Focus",
+    "forbidden": [
+      "Derin Odak",
+      "Netlik",
+      "Ön Plan",
+      "Arka Plan",
+      "Kamera"
+    ],
+    "difficulty": "medium",
+    "id": "8ae8eb62-15ef-4973-a5db-2ae64ae42b7f"
+  },
+  {
+    "word": "Shallow Focus",
+    "forbidden": [
+      "Sığ Odak",
+      "Bulanık",
+      "Arka Plan",
+      "Net",
+      "Kamera"
+    ],
+    "difficulty": "medium",
+    "id": "de613dcf-03b9-43fd-ac69-0917f383c92a"
+  },
+  {
+    "word": "Dutch Angle",
+    "forbidden": [
+      "Hollanda Açısı",
+      "Kamera",
+      "Eğik",
+      "Gerilim",
+      "Korku"
+    ],
+    "difficulty": "medium",
+    "id": "b6281201-9ced-4b6e-9fe9-36a2755f4dd9"
+  },
+  {
+    "word": "Tracking Shot",
+    "forbidden": [
+      "Takip Çekimi",
+      "Kamera",
+      "Hareket",
+      "Karakter",
+      "Ray"
+    ],
+    "difficulty": "medium",
+    "id": "94aa3715-c9ac-4271-a412-0963cdbc65ab"
+  },
+  {
+    "word": "Dolly Shot",
+    "forbidden": [
+      "Ray",
+      "Kamera",
+      "İleri Geri",
+      "Hareket",
+      "Çekim"
+    ],
+    "difficulty": "medium",
+    "id": "47610d69-4e3b-4d80-b339-123169c53769"
+  },
+  {
+    "word": "Crane Shot",
+    "forbidden": [
+      "Vinç",
+      "Kamera",
+      "Yüksekten",
+      "Yukarı Aşağı",
+      "Hareket"
+    ],
+    "difficulty": "medium",
+    "id": "ba82352b-23e9-4652-ab2a-6905a81edc89"
+  },
+  {
+    "word": "Zoom Shot",
+    "forbidden": [
+      "Yakınlaştırma",
+      "Uzaklaştırma",
+      "Lens",
+      "Kamera",
+      "Görüntü"
+    ],
+    "difficulty": "medium",
+    "id": "ce6a53b4-faaa-467d-a0c7-3042f68aa50b"
+  },
+  {
+    "word": "POV Shot",
+    "forbidden": [
+      "Bakış Açısı",
+      "Karakter",
+      "Kamera",
+      "Görsel",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "695a974e-1c9e-4a43-89e6-312816529923"
+  },
+  {
+    "word": "Jump Cut",
+    "forbidden": [
+      "Aniden",
+      "Kesme",
+      "Zaman",
+      "Atlama",
+      "Kurgu"
+    ],
+    "difficulty": "medium",
+    "id": "ffc800d1-313c-464b-83db-78d78ffafe8c"
+  },
+  {
+    "word": "Match Cut",
+    "forbidden": [
+      "Uyumlu",
+      "Kesme",
+      "Görsel",
+      "Bağlantı",
+      "Kurgu"
+    ],
+    "difficulty": "medium",
+    "id": "7b48a90a-c4de-49ff-a6d7-baa29fc36d1f"
+  },
+  {
+    "word": "Wipe",
+    "forbidden": [
+      "Silme",
+      "Sahne",
+      "Geçiş",
+      "Görsel",
+      "Efekt"
+    ],
+    "difficulty": "medium",
+    "id": "e0562cc4-c64c-4e5a-9b0a-972133bde4cd"
+  },
+  {
+    "word": "Fade In/Out",
+    "forbidden": [
+      "Kararma",
+      "Aydınlanma",
+      "Geçiş",
+      "Sahne",
+      "Görsel"
+    ],
+    "difficulty": "medium",
+    "id": "caefeda6-b8d5-4f72-b267-cb7db39f2466"
+  },
+  {
+    "word": "Dissolve",
+    "forbidden": [
+      "Eritme",
+      "Sahne",
+      "Geçiş",
+      "Üst Üste",
+      "Görsel"
+    ],
+    "difficulty": "medium",
+    "id": "ce615c87-db8e-4bd8-ab63-fe7d043a2912"
+  },
+  {
+    "word": "Montage",
+    "forbidden": [
+      "Hızlı Kesim",
+      "Zaman",
+      "Duygu",
+      "Hikaye",
+      "Görüntü"
+    ],
+    "difficulty": "medium",
+    "id": "b67afb4c-03a1-47ce-ab32-4c308f8e0afd"
+  },
+  {
+    "word": "Non-Linear Editing",
+    "forbidden": [
+      "Doğrusal Olmayan",
+      "Kurgu",
+      "Bilgisayar",
+      "Dijital",
+      "Sıra"
+    ],
+    "difficulty": "medium",
+    "id": "889df7d9-af14-4425-9c11-7882a8257451"
+  },
+  {
+    "word": "Digital Cinema Package",
+    "forbidden": [
+      "Film",
+      "Dijital",
+      "Paket",
+      "Gösterim",
+      "Sinema"
+    ],
+    "difficulty": "medium",
+    "id": "d2af317f-f786-4489-bf4b-e56a49747bdb"
+  },
+  {
+    "word": "Film Arşivi",
+    "forbidden": [
+      "Koleksiyon",
+      "Eski Film",
+      "Saklamak",
+      "Koruma",
+      "Tarih"
+    ],
+    "difficulty": "medium",
+    "id": "7f65815a-8a55-44b8-b2d5-8b5aca61585a"
+  },
+  {
+    "word": "Film Restorasyonu",
+    "forbidden": [
+      "Eski Film",
+      "Onarım",
+      "Temizleme",
+      "Yenileme",
+      "Görüntü"
+    ],
+    "difficulty": "medium",
+    "id": "cd0ca162-5f40-459f-b25e-5b5988262d7c"
+  },
+  {
+    "word": "Arthouse Cinema",
+    "forbidden": [
+      "Bağımsız Film",
+      "Sanat",
+      "Ticari",
+      "Farklı",
+      "Festival"
+    ],
+    "difficulty": "medium",
+    "id": "b9df66bd-3e30-446d-80ca-25e059da4eef"
+  },
+  {
+    "word": "Avant-Garde Film",
+    "forbidden": [
+      "Deneysel",
+      "Sanat",
+      "Sıra Dışı",
+      "Kuralsız",
+      "Kısa Film"
+    ],
+    "difficulty": "medium",
+    "id": "67754b2f-5941-40c5-9dc2-b6e37919b3b7"
+  },
+  {
+    "word": "Film Noir",
+    "forbidden": [
+      "Kara Film",
+      "Dedektif",
+      "Gerilim",
+      "Siyah Beyaz",
+      "Suç"
+    ],
+    "difficulty": "medium",
+    "id": "548c845a-62b5-4f1f-8125-bb6d2b836384"
+  },
+  {
+    "word": "Neorealism",
+    "forbidden": [
+      "İtalyan",
+      "Gerçekçilik",
+      "Savaş Sonrası",
+      "Belgesel Tarzı",
+      "Toplumsal"
+    ],
+    "difficulty": "medium",
+    "id": "cc9bdd0e-8af5-4c4d-adf0-02e30dc49367"
+  },
+  {
+    "word": "French New Wave",
+    "forbidden": [
+      "Fransız",
+      "Yeni Dalga",
+      "Yönetmen",
+      "Özgürlük",
+      "1960lar"
+    ],
+    "difficulty": "medium",
+    "id": "c0bfe899-be63-46c3-a53e-52fbdff4f1d7"
+  },
+  {
+    "word": "German Expressionism",
+    "forbidden": [
+      "Alman",
+      "Karanlık",
+      "Duygusal",
+      "Çarpık",
+      "1920ler"
+    ],
+    "difficulty": "medium",
+    "id": "d3fa59b8-4f98-48b7-bb5b-d45adf4ed4d1"
+  },
+  {
+    "word": "Soviet Montage Theory",
+    "forbidden": [
+      "Rus",
+      "Kurgu",
+      "Teori",
+      "Eisenstein",
+      "Devrim"
+    ],
+    "difficulty": "medium",
+    "id": "ed36b4af-87b5-4153-b108-2d9a815ecb27"
+  },
+  {
+    "word": "Hollywood Stüdyo Sistemi",
+    "forbidden": [
+      "Büyük Stüdyolar",
+      "Altın Çağ",
+      "Tekel",
+      "Üretim",
+      "Yıldız Sistemi"
+    ],
+    "difficulty": "medium",
+    "id": "6f732b28-46c1-4777-b49e-8ba5c5c703f8"
+  },
+  {
+    "word": "Blockbuster",
+    "forbidden": [
+      "Gişe Rekoru",
+      "Büyük Bütçe",
+      "Popüler",
+      "Gösteri",
+      "Yaz Filmi"
+    ],
+    "difficulty": "medium",
+    "id": "a417b749-f5f6-4d82-a193-f652b7f5ec7b"
+  },
+  {
+    "word": "Indie Film",
+    "forbidden": [
+      "Bağımsız",
+      "Küçük Bütçe",
+      "Alternatif",
+      "Festival",
+      "Özgün"
+    ],
+    "difficulty": "medium",
+    "id": "60309105-6fca-4321-8e6d-24a10705b848"
+  },
+  {
+    "word": "Auteur Theory",
+    "forbidden": [
+      "Yönetmen",
+      "Yazar",
+      "İmza",
+      "Sanatçı",
+      "Vizyon"
+    ],
+    "difficulty": "medium",
+    "id": "a8e98583-cb05-4f4a-a80e-76273647fc5b"
+  },
+  {
+    "word": "Mise-en-scène",
+    "forbidden": [
+      "Sahneleme",
+      "Görsel",
+      "Tasarım",
+      "Yönetmen",
+      "Anlam"
+    ],
+    "difficulty": "medium",
+    "id": "2de35e6c-6ab5-468a-a4ce-0197a0a3e576"
+  },
+  {
+    "word": "Dogma 95",
+    "forbidden": [
+      "Danimarka",
+      "Kurallar",
+      "Teknoloji",
+      "Doğallık",
+      "Sadakat"
+    ],
+    "difficulty": "medium",
+    "id": "70e900d1-d834-4fdf-90b7-e35271bcddce"
+  },
+  {
+    "word": "Found Footage Film",
+    "forbidden": [
+      "Buluntu Görüntü",
+      "Korku",
+      "Amatör",
+      "Video",
+      "Gerçekçi"
+    ],
+    "difficulty": "medium",
+    "id": "20d1da3c-9deb-42cc-83be-09550edad7cb"
+  },
+  {
+    "word": "Mockumentary",
+    "forbidden": [
+      "Belgesel",
+      "Sahte",
+      "Komik",
+      "Gerçek",
+      "Kurgu"
+    ],
+    "difficulty": "medium",
+    "id": "47c759b9-6a7f-4385-9d69-3c7a21c8a623"
+  },
+  {
+    "word": "Experimental Film",
+    "forbidden": [
+      "Deneysel",
+      "Sanat",
+      "Sıra Dışı",
+      "Anlatı Dışı",
+      "Biçim"
+    ],
+    "difficulty": "medium",
+    "id": "90779503-7891-459e-9329-1d5c6b342fb7"
+  },
+  {
+    "word": "Silent Film",
+    "forbidden": [
+      "Sessiz",
+      "Müzik",
+      "Piyano",
+      "Eski",
+      "Siyah Beyaz"
+    ],
+    "difficulty": "medium",
+    "id": "33505152-213c-455a-9076-5e7564d76233"
+  },
+  {
+    "word": "Talkie",
+    "forbidden": [
+      "Sesli Film",
+      "Konuşma",
+      "İlk",
+      "Hollywood",
+      "Devrim"
+    ],
+    "difficulty": "medium",
+    "id": "b7982518-3a5f-4f54-88d2-0b70ecb4b930"
+  },
+  {
+    "word": "Technicolor",
+    "forbidden": [
+      "Renkli Film",
+      "Eski",
+      "Parlak",
+      "Sistem",
+      "Hollywood"
+    ],
+    "difficulty": "medium",
+    "id": "72ce5f45-bce0-4065-9eee-839e64f3b150"
+  },
+  {
+    "word": "Cinemascope",
+    "forbidden": [
+      "Geniş Ekran",
+      "Format",
+      "Lens",
+      "Görüntü",
+      "Sinema"
+    ],
+    "difficulty": "medium",
+    "id": "66914a92-e2ec-4ab8-933c-cabb773d1b01"
+  },
+  {
+    "word": "IMAX",
+    "forbidden": [
+      "Büyük Ekran",
+      "Yüksek Çözünürlük",
+      "Ses",
+      "Teknoloji",
+      "Deneyim"
+    ],
+    "difficulty": "medium",
+    "id": "47d04b58-9ef2-4713-afe9-2612804641e5"
+  },
+  {
+    "word": "Dolby Atmos",
+    "forbidden": [
+      "Ses Sistemi",
+      "Sinema",
+      "Çevreleyici",
+      "Efekt",
+      "Hoparlör"
+    ],
+    "difficulty": "medium",
+    "id": "425aa67b-f697-459d-b116-06b845f9695d"
+  },
+  {
+    "word": "CGI",
+    "forbidden": [
+      "Bilgisayar",
+      "Grafik",
+      "Efekt",
+      "Yaratmak",
+      "Görsel"
+    ],
+    "difficulty": "medium",
+    "id": "cbbaf7e2-21c3-484e-a920-6b4b566be0e6"
+  },
+  {
+    "word": "Green Screen Technology",
+    "forbidden": [
+      "Yeşil Perde",
+      "Arka Plan",
+      "Değiştirmek",
+      "Efekt",
+      "Film"
+    ],
+    "difficulty": "medium",
+    "id": "7f8aa322-d68b-4d49-bc68-5c3f953bc558"
+  },
+  {
+    "word": "Motion Capture Suit",
+    "forbidden": [
+      "Oyuncu",
+      "Sensör",
+      "Hareket",
+      "Dijital",
+      "Karakter"
+    ],
+    "difficulty": "medium",
+    "id": "fb9a52db-8bc7-4268-a0ae-440734e635fd"
+  },
+  {
+    "word": "Digital Intermediate",
+    "forbidden": [
+      "Film",
+      "Dijital",
+      "Aracı",
+      "Renk",
+      "Kurgu"
+    ],
+    "difficulty": "medium",
+    "id": "16667d26-d28e-49bd-9cf6-20107d8a169a"
+  },
+  {
+    "word": "Film Festivali Jürisi",
+    "forbidden": [
+      "Ödül",
+      "Seçim",
+      "Değerlendirme",
+      "Yönetmen",
+      "Eleştirmen"
+    ],
+    "difficulty": "medium",
+    "id": "ee2fa76b-c518-4a3c-b69d-436590abcf4e"
+  },
+  {
+    "word": "Film Pazaralaması",
+    "forbidden": [
+      "Tanıtım",
+      "Reklam",
+      "Gişe",
+      "İzleyici",
+      "Strateji"
+    ],
+    "difficulty": "medium",
+    "id": "8eaa164e-6342-4cd3-9b08-a7018e6a9b87"
+  },
+  {
+    "word": "Dağıtımcı",
+    "forbidden": [
+      "Sinema",
+      "Yayınlamak",
+      "Şirket",
+      "Film",
+      "Ulaştırmak"
+    ],
+    "difficulty": "medium",
+    "id": "b9a3e2a4-2f10-4ed7-b5b9-4add97985346"
+  },
+  {
+    "word": "Film Eleştirisi",
+    "forbidden": [
+      "Yorum",
+      "Değerlendirme",
+      "Film",
+      "Yazı",
+      "Gazete"
+    ],
+    "difficulty": "medium",
+    "id": "8e931253-dc0e-4d9f-ad1c-3dc8f94761b5"
+  },
+  {
+    "word": "Film Teorisi",
+    "forbidden": [
+      "Analiz",
+      "Yapı",
+      "Anlam",
+      "Sinema",
+      "Düşünce"
+    ],
+    "difficulty": "medium",
+    "id": "5bdf8f6a-0baa-49cf-8e98-450870bf33a0"
+  },
+  {
+    "word": "Senaryo Analizi",
+    "forbidden": [
+      "Metin",
+      "Yapı",
+      "Karakter",
+      "Hikaye",
+      "Değerlendirme"
+    ],
+    "difficulty": "medium",
+    "id": "974adedb-dce8-49c6-8d49-c25df21f3589"
+  },
+  {
+    "word": "Film Elemanı",
+    "forbidden": [
+      "Işık",
+      "Renk",
+      "Ses",
+      "Kamera",
+      "Oyunculuk"
+    ],
+    "difficulty": "medium",
+    "id": "4ce9ea6a-bcb0-4a94-873e-bc437c055792"
+  },
+  {
+    "word": "Mizansen",
+    "forbidden": [
+      "Sahneleme",
+      "Görsel",
+      "Tasarım",
+      "Yönetmen",
+      "Yerleşim"
+    ],
+    "difficulty": "medium",
+    "id": "ad823805-e7df-4c0e-b9af-049a534be18d"
+  },
+  {
+    "word": "Filmin Teması",
+    "forbidden": [
+      "Ana Fikir",
+      "Mesaj",
+      "Konu",
+      "Anlatım",
+      "Duygu"
+    ],
+    "difficulty": "medium",
+    "id": "7913c7fa-6b64-4f1d-8316-693b57766fd9"
+  },
+  {
+    "word": "Film Yapım Stüdyosu",
+    "forbidden": [
+      "Prodüksiyon",
+      "Set",
+      "Kamera",
+      "Ekip",
+      "Büyük"
+    ],
+    "difficulty": "medium",
+    "id": "c40c15f0-1869-4422-9bdb-2e562206fd9d"
+  },
+  {
+    "word": "Görsel Efekt Stüdyosu",
+    "forbidden": [
+      "Bilgisayar",
+      "Film",
+      "Patlama",
+      "Sihir",
+      "Teknoloji"
+    ],
+    "difficulty": "medium",
+    "id": "279556a5-1a22-4991-9c54-1cbe77343655"
+  },
+  {
+    "word": "Film Okulu",
+    "forbidden": [
+      "Eğitim",
+      "Yönetmen",
+      "Oyunculuk",
+      "Senaryo",
+      "Teknik"
+    ],
+    "difficulty": "medium",
+    "id": "49bcf00e-c581-47f2-8063-1e66478ccb13"
+  },
+  {
+    "word": "Film Endüstrisi",
+    "forbidden": [
+      "Para",
+      "Üretim",
+      "Dağıtım",
+      "Pazarlama",
+      "Büyük"
+    ],
+    "difficulty": "medium",
+    "id": "3be5309b-6118-4aaa-a0cc-94d56df24a8e"
+  },
+  {
+    "word": "Box Office",
+    "forbidden": [
+      "Gişe",
+      "Para",
+      "Kazanç",
+      "Film",
+      "Başarı"
+    ],
+    "difficulty": "medium",
+    "id": "f07c4532-dbbe-4523-aa3c-fafeb0fb0370"
+  },
+  {
+    "word": "Auteur Teorisi",
+    "forbidden": [
+      "Yönetmen",
+      "Yazar",
+      "İmza",
+      "Sanatçı",
+      "Vizyon"
+    ],
+    "difficulty": "hard",
+    "id": "8f01bcb3-3e90-4e22-bbbb-1d1b73fcc486"
+  },
+  {
+    "word": "Film Grameri",
+    "forbidden": [
+      "Dil",
+      "Kurallar",
+      "Çekim",
+      "Anlatım",
+      "Sinematografi"
+    ],
+    "difficulty": "hard",
+    "id": "b2ab4c5a-9964-4b36-9db0-f297173aefbd"
+  },
+  {
+    "word": "Deep Focus",
+    "forbidden": [
+      "Netlik",
+      "Odak",
+      "Ön Plan",
+      "Arka Plan",
+      "Alan"
+    ],
+    "difficulty": "hard",
+    "id": "b2245abf-365f-4773-a8dc-e78d10a531f4"
+  },
+  {
+    "word": "Alman Ekspresyonizmi",
+    "forbidden": [
+      "Karanlık",
+      "Duygu",
+      "Savaş",
+      "Almanya",
+      "Çarpık"
+    ],
+    "difficulty": "hard",
+    "id": "02c05c7d-dc37-451b-815a-e973202ba294"
+  },
+  {
+    "word": "Yeni Gerçekçilik",
+    "forbidden": [
+      "İtalya",
+      "Savaş Sonrası",
+      "Gerçekçi",
+      "Toplumsal",
+      "Belgesel"
+    ],
+    "difficulty": "hard",
+    "id": "6322fc7c-40ad-4cdf-b0f4-8d10c5693537"
+  },
+  {
+    "word": "Mizansen",
+    "forbidden": [
+      "Sahneleme",
+      "Yerleştirme",
+      "Tasarım",
+      "Görsel",
+      "Düzenleme"
+    ],
+    "difficulty": "hard",
+    "id": "401001c5-2641-4a0b-b169-2420490d35bc"
+  },
+  {
+    "word": "Foley Sanatı",
+    "forbidden": [
+      "Ses Efekti",
+      "Yaratmak",
+      "Gürültü",
+      "Taklit",
+      "Stüdyo"
+    ],
+    "difficulty": "hard",
+    "id": "c7c7a351-8303-4065-8e5b-c41afd897f39"
+  },
+  {
+    "word": "Soyvet Montaj Teorisi",
+    "forbidden": [
+      "Rus",
+      "Kurgu",
+      "Eisenstein",
+      "Devrim",
+      "Çatışma"
+    ],
+    "difficulty": "hard",
+    "id": "72c98191-42b3-4c63-adf5-b506c48e8b63"
+  },
+  {
+    "word": "Fransız Yeni Dalga",
+    "forbidden": [
+      "Godard",
+      "Özgürlük",
+      "Yönetmen",
+      "Kurallar",
+      "1960lar"
+    ],
+    "difficulty": "hard",
+    "id": "00ed53f5-e32d-49f3-beca-5011bc9500b9"
+  },
+  {
+    "word": "Dogma 95",
+    "forbidden": [
+      "Danimarka",
+      "Manifesto",
+      "Kurallar",
+      "Doğallık",
+      "Teknoloji"
+    ],
+    "difficulty": "hard",
+    "id": "4d24339b-5554-4e8a-bd94-fa864d78dca5"
+  },
+  {
+    "word": "Found Footage",
+    "forbidden": [
+      "Buluntu Görüntü",
+      "Kayıt",
+      "Gerçekçi",
+      "Amatör",
+      "Korku"
+    ],
+    "difficulty": "hard",
+    "id": "0e5757a3-901a-4742-b7fd-cad333dbffaa"
+  },
+  {
+    "word": "Kült Film Teorisi",
+    "forbidden": [
+      "Fenomen",
+      "Fanatik",
+      "Sıra Dışı",
+      "Niş",
+      "Tekrar"
+    ],
+    "difficulty": "hard",
+    "id": "68c0c8d3-36f3-4ab5-9406-1c0e8746a6c4"
+  },
+  {
+    "word": "Post-Prodüksiyon",
+    "forbidden": [
+      "Çekim Sonrası",
+      "Kurgu",
+      "Ses",
+      "Renk",
+      "Efekt"
+    ],
+    "difficulty": "hard",
+    "id": "59ac19e5-2e46-4ef5-b86c-6e42a9ebd69d"
+  },
+  {
+    "word": "Color Grading",
+    "forbidden": [
+      "Renk Düzeltme",
+      "Görüntü",
+      "Estetik",
+      "Duygu",
+      "Film"
+    ],
+    "difficulty": "hard",
+    "id": "f806bba2-68c1-40ed-9724-444ff11fab98"
+  },
+  {
+    "word": "Dijital Ara Geçiş",
+    "forbidden": [
+      "Film",
+      "Dijital",
+      "Aracı",
+      "Renk",
+      "Kurgu"
+    ],
+    "difficulty": "hard",
+    "id": "db73bfe5-a7fe-4448-bb57-50fc31ff2346"
+  },
+  {
+    "word": "Sinema Tarihçiliği",
+    "forbidden": [
+      "Dönem",
+      "Akım",
+      "Filmler",
+      "Yönetmenler",
+      "Belgeleme"
+    ],
+    "difficulty": "hard",
+    "id": "ed5c8271-e6d7-4c9b-8cfa-fe08b2d2e0fb"
+  },
+  {
+    "word": "Film Arşivciliği",
+    "forbidden": [
+      "Eski Film",
+      "Saklamak",
+      "Koruma",
+      "Restorasyon",
+      "Tarihi"
+    ],
+    "difficulty": "hard",
+    "id": "352c85f7-9e04-4a86-8163-0549a7e22a4a"
+  },
+  {
+    "word": "Sinema Sosyolojisi",
+    "forbidden": [
+      "Toplum",
+      "Kültür",
+      "Etki",
+      "İzleyici",
+      "Değişim"
+    ],
+    "difficulty": "hard",
+    "id": "37988725-6354-40c1-b79d-da280a9949a4"
+  },
+  {
+    "word": "Sinema Psikolojisi",
+    "forbidden": [
+      "İzleyici",
+      "Duygu",
+      "Algı",
+      "Karakter",
+      "Tepki"
+    ],
+    "difficulty": "hard",
+    "id": "d7d1a9de-f191-4aa8-9007-c42a675f3eaf"
+  },
+  {
+    "word": "Sinema Felsefesi",
+    "forbidden": [
+      "Gerçeklik",
+      "Estetik",
+      "Anlam",
+      "Görsel",
+      "Düşünce"
+    ],
+    "difficulty": "hard",
+    "id": "eef0f3c1-7e53-4366-895c-5d5c13acf62b"
+  },
+  {
+    "word": "Sinema Eleştirmenliği",
+    "forbidden": [
+      "Yorum",
+      "Değerlendirme",
+      "Film",
+      "Tarafsız",
+      "Yazı"
+    ],
+    "difficulty": "hard",
+    "id": "8f8c143b-7a6e-41ef-be68-a3f8b4bd2bad"
+  },
+  {
+    "word": "Sinema Teorisi",
+    "forbidden": [
+      "Analiz",
+      "Yapı",
+      "Anlam",
+      "Filmler",
+      "Yaklaşım"
+    ],
+    "difficulty": "hard",
+    "id": "533c6ce2-0664-4c31-8f49-654ac10feb44"
+  },
+  {
+    "word": "Görsel Anlatım",
+    "forbidden": [
+      "Kamera",
+      "Işık",
+      "Renk",
+      "Kompozisyon",
+      "Hikaye"
+    ],
+    "difficulty": "hard",
+    "id": "28c11846-2600-4b66-bc47-8a16c3c35819"
+  },
+  {
+    "word": "Kamera Hareketi",
+    "forbidden": [
+      "Çekim",
+      "Dolly",
+      "Vinç",
+      "Sabit",
+      "Hareket"
+    ],
+    "difficulty": "hard",
+    "id": "4906ef89-c9ba-4e74-9ed6-e74c9de63d04"
+  },
+  {
+    "word": "Montaj Teknikleri",
+    "forbidden": [
+      "Hızlı Kesim",
+      "Yavaş Çekim",
+      "Birleştirme",
+      "Sahne",
+      "Ritim"
+    ],
+    "difficulty": "hard",
+    "id": "d2838ae2-097f-40b1-ae26-86f787438194"
+  },
+  {
+    "word": "Ses Tasarımı",
+    "forbidden": [
+      "Diyalog",
+      "Müzik",
+      "Efekt",
+      "Atmosfer",
+      "İşitme"
+    ],
+    "difficulty": "hard",
+    "id": "cd9217cb-f969-43c8-90b4-6b463a350be8"
+  },
+  {
+    "word": "Renk Paleti",
+    "forbidden": [
+      "Duygu",
+      "Atmosfer",
+      "Görsel",
+      "Uygun",
+      "Film"
+    ],
+    "difficulty": "hard",
+    "id": "bdaf0b0b-6dcb-4f11-b72c-6f676b5c9055"
+  },
+  {
+    "word": "Senaryo Yapısı",
+    "forbidden": [
+      "Üç Perde",
+      "Karakter",
+      "Çatışma",
+      "Dönüm Noktası",
+      "Giriş"
+    ],
+    "difficulty": "hard",
+    "id": "4318e9dd-1ffe-46bb-84f1-a99914e4dd48"
+  },
+  {
+    "word": "Karakter Arkı",
+    "forbidden": [
+      "Gelişim",
+      "Değişim",
+      "Hikaye",
+      "Dramatik",
+      "Duygusal"
+    ],
+    "difficulty": "hard",
+    "id": "8f4a8656-c414-419e-89cd-65c973f07944"
+  },
+  {
+    "word": "Dramatik Yapı",
+    "forbidden": [
+      "Giriş",
+      "Gelişme",
+      "Çözüm",
+      "Olay Örgüsü",
+      "Çatışma"
+    ],
+    "difficulty": "hard",
+    "id": "c0148bc5-5787-4d91-a983-358083ff3f7c"
+  },
+  {
+    "word": "Chekhov's Gun",
+    "forbidden": [
+      "Öğe",
+      "Kullanılmak",
+      "Hikaye",
+      "Detay",
+      "Gereksiz"
+    ],
+    "difficulty": "hard",
+    "id": "59aa1e73-aae2-428f-8228-a861875b531a"
+  },
+  {
+    "word": "MacGuffin",
+    "forbidden": [
+      "Nesne",
+      "Hikaye",
+      "Önemli",
+      "Amacı",
+      "Gizemli"
+    ],
+    "difficulty": "hard",
+    "id": "ca135408-97be-4e14-870c-7028bdc1f742"
+  },
+  {
+    "word": "Deus Ex Machina",
+    "forbidden": [
+      "Tanrı",
+      "Çözüm",
+      "Beklenmedik",
+      "Aniden",
+      "Hikaye"
+    ],
+    "difficulty": "hard",
+    "id": "584adc88-8044-42fe-b308-1be9d69ee13f"
+  },
+  {
+    "word": "Plot Twist",
+    "forbidden": [
+      "Şaşırtıcı",
+      "Dönüm Noktası",
+      "Hikaye",
+      "Beklenmedik",
+      "Son"
+    ],
+    "difficulty": "hard",
+    "id": "a552514e-ba21-413b-99eb-2b2ee9001aa6"
+  },
+  {
+    "word": "Red Herring",
+    "forbidden": [
+      "Yanlış İpucu",
+      "Yanlış Yönlendirme",
+      "Gizem",
+      "Dedektif",
+      "Hikaye"
+    ],
+    "difficulty": "hard",
+    "id": "e1d9cd42-c667-44b5-9e0b-5de6b20a2ea5"
+  },
+  {
+    "word": "Foreshadowing",
+    "forbidden": [
+      "İpucu",
+      "Önceden",
+      "Anlatım",
+      "Beklenti",
+      "Gizem"
+    ],
+    "difficulty": "hard",
+    "id": "43c867f3-ae68-415c-a7fa-605f6cc328c1"
+  },
+  {
+    "word": "Symbolism",
+    "forbidden": [
+      "Sembol",
+      "Anlam",
+      "Görsel",
+      "Mesaj",
+      "İmge"
+    ],
+    "difficulty": "hard",
+    "id": "99a114c5-001a-48b3-9d8d-0f72b26b2f70"
+  },
+  {
+    "word": "Motif",
+    "forbidden": [
+      "Tekrarlayan",
+      "Görsel",
+      "Ses",
+      "Tema",
+      "Anlatım"
+    ],
+    "difficulty": "hard",
+    "id": "b7e29d5b-f651-48da-8b5c-74634279355a"
+  },
+  {
+    "word": "Allegory",
+    "forbidden": [
+      "Mecaz",
+      "Sembolik",
+      "Gizli Anlam",
+      "Hikaye",
+      "Mesaj"
+    ],
+    "difficulty": "hard",
+    "id": "0d3f9c38-38b2-434e-b769-a03f2616f90b"
+  },
+  {
+    "word": "Intertextuality",
+    "forbidden": [
+      "Metinlerarası",
+      "Başka Film",
+      "Referans",
+      "Alıntı",
+      "İlişki"
+    ],
+    "difficulty": "hard",
+    "id": "c1142ae4-8d96-4b7a-80a3-37e9c14edd2f"
+  },
+  {
+    "word": "Pastiche",
+    "forbidden": [
+      "Taklit",
+      "Tarz",
+      "Kopyalama",
+      "Saygı",
+      "Farklı"
+    ],
+    "difficulty": "hard",
+    "id": "89bb458f-868b-4bba-b901-765667789e14"
+  },
+  {
+    "word": "Parody",
+    "forbidden": [
+      "Taklit",
+      "Dalga Geçmek",
+      "Komik",
+      "Orijinal",
+      "Benzer"
+    ],
+    "difficulty": "hard",
+    "id": "5e0bd0c9-77d6-4f47-b306-665ec324a19d"
+  },
+  {
+    "word": "Homage",
+    "forbidden": [
+      "Saygı Durusu",
+      "Referans",
+      "Benzer",
+      "Yönetmen",
+      "Film"
+    ],
+    "difficulty": "hard",
+    "id": "6c9faa71-6d9a-41fc-9e0e-4b091d11cc67"
+  },
+  {
+    "word": "Meta-Referans",
+    "forbidden": [
+      "Film Hakkında",
+      "Kendini Bilen",
+      "Kendi Kendine",
+      "Bilgi",
+      "Anlatım"
+    ],
+    "difficulty": "hard",
+    "id": "f0381a1d-bd38-4cfb-88c7-6eee4231bb49"
+  },
+  {
+    "word": "Film Teorisyenleri",
+    "forbidden": [
+      "Kritik",
+      "Analiz",
+      "Yapı",
+      "Anlam",
+      "Düşünce"
+    ],
+    "difficulty": "hard",
+    "id": "65ecde56-a889-4bbd-85eb-60b6cfb94240"
+  },
+  {
+    "word": "André Bazin",
+    "forbidden": [
+      "Fransız",
+      "Teorisyen",
+      "Gerçekçilik",
+      "Kurgu",
+      "Film"
+    ],
+    "difficulty": "hard",
+    "id": "38cc7efa-143b-46e9-8f24-66a199fc0990"
+  },
+  {
+    "word": "Sergei Eisenstein",
+    "forbidden": [
+      "Sovyet",
+      "Montaj",
+      "Yönetmen",
+      "Devrim",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "21b79b27-9216-4e4d-b67b-aad3cd876530"
+  },
+  {
+    "word": "Vsevolod Pudovkin",
+    "forbidden": [
+      "Sovyet",
+      "Montaj",
+      "Yönetmen",
+      "Oyunculuk",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "37605630-20cb-4c1a-84cc-f68ae2e737f7"
+  },
+  {
+    "word": "Dziga Vertov",
+    "forbidden": [
+      "Sovyet",
+      "Belgesel",
+      "Kino-Göz",
+      "Kamera",
+      "Gerçek"
+    ],
+    "difficulty": "hard",
+    "id": "8fa270cc-7ceb-4ec2-b270-223f9e2605f2"
+  },
+  {
+    "word": "Béla Balázs",
+    "forbidden": [
+      "Macar",
+      "Teorisyen",
+      "Film",
+      "Yüz",
+      "Detay"
+    ],
+    "difficulty": "hard",
+    "id": "1d75b374-b4e0-46f9-b0b3-692abd3442f9"
+  },
+  {
+    "word": "Christian Metz",
+    "forbidden": [
+      "Fransız",
+      "Semiyotik",
+      "Film",
+      "Anlam",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "6ba20d3d-2f95-41f6-b9a2-dbb808f47374"
+  },
+  {
+    "word": "Laura Mulvey",
+    "forbidden": [
+      "Feminist",
+      "Bakış",
+      "Film",
+      "Kadın",
+      "Erkek"
+    ],
+    "difficulty": "hard",
+    "id": "7900c569-12f8-4b4c-9209-ae688f6b41bc"
+  },
+  {
+    "word": "Tarkovsky",
+    "forbidden": [
+      "Rus",
+      "Sanat",
+      "Zaman",
+      "Rüya",
+      "Metafizik"
+    ],
+    "difficulty": "hard",
+    "id": "ed075cf3-4032-4786-826b-75f492b61a84"
+  },
+  {
+    "word": "Bergman",
+    "forbidden": [
+      "İsveç",
+      "Varoluş",
+      "İnsan",
+      "Tanrı",
+      "Dram"
+    ],
+    "difficulty": "hard",
+    "id": "b729d535-0ca8-4bc2-9131-40d7c7789659"
+  },
+  {
+    "word": "Kubrick",
+    "forbidden": [
+      "Amerikan",
+      "Mükemmeliyetçi",
+      "Bilim Kurgu",
+      "Savaş",
+      "Filmler"
+    ],
+    "difficulty": "hard",
+    "id": "07010913-839e-428a-b63a-accbd4f1af51"
+  },
+  {
+    "word": "Kurosawa",
+    "forbidden": [
+      "Japon",
+      "Samuray",
+      "Savaş",
+      "Dram",
+      "Usta"
+    ],
+    "difficulty": "hard",
+    "id": "a6b840da-df83-4958-9c76-c023ff3c13ba"
+  },
+  {
+    "word": "Fellini",
+    "forbidden": [
+      "İtalyan",
+      "Rüya",
+      "Sirk",
+      "Fantastik",
+      "Kadın"
+    ],
+    "difficulty": "hard",
+    "id": "d1f70334-7f7e-4800-a952-2f0d54d451c1"
+  },
+  {
+    "word": "Hitchcock",
+    "forbidden": [
+      "Gerilim",
+      "Korku",
+      "Usta",
+      "Sarışın",
+      "Şaşırtıcı"
+    ],
+    "difficulty": "hard",
+    "id": "b442fcc1-9cd9-4791-b3e5-4937501a3f6f"
+  },
+  {
+    "word": "Scorsese",
+    "forbidden": [
+      "Mafya",
+      "Gangster",
+      "New York",
+      "Dram",
+      "Şiddet"
+    ],
+    "difficulty": "hard",
+    "id": "b7b591cd-ceb6-4b33-a868-4a033fc0bb7e"
+  },
+  {
+    "word": "Spielberg",
+    "forbidden": [
+      "Hollywood",
+      "Gişe",
+      "Çocukluk",
+      "Macera",
+      "Hikaye"
+    ],
+    "difficulty": "hard",
+    "id": "ab2f0152-3ebd-4f52-ad60-bda8258bb809"
+  },
+  {
+    "word": "Neo-Noir",
+    "forbidden": [
+      "Kara Film",
+      "Modern",
+      "Gerilim",
+      "Dedektif",
+      "Suç"
+    ],
+    "difficulty": "hard",
+    "id": "d6fb6ad4-ff11-45fb-baec-2e505b573a34"
+  },
+  {
+    "word": "Cyberpunk Sinema",
+    "forbidden": [
+      "Gelecek",
+      "Teknoloji",
+      "Siber",
+      "Distopya",
+      "Matrix"
+    ],
+    "difficulty": "hard",
+    "id": "86ec16cc-285c-4cf7-9bab-1675c58dd4e6"
+  },
+  {
+    "word": "Steampunk Sinema",
+    "forbidden": [
+      "Viktorya",
+      "Buhar",
+      "Makine",
+      "Retro",
+      "Fantastik"
+    ],
+    "difficulty": "hard",
+    "id": "f05e85b0-7bb8-4441-965c-b6f44c75108a"
+  },
+  {
+    "word": "Post-Apokaliptik Sinema",
+    "forbidden": [
+      "Kıyamet Sonrası",
+      "Hayatta Kalma",
+      "Harabe",
+      "Gelecek",
+      "Dünya"
+    ],
+    "difficulty": "hard",
+    "id": "39de8496-336a-4021-a945-1fb45e79e7a0"
+  },
+  {
+    "word": "B-Movie",
+    "forbidden": [
+      "Düşük Bütçe",
+      "Hızlı",
+      "Eğlenceli",
+      "Korku",
+      "Bilim Kurgu"
+    ],
+    "difficulty": "hard",
+    "id": "3c5a7092-75be-42d0-91bd-85d34ab3c3f7"
+  },
+  {
+    "word": "Grindhouse Film",
+    "forbidden": [
+      "Ucuz",
+      "Şiddet",
+      "Seks",
+      "Eğlence",
+      "Eski Sinema"
+    ],
+    "difficulty": "hard",
+    "id": "fcea3f7e-41d1-4b56-a97c-2739d45fa59e"
+  },
+  {
+    "word": "Slasher Film",
+    "forbidden": [
+      "Seri Katil",
+      "Gençler",
+      "Kanlı",
+      "Korku",
+      "Maskeli"
+    ],
+    "difficulty": "hard",
+    "id": "dc640d2e-7dd2-4765-a389-f88800e89a5a"
+  },
+  {
+    "word": "Giallo Film",
+    "forbidden": [
+      "İtalyan",
+      "Gerilim",
+      "Polisiye",
+      "Kanlı",
+      "Gizem"
+    ],
+    "difficulty": "hard",
+    "id": "322bfa2f-7899-4bbe-bec1-d38a793a44ab"
+  },
+  {
+    "word": "Cult Classic",
+    "forbidden": [
+      "Küçük İzleyici",
+      "Sonradan Popüler",
+      "Özgün",
+      "Film",
+      "Tekrar"
+    ],
+    "difficulty": "hard",
+    "id": "7a388d9e-17ef-4911-8c8a-850523d1626d"
+  },
+  {
+    "word": "Art Film",
+    "forbidden": [
+      "Sanatsal",
+      "Ticari",
+      "Deneysel",
+      "Yönetmen",
+      "Festival"
+    ],
+    "difficulty": "hard",
+    "id": "cbc7040c-66de-42b8-8b73-9adbf3f77a50"
+  },
+  {
+    "word": "Independent Film Movement",
+    "forbidden": [
+      "Bağımsız",
+      "Amerika",
+      "Stüdyo Dışı",
+      "Yönetmen",
+      "Özgün"
+    ],
+    "difficulty": "hard",
+    "id": "d27ea0e7-6dac-4381-a1e1-ab138e4e4018"
+  },
+  {
+    "word": "Mumblecore",
+    "forbidden": [
+      "Düşük Bütçe",
+      "Doğaçlama",
+      "Konuşma",
+      "Genç",
+      "Gerçekçi"
+    ],
+    "difficulty": "hard",
+    "id": "4564b8d0-4aa1-42d0-aa1e-ffdac61461ec"
+  },
+  {
+    "word": "New Queer Cinema",
+    "forbidden": [
+      "LGBT",
+      "Film",
+      "Kimlik",
+      "Akım",
+      "1990lar"
+    ],
+    "difficulty": "hard",
+    "id": "327395e9-7a2e-414a-8301-11d8c513a330"
+  },
+  {
+    "word": "Transmedya Anlatımı",
+    "forbidden": [
+      "Hikaye",
+      "Birden Fazla",
+      "Platform",
+      "Yayılma",
+      "Evren"
+    ],
+    "difficulty": "hard",
+    "id": "efc04aab-447b-4104-bed3-1057976328c2"
+  },
+  {
+    "word": "Cross-Platform İçerik",
+    "forbidden": [
+      "Çoklu Platform",
+      "Uyumlu",
+      "Hikaye",
+      "Deneyim",
+      "Yayılma"
+    ],
+    "difficulty": "hard",
+    "id": "18574875-45a5-4eb3-9eea-1ac533274085"
+  },
+  {
+    "word": "Interaktif Film",
+    "forbidden": [
+      "Seçim",
+      "İzleyici",
+      "Hikaye",
+      "Oyun",
+      "Deneyim"
+    ],
+    "difficulty": "hard",
+    "id": "1c14f70f-50d3-4a59-8430-42ebfd4e93d5"
+  },
+  {
+    "word": "Sanat Enstalasyonu",
+    "forbidden": [
+      "Mekan",
+      "Görsel",
+      "Video",
+      "Deneyim",
+      "Etkileşim"
+    ],
+    "difficulty": "hard",
+    "id": "65c8efc0-ff56-417d-9317-1b1c1ebd35f4"
+  },
+  {
+    "word": "Video Mapping",
+    "forbidden": [
+      "Yansıtma",
+      "Yüzey",
+      "Görsel",
+      "Hareket",
+      "3D"
+    ],
+    "difficulty": "hard",
+    "id": "5a7fd499-060a-4342-b899-82b20dd81d8c"
+  },
+  {
+    "word": "Filmin Tematik Analizi",
+    "forbidden": [
+      "Konu",
+      "Mesaj",
+      "Altyapı",
+      "İnceleme",
+      "Anlam"
+    ],
+    "difficulty": "hard",
+    "id": "85c71e0c-f18d-45a5-885c-4ab726867cbf"
+  },
+  {
+    "word": "Sinema Tarihi Dönemleri",
+    "forbidden": [
+      "Sessiz",
+      "Altın Çağ",
+      "Yeni Dalga",
+      "Postmodern",
+      "Akım"
+    ],
+    "difficulty": "hard",
+    "id": "f8054241-5e4d-43f0-b0ae-81e3d39dda28"
+  },
+  {
+    "word": "Montaj Kurgu Teorileri",
+    "forbidden": [
+      "Sovyet",
+      "Eisenstein",
+      "Çatışma",
+      "Duygu",
+      "Ritim"
+    ],
+    "difficulty": "hard",
+    "id": "1236d4fc-5d3e-4868-b7a5-faede8c311cd"
+  },
+  {
+    "word": "Metinsel Analiz",
+    "forbidden": [
+      "Senaryo",
+      "Diyalog",
+      "Karakter",
+      "Yapı",
+      "Anlam"
+    ],
+    "difficulty": "hard",
+    "id": "a3b167c6-1004-44b6-8daa-1856c730a8b2"
+  },
+  {
+    "word": "Yapısalcılık",
+    "forbidden": [
+      "Yapı",
+      "Dil",
+      "Gösterge",
+      "Sistem",
+      "Anlam"
+    ],
+    "difficulty": "hard",
+    "id": "82f790c4-0e0e-4e3d-9624-2808fc0e6961"
+  },
+  {
+    "word": "Post-Yapısalcılık",
+    "forbidden": [
+      "Yapı",
+      "Dil",
+      "Parçalama",
+      "Anlam",
+      "Sistemsizlik"
+    ],
+    "difficulty": "hard",
+    "id": "9b23bf14-d59d-40e0-98a9-208e755fb22b"
+  },
+  {
+    "word": "Feminist Film Teorisi",
+    "forbidden": [
+      "Kadın",
+      "Bakış",
+      "Temsil",
+      "Cinsiyet",
+      "Eleştiri"
+    ],
+    "difficulty": "hard",
+    "id": "8ab7356b-caed-4a9f-8bf2-8a519c4f8ca9"
+  },
+  {
+    "word": "Queer Film Teorisi",
+    "forbidden": [
+      "LGBT",
+      "Cinsiyet",
+      "Kimlik",
+      "Temsil",
+      "Sorgulama"
+    ],
+    "difficulty": "hard",
+    "id": "00fa5e80-8b2a-4e45-88e2-c26032d66084"
+  },
+  {
+    "word": "Postkolonyal Film Teorisi",
+    "forbidden": [
+      "Sömürgecilik",
+      "Kimlik",
+      "Tarih",
+      "Temsil",
+      "Eleştiri"
+    ],
+    "difficulty": "hard",
+    "id": "a64caae7-7e59-49f1-832e-02a93ae4b820"
+  },
+  {
+    "word": "Yönetmenlik Yaklaşımları",
+    "forbidden": [
+      "Auteur",
+      "Ekip",
+      "Görsel",
+      "Anlatım",
+      "Sanat"
+    ],
+    "difficulty": "hard",
+    "id": "5566de11-d7fc-461f-ad97-96758a81f3d6"
+  },
+  {
+    "word": "Post-Yapısalcı Film Analizi",
+    "forbidden": [
+      "Yapı",
+      "Anlam",
+      "Metin",
+      "Söküm",
+      "Yorum"
+    ],
+    "difficulty": "hard",
+    "id": "e7398c11-6817-44c6-9299-a3576eaa9a1a"
+  },
+  {
+    "word": "Göstergebilimsel Film Eleştirisi",
+    "forbidden": [
+      "İşaret",
+      "Kod",
+      "Anlam",
+      "Sembol",
+      "İletişim"
+    ],
+    "difficulty": "hard",
+    "id": "5ca0bfd3-6836-4725-b899-9d8b9c3058ea"
+  },
+  {
+    "word": "Psikanalitik Film Teorisi",
+    "forbidden": [
+      "Freud",
+      "Lacan",
+      "Bilinçaltı",
+      "Arzu",
+      "Kimlik"
+    ],
+    "difficulty": "hard",
+    "id": "0391d5b5-b26b-4248-9a98-ec9934597749"
+  },
+  {
+    "word": "Fenomenolojik Film Yaklaşımı",
+    "forbidden": [
+      "Deneyim",
+      "Algı",
+      "Özne",
+      "Gerçeklik",
+      "Anlam"
+    ],
+    "difficulty": "hard",
+    "id": "3d5bf9fc-95ba-445b-b9eb-ee70ec0f562c"
+  },
+  {
+    "word": "Ontolojik Film Teorisi",
+    "forbidden": [
+      "Varlık",
+      "Gerçeklik",
+      "Sinema",
+      "Kopya",
+      "Temsil"
+    ],
+    "difficulty": "hard",
+    "id": "7291f997-c78b-4298-916c-d7b8a043dc6a"
+  },
+  {
+    "word": "Epistemolojik Film Teorisi",
+    "forbidden": [
+      "Bilgi",
+      "Gerçeklik",
+      "Sinema",
+      "Algı",
+      "Doğruluk"
+    ],
+    "difficulty": "hard",
+    "id": "423e1247-6fbd-42bc-9bf7-0379300ba8ee"
+  },
+  {
+    "word": "Post-Humanist Sinema",
+    "forbidden": [
+      "İnsan",
+      "Teknoloji",
+      "Varlık",
+      "Gelecek",
+      "Kimlik"
+    ],
+    "difficulty": "hard",
+    "id": "46b8ba22-390f-4840-b0a4-3498354f7f76"
+  },
+  {
+    "word": "Siberpunk Estetiği",
+    "forbidden": [
+      "Distopya",
+      "Teknoloji",
+      "Yüksek",
+      "Düşük Yaşam",
+      "Sokak"
+    ],
+    "difficulty": "hard",
+    "id": "7dc600c2-b00f-4703-a4fc-08afab6e7ecd"
+  },
+  {
+    "word": "Retro-Fütürizm",
+    "forbidden": [
+      "Eski Gelecek",
+      "Viktorya",
+      "Buhar",
+      "Teknoloji",
+      "Nostalji"
+    ],
+    "difficulty": "hard",
+    "id": "381e706c-1657-4da2-9399-4d113a438d93"
+  },
+  {
+    "word": "Afrofütürizm",
+    "forbidden": [
+      "Afrika",
+      "Gelecek",
+      "Bilim Kurgu",
+      "Kültür",
+      "Kimlik"
+    ],
+    "difficulty": "hard",
+    "id": "e30e7538-3b1c-4b43-a095-767fba5e0358"
+  },
+  {
+    "word": "Queer Sinema Teorisi",
+    "forbidden": [
+      "LGBT",
+      "Cinsiyet",
+      "Kimlik",
+      "Temsil",
+      "Sorgulama"
+    ],
+    "difficulty": "hard",
+    "id": "6ef90f3f-ea76-4bfe-9a79-6ff5766fb323"
+  },
+  {
+    "word": "Postkolonyal Sinema Çalışmaları",
+    "forbidden": [
+      "Sömürgecilik",
+      "Kimlik",
+      "Tarih",
+      "Temsil",
+      "Eleştiri"
+    ],
+    "difficulty": "hard",
+    "id": "0644969a-553a-4b57-9a11-7baeb56ea523"
+  },
+  {
+    "word": "Göstergebilimsel Film Analizi",
+    "forbidden": [
+      "Sembol",
+      "Kod",
+      "Anlam",
+      "İletişim",
+      "Yapı"
+    ],
+    "difficulty": "expert",
+    "id": "20af4b8a-6d45-4507-bdb4-288484b7c210"
+  },
+  {
+    "word": "Lakancı Sinema Teorisi",
+    "forbidden": [
+      "Psikanaliz",
+      "Ayna Sahnesi",
+      "Arzu",
+      "Bakış",
+      "Bilinçaltı"
+    ],
+    "difficulty": "expert",
+    "id": "c5453304-ad3a-4d9f-98d8-ed7386a5fa2b"
+  },
+  {
+    "word": "Deleuze'cü Film Felsefesi",
+    "forbidden": [
+      "Zaman-İmaj",
+      "Hareket-İmaj",
+      "Sinema",
+      "Felsefe",
+      "Oluş"
+    ],
+    "difficulty": "expert",
+    "id": "808f27ae-84e5-4455-b91d-9d2862fb0e2b"
+  },
+  {
+    "word": "Post-Kolonyal Sinema Çalışmaları",
+    "forbidden": [
+      "Sömürgecilik",
+      "Kimlik",
+      "Temsil",
+      "Kültür",
+      "Güç"
+    ],
+    "difficulty": "expert",
+    "id": "d23e9459-80b9-4e52-9a09-e2e88980727b"
+  },
+  {
+    "word": "Diyalektik Montaj",
+    "forbidden": [
+      "Çatışma",
+      "Zıtlık",
+      "Sentez",
+      "Eisenstein",
+      "Kurgu"
+    ],
+    "difficulty": "expert",
+    "id": "d027f321-1fa3-415f-8aa5-f0915f0c8832"
+  },
+  {
+    "word": "Aura",
+    "forbidden": [
+      "Sanat Eseri",
+      "Tekrarlanabilirlik",
+      "Orijinal",
+      "Otantiklik",
+      "Kaybolma"
+    ],
+    "difficulty": "expert",
+    "id": "754c88ec-65aa-428c-ac40-fd20b1ea76fd"
+  },
+  {
+    "word": "Spektakl Toplumu",
+    "forbidden": [
+      "Gösteri",
+      "Kapitalizm",
+      "İmaj",
+      "Metalaşma",
+      "Pasiflik"
+    ],
+    "difficulty": "expert",
+    "id": "dd1a4bd7-8891-41b2-9467-dbe7bcd421b1"
+  },
+  {
+    "word": "Heterotopya",
+    "forbidden": [
+      "Mekan",
+      "Farklı",
+      "Gerçeklik",
+      "Ayna",
+      "Ütopya"
+    ],
+    "difficulty": "expert",
+    "id": "327fb2aa-a913-4e8a-ad70-da250793a742"
+  },
+  {
+    "word": "Panoptikon",
+    "forbidden": [
+      "Gözetim",
+      "Görünmez",
+      "İktidar",
+      "Hapishane",
+      "Teknolojisi"
+    ],
+    "difficulty": "expert",
+    "id": "8f370fec-98d0-48f3-a097-f54d253bc804"
+  },
+  {
+    "word": "Sublime",
+    "forbidden": [
+      "Yüce",
+      "Dehşet",
+      "Aşkın",
+      "Doğa",
+      "Estetik"
+    ],
+    "difficulty": "expert",
+    "id": "fb0cd631-122b-4191-a2c0-35aaac25daae"
+  },
+  {
+    "word": "Abjection",
+    "forbidden": [
+      "Dışlama",
+      "Tiksinme",
+      "Beden",
+      "Kirlilik",
+      "Kimlik"
+    ],
+    "difficulty": "expert",
+    "id": "24f02d4e-f03f-429b-bbf4-331c8e0dd110"
+  },
+  {
+    "word": "Uncanny Valley",
+    "forbidden": [
+      "Robot",
+      "İnsan",
+      "Benzemek",
+      "Rahatsız Edici",
+      "Teknoloji"
+    ],
+    "difficulty": "expert",
+    "id": "084c1604-a4bc-4854-83d6-004f199e9d79"
+  },
+  {
+    "word": "Allegory",
+    "forbidden": [
+      "Mecaz",
+      "Sembolik",
+      "Gizli Anlam",
+      "Hikaye",
+      "Mesaj"
+    ],
+    "difficulty": "expert",
+    "id": "5b13edce-cd3b-45d8-b533-7648fed464e3"
+  },
+  {
+    "word": "Intertextuality",
+    "forbidden": [
+      "Metinlerarasılık",
+      "Başka Film",
+      "Referans",
+      "Alıntı",
+      "İlişki"
+    ],
+    "difficulty": "expert",
+    "id": "31dec525-4487-4148-a0d2-4ca223e9cfb4"
+  },
+  {
+    "word": "Pastiche",
+    "forbidden": [
+      "Taklit",
+      "Tarz",
+      "Kopyalama",
+      "Saygı",
+      "Farklı"
+    ],
+    "difficulty": "expert",
+    "id": "544baf0e-7d2c-4500-8128-7332a3b3497a"
+  },
+  {
+    "word": "Parody",
+    "forbidden": [
+      "Taklit",
+      "Dalga Geçmek",
+      "Komik",
+      "Orijinal",
+      "Benzer"
+    ],
+    "difficulty": "expert",
+    "id": "873e86a8-c4c6-486b-a9a1-3a9e0bd3e2ec"
+  },
+  {
+    "word": "Homage",
+    "forbidden": [
+      "Saygı Durusu",
+      "Referans",
+      "Benzer",
+      "Yönetmen",
+      "Film"
+    ],
+    "difficulty": "expert",
+    "id": "44a6d172-3daf-4415-b1e7-9fa8d9c226ed"
+  },
+  {
+    "word": "Meta-Referans",
+    "forbidden": [
+      "Film Hakkında",
+      "Kendini Bilen",
+      "Kendi Kendine",
+      "Bilgi",
+      "Anlatım"
+    ],
+    "difficulty": "expert",
+    "id": "61dabd73-b713-409b-baf1-1bf07b68b765"
+  },
+  {
+    "word": "Post-Klasik Anlatı",
+    "forbidden": [
+      "Doğrusal",
+      "Zaman",
+      "Geri Dönüş",
+      "Çoklu",
+      "Gerçeklik"
+    ],
+    "difficulty": "expert",
+    "id": "cf2c7d08-3a4f-41d6-8839-1ac7608a30be"
+  },
+  {
+    "word": "Temporal Esneklik",
+    "forbidden": [
+      "Zaman",
+      "Hızlandırma",
+      "Yavaşlatma",
+      "Atlama",
+      "Kurgu"
+    ],
+    "difficulty": "expert",
+    "id": "4e14b36c-63b7-40e1-81e1-728156f0afd5"
+  },
+  {
+    "word": "Spatial Ambiguity",
+    "forbidden": [
+      "Mekan",
+      "Belirsizlik",
+      "Karmaşık",
+      "Yönelim",
+      "Görsel"
+    ],
+    "difficulty": "expert",
+    "id": "e666745d-6ff4-42db-ad9a-c47e9cf77f7a"
+  },
+  {
+    "word": "Subjective Camera",
+    "forbidden": [
+      "Özne",
+      "Bakış Açısı",
+      "Karakter",
+      "Görsel",
+      "Empati"
+    ],
+    "difficulty": "expert",
+    "id": "7718d84e-cfd6-401a-affb-24c8951dbb70"
+  },
+  {
+    "word": "Objet Petit a",
+    "forbidden": [
+      "Arzu",
+      "Eksiklik",
+      "Sinema",
+      "Nesne",
+      "Ulaşılmaz"
+    ],
+    "difficulty": "expert",
+    "id": "dd53280f-1c26-447e-803c-892d1892ba11"
+  },
+  {
+    "word": "Scopic Drive",
+    "forbidden": [
+      "Bakış",
+      "Arzu",
+      "İzleme",
+      "Sinema",
+      "Bilinçaltı"
+    ],
+    "difficulty": "expert",
+    "id": "03a895ba-5678-4eee-ad3e-743b20302c55"
+  },
+  {
+    "word": "Gaze",
+    "forbidden": [
+      "Bakış",
+      "Erkek",
+      "Kadın",
+      "Cinsiyet",
+      "İzleyici"
+    ],
+    "difficulty": "expert",
+    "id": "8408bd27-9e26-4918-92d2-ca11bc5d3bd3"
+  },
+  {
+    "word": "Voyeurism",
+    "forbidden": [
+      "Gözetleme",
+      "Haz",
+      "Gizli",
+      "İzleyici",
+      "Sinema"
+    ],
+    "difficulty": "expert",
+    "id": "3baebd64-a420-4cb9-a898-df0f4c17b77b"
+  },
+  {
+    "word": "Scopophilia",
+    "forbidden": [
+      "Bakma",
+      "Haz",
+      "Görsel",
+      "Sinema",
+      "Arzu"
+    ],
+    "difficulty": "expert",
+    "id": "82b1370d-4309-4513-b6fe-144b3c196f2e"
+  },
+  {
+    "word": "Id, Ego, Superego",
+    "forbidden": [
+      "Bilinçaltı",
+      "Kimlik",
+      "Karakter",
+      "Çatışma",
+      "Psikanaliz"
+    ],
+    "difficulty": "expert",
+    "id": "ca90afb2-40fa-4817-90cf-0ec32462ae7f"
+  },
+  {
+    "word": "The Mirror Stage",
+    "forbidden": [
+      "Ayna",
+      "Kimlik",
+      "Benlik",
+      "Çocuk",
+      "Görüntü"
+    ],
+    "difficulty": "expert",
+    "id": "2854843a-68a3-4378-ae8d-94464a1199fd"
+  },
+  {
+    "word": "Sublimation",
+    "forbidden": [
+      "Yüceltme",
+      "İçgüdü",
+      "Sanat",
+      "Yaratıcılık",
+      "Dönüşüm"
+    ],
+    "difficulty": "expert",
+    "id": "37af6bf7-44f3-4c8f-8f7d-7317ace91da5"
+  },
+  {
+    "word": "Castration Anxiety",
+    "forbidden": [
+      "Korku",
+      "Cinsiyet",
+      "Erkek",
+      "Eksiklik",
+      "Psikanaliz"
+    ],
+    "difficulty": "expert",
+    "id": "8fa10344-6207-4e06-aa22-98361dd7b91b"
+  },
+  {
+    "word": "Oedipus Complex",
+    "forbidden": [
+      "Baba",
+      "Anne",
+      "Çocuk",
+      "Arzu",
+      "Çatışma"
+    ],
+    "difficulty": "expert",
+    "id": "29a3e274-d1cc-4679-b04e-970957ec081a"
+  },
+  {
+    "word": "Electra Complex",
+    "forbidden": [
+      "Kız Çocuk",
+      "Baba",
+      "Anne",
+      "Kıskançlık",
+      "Psikoloji"
+    ],
+    "difficulty": "expert",
+    "id": "c8ac626d-fadf-44ab-aa53-1c35d901ad5b"
+  },
+  {
+    "word": "Archetypes",
+    "forbidden": [
+      "Kalıp",
+      "Evrensel",
+      "Sembol",
+      "Bilinçaltı",
+      "Karakter"
+    ],
+    "difficulty": "expert",
+    "id": "69c3f139-306b-417c-a54f-448452dcd60a"
+  },
+  {
+    "word": "Collective Unconscious",
+    "forbidden": [
+      "Ortak",
+      "Bilinçaltı",
+      "Miras",
+      "İnsanlık",
+      "Arketip"
+    ],
+    "difficulty": "expert",
+    "id": "e1a996d0-3088-440c-84a5-59e331648435"
+  },
+  {
+    "word": "Synchronicity",
+    "forbidden": [
+      "Eş Zamanlılık",
+      "Anlamlı",
+      "Rastlantı",
+      "Olay",
+      "Bağlantı"
+    ],
+    "difficulty": "expert",
+    "id": "9147636a-ab41-4ce1-9d22-f615fea75859"
+  },
+  {
+    "word": "Myth of Sisyphus",
+    "forbidden": [
+      "Absürd",
+      "Anlamsızlık",
+      "İnsan",
+      "Hayat",
+      "Taş"
+    ],
+    "difficulty": "expert",
+    "id": "9cfc76f3-81a7-408a-8367-a21d988e417c"
+  },
+  {
+    "word": "Existentialism",
+    "forbidden": [
+      "Varoluş",
+      "Özgürlük",
+      "Sorumluluk",
+      "Anlam",
+      "Seçim"
+    ],
+    "difficulty": "expert",
+    "id": "e69f0f94-1201-4206-a6c4-8c0d49ee9d94"
+  },
+  {
+    "word": "Phenomenology",
+    "forbidden": [
+      "Deneyim",
+      "Algı",
+      "Bilinç",
+      "Gerçeklik",
+      "Doğa"
+    ],
+    "difficulty": "expert",
+    "id": "17364e82-64df-4142-8dac-acb9792c4010"
+  },
+  {
+    "word": "Hermeneutics",
+    "forbidden": [
+      "Yorum",
+      "Anlama",
+      "Metin",
+      "Felsefe",
+      "Bilgi"
+    ],
+    "difficulty": "expert",
+    "id": "187c3662-5663-4811-a2e3-8f2dbb913a02"
+  },
+  {
+    "word": "Deconstruction",
+    "forbidden": [
+      "Yapısöküm",
+      "Metin",
+      "Anlam",
+      "Çözümleme",
+      "Söz"
+    ],
+    "difficulty": "expert",
+    "id": "3a25c312-ba8e-4eb3-bf49-aeec91f29493"
+  },
+  {
+    "word": "Post-Structuralism",
+    "forbidden": [
+      "İktidar",
+      "Bilgi",
+      "Söylem",
+      "Gerçeklik",
+      "Yapı"
+    ],
+    "difficulty": "expert",
+    "id": "9e332388-dac6-453a-a0bf-964ee0a83e8b"
+  },
+  {
+    "word": "Biopolitics",
+    "forbidden": [
+      "Hayat",
+      "Siyaset",
+      "Beden",
+      "Kontrol",
+      "İktidar"
+    ],
+    "difficulty": "expert",
+    "id": "4f3c77a7-a236-4c8d-9f63-a22e0c0b1d43"
+  },
+  {
+    "word": "Postmodernism",
+    "forbidden": [
+      "Büyük Anlatılar",
+      "Güvensizlik",
+      "Çeşitlilik",
+      "Parça",
+      "Oyun"
+    ],
+    "difficulty": "expert",
+    "id": "8fde6b09-788c-4928-9b80-39f21bd4f3a3"
+  },
+  {
+    "word": "Hyperreality",
+    "forbidden": [
+      "Gerçeküstü",
+      "Kopya",
+      "Simülasyon",
+      "Medya",
+      "Model"
+    ],
+    "difficulty": "expert",
+    "id": "0e295440-2837-44fd-8b36-d2a850b8befc"
+  },
+  {
+    "word": "Simulacra",
+    "forbidden": [
+      "Kopya",
+      "Model",
+      "Gerçek",
+      "İmaj",
+      "Benzemek"
+    ],
+    "difficulty": "expert",
+    "id": "049d88f0-848b-4bb7-beb4-eff7f9e35dbc"
+  },
+  {
+    "word": "Technicolor Yıkama",
+    "forbidden": [
+      "Renk",
+      "Teknik",
+      "Film",
+      "Kurutma",
+      "Eski"
+    ],
+    "difficulty": "expert",
+    "id": "8ff5135f-1107-42f7-ad38-4e2e88d2cf81"
+  },
+  {
+    "word": "Cinerama",
+    "forbidden": [
+      "Üç Kamera",
+      "Geniş Ekran",
+      "Projeksiyon",
+      "Sinema",
+      "Deneyim"
+    ],
+    "difficulty": "expert",
+    "id": "6ac2cc5f-dd7b-4d0e-963a-10bc770ebaed"
+  },
+  {
+    "word": "VistaVision",
+    "forbidden": [
+      "Geniş Format",
+      "Paramount",
+      "Kamera",
+      "Yüksek Kalite",
+      "Görüntü"
+    ],
+    "difficulty": "expert",
+    "id": "786da96d-20bf-462e-9d3f-147a03a7a957"
+  },
+  {
+    "word": "Panavision",
+    "forbidden": [
+      "Anamorfik",
+      "Lens",
+      "Geniş Ekran",
+      "Sinema",
+      "Kamera"
+    ],
+    "difficulty": "expert",
+    "id": "32e2419f-eadf-4626-b6dd-254d09c73cbd"
+  },
+  {
+    "word": "Dolby Vision",
+    "forbidden": [
+      "HDR",
+      "Parlaklık",
+      "Kontrast",
+      "Renk",
+      "Görüntü"
+    ],
+    "difficulty": "expert",
+    "id": "552843d4-d98d-434e-92ae-ac4fae4ac5dd"
+  },
+  {
+    "word": "IMAX Dijital",
+    "forbidden": [
+      "Lazer",
+      "Projeksiyon",
+      "Büyük Ekran",
+      "Yüksek Çözünürlük",
+      "Ses"
+    ],
+    "difficulty": "expert",
+    "id": "ecc4183c-886b-4c30-a5de-be70c807f0ad"
+  },
+  {
+    "word": "VR Sineması",
+    "forbidden": [
+      "Sanal Gerçeklik",
+      "Deneyim",
+      "Gözlük",
+      "Etkileşim",
+      "360 Derece"
+    ],
+    "difficulty": "expert",
+    "id": "1cc5bb98-3f0b-4b19-b87c-3239f50c602f"
+  },
+  {
+    "word": "Augmented Reality Film",
+    "forbidden": [
+      "Artırılmış Gerçeklik",
+      "Sanal",
+      "Film",
+      "Deneyim",
+      "Ekran"
+    ],
+    "difficulty": "expert",
+    "id": "f75e5e20-c357-43ce-b3fc-a853a61ceb19"
+  },
+  {
+    "word": "Volumetric Capture",
+    "forbidden": [
+      "Hacimsel",
+      "Kayıt",
+      "3D",
+      "Karakter",
+      "Hareket"
+    ],
+    "difficulty": "expert",
+    "id": "6cdbf915-ffd7-40a0-92a5-5ba9d8c3016c"
+  },
+  {
+    "word": "Light Field Display",
+    "forbidden": [
+      "Işık Alanı",
+      "Görüntü",
+      "3D",
+      "Gözlük",
+      "Teknoloji"
+    ],
+    "difficulty": "expert",
+    "id": "24b48bc3-4612-4423-bb18-9481b481a247"
+  },
+  {
+    "word": "Haptic Feedback Suit",
+    "forbidden": [
+      "Dokunsal",
+      "Geribildirim",
+      "Titreşim",
+      "Vücut",
+      "Deneyim"
+    ],
+    "difficulty": "expert",
+    "id": "4f99c52a-6e1e-4c63-a094-f351ce9b1474"
+  },
+  {
+    "word": "Brain-Computer Interface",
+    "forbidden": [
+      "Beyin",
+      "Bilgisayar",
+      "Arayüz",
+      "Düşünce",
+      "Kontrol"
+    ],
+    "difficulty": "expert",
+    "id": "662814ba-99e9-4c53-acfc-f19f61a16fe3"
+  },
+  {
+    "word": "Metacritic",
+    "forbidden": [
+      "Puan",
+      "Eleştiri",
+      "Değerlendirme",
+      "Ortalama",
+      "Web Sitesi"
+    ],
+    "difficulty": "expert",
+    "id": "fb84e751-911c-40a3-ac01-f5edf03fb00a"
+  },
+  {
+    "word": "Rotten Tomatoes",
+    "forbidden": [
+      "Domates",
+      "Eleştiri",
+      "Puan",
+      "Taze",
+      "Çürük"
+    ],
+    "difficulty": "expert",
+    "id": "1e37ccd3-a16b-423e-81db-2d4e9754ae6f"
+  },
+  {
+    "word": "CinemaScore",
+    "forbidden": [
+      "İzleyici",
+      "Anket",
+      "Puanlama",
+      "Gişe",
+      "Başarı"
+    ],
+    "difficulty": "expert",
+    "id": "3be0e2c4-e54e-45ce-a73b-f98db57e18b1"
+  },
+  {
+    "word": "Oscilloscope Art",
+    "forbidden": [
+      "Titreşim",
+      "Görsel",
+      "Dalga",
+      "Sanat",
+      "Analog"
+    ],
+    "difficulty": "expert",
+    "id": "f2736301-d1d0-400e-b1df-e8a3347a9ba3"
+  },
+  {
+    "word": "Kinetic Typography",
+    "forbidden": [
+      "Hareketli",
+      "Yazı",
+      "Metin",
+      "Görsel",
+      "Animasyon"
+    ],
+    "difficulty": "expert",
+    "id": "238fcc5f-51a2-4068-b9b2-fe0a982dbf45"
+  },
+  {
+    "word": "Generative Art",
+    "forbidden": [
+      "Üretken",
+      "Algoritma",
+      "Sanat",
+      "Rastgele",
+      "Bilgisayar"
+    ],
+    "difficulty": "expert",
+    "id": "88ddf954-8c94-4a09-a432-6cd4b00d3ba5"
+  },
+  {
+    "word": "Procedural Generation",
+    "forbidden": [
+      "Prosedürel",
+      "Oluşturma",
+      "Algoritma",
+      "Otomatik",
+      "Ortam"
+    ],
+    "difficulty": "expert",
+    "id": "a0753ee3-af5f-4d0a-b7d4-7ef776bf3447"
+  },
+  {
+    "word": "Immersive Storytelling",
+    "forbidden": [
+      "Sürükleyici",
+      "Hikaye",
+      "Deneyim",
+      "Katılımcı",
+      "Gerçeklik"
+    ],
+    "difficulty": "expert",
+    "id": "5d7609ec-1ef4-4121-a29c-22a99f22d8cb"
+  },
+  {
+    "word": "Transmedia Storytelling",
+    "forbidden": [
+      "Çoklu Platform",
+      "Hikaye",
+      "Genişletilmiş",
+      "Deneyim",
+      "Medya"
+    ],
+    "difficulty": "expert",
+    "id": "3aed37cc-c660-4c60-9a1e-1f94dc594d96"
+  },
+  {
+    "word": "Cross-Platform Narrative",
+    "forbidden": [
+      "Farklı Mecra",
+      "Hikaye",
+      "Bütünleşik",
+      "Anlatı",
+      "Teknoloji"
+    ],
+    "difficulty": "expert",
+    "id": "2604565b-5347-4e73-9ce3-032b3a73a438"
+  },
+  {
+    "word": "Alternate Reality Game",
+    "forbidden": [
+      "Gerçeklik",
+      "Sanal",
+      "Oyun",
+      "Etkileşim",
+      "Hikaye"
+    ],
+    "difficulty": "expert",
+    "id": "db054fee-c66a-4d39-84e8-595fffc30b23"
+  },
+  {
+    "word": "Interactive Cinema",
+    "forbidden": [
+      "Etkileşimli",
+      "Seçim",
+      "Hikaye",
+      "İzleyici",
+      "Video"
+    ],
+    "difficulty": "expert",
+    "id": "87124738-120e-46f9-a752-f9d18599afec"
+  },
+  {
+    "word": "Branching Narrative",
+    "forbidden": [
+      "Dallanan",
+      "Hikaye",
+      "Seçim",
+      "Alternatif",
+      "Son"
+    ],
+    "difficulty": "expert",
+    "id": "d03a4d93-b02b-4a59-82ed-0d369fc78382"
+  },
+  {
+    "word": "Non-Linear Narrative",
+    "forbidden": [
+      "Doğrusal Olmayan",
+      "Hikaye",
+      "Zaman",
+      "Atlama",
+      "Geri Dönüş"
+    ],
+    "difficulty": "expert",
+    "id": "14e89d5b-ceeb-4a6e-9733-7044effd2c9b"
+  },
+  {
+    "word": "Meta-Narrative",
+    "forbidden": [
+      "Üst Anlatı",
+      "Büyük Hikaye",
+      "Evrensel",
+      "Hakikat",
+      "Yıkım"
+    ],
+    "difficulty": "expert",
+    "id": "58a294d0-5eed-4b60-afdd-3c24286484f0"
+  },
+  {
+    "word": "Algorithmic Filmmaking",
+    "forbidden": [
+      "Algoritma",
+      "Yaratım",
+      "Senaryo",
+      "Kurgu",
+      "Otomatik"
+    ],
+    "difficulty": "expert",
+    "id": "b04166bb-bb45-4413-9cb1-408b01fc56ba"
+  },
+  {
+    "word": "Cinematography of the Future",
+    "forbidden": [
+      "Gelecek",
+      "Kamera",
+      "Görüntü",
+      "Teknoloji",
+      "Robot"
+    ],
+    "difficulty": "expert",
+    "id": "7ee250de-c9bd-474c-9c31-2c2c78cd61af"
+  },
+  {
+    "word": "Neurocinematics",
+    "forbidden": [
+      "Beyin",
+      "Sinema",
+      "Algı",
+      "Duygu",
+      "Bilim"
+    ],
+    "difficulty": "expert",
+    "id": "9729b231-bb27-4e47-9f88-2a89c9cc31f9"
+  },
+  {
+    "word": "Affective Computing",
+    "forbidden": [
+      "Duygu",
+      "Bilgisayar",
+      "Etkileşim",
+      "İzleyici",
+      "Teknoloji"
+    ],
+    "difficulty": "expert",
+    "id": "04c61009-e3e0-43ad-91b2-f69e1245eb2d"
+  },
+  {
+    "word": "Cognitive Neuroscience",
+    "forbidden": [
+      "Bilişsel",
+      "Nörobilim",
+      "Beyin",
+      "Algılama",
+      "Anlama"
+    ],
+    "difficulty": "expert",
+    "id": "e3f8579b-1843-470e-8f16-146429f2b096"
+  },
+  {
+    "word": "Audience Engagement Metrics",
+    "forbidden": [
+      "İzleyici",
+      "Katılım",
+      "Veri",
+      "Analiz",
+      "Etkileşim"
+    ],
+    "difficulty": "expert",
+    "id": "b099ad3a-5057-456e-b318-4601bf09fe58"
+  },
+  {
+    "word": "Transmedia Storytelling Platform",
+    "forbidden": [
+      "Hikaye",
+      "Platform",
+      "Çoklu Ortam",
+      "Genişletilmiş",
+      "Deneyim"
+    ],
+    "difficulty": "expert",
+    "id": "3370f6c9-bd46-4f8d-ba9a-36d418159681"
+  },
+  {
+    "word": "Interactive Narrative Design",
+    "forbidden": [
+      "Etkileşimli",
+      "Anlatı",
+      "Tasarım",
+      "Seçim",
+      "Hikaye"
+    ],
+    "difficulty": "expert",
+    "id": "d42a2cb2-ce04-4c1e-9faa-0e3b3004b114"
+  },
+  {
+    "word": "Computational Photography",
+    "forbidden": [
+      "Hesaplamalı",
+      "Fotoğrafçılık",
+      "Görüntü",
+      "Yazılım",
+      "Algoritma"
+    ],
+    "difficulty": "expert",
+    "id": "cb2dc865-b9dd-47f9-81c1-881dc91e7b8f"
+  },
+  {
+    "word": "Neural Rendering",
+    "forbidden": [
+      "Nöral",
+      "Oluşturma",
+      "Yapısal",
+      "Görüntü",
+      "Yapay Zeka",
+      "Derin"
+    ],
+    "difficulty": "expert",
+    "id": "027b4c12-ab8d-42c1-b11d-7488033fb4c7"
+  },
+  {
+    "word": "Deepfake Technology",
+    "forbidden": [
+      "Sahte",
+      "Yüz",
+      "Video",
+      "Yapay Zeka",
+      "Manipülasyon"
+    ],
+    "difficulty": "expert",
+    "id": "31730f08-be6f-441a-969f-2b51be9bfe6d"
+  },
+  {
+    "word": "Quantum Storytelling",
+    "forbidden": [
+      "Kuantum",
+      "Hikaye",
+      "Paralel",
+      "Evren",
+      "Olasılık"
+    ],
+    "difficulty": "expert",
+    "id": "380ae59c-e706-4c41-8639-0f60faf030b6"
+  },
+  {
+    "word": "Emergent Narrative",
+    "forbidden": [
+      "Ortaya Çıkan",
+      "Hikaye",
+      "Etkileşim",
+      "Özgürlük",
+      "Deneyim"
+    ],
+    "difficulty": "expert",
+    "id": "94d01a58-37c4-4637-8836-a6458ff6fab1"
+  },
+  {
+    "word": "Generative Adversarial Networks",
+    "forbidden": [
+      "Yapay Zeka",
+      "Üretken",
+      "Yarışmacı",
+      "Görüntü",
+      "Sistem"
+    ],
+    "difficulty": "expert",
+    "id": "f1c72210-764e-4a19-a1b9-42e2334272f7"
+  },
+  {
+    "word": "Algorithmic Art Creation",
+    "forbidden": [
+      "Algoritma",
+      "Sanat",
+      "Yaratım",
+      "Kod",
+      "Özgün"
+    ],
+    "difficulty": "expert",
+    "id": "310bd9d9-2dae-4400-819e-6b669011f812"
+  },
+  {
+    "word": "Interactive Museum Exhibits",
+    "forbidden": [
+      "Müze",
+      "Etkileşimli",
+      "Sergi",
+      "Deneyim",
+      "Teknoloji"
+    ],
+    "difficulty": "expert",
+    "id": "0fabc52d-62cf-41a4-8bc2-71b3a6754ee5"
+  },
+  {
+    "word": "Virtual Production Studios",
+    "forbidden": [
+      "Sanal",
+      "Prodüksiyon",
+      "Stüdyo",
+      "Gerçek Zamanlı",
+      "Teknoloji"
+    ],
+    "difficulty": "expert",
+    "id": "a19ae8ca-e46f-42d7-9f1b-c581e39e16e7"
+  },
+  {
+    "word": "Real-time Graphics Rendering",
+    "forbidden": [
+      "Gerçek Zamanlı",
+      "Grafik",
+      "Oluşturma",
+      "Oyun",
+      "Canlı"
+    ],
+    "difficulty": "expert",
+    "id": "6660e0a9-91d4-40e1-848f-6ccbefbb9b14"
+  },
+  {
+    "word": "Enstalasyon Sanatı",
+    "forbidden": [
+      "Mekan",
+      "Görsel",
+      "Video",
+      "Deneyim",
+      "Etkileşim"
+    ],
+    "difficulty": "expert",
+    "id": "8dcc6a10-a08c-4fb7-aa76-3f50aae2e6a0"
+  },
+  {
+    "word": "Video Mapping Sanatı",
+    "forbidden": [
+      "Yansıtma",
+      "Yüzey",
+      "Görsel",
+      "Hareket",
+      "3D"
+    ],
+    "difficulty": "expert",
+    "id": "c60a6cda-8416-4f39-9194-468b356797ee"
+  },
+  {
+    "word": "Film Felsefesi",
+    "forbidden": [
+      "Gerçeklik",
+      "Estetik",
+      "Anlam",
+      "Görsel",
+      "Düşünce"
+    ],
+    "difficulty": "expert",
+    "id": "8999e248-3185-4d2d-ac10-46f025213334"
+  },
+  {
+    "word": "Sinema Etnografyası",
+    "forbidden": [
+      "Kültür",
+      "Gözlem",
+      "Yerel",
+      "Temsil",
+      "Araştırma"
+    ],
+    "difficulty": "expert",
+    "id": "127f5726-cc36-4217-b530-d89fda473ce1"
+  },
+  {
+    "word": "Sinematik Deneyim Tasarımı",
+    "forbidden": [
+      "İzleyici",
+      "Duygu",
+      "Etkileşim",
+      "Ortam",
+      "Hikaye"
+    ],
+    "difficulty": "expert",
+    "id": "41223def-2517-4a53-8454-190c7beafde0"
+  },
+  {
+    "word": "Nörosinema",
+    "forbidden": [
+      "Beyin",
+      "Sinema",
+      "Algı",
+      "Duygu",
+      "Bilim"
+    ],
+    "difficulty": "expert",
+    "id": "3725f08e-3115-4199-a5b1-08de32f3787f"
+  },
+  {
+    "word": "Sinema ve Psikanaliz",
+    "forbidden": [
+      "Freud",
+      "Lacan",
+      "Bilinçaltı",
+      "Arzu",
+      "İzleyici"
+    ],
+    "difficulty": "expert",
+    "id": "60650554-5976-4dde-9aad-c82d1a976cb3"
+  },
+  {
+    "word": "Sinema ve Yapısalcılık",
+    "forbidden": [
+      "Yapı",
+      "Dil",
+      "Gösterge",
+      "Sistem",
+      "Anlam"
+    ],
+    "difficulty": "expert",
+    "id": "6bf6dfad-685d-4274-9520-c0ebb5bf936f"
+  },
+  {
+    "word": "Sinema ve Post-Yapısalcılık",
+    "forbidden": [
+      "Yapı",
+      "Dil",
+      "Parçalama",
+      "Anlam",
+      "Sistemsizlik"
+    ],
+    "difficulty": "expert",
+    "id": "31ac59b6-f847-4c0c-a2c5-9881f1b3b61c"
+  }
+]

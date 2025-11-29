@@ -1,0 +1,4802 @@
+[
+  {
+    "word": "Roman",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "6cc45458-5345-43f0-bcec-2b8c1a7db51d"
+  },
+  {
+    "word": "Şiir",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "437e4644-2f06-45bb-bd92-2d4701399157"
+  },
+  {
+    "word": "Öykü",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "59b21458-977c-4511-9a3e-3e10df39634e"
+  },
+  {
+    "word": "Hikaye",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "991cbb63-a242-458a-a526-1af90b142d69"
+  },
+  {
+    "word": "Masal",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "69cc95aa-aec6-4f3d-89cc-0737733a1629"
+  },
+  {
+    "word": "Destan",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "1b3591b6-c8d1-4c38-9186-3c973a3fc18c"
+  },
+  {
+    "word": "Fabl",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "8d68aba8-4056-44a0-bf6c-10c241fbcbf0"
+  },
+  {
+    "word": "Deneme",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "1b13ebfe-c46c-46aa-8bf6-7fc0da0d5214"
+  },
+  {
+    "word": "Günlük",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "7a309e30-f86f-4459-97a5-e94128690cf3"
+  },
+  {
+    "word": "Mektup",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "5809a820-2423-4ec8-ae19-695eaf5d8163"
+  },
+  {
+    "word": "Anı",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "2f6d2784-6df7-4365-bed8-6c785b476c23"
+  },
+  {
+    "word": "Hiciv",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "0b6f1ecb-5734-4120-9e87-c75d95fdb486"
+  },
+  {
+    "word": "Tragedya",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "2fac7d71-be00-408d-9b74-8b418ec7783f"
+  },
+  {
+    "word": "Komedya",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "9a08e158-59b1-40f5-82e1-543e08ea0cbd"
+  },
+  {
+    "word": "Manzum",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "9dee225f-e045-4664-97c9-da4bc8c71f37"
+  },
+  {
+    "word": "Polisiye",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "0e7e9463-d480-4186-bf86-7fef869e0b16"
+  },
+  {
+    "word": "Bilimkurgu",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "3d405acc-10de-4c1e-87b8-3f4242d5d598"
+  },
+  {
+    "word": "Aşk Romanı",
+    "forbidden": [
+      "Aşk",
+      "Romanı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "fb2157e0-3f68-4643-a095-9d94543895f5"
+  },
+  {
+    "word": "Çocuk Kitabı",
+    "forbidden": [
+      "Çocuk",
+      "Kitabı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "ee0871e9-d715-4251-8a51-22f9cb796041"
+  },
+  {
+    "word": "Gençlik Romanı",
+    "forbidden": [
+      "Gençlik",
+      "Romanı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "fc03502f-5e49-46f3-bb4b-42e4c8026a65"
+  },
+  {
+    "word": "Öykü Kitabı",
+    "forbidden": [
+      "Öykü",
+      "Kitabı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "328a2017-d550-4ada-b3db-c7fe4737adb5"
+  },
+  {
+    "word": "Öykü Kahramanı",
+    "forbidden": [
+      "Öykü",
+      "Kahramanı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "aafcab67-25cc-4b1b-8cde-1eccaf2f4a17"
+  },
+  {
+    "word": "Olay Örgüsü",
+    "forbidden": [
+      "Olay",
+      "Örgüsü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "4ad63d61-e0e2-4348-9b35-a3def04d915a"
+  },
+  {
+    "word": "Tema",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "9876f077-771b-4b6c-bc91-ce7bdcfc5e03"
+  },
+  {
+    "word": "Mekan",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "0d525f96-b6ad-4350-ace0-56cd62539aca"
+  },
+  {
+    "word": "Anlatıcı",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "3cfb7861-450d-42fc-aabd-0c2fe6d539cf"
+  },
+  {
+    "word": "Betimleme",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "ea72dc67-a28c-42a9-9214-0a18ce233fbf"
+  },
+  {
+    "word": "Diyalog",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "7ab9b320-ccc9-4bd9-bca6-4f0fd8f6eee3"
+  },
+  {
+    "word": "Monolog",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "012036b5-874d-46f7-b707-cffc607c78d9"
+  },
+  {
+    "word": "Bölüm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "a4946b87-9b09-4d1f-b950-1165f5f30530"
+  },
+  {
+    "word": "Başlık",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "f33971ff-3cd9-4724-914e-15f47882f21a"
+  },
+  {
+    "word": "Kapak",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "b9a0b542-6b87-46da-98a4-a892da7888ed"
+  },
+  {
+    "word": "Arka Kapak",
+    "forbidden": [
+      "Arka",
+      "Kapak",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "6e445b9a-559a-4a87-970e-7c7aeb30f16e"
+  },
+  {
+    "word": "Önsöz",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "620a044a-a898-471e-ada1-6cda0433658b"
+  },
+  {
+    "word": "Sonsöz",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "afacbe4c-3323-4e3c-9bea-c752151cd126"
+  },
+  {
+    "word": "Kapanış",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "15df05dd-e176-4996-835d-c620b879e648"
+  },
+  {
+    "word": "Özet",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "3ac3f206-33d0-44c3-975e-303e943e00be"
+  },
+  {
+    "word": "Sözlükçe",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "15006410-980e-4b02-9af0-31bc142eae84"
+  },
+  {
+    "word": "Bibliyografya",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "1f7046b2-21c5-4853-afd8-59d552afdca2"
+  },
+  {
+    "word": "Çeviri",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "8417b8d7-5bce-4353-8c2f-7026b1dfee33"
+  },
+  {
+    "word": "Editör",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "8f26c897-e228-4304-97ae-0e25133711fe"
+  },
+  {
+    "word": "Yayınevi",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "86f06b63-eb36-4b6d-b0bf-905a11c6fe4a"
+  },
+  {
+    "word": "Yazar",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "a885beb7-3316-49ff-8e7f-0cf981d4bbf8"
+  },
+  {
+    "word": "Okur",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "8af39308-8c32-400e-a6bc-5e2d252749f7"
+  },
+  {
+    "word": "Karakter",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "1591454d-2045-482a-a32c-4f819408d8a2"
+  },
+  {
+    "word": "Yan Karakter",
+    "forbidden": [
+      "Yan",
+      "Karakter",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "704931d1-64d6-4117-8a68-c08929164b0e"
+  },
+  {
+    "word": "Ana Fikir",
+    "forbidden": [
+      "Ana",
+      "Fikir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "d951027e-75f0-43ae-bd07-62978a4b4a7f"
+  },
+  {
+    "word": "Alt Metin",
+    "forbidden": [
+      "Alt",
+      "Metin",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "832a5870-cfa2-4e94-a2b1-5ed82d02f290"
+  },
+  {
+    "word": "Janr",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "53c7d632-1f04-4e29-b13d-02570815c138"
+  },
+  {
+    "word": "Klasik Roman",
+    "forbidden": [
+      "Klasik",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "3f34b920-2ccd-4794-ac58-bd361f80071e"
+  },
+  {
+    "word": "Modern Öykü",
+    "forbidden": [
+      "Modern",
+      "Öykü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "e07b8207-a611-4e97-8f79-442e5fa769ca"
+  },
+  {
+    "word": "Kısa Hikaye",
+    "forbidden": [
+      "Kısa",
+      "Hikaye",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "b1982076-3fcd-4087-827d-0705bc637e73"
+  },
+  {
+    "word": "Uzun Hikaye",
+    "forbidden": [
+      "Uzun",
+      "Hikaye",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "3b1beda4-95d7-4714-a519-550014a19acf"
+  },
+  {
+    "word": "Efsane",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "c9ab706d-7784-4bba-9832-16da32ad6f12"
+  },
+  {
+    "word": "Halk Masalı",
+    "forbidden": [
+      "Halk",
+      "Masalı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "db11264c-ffdb-481b-9a1a-86357e6d881f"
+  },
+  {
+    "word": "Destansı Anlatı",
+    "forbidden": [
+      "Destansı",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "074c49cc-a24e-43c1-b6f9-8f4c9ca16b4a"
+  },
+  {
+    "word": "Sahne Tasviri",
+    "forbidden": [
+      "Sahne",
+      "Tasviri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "9c9f0c00-6068-4900-a016-8f3219b3a170"
+  },
+  {
+    "word": "Yan Olay",
+    "forbidden": [
+      "Yan",
+      "Olay",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "fd416b57-2b15-4861-ae07-f8ef23fe7cf5"
+  },
+  {
+    "word": "Alt Olay",
+    "forbidden": [
+      "Alt",
+      "Olay",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "49458bff-0baf-4c06-96e8-578897d0f512"
+  },
+  {
+    "word": "Çatışma Noktası",
+    "forbidden": [
+      "Çatışma",
+      "Noktası",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "2d2bd953-334f-4054-bdca-fe0db115c72a"
+  },
+  {
+    "word": "Giriş Bölümü",
+    "forbidden": [
+      "Giriş",
+      "Bölümü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "2a702ef7-43df-4a39-b6b0-331579181fcd"
+  },
+  {
+    "word": "Gelişme Bölümü",
+    "forbidden": [
+      "Gelişme",
+      "Bölümü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "0e3feff8-77a0-4aa3-b534-fc16f8aafe69"
+  },
+  {
+    "word": "Sonuç Bölümü",
+    "forbidden": [
+      "Sonuç",
+      "Bölümü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "61566e03-3d67-4832-932c-8edbfa8da999"
+  },
+  {
+    "word": "Arka Plan",
+    "forbidden": [
+      "Arka",
+      "Plan",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "521c651c-7b20-4e32-b792-0ca978aa30a4"
+  },
+  {
+    "word": "Ön Plan",
+    "forbidden": [
+      "Ön",
+      "Plan",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "24ad0aa1-0573-4ff5-a2d3-8fa170a5fb2f"
+  },
+  {
+    "word": "İmge",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "92a561db-0760-4d8b-9bd0-95777e0c4a65"
+  },
+  {
+    "word": "Manzume",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "829d16ee-5890-462c-960b-12c0d3bcda72"
+  },
+  {
+    "word": "Nazım",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "13b40f00-8607-42ad-9a19-32356a9bc01a"
+  },
+  {
+    "word": "Serbest Nazım",
+    "forbidden": [
+      "Serbest",
+      "Nazım",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "0b2ed5c6-ac68-4ec6-879c-d351f3eab40e"
+  },
+  {
+    "word": "Hece Şiiri",
+    "forbidden": [
+      "Hece",
+      "Şiiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "b82f68bb-b4d9-4607-9c68-5016e4b2d106"
+  },
+  {
+    "word": "Beyit",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "af030a59-47af-416e-a722-c16c67f6fbe4"
+  },
+  {
+    "word": "Dörtlük",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "b121e299-72dc-4b27-8a13-a71f95b33ab2"
+  },
+  {
+    "word": "Dize",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "3e6a416a-e299-4972-83b0-b91270240886"
+  },
+  {
+    "word": "Kafiye",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "25dfcd25-39f1-4779-a1ad-dcbbc08b7a0b"
+  },
+  {
+    "word": "Redif",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "9ae18e18-0839-4fea-8d93-24d280d56351"
+  },
+  {
+    "word": "Ölçü",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "e005ceed-a8df-412f-990b-7cabeb6c79dc"
+  },
+  {
+    "word": "Uyak",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "1a4db7d1-97e8-482d-b002-212e83cdfa1e"
+  },
+  {
+    "word": "Kapak Tasarımı",
+    "forbidden": [
+      "Kapak",
+      "Tasarımı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "89e3b9e6-6c91-43ae-b923-db169674b208"
+  },
+  {
+    "word": "Arka Yazı",
+    "forbidden": [
+      "Arka",
+      "Yazı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "8c3c7239-ea01-42ed-9686-70eab0925f44"
+  },
+  {
+    "word": "Tanıtım Yazısı",
+    "forbidden": [
+      "Tanıtım",
+      "Yazısı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "a35d4b95-1b31-40d7-84ed-9fe0da08436d"
+  },
+  {
+    "word": "İçindekiler",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "17af98d2-8d46-4b02-808e-624a5c7bd140"
+  },
+  {
+    "word": "Baskı",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "b2ab4c7a-068c-43d6-badc-1b9c41167196"
+  },
+  {
+    "word": "Satır Aralığı",
+    "forbidden": [
+      "Satır",
+      "Aralığı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "a99d98c3-afe6-4ecb-88e7-d26e084ba273"
+  },
+  {
+    "word": "Paragraf",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "56a0a357-bf20-437a-b6bc-57f05da998c8"
+  },
+  {
+    "word": "Satır",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "4ad336a2-30b8-4640-a262-b0fb27d0901c"
+  },
+  {
+    "word": "Giriş Cümlesi",
+    "forbidden": [
+      "Giriş",
+      "Cümlesi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "7c9d390a-9d19-4c0f-ac80-49389fb36bf4"
+  },
+  {
+    "word": "Ana Karakter",
+    "forbidden": [
+      "Ana",
+      "Karakter",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "91fede6f-802c-4138-8b8b-c40e7d259275"
+  },
+  {
+    "word": "Çevre Tasviri",
+    "forbidden": [
+      "Çevre",
+      "Tasviri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "7049d3e4-be78-4267-9bfb-81b43f5a9647"
+  },
+  {
+    "word": "Duygu Durumu",
+    "forbidden": [
+      "Duygu",
+      "Durumu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "223d04ef-e68a-415f-86ca-9fdf8d9ad9ee"
+  },
+  {
+    "word": "Realizm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "00d815d6-1bd2-4990-883f-6702d830f5b5"
+  },
+  {
+    "word": "Romantizm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "773518a7-5acd-4c7a-b35d-0a6d9c142214"
+  },
+  {
+    "word": "Natüralizm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "ee4fee62-cde0-4487-97c7-cf6e6991a2f7"
+  },
+  {
+    "word": "Sembolizm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "e59e1427-b9fb-4805-810e-8ec2014f5777"
+  },
+  {
+    "word": "Ekspresyonizm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "472e1a39-3868-4def-a422-57a371eb3c5c"
+  },
+  {
+    "word": "Varoluşçuluk",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "9a96fe80-8d19-493e-a66a-52f554f6a1c5"
+  },
+  {
+    "word": "Mizah",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "da4be7fd-a879-4367-a7a3-0029e01c3ddc"
+  },
+  {
+    "word": "Taşlama",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "da0d6c04-9dbc-420c-89de-d51685c914ef"
+  },
+  {
+    "word": "Diyalog Tekniği",
+    "forbidden": [
+      "Diyalog",
+      "Tekniği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "c7a98336-4d5b-4a0e-99b4-b9f8e5fac29b"
+  },
+  {
+    "word": "İç Monolog",
+    "forbidden": [
+      "İç",
+      "Monolog",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "48998ca2-66a7-42c8-b6b0-1bb2b7d65ec5"
+  },
+  {
+    "word": "Anlatı Tekniği",
+    "forbidden": [
+      "Anlatı",
+      "Tekniği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "34ca4ade-6d8f-4cec-ba18-c8709c228ae9"
+  },
+  {
+    "word": "Bilinç Akışı",
+    "forbidden": [
+      "Bilinç",
+      "Akışı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "2ced0cfe-ba45-4f50-b02f-c1550a6106a9"
+  },
+  {
+    "word": "Geriye Dönüş",
+    "forbidden": [
+      "Geriye",
+      "Dönüş",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "6309f567-8997-4542-81f9-66f1967a045c"
+  },
+  {
+    "word": "Başlangıç Noktası",
+    "forbidden": [
+      "Başlangıç",
+      "Noktası",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "4f95210c-9556-474f-9ccc-cd6ff4c3249e"
+  },
+  {
+    "word": "Çatışma",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "1365362a-b63c-47d8-992f-efb1b392fe66"
+  },
+  {
+    "word": "Zirve Noktası",
+    "forbidden": [
+      "Zirve",
+      "Noktası",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "1d68f1b9-562e-4814-899a-d8a87d5a98fb"
+  },
+  {
+    "word": "Çözüm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "84a9dd9b-02b1-49a2-b57e-a90424f1627e"
+  },
+  {
+    "word": "Söz Sanatları",
+    "forbidden": [
+      "Söz",
+      "Sanatları",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "7c53e46b-7dca-413e-84a8-d9adb2273b40"
+  },
+  {
+    "word": "Mecaz",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "e8d065ae-8380-416f-93a1-48063963de81"
+  },
+  {
+    "word": "İstiare",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "53ab8c88-7fa7-4296-a48e-33c63bd34520"
+  },
+  {
+    "word": "Kinaye",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "1545250c-e756-4163-8f33-7ec29c04f5d5"
+  },
+  {
+    "word": "Teşbih",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "dafc5cb4-70b7-4879-b0ca-3c6b604286c9"
+  },
+  {
+    "word": "Benzetme",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "af3c97f3-086f-4697-9592-7fa9ed5f703d"
+  },
+  {
+    "word": "Kişileştirme",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "274427f8-d020-4c45-92d9-45f3dc6625d7"
+  },
+  {
+    "word": "Kahraman Bakış Açısı",
+    "forbidden": [
+      "Kahraman",
+      "Bakış",
+      "Açısı",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "medium",
+    "id": "0710d308-1906-478f-a7e9-19a5f3c73ad0"
+  },
+  {
+    "word": "Gözlemci Anlatıcı",
+    "forbidden": [
+      "Gözlemci",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "0efe6907-6bce-4bc0-86da-33aa82e10daa"
+  },
+  {
+    "word": "İlahi Anlatıcı",
+    "forbidden": [
+      "İlahi",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "7f206a74-f8a8-4042-b3e7-20edf7cec5fd"
+  },
+  {
+    "word": "Birinci Tekil Anlatıcı",
+    "forbidden": [
+      "Birinci",
+      "Tekil",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "medium",
+    "id": "27e95196-cac8-4449-9d49-7179b44f61c8"
+  },
+  {
+    "word": "Üçüncü Tekil Anlatıcı",
+    "forbidden": [
+      "Üçüncü",
+      "Tekil",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "medium",
+    "id": "7f84a11a-076a-4609-ae79-095d41cb12a0"
+  },
+  {
+    "word": "Vurgu",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "98fa00d0-bd37-46ef-8b57-8f136232c903"
+  },
+  {
+    "word": "Ton",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "93948016-c835-424a-9133-4effee68a124"
+  },
+  {
+    "word": "Üslup",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "828c278d-b330-4023-81c9-5452b4614800"
+  },
+  {
+    "word": "Atmosfer",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "513087f5-cb05-49f7-98d6-a55c4a878c7e"
+  },
+  {
+    "word": "Hece Ölçüsü",
+    "forbidden": [
+      "Hece",
+      "Ölçüsü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "4d3b0609-dba5-4ad8-a36f-790b2c01a6b4"
+  },
+  {
+    "word": "Aruz Ölçüsü",
+    "forbidden": [
+      "Aruz",
+      "Ölçüsü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "a2651b1c-1501-4ce6-9024-46ae9b14daea"
+  },
+  {
+    "word": "Serbest Şiir",
+    "forbidden": [
+      "Serbest",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "43929413-5fe8-4538-9d79-4552d3e96424"
+  },
+  {
+    "word": "Lirik Şiir",
+    "forbidden": [
+      "Lirik",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "c6185127-4385-4c67-8634-51dd6e0bc06c"
+  },
+  {
+    "word": "Epik Şiir",
+    "forbidden": [
+      "Epik",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "87a98490-29c6-4baa-b325-22d49a50ef4c"
+  },
+  {
+    "word": "Pastoral Şiir",
+    "forbidden": [
+      "Pastoral",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "087a0d97-7dc0-4444-9ca0-c877d763d3a9"
+  },
+  {
+    "word": "Didaktik Şiir",
+    "forbidden": [
+      "Didaktik",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "e14d87b9-8b36-4bb5-a5e9-f5d63129bc03"
+  },
+  {
+    "word": "Satirik Şiir",
+    "forbidden": [
+      "Satirik",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "3281d563-62b8-4564-92bc-8d08ea9cb0c9"
+  },
+  {
+    "word": "Aliterasyon",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "a559bdae-d590-4b6f-bb95-c9f5bb3d8022"
+  },
+  {
+    "word": "Asonans",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "c548b460-a62f-43cb-9699-c6852c178be2"
+  },
+  {
+    "word": "Tezat",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "9efb2414-bfb3-463e-afae-90e1a158a9bc"
+  },
+  {
+    "word": "Anlatı Yapısı",
+    "forbidden": [
+      "Anlatı",
+      "Yapısı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "b288fc64-106b-4b79-a70f-52ad588d5325"
+  },
+  {
+    "word": "Çerçeve Hikaye",
+    "forbidden": [
+      "Çerçeve",
+      "Hikaye",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "b55770e8-f266-4475-b444-64b0a7b61ac2"
+  },
+  {
+    "word": "Mektup Roman",
+    "forbidden": [
+      "Mektup",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "c77977e2-802f-43ac-83ae-3227faa4040b"
+  },
+  {
+    "word": "Günlük Roman",
+    "forbidden": [
+      "Günlük",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "a1d41a8e-484c-4129-9d05-1c65cf6b2bec"
+  },
+  {
+    "word": "Ütopya",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "c43cf220-e97d-477f-8b53-9f9c4fc63f3e"
+  },
+  {
+    "word": "Distopya",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "374dfafc-e57d-48d6-a4f9-72fbfb491e40"
+  },
+  {
+    "word": "Göstergebilim",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "7de21a3e-4ba6-4df7-8854-dcb307b513ae"
+  },
+  {
+    "word": "Anlatıbilim",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "ba1e743e-6cc5-43cf-9354-16400c729d53"
+  },
+  {
+    "word": "Sözlü Kültür",
+    "forbidden": [
+      "Sözlü",
+      "Kültür",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "220029c2-a9e6-46c2-9a43-e540ce2daf35"
+  },
+  {
+    "word": "Folklor",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "4548e084-183b-4fb1-aaa4-fb9cad632bdc"
+  },
+  {
+    "word": "Halk Edebiyatı",
+    "forbidden": [
+      "Halk",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "542de957-0462-4721-87dc-aa6c56683d30"
+  },
+  {
+    "word": "Divan Edebiyatı",
+    "forbidden": [
+      "Divan",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "9fedc5b9-ea4f-4c25-b0ea-c12bdb27da6b"
+  },
+  {
+    "word": "Servet-i Fünun",
+    "forbidden": [
+      "Servet",
+      "i",
+      "Fünun",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "medium",
+    "id": "ad91b581-da6e-4c72-bb61-406220f85c3e"
+  },
+  {
+    "word": "Fecr-i Ati",
+    "forbidden": [
+      "Fecr",
+      "i",
+      "Ati",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "medium",
+    "id": "d534b9fc-d908-45f1-af00-34eeb543eab2"
+  },
+  {
+    "word": "Milli Edebiyat",
+    "forbidden": [
+      "Milli",
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "medium",
+    "id": "0275c0ad-4235-43a7-a71e-2d468cb990f5"
+  },
+  {
+    "word": "Cumhuriyet Edebiyatı",
+    "forbidden": [
+      "Cumhuriyet",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "e162df08-7b82-4bb8-9e58-f2b93b835453"
+  },
+  {
+    "word": "Batı Edebiyatı",
+    "forbidden": [
+      "Batı",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "0e67c656-441e-406a-b156-6667609f96b8"
+  },
+  {
+    "word": "Doğu Edebiyatı",
+    "forbidden": [
+      "Doğu",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "872da28a-aacf-428c-bb2d-cffd043b670a"
+  },
+  {
+    "word": "Dünya Klasiği",
+    "forbidden": [
+      "Dünya",
+      "Klasiği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "213809da-e8a8-4061-9324-e14e0af41dc0"
+  },
+  {
+    "word": "Türk Klasiği",
+    "forbidden": [
+      "Türk",
+      "Klasiği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "63e4fefc-16e8-49ea-b547-00e053defdaf"
+  },
+  {
+    "word": "Okuma Kulübü",
+    "forbidden": [
+      "Okuma",
+      "Kulübü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "4eb60160-eb21-419f-b718-10d2635f44de"
+  },
+  {
+    "word": "Edebiyat Dergisi",
+    "forbidden": [
+      "Edebiyat",
+      "Dergisi",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "medium",
+    "id": "7f2e85a2-ad67-4d80-956a-2c3fbcf36998"
+  },
+  {
+    "word": "Edebiyat Festivali",
+    "forbidden": [
+      "Edebiyat",
+      "Festivali",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "medium",
+    "id": "79b63b81-8706-4cc8-a7e6-f23a26889700"
+  },
+  {
+    "word": "Eleştirel Okuma",
+    "forbidden": [
+      "Eleştirel",
+      "Okuma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "1b5cd275-2068-4b18-aef3-2783548a8506"
+  },
+  {
+    "word": "Yapı",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "c6c03b97-fb5c-450e-80bc-5bcdb54a2f83"
+  },
+  {
+    "word": "Tema Analizi",
+    "forbidden": [
+      "Tema",
+      "Analizi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "0935b067-261f-4138-b989-89a69456ef58"
+  },
+  {
+    "word": "Karakter Analizi",
+    "forbidden": [
+      "Karakter",
+      "Analizi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "3e2852e8-7bb5-438b-b60a-c49350f98a0c"
+  },
+  {
+    "word": "Tip",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "e7f52431-c279-46fb-9a69-c71390fc3225"
+  },
+  {
+    "word": "Prototip",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "2100b89b-aa8d-4333-8656-9bb6750bd684"
+  },
+  {
+    "word": "Anlatı Tonu",
+    "forbidden": [
+      "Anlatı",
+      "Tonu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "c7471f81-d7cd-4bf7-af55-7ce8b6845b2c"
+  },
+  {
+    "word": "Zaman Sıçraması",
+    "forbidden": [
+      "Zaman",
+      "Sıçraması",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "56845f6b-b284-4f62-a4d3-085d64d9b008"
+  },
+  {
+    "word": "Dramatik İroni",
+    "forbidden": [
+      "Dramatik",
+      "İroni",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "b7117089-af9d-426b-9927-b8b0d75aa0b8"
+  },
+  {
+    "word": "Sözlü İroni",
+    "forbidden": [
+      "Sözlü",
+      "İroni",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "d53ba2ae-84d6-4d19-aaed-90ea673bb593"
+  },
+  {
+    "word": "Durum İronisi",
+    "forbidden": [
+      "Durum",
+      "İronisi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "b0684c30-ad9c-405e-af40-8acad21e4a5f"
+  },
+  {
+    "word": "Simge",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "b76878bc-82dc-4ae3-8130-cba29e69ab4b"
+  },
+  {
+    "word": "Arketip",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "medium",
+    "id": "5e7a9fd2-74f9-42f8-9347-f05bb79b2934"
+  },
+  {
+    "word": "Olay Döngüsü",
+    "forbidden": [
+      "Olay",
+      "Döngüsü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "16df5c9c-5d8a-48ad-84be-560de1ffb97a"
+  },
+  {
+    "word": "Postyapısalcılık",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "84b5c46a-9855-4a58-9386-2001dd20c86e"
+  },
+  {
+    "word": "Yeni Eleştiri",
+    "forbidden": [
+      "Yeni",
+      "Eleştiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "a2d96e2a-c15d-462f-8586-1cf090b40aa7"
+  },
+  {
+    "word": "Marksist Eleştiri",
+    "forbidden": [
+      "Marksist",
+      "Eleştiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "4c68c96c-b5b0-4bd6-a12a-af8cfe328af5"
+  },
+  {
+    "word": "Feminizm Eleştirisi",
+    "forbidden": [
+      "Feminizm",
+      "Eleştirisi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "f686516c-1a95-48e3-b3a3-efd2306cbba1"
+  },
+  {
+    "word": "Yeni Tarihselcilik",
+    "forbidden": [
+      "Yeni",
+      "Tarihselcilik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "3680186f-7758-498b-9b1d-6a2c3aaab32c"
+  },
+  {
+    "word": "Kültürel Çalışmalar",
+    "forbidden": [
+      "Kültürel",
+      "Çalışmalar",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "94e55c3f-966d-486d-a919-3d993bdb295e"
+  },
+  {
+    "word": "Sosyokritik",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "d6edd27a-5de5-474d-af1a-69743862afed"
+  },
+  {
+    "word": "Psikanalitik Eleştiri",
+    "forbidden": [
+      "Psikanalitik",
+      "Eleştiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "032a4493-22a9-497f-a2d2-f5fa06a6e81e"
+  },
+  {
+    "word": "Arketip Eleştirisi",
+    "forbidden": [
+      "Arketip",
+      "Eleştirisi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "c005c0cc-5a18-4719-aed1-c68ce0a08433"
+  },
+  {
+    "word": "Biçimcilik",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "6daf6947-707e-44bd-b6e8-1fddac05cb05"
+  },
+  {
+    "word": "Biçembilim",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "cfae254d-1743-40a8-ac57-c1b6bbf9f915"
+  },
+  {
+    "word": "Metinlerarasılık",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "a404b33e-ba48-4a56-9662-06d9f2fed427"
+  },
+  {
+    "word": "Anlatı Zamansallığı",
+    "forbidden": [
+      "Anlatı",
+      "Zamansallığı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "cfebbd91-b2e2-4ac4-987f-009198cc89f7"
+  },
+  {
+    "word": "Odaklanma",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "516952aa-224e-4676-87fb-cb4d69d2d3d9"
+  },
+  {
+    "word": "Çoklu Anlatıcı",
+    "forbidden": [
+      "Çoklu",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "30d798c4-c171-4d7d-964a-628b8019b353"
+  },
+  {
+    "word": "Güvenilmez Anlatıcı",
+    "forbidden": [
+      "Güvenilmez",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "417bcbc3-57d8-41bf-87df-07c364c79d61"
+  },
+  {
+    "word": "Serim Düğüm Çözüm",
+    "forbidden": [
+      "Serim",
+      "Düğüm",
+      "Çözüm",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "hard",
+    "id": "42d5952c-ded8-4e97-ac2c-72d1a72cb71b"
+  },
+  {
+    "word": "Metafor Kuramı",
+    "forbidden": [
+      "Metafor",
+      "Kuramı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "5f711efa-b964-49c7-98f4-11b53f86955e"
+  },
+  {
+    "word": "Metafiksiyon",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "a81abc8e-520f-4ad7-8704-48f4e5faa845"
+  },
+  {
+    "word": "Simgecilik",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "f8f2fc1f-a4b4-420c-ad06-2ca7d128ec63"
+  },
+  {
+    "word": "İmgelem",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "4133fd1e-7af4-4475-9180-6d675c9bb14c"
+  },
+  {
+    "word": "Sembolik Anlatı",
+    "forbidden": [
+      "Sembolik",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "354d418d-677b-41f3-b35f-3afabe671b72"
+  },
+  {
+    "word": "Allegori",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "4c9fda1e-b3ae-4b21-855d-e28756c72f49"
+  },
+  {
+    "word": "İroni Kuramı",
+    "forbidden": [
+      "İroni",
+      "Kuramı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "7846ee65-8551-4332-8c88-f5cef403de66"
+  },
+  {
+    "word": "Söylem Analizi",
+    "forbidden": [
+      "Söylem",
+      "Analizi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "58560afc-3642-4f80-a24d-2d3e8327a415"
+  },
+  {
+    "word": "Kanon Tartışması",
+    "forbidden": [
+      "Kanon",
+      "Tartışması",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "3dca4495-0076-4265-8e8f-fcb52cda7c23"
+  },
+  {
+    "word": "Eleştirel Kuram",
+    "forbidden": [
+      "Eleştirel",
+      "Kuram",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "28527d36-b210-4daa-bcb5-3752f95b224d"
+  },
+  {
+    "word": "Frankfurt Okulu",
+    "forbidden": [
+      "Frankfurt",
+      "Okulu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "0454b263-9838-4bd3-9c63-0928fa0947c9"
+  },
+  {
+    "word": "Rus Biçimciliği",
+    "forbidden": [
+      "Rus",
+      "Biçimciliği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "aa24d862-6a7e-438d-813c-a0a9012411c6"
+  },
+  {
+    "word": "Prag Yapısalcılığı",
+    "forbidden": [
+      "Prag",
+      "Yapısalcılığı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "bfbc8c5a-63de-4fd6-8a1c-c7f741446cf6"
+  },
+  {
+    "word": "Mimesis",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "d3f23432-8e33-45e4-b06b-e0f914285261"
+  },
+  {
+    "word": "Anlatı Etiği",
+    "forbidden": [
+      "Anlatı",
+      "Etiği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "e567fbc4-4171-48e1-a987-c710605bc070"
+  },
+  {
+    "word": "Okur Tepkisi",
+    "forbidden": [
+      "Okur",
+      "Tepkisi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "d4a9c2ae-6583-416b-8b1f-831efc21d766"
+  },
+  {
+    "word": "Alımlama Estetiği",
+    "forbidden": [
+      "Alımlama",
+      "Estetiği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "2656f43d-4c57-4eb3-8066-92445c26b693"
+  },
+  {
+    "word": "Etkileşimli Okuma",
+    "forbidden": [
+      "Etkileşimli",
+      "Okuma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "44cb88a9-fd12-43ab-8ee2-3682a8998306"
+  },
+  {
+    "word": "Metin Anlamlandırma",
+    "forbidden": [
+      "Metin",
+      "Anlamlandırma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "867a7352-0e09-48a9-bac7-bc569047d63d"
+  },
+  {
+    "word": "Anlam Kayması",
+    "forbidden": [
+      "Anlam",
+      "Kayması",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "c1d9f1b9-d40f-4c3b-9fd7-ea0814c40c94"
+  },
+  {
+    "word": "Yazar Ölümü",
+    "forbidden": [
+      "Yazar",
+      "Ölümü",
+      "Edebiyat",
+      "Kitap",
+      "Okur"
+    ],
+    "difficulty": "hard",
+    "id": "3ce44793-d844-4bb7-bc61-afe2a00fcc7f"
+  },
+  {
+    "word": "Yapıt Bağlamı",
+    "forbidden": [
+      "Yapıt",
+      "Bağlamı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "b878be50-8441-46c7-b625-654ce66e972b"
+  },
+  {
+    "word": "Tarihsel Bağlam",
+    "forbidden": [
+      "Tarihsel",
+      "Bağlam",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "a6c116c1-e864-48f0-b032-775d06ebef52"
+  },
+  {
+    "word": "Paratekst",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "859528ff-6c18-4559-b9ea-bca5df568632"
+  },
+  {
+    "word": "Metin Dışı Unsur",
+    "forbidden": [
+      "Metin",
+      "Dışı",
+      "Unsur",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "hard",
+    "id": "b20cbade-7b01-46c3-91f0-1090cbd5e2eb"
+  },
+  {
+    "word": "Epigraf",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "4655094f-4db1-48b5-bc67-d94725aeb381"
+  },
+  {
+    "word": "Dijital Anlatı",
+    "forbidden": [
+      "Dijital",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "42b6fc99-4aa3-4997-a210-d3460f67a034"
+  },
+  {
+    "word": "Hipertekst",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "6f5e3c63-50e5-467d-b148-76812f551303"
+  },
+  {
+    "word": "Edebiyatta Mekan",
+    "forbidden": [
+      "Edebiyatta",
+      "Mekan",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "743420f9-140c-48a4-b96f-fda46aebf85b"
+  },
+  {
+    "word": "Edebiyatta Zaman",
+    "forbidden": [
+      "Edebiyatta",
+      "Zaman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "f7e2a334-a5ec-4e97-a784-d7ad0c33eab8"
+  },
+  {
+    "word": "Edebiyatta Bellek",
+    "forbidden": [
+      "Edebiyatta",
+      "Bellek",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "d593e914-eff6-4342-9e5a-bc42317f708c"
+  },
+  {
+    "word": "Edebiyatta Kimlik",
+    "forbidden": [
+      "Edebiyatta",
+      "Kimlik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "89ecd8f1-6f7e-4799-adc1-6c55446763cd"
+  },
+  {
+    "word": "Göçmen Edebiyatı",
+    "forbidden": [
+      "Göçmen",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "7fd7c942-c0d7-4c50-a776-47a42d4aafcc"
+  },
+  {
+    "word": "Sürgün Edebiyatı",
+    "forbidden": [
+      "Sürgün",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "b741787a-70cf-4492-8ca8-eff8b6d89c47"
+  },
+  {
+    "word": "Diaspora Edebiyatı",
+    "forbidden": [
+      "Diaspora",
+      "Edebiyatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "e90e3f43-6346-4274-b350-4a3bf58471a5"
+  },
+  {
+    "word": "Söylem Topluluğu",
+    "forbidden": [
+      "Söylem",
+      "Topluluğu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "a400bb2e-d83c-45cf-bbb4-d7f1aa6cdf35"
+  },
+  {
+    "word": "Anlatı Oyunu",
+    "forbidden": [
+      "Anlatı",
+      "Oyunu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "2955103f-013a-41da-b99a-3d0f0829e9c7"
+  },
+  {
+    "word": "Karşı-Anlatı",
+    "forbidden": [
+      "Karşı",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "f4d2a330-53d6-4b6b-a659-22c0758ced2b"
+  },
+  {
+    "word": "Sessiz Anlatı",
+    "forbidden": [
+      "Sessiz",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "ecc96e6c-5989-4486-8d1a-6d64b5d456e1"
+  },
+  {
+    "word": "Eksiltili Anlatı",
+    "forbidden": [
+      "Eksiltili",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "e35a3582-f854-4d97-8a29-a7836a5ef896"
+  },
+  {
+    "word": "Minimalist Anlatı",
+    "forbidden": [
+      "Minimalist",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "e903d8ff-286d-4be1-a15a-926754e13ad3"
+  },
+  {
+    "word": "Barok Üslup",
+    "forbidden": [
+      "Barok",
+      "Üslup",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "8d73caed-70b3-44b3-b6e0-d9444b84c7db"
+  },
+  {
+    "word": "Gotik Roman",
+    "forbidden": [
+      "Gotik",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "217389da-45aa-438a-ac2c-ba8b68908081"
+  },
+  {
+    "word": "Noir",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "d6e2d4a9-e301-4b79-81ae-ada46246cbbe"
+  },
+  {
+    "word": "Siberpunk",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "050f287a-9394-4102-8d06-47d55e8bccb8"
+  },
+  {
+    "word": "Steampunk",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "hard",
+    "id": "dab1ecc6-a183-4192-a42b-41d5fd0303f7"
+  },
+  {
+    "word": "Büyülü Gerçekçilik",
+    "forbidden": [
+      "Büyülü",
+      "Gerçekçilik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "5fcd9d78-8793-482e-afc0-4a51d321c948"
+  },
+  {
+    "word": "Varoluşçu Roman",
+    "forbidden": [
+      "Varoluşçu",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "b38f49af-2228-4f04-a456-8f157fbc3a90"
+  },
+  {
+    "word": "Absürd Roman",
+    "forbidden": [
+      "Absürd",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "5f5cd987-8553-4e8f-a633-d1ac22a8b068"
+  },
+  {
+    "word": "Bilimsel Makale",
+    "forbidden": [
+      "Bilimsel",
+      "Makale",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "9bb258b0-d420-4c1e-b318-b992e41231bc"
+  },
+  {
+    "word": "Eleştirel Deneme",
+    "forbidden": [
+      "Eleştirel",
+      "Deneme",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "ef494cfd-e234-4c92-86e7-a36ea1c81732"
+  },
+  {
+    "word": "Kavramsal Şiir",
+    "forbidden": [
+      "Kavramsal",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "07b506c5-3e8a-45e2-924c-bca85038717b"
+  },
+  {
+    "word": "Ses Şiiri",
+    "forbidden": [
+      "Ses",
+      "Şiiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "274bc384-b3d1-43e3-ae05-dc427937372d"
+  },
+  {
+    "word": "Görsel Şiir",
+    "forbidden": [
+      "Görsel",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "039dd0b7-b2e2-4710-83d7-22b7be4d7f7e"
+  },
+  {
+    "word": "Deneysel Roman",
+    "forbidden": [
+      "Deneysel",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "891cd204-02fb-456a-a34a-b43b16b32445"
+  },
+  {
+    "word": "Fragmanlı Anlatı",
+    "forbidden": [
+      "Fragmanlı",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "60fc4da9-55bc-446b-b188-db0920338574"
+  },
+  {
+    "word": "Nonlineer Kurgu",
+    "forbidden": [
+      "Nonlineer",
+      "Kurgu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "5156d062-90a8-468a-81b0-01180c1eb3fc"
+  },
+  {
+    "word": "Edebiyatta Teknoloji",
+    "forbidden": [
+      "Edebiyatta",
+      "Teknoloji",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "3dfe843f-22ec-4d5e-8fc6-24dd7bd4b106"
+  },
+  {
+    "word": "Edebiyatta Şiddet",
+    "forbidden": [
+      "Edebiyatta",
+      "Şiddet",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "c2a0bfee-b37d-41a4-823c-de72f9317771"
+  },
+  {
+    "word": "Edebiyatta Etik",
+    "forbidden": [
+      "Edebiyatta",
+      "Etik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "154732b8-c8ee-4b04-b0ba-2dc94d33a326"
+  },
+  {
+    "word": "Sansür Tarihi",
+    "forbidden": [
+      "Sansür",
+      "Tarihi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "fa297386-a926-4a16-bccb-87eea99523d5"
+  },
+  {
+    "word": "Edebiyat Sosyolojisi",
+    "forbidden": [
+      "Edebiyat",
+      "Sosyolojisi",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "hard",
+    "id": "0f47273e-d2ce-4099-8a08-9ea1e7663a81"
+  },
+  {
+    "word": "Edebiyat Felsefesi",
+    "forbidden": [
+      "Edebiyat",
+      "Felsefesi",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "hard",
+    "id": "65778b0b-a55c-47a2-9aa9-4401f4c853c1"
+  },
+  {
+    "word": "Edebiyat Psikolojisi",
+    "forbidden": [
+      "Edebiyat",
+      "Psikolojisi",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "hard",
+    "id": "7580bae8-c974-4e06-8b05-9a15080536aa"
+  },
+  {
+    "word": "Edebiyat Antropolojisi",
+    "forbidden": [
+      "Edebiyat",
+      "Antropolojisi",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "hard",
+    "id": "9d13aee9-209b-4962-bc52-6ac56bf7673f"
+  },
+  {
+    "word": "Edebiyat Coğrafyası",
+    "forbidden": [
+      "Edebiyat",
+      "Coğrafyası",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "hard",
+    "id": "ca1f6d5d-7bf3-474b-a90a-34fc9f7ddb08"
+  },
+  {
+    "word": "Çokdilli Anlatı",
+    "forbidden": [
+      "Çokdilli",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "08eea2e7-87d1-41d9-ba68-a06adfa7c31d"
+  },
+  {
+    "word": "Kolaj Anlatı",
+    "forbidden": [
+      "Kolaj",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "743f3e72-add3-4791-a8af-5d82645a1be9"
+  },
+  {
+    "word": "İç İçe Hikaye",
+    "forbidden": [
+      "İç",
+      "İçe",
+      "Hikaye",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "hard",
+    "id": "7ddcc658-56dc-4ae8-a173-ade6af08e521"
+  },
+  {
+    "word": "Zincirleme Öykü",
+    "forbidden": [
+      "Zincirleme",
+      "Öykü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "3b6d8cba-6a8d-4d65-9ac8-71830f0aee63"
+  },
+  {
+    "word": "Katmanlı Anlatı",
+    "forbidden": [
+      "Katmanlı",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "1a20ad65-ecc7-4241-98c7-ff1c23ca2e46"
+  },
+  {
+    "word": "Spiral Anlatı",
+    "forbidden": [
+      "Spiral",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "ff2fa590-c4a9-4640-bb28-b217d6f8d00c"
+  },
+  {
+    "word": "Metin Oyunu",
+    "forbidden": [
+      "Metin",
+      "Oyunu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "a237c52e-a149-4695-a36b-0ac67fa3047d"
+  },
+  {
+    "word": "Zamansız Anlatı",
+    "forbidden": [
+      "Zamansız",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "405e77ab-0179-4cb0-9cc4-8976dc250041"
+  },
+  {
+    "word": "Fragment Anlatı",
+    "forbidden": [
+      "Fragment",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "1948b620-4476-4c36-8f37-544352d198c5"
+  },
+  {
+    "word": "Belge Roman",
+    "forbidden": [
+      "Belge",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "73e8a2c7-9346-4cb8-a82c-2a26d019fe52"
+  },
+  {
+    "word": "Belgesel Tiyatro",
+    "forbidden": [
+      "Belgesel",
+      "Tiyatro",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "6d265ede-35a3-4216-b080-29f214cb622d"
+  },
+  {
+    "word": "Yeni Anlatı",
+    "forbidden": [
+      "Yeni",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "5b55716f-7fed-45d5-9340-3a783575cb09"
+  },
+  {
+    "word": "Dekonstrüksiyon",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "7f74279d-b186-440d-b7f2-9937904f6e24"
+  },
+  {
+    "word": "Hermeneutik",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "49fd66a2-21c2-41eb-b162-99ef447a4f46"
+  },
+  {
+    "word": "Fenomenolojik Okuma",
+    "forbidden": [
+      "Fenomenolojik",
+      "Okuma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "30bb370d-6430-44d9-b4af-6b392839e850"
+  },
+  {
+    "word": "Postkolonyal Eleştiri",
+    "forbidden": [
+      "Postkolonyal",
+      "Eleştiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "e06fee29-844c-4eb7-804c-7063030f303b"
+  },
+  {
+    "word": "Queer Kuram",
+    "forbidden": [
+      "Queer",
+      "Kuram",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "12ccdedd-2fa1-4e53-8f3c-4cf637a1312d"
+  },
+  {
+    "word": "Ekoeleştiri",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "22d36970-12be-40a9-b837-b2f0b7a47199"
+  },
+  {
+    "word": "Yeni Materyalizm",
+    "forbidden": [
+      "Yeni",
+      "Materyalizm",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "f1147eb7-8ea5-4a8f-b8a7-1562033db90f"
+  },
+  {
+    "word": "Aktör-Ağ Teorisi",
+    "forbidden": [
+      "Aktör",
+      "Ağ",
+      "Teorisi",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "6582189d-69cd-4ff5-bc39-31a44c4fae9b"
+  },
+  {
+    "word": "Dijital Hümaniteler",
+    "forbidden": [
+      "Dijital",
+      "Hümaniteler",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "ca233fa2-35f9-404b-97ed-ca4d2c43e614"
+  },
+  {
+    "word": "Distant Reading",
+    "forbidden": [
+      "Distant",
+      "Reading",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "f62231d2-3c12-432a-b1e0-420eacfebc5e"
+  },
+  {
+    "word": "Yakın Okuma",
+    "forbidden": [
+      "Yakın",
+      "Okuma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "35f420cb-c8fb-4f76-a6eb-741fb0469197"
+  },
+  {
+    "word": "Corpus Analizi",
+    "forbidden": [
+      "Corpus",
+      "Analizi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "4568f63f-ef29-4242-a187-1801fb1c2c19"
+  },
+  {
+    "word": "Stilistika",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "ba0ee049-7a03-44f7-a7b5-785dafcd916d"
+  },
+  {
+    "word": "Korpus Dilbilimi",
+    "forbidden": [
+      "Korpus",
+      "Dilbilimi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "e4c9335e-213f-4be1-8035-a5cc5cc08379"
+  },
+  {
+    "word": "Sosyopoetik",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "204e0826-f63b-4853-8b41-d365129bf033"
+  },
+  {
+    "word": "Metin Madenciliği",
+    "forbidden": [
+      "Metin",
+      "Madenciliği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "acd43457-baa3-43a2-9ed3-4938d995efc1"
+  },
+  {
+    "word": "Eleştirel Kod Çalışmaları",
+    "forbidden": [
+      "Eleştirel",
+      "Kod",
+      "Çalışmaları",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "ce5775e4-a9a8-453e-88b4-732673476100"
+  },
+  {
+    "word": "Bilgi Kuramı Edebiyat",
+    "forbidden": [
+      "Bilgi",
+      "Kuramı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "d5eb200b-85a9-47b4-be36-1129fba3994a"
+  },
+  {
+    "word": "Ontolojik Belirsizlik",
+    "forbidden": [
+      "Ontolojik",
+      "Belirsizlik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "ac39e84c-4893-43c2-bd2d-e436fc91d607"
+  },
+  {
+    "word": "Kronotop",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "4ce4a7e4-d779-4e6f-9236-6683a4ff582e"
+  },
+  {
+    "word": "Bakhtin Diyalogculuk",
+    "forbidden": [
+      "Bakhtin",
+      "Diyalogculuk",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "8fed238a-dba4-467a-ab43-5f5f176d936a"
+  },
+  {
+    "word": "Polifonik Roman",
+    "forbidden": [
+      "Polifonik",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "878ef193-fa45-4d8f-9fee-781c776ad540"
+  },
+  {
+    "word": "Karnaval Kavramı",
+    "forbidden": [
+      "Karnaval",
+      "Kavramı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "37570b2c-392e-4266-8e07-17b0f1093bc5"
+  },
+  {
+    "word": "Foucault Söylem",
+    "forbidden": [
+      "Foucault",
+      "Söylem",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "643f3e6a-f9fc-44c8-9492-fa47c6f2117d"
+  },
+  {
+    "word": "Derrida İz",
+    "forbidden": [
+      "Derrida",
+      "İz",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "b0c890a3-8667-4667-bcb6-297e5beae142"
+  },
+  {
+    "word": "Barthes Yazarın Ölümü",
+    "forbidden": [
+      "Barthes",
+      "Yazarın",
+      "Ölümü",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "d285f3a7-63ec-4292-89ad-4dfe72e4ecb5"
+  },
+  {
+    "word": "Genette Anlatı Söylemi",
+    "forbidden": [
+      "Genette",
+      "Anlatı",
+      "Söylemi",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "45526cb7-c4c4-4a17-b943-310bf8dc607d"
+  },
+  {
+    "word": "Genette Odaklanma",
+    "forbidden": [
+      "Genette",
+      "Odaklanma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "4badf47f-2e7e-4fb5-908b-0bad7e1211c3"
+  },
+  {
+    "word": "Said Oryantalizm",
+    "forbidden": [
+      "Said",
+      "Oryantalizm",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "951b7d0a-502a-48e3-855c-e9ddfa9a8280"
+  },
+  {
+    "word": "Spivak Alt-Kimlik",
+    "forbidden": [
+      "Spivak",
+      "Alt",
+      "Kimlik",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "621b44a4-286a-448e-8643-b07255bab9b9"
+  },
+  {
+    "word": "Butler Performativite",
+    "forbidden": [
+      "Butler",
+      "Performativite",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "feb54d5a-ce7f-4ea9-9474-ea78b050d6e4"
+  },
+  {
+    "word": "Bhabha Melezlik",
+    "forbidden": [
+      "Bhabha",
+      "Melezlik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "984dd2ce-6aff-4c2a-91e7-ee25607ade86"
+  },
+  {
+    "word": "Üçüncü Alan",
+    "forbidden": [
+      "Üçüncü",
+      "Alan",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "a59352a2-aebc-49e0-abe1-ceaa493a546d"
+  },
+  {
+    "word": "Latour Aktör Ağ",
+    "forbidden": [
+      "Latour",
+      "Aktör",
+      "Ağ",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "cf039fa2-ecb5-41ce-bf10-ad25b7875ed0"
+  },
+  {
+    "word": "Haraway Siborg Manifestosu",
+    "forbidden": [
+      "Haraway",
+      "Siborg",
+      "Manifestosu",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "b7d64640-8e06-426c-a7d7-c5ba1deb4dac"
+  },
+  {
+    "word": "Ranciére Estetik Rejim",
+    "forbidden": [
+      "Ranciére",
+      "Estetik",
+      "Rejim",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "fcfac9fb-cee2-413a-9a44-6a1952875c5f"
+  },
+  {
+    "word": "Adorno Estetik Teori",
+    "forbidden": [
+      "Adorno",
+      "Estetik",
+      "Teori",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "7b495ce2-1091-4faa-841b-45dbb6bf5a34"
+  },
+  {
+    "word": "Benjamin Aura",
+    "forbidden": [
+      "Benjamin",
+      "Aura",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "2b6ff2b7-87e6-4c61-88a0-20dca950460c"
+  },
+  {
+    "word": "Kristeva Abject",
+    "forbidden": [
+      "Kristeva",
+      "Abject",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "d80d256c-d51b-4491-ad76-674216a0dbcd"
+  },
+  {
+    "word": "Kristeva Metinlerarasılık",
+    "forbidden": [
+      "Kristeva",
+      "Metinlerarasılık",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "a9c008c5-585c-4760-aac2-79ba51b4602e"
+  },
+  {
+    "word": "Lacan Ayna Evresi",
+    "forbidden": [
+      "Lacan",
+      "Ayna",
+      "Evresi",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "cc3c8ca2-c343-48e2-9a2f-0c9ebb9759ff"
+  },
+  {
+    "word": "Freud Rüya Yorumu",
+    "forbidden": [
+      "Freud",
+      "Rüya",
+      "Yorumu",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "c3967202-e17a-46e3-950f-fd23149de152"
+  },
+  {
+    "word": "Jung Kolektif Bilinçdışı",
+    "forbidden": [
+      "Jung",
+      "Kolektif",
+      "Bilinçdışı",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "b8e0b2cd-15f0-4a22-8b9b-3cf5ec9ca51e"
+  },
+  {
+    "word": "Edebiyatta Travma",
+    "forbidden": [
+      "Edebiyatta",
+      "Travma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "6c1924e4-b7ea-4472-a704-174b28064110"
+  },
+  {
+    "word": "Edebiyatta Hafıza",
+    "forbidden": [
+      "Edebiyatta",
+      "Hafıza",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "19598942-fba7-4c61-af44-01fe37ed573c"
+  },
+  {
+    "word": "Söylem ve İktidar",
+    "forbidden": [
+      "Söylem",
+      "ve",
+      "İktidar",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "77923417-f3b4-4fdd-ab1a-1ba3c8e87034"
+  },
+  {
+    "word": "Göstergebilimsel Kod",
+    "forbidden": [
+      "Göstergebilimsel",
+      "Kod",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "61476626-a6f3-425d-a13d-c44720a2ec87"
+  },
+  {
+    "word": "Greimas Eyleyenler Modeli",
+    "forbidden": [
+      "Greimas",
+      "Eyleyenler",
+      "Modeli",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "4fed6f61-1bd2-45dc-beee-6ca6379b1ef9"
+  },
+  {
+    "word": "Propp Masal İşlevleri",
+    "forbidden": [
+      "Propp",
+      "Masal",
+      "İşlevleri",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "26ec0b96-d0c0-4122-b17e-dcf52495b090"
+  },
+  {
+    "word": "Campbell Kahramanın Yolculuğu",
+    "forbidden": [
+      "Campbell",
+      "Kahramanın",
+      "Yolculuğu",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "8e47ac23-660d-4930-9e6f-c2c12556c210"
+  },
+  {
+    "word": "Edebiyatta Mitoloji",
+    "forbidden": [
+      "Edebiyatta",
+      "Mitoloji",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "cf35650c-618c-4980-898c-94c15d7b6144"
+  },
+  {
+    "word": "Anlatı Mantığı",
+    "forbidden": [
+      "Anlatı",
+      "Mantığı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "2275343d-aae4-4444-8ed4-e7ab5b1f5006"
+  },
+  {
+    "word": "Oulipo",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "bc85f402-6075-42f2-8269-0cfe88dab077"
+  },
+  {
+    "word": "Edebiyatta Oyun",
+    "forbidden": [
+      "Edebiyatta",
+      "Oyun",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "d7257a47-6bb1-4735-8fa1-671a7ae9f227"
+  },
+  {
+    "word": "Metin Üretkenliği",
+    "forbidden": [
+      "Metin",
+      "Üretkenliği",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "85b3b59b-3517-4db6-967a-10249d646b95"
+  },
+  {
+    "word": "Metin Sökümü",
+    "forbidden": [
+      "Metin",
+      "Sökümü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "eefa8c19-f586-4e29-a432-abb72be5fcb1"
+  },
+  {
+    "word": "Eleştirel Posthümanizm",
+    "forbidden": [
+      "Eleştirel",
+      "Posthümanizm",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "b89d9471-ca1e-4bdf-b310-1ff2e0360bc3"
+  },
+  {
+    "word": "Afrofuturizm",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "expert",
+    "id": "5d66fe50-4bf9-479e-9c3d-c97969a6d8bc"
+  },
+  {
+    "word": "Edebiyatta Yapay Zeka",
+    "forbidden": [
+      "Edebiyatta",
+      "Yapay",
+      "Zeka",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "ac84357e-9b53-467c-98a1-5cb0c538fd66"
+  },
+  {
+    "word": "Veri Anlatısı",
+    "forbidden": [
+      "Veri",
+      "Anlatısı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "6a0ca4b9-a91b-4a39-8711-e553cc17e9f3"
+  },
+  {
+    "word": "Edebiyat ve Hukuk",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Hukuk",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "58564f88-8b05-48ec-bcee-84719c1d1924"
+  },
+  {
+    "word": "Edebiyat ve Tıp",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Tıp",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "0479e2c9-5a32-43a3-b880-5324c63ea384"
+  },
+  {
+    "word": "Edebiyat ve Bilim",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Bilim",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "eb60ebda-5c72-4b9d-9c61-99ed31476534"
+  },
+  {
+    "word": "Edebiyat ve İktisat",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "İktisat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "933cd979-83b7-4ded-9edf-72facb8e8508"
+  },
+  {
+    "word": "Edebiyat ve Felsefe",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Felsefe",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "c940fce2-88e1-4be8-b587-3ab4f78a7390"
+  },
+  {
+    "word": "Edebiyat ve Din",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Din",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "338a3b3f-fb9c-465e-a5a8-5e0d2a1e8d71"
+  },
+  {
+    "word": "Edebiyat ve Mekan",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Mekan",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "5a7a7b2d-327c-4923-90c8-5261e3b62fc7"
+  },
+  {
+    "word": "Edebiyat ve Zaman",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Zaman",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "18ce7e07-5ebb-487d-914c-60060c81ca07"
+  },
+  {
+    "word": "Edebiyat ve Bellek",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Bellek",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "7672c970-9cff-4e45-b8a4-1b21cd5c2b7e"
+  },
+  {
+    "word": "Edebiyat ve Kimlik",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Kimlik",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "1e4828fc-7412-4607-8221-4839c3ce27f0"
+  },
+  {
+    "word": "Edebiyat ve Göç",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Göç",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "47618b00-eb2c-4d37-8487-3706c24afcdf"
+  },
+  {
+    "word": "Edebiyat ve Toplumsal Cinsiyet",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Toplumsal",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "f59e226e-4f7e-44f6-9dc0-dbe1af26001d"
+  },
+  {
+    "word": "Edebiyat ve Irk",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Irk",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "007829bb-f1d4-40a3-b8e8-1ca8b25313eb"
+  },
+  {
+    "word": "Edebiyat ve Ekoloji",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Ekoloji",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "fed215bf-051e-4c25-a3cc-482d42c86d7e"
+  },
+  {
+    "word": "Eleştirel Alımlama",
+    "forbidden": [
+      "Eleştirel",
+      "Alımlama",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "aca4bd7c-db2f-4a3f-a01e-027869169083"
+  },
+  {
+    "word": "Yavaş Okuma",
+    "forbidden": [
+      "Yavaş",
+      "Okuma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "905924e9-c544-497f-b286-5d829a3e3c70"
+  },
+  {
+    "word": "Hızlı Okuma",
+    "forbidden": [
+      "Hızlı",
+      "Okuma",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "557a7383-61d8-4d97-b4f8-8b06f05645d9"
+  },
+  {
+    "word": "Nesnel Eleştiri",
+    "forbidden": [
+      "Nesnel",
+      "Eleştiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "0fb11517-2715-4759-a210-12e2b0a7dcaa"
+  },
+  {
+    "word": "Öznel Eleştiri",
+    "forbidden": [
+      "Öznel",
+      "Eleştiri",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "5d9f1471-20e6-4bd4-8718-cad36acbde8b"
+  },
+  {
+    "word": "Metin Otomasyonu",
+    "forbidden": [
+      "Metin",
+      "Otomasyonu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "1ac813c2-93a6-4ff4-ac9a-57f720109d20"
+  },
+  {
+    "word": "Yapay Zeka ile Yazarlık",
+    "forbidden": [
+      "Yapay",
+      "Zeka",
+      "ile",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "65fc210b-aa19-4e50-84c4-f82343636f7e"
+  },
+  {
+    "word": "Anonim Anlatıcı",
+    "forbidden": [
+      "Anonim",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "ae46f56c-7a42-427e-8047-3beb455435be"
+  },
+  {
+    "word": "Kolektif Anlatıcı",
+    "forbidden": [
+      "Kolektif",
+      "Anlatıcı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "c65a99ca-3076-4701-a802-ed5c3bc4bff0"
+  },
+  {
+    "word": "Otomatik Yazı",
+    "forbidden": [
+      "Otomatik",
+      "Yazı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "4b0ec7f6-66df-45b5-b7e3-a03d2e425e13"
+  },
+  {
+    "word": "Nesir Şiir",
+    "forbidden": [
+      "Nesir",
+      "Şiir",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "cd3898a4-746f-4846-b194-cc8a3ac4685c"
+  },
+  {
+    "word": "Mikro Öykü",
+    "forbidden": [
+      "Mikro",
+      "Öykü",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "854b62ec-6a33-4679-865e-c1ed53798990"
+  },
+  {
+    "word": "Tweet Romanı",
+    "forbidden": [
+      "Tweet",
+      "Romanı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "45f90840-2ab1-4177-92d2-7161df392276"
+  },
+  {
+    "word": "Blog Romanı",
+    "forbidden": [
+      "Blog",
+      "Romanı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "d6cea5df-70c3-4c8b-bd44-dd61a3436581"
+  },
+  {
+    "word": "Fan Kurgu",
+    "forbidden": [
+      "Fan",
+      "Kurgu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "25a414c8-3491-4a40-9e15-b2d3174195f1"
+  },
+  {
+    "word": "Edebiyatta Remix",
+    "forbidden": [
+      "Edebiyatta",
+      "Remix",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "76254d01-23de-410f-8209-d6c4ec77f312"
+  },
+  {
+    "word": "Açık Erişim Edebiyat",
+    "forbidden": [
+      "Açık",
+      "Erişim",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "1e20418c-9c56-4e6d-a4a6-0af8de47cee0"
+  },
+  {
+    "word": "Kamu Malı Metin",
+    "forbidden": [
+      "Kamu",
+      "Malı",
+      "Metin",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "07d8d7ae-8df6-4f23-acf9-3b47dbbb2f00"
+  },
+  {
+    "word": "Lisanslı İçerik",
+    "forbidden": [
+      "Lisanslı",
+      "İçerik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "6d1cb751-9f38-434e-b25d-793cb3d4bfbf"
+  },
+  {
+    "word": "Edebiyat Veri Tabanı",
+    "forbidden": [
+      "Edebiyat",
+      "Veri",
+      "Tabanı",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "7791ea9f-6c53-4507-9693-57f9374af8ed"
+  },
+  {
+    "word": "Çevrimiçi Arşiv",
+    "forbidden": [
+      "Çevrimiçi",
+      "Arşiv",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "d3c31d6b-cddf-4949-983a-f92548e06c26"
+  },
+  {
+    "word": "Metin Hiperbağ",
+    "forbidden": [
+      "Metin",
+      "Hiperbağ",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "43f8e492-ec93-476d-9380-ece166bb49d5"
+  },
+  {
+    "word": "E-kitap Formatı",
+    "forbidden": [
+      "E",
+      "kitap",
+      "Formatı",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "expert",
+    "id": "e0ac66e8-5e08-489e-a3d6-646e9a5e8c09"
+  },
+  {
+    "word": "Sesli Kitap Anlatısı",
+    "forbidden": [
+      "Sesli",
+      "Kitap",
+      "Anlatısı",
+      "Edebiyat",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "8ee2f98b-57fb-4be6-a4f3-a60c89ca3e22"
+  },
+  {
+    "word": "Podcast Edebiyat",
+    "forbidden": [
+      "Podcast",
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur"
+    ],
+    "difficulty": "expert",
+    "id": "e6052ed9-7164-4cc8-9118-d47643ad8954"
+  },
+  {
+    "word": "Edebiyat ve Oyunlaştırma",
+    "forbidden": [
+      "Edebiyat",
+      "ve",
+      "Oyunlaştırma",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "expert",
+    "id": "f0d2f360-472f-4d70-b345-010ea01f287e"
+  },
+  {
+    "word": "Kurgu",
+    "forbidden": [
+      "Edebiyat",
+      "Kitap",
+      "Yazar",
+      "Okur",
+      "Tema"
+    ],
+    "difficulty": "easy",
+    "id": "d686dd8a-8c0a-4328-a9d8-d8d75f705cb6"
+  },
+  {
+    "word": "Arka Plan Karakteri",
+    "forbidden": [
+      "Arka",
+      "Plan",
+      "Karakteri",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "easy",
+    "id": "29d7f59e-a675-4d63-b229-d788cf9170dc"
+  },
+  {
+    "word": "Kapak İllüstrasyonu",
+    "forbidden": [
+      "Kapak",
+      "İllüstrasyonu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "107f6736-fdc9-4adc-8934-b98896f03db2"
+  },
+  {
+    "word": "Satır Sonu",
+    "forbidden": [
+      "Satır",
+      "Sonu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "4444ebae-2c09-4802-b000-2cff1db32408"
+  },
+  {
+    "word": "Sayfa Düzeni",
+    "forbidden": [
+      "Sayfa",
+      "Düzeni",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "47c4a0b3-aa18-46ed-a752-553d953d57a4"
+  },
+  {
+    "word": "İç Kapak",
+    "forbidden": [
+      "İç",
+      "Kapak",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "7d72f6bc-0433-4770-be1a-54ace79271a3"
+  },
+  {
+    "word": "Öğretici Metin",
+    "forbidden": [
+      "Öğretici",
+      "Metin",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "188a86bf-8eee-4172-a000-09fa7701dfde"
+  },
+  {
+    "word": "Masal Anlatıcısı",
+    "forbidden": [
+      "Masal",
+      "Anlatıcısı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "c108db20-753b-4586-9361-63a98352f421"
+  },
+  {
+    "word": "Yayın Dizisi",
+    "forbidden": [
+      "Yayın",
+      "Dizisi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "b61292f4-ef59-4797-9d8a-909de7e6e70f"
+  },
+  {
+    "word": "Kısa Roman",
+    "forbidden": [
+      "Kısa",
+      "Roman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "c1cc4383-326a-4e02-9202-3feb7296d320"
+  },
+  {
+    "word": "Okur Notu",
+    "forbidden": [
+      "Okur",
+      "Notu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "easy",
+    "id": "1c203f10-9769-4ce6-ba57-53a43f090089"
+  },
+  {
+    "word": "Tema Haritası",
+    "forbidden": [
+      "Tema",
+      "Haritası",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "f4fb6835-f93b-46d9-9796-77dd9f1184d4"
+  },
+  {
+    "word": "Karakter Kartı",
+    "forbidden": [
+      "Karakter",
+      "Kartı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "b6919952-8905-45d9-abb1-c251dbd4a31b"
+  },
+  {
+    "word": "Olay Kronolojisi",
+    "forbidden": [
+      "Olay",
+      "Kronolojisi",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "9e2f23ea-ab2f-4d71-8938-b90682f0923d"
+  },
+  {
+    "word": "Anlatı Çatısı",
+    "forbidden": [
+      "Anlatı",
+      "Çatısı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "c86c87ba-4fc0-4d38-9f81-ff1e8fc3a301"
+  },
+  {
+    "word": "Çoklu Zaman",
+    "forbidden": [
+      "Çoklu",
+      "Zaman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "96ae740d-6be9-4764-8d41-990eaa535f59"
+  },
+  {
+    "word": "Yan Anlatı",
+    "forbidden": [
+      "Yan",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "7aa24b2a-0456-4988-a51e-f239e0e1a199"
+  },
+  {
+    "word": "Çapraz Kurgu",
+    "forbidden": [
+      "Çapraz",
+      "Kurgu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "bfb4ed33-34a3-48c1-8153-585cc70ebe2a"
+  },
+  {
+    "word": "Göstermeci Anlatı",
+    "forbidden": [
+      "Göstermeci",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "d565e06c-884b-4842-a773-e702f6e5408e"
+  },
+  {
+    "word": "Düz Anlatı",
+    "forbidden": [
+      "Düz",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "2fdfa201-3eb0-44e9-abec-87a61f54a316"
+  },
+  {
+    "word": "Dairesel Anlatı",
+    "forbidden": [
+      "Dairesel",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "fb91b522-dacc-47b1-bcbb-d6a4c942576e"
+  },
+  {
+    "word": "Spiral Kurgu",
+    "forbidden": [
+      "Spiral",
+      "Kurgu",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "7bfd08ee-ffea-4e0a-82c5-ca8b57cbb4b4"
+  },
+  {
+    "word": "Düşsel Anlatı",
+    "forbidden": [
+      "Düşsel",
+      "Anlatı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "978238e7-826e-4f5f-8a19-87d0a61dd155"
+  },
+  {
+    "word": "Karışık Zaman",
+    "forbidden": [
+      "Karışık",
+      "Zaman",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "fb189982-afa3-4e83-876f-fe5005ddaea1"
+  },
+  {
+    "word": "Çok Seslilik",
+    "forbidden": [
+      "Çok",
+      "Seslilik",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "efada6c1-5920-4d9d-b1e6-278375ce5b60"
+  },
+  {
+    "word": "Sözlü İmge",
+    "forbidden": [
+      "Sözlü",
+      "İmge",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "8ff6fd56-cb68-4db4-809d-8e3e6b3f60b6"
+  },
+  {
+    "word": "Görsel İmge",
+    "forbidden": [
+      "Görsel",
+      "İmge",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "cc8c47f7-d319-41d1-a6dc-59e7993a34d9"
+  },
+  {
+    "word": "Dokunaklı Üslup",
+    "forbidden": [
+      "Dokunaklı",
+      "Üslup",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "3d08547d-4948-45ae-90e4-6e103e39e9dd"
+  },
+  {
+    "word": "İmgesel Dil",
+    "forbidden": [
+      "İmgesel",
+      "Dil",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "medium",
+    "id": "05c94853-3eac-43c9-b01f-dbbf634502a4"
+  },
+  {
+    "word": "Açık Uçlu Son",
+    "forbidden": [
+      "Açık",
+      "Uçlu",
+      "Son",
+      "Edebiyat",
+      "Kitap"
+    ],
+    "difficulty": "medium",
+    "id": "878aa006-1e1d-4145-bcdc-ba0ae58994ef"
+  },
+  {
+    "word": "Anlatıbilimsel Odak",
+    "forbidden": [
+      "Anlatıbilimsel",
+      "Odak",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "931ec19e-e2fa-4a88-aed1-f096d7163607"
+  },
+  {
+    "word": "Makro Yapı",
+    "forbidden": [
+      "Makro",
+      "Yapı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "232460cc-fba4-44e4-b3f1-147b35762918"
+  },
+  {
+    "word": "Mikro Yapı",
+    "forbidden": [
+      "Mikro",
+      "Yapı",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "db8d7fb2-c180-423c-b052-250231160894"
+  },
+  {
+    "word": "Eleştirel Yöntem",
+    "forbidden": [
+      "Eleştirel",
+      "Yöntem",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "8eb3f0e1-1dfd-4572-aebe-f6566655cda7"
+  },
+  {
+    "word": "Kuramsal Çerçeve",
+    "forbidden": [
+      "Kuramsal",
+      "Çerçeve",
+      "Edebiyat",
+      "Kitap",
+      "Yazar"
+    ],
+    "difficulty": "hard",
+    "id": "ce249836-65da-4498-b01e-55a05c287c41"
+  }
+]

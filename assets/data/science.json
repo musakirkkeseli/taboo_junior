@@ -1,0 +1,4802 @@
+[
+  {
+    "word": "Dünya",
+    "forbidden": [
+      "Gezegen",
+      "Yaşam",
+      "Mavi",
+      "Güneş",
+      "Uzay"
+    ],
+    "difficulty": "easy",
+    "id": "6fa98765-4ca7-45ec-8506-c84d4cd1ef4e"
+  },
+  {
+    "word": "Güneş",
+    "forbidden": [
+      "Yıldız",
+      "Isı",
+      "Işık",
+      "Gezegen",
+      "Sistem"
+    ],
+    "difficulty": "easy",
+    "id": "7ad8fb12-638d-4db3-a31c-1fc5eed19167"
+  },
+  {
+    "word": "Su",
+    "forbidden": [
+      "Sıvı",
+      "İçmek",
+      "H2O",
+      "Yaşam",
+      "Mavi"
+    ],
+    "difficulty": "easy",
+    "id": "f5204aca-9bbc-47a8-b021-995fb9b2cd25"
+  },
+  {
+    "word": "Bitki",
+    "forbidden": [
+      "Yeşil",
+      "Yaprak",
+      "Ağaç",
+      "Büyümek",
+      "Toprak"
+    ],
+    "difficulty": "easy",
+    "id": "a7cb8908-980f-4d57-a1a8-d03feca116dd"
+  },
+  {
+    "word": "Hayvan",
+    "forbidden": [
+      "Canlı",
+      "Beslenmek",
+      "Hareket Etmek",
+      "Kedi",
+      "Köpek"
+    ],
+    "difficulty": "easy",
+    "id": "6657ea24-0a26-4e80-912a-75e863826ed0"
+  },
+  {
+    "word": "İnsan",
+    "forbidden": [
+      "Akıl",
+      "Düşünmek",
+      "Konuşmak",
+      "Vücut",
+      "Canlı"
+    ],
+    "difficulty": "easy",
+    "id": "a80a0f9a-2263-4228-a508-88545021a5d0"
+  },
+  {
+    "word": "Hava",
+    "forbidden": [
+      "Nefes Almak",
+      "Rüzgar",
+      "Gaz",
+      "Gök",
+      "Görünmez"
+    ],
+    "difficulty": "easy",
+    "id": "6097a623-87c1-4066-b73e-2ead4c82e7dc"
+  },
+  {
+    "word": "Toprak",
+    "forbidden": [
+      "Yer",
+      "Bitki",
+      "Çamur",
+      "Kürek",
+      "Siyah"
+    ],
+    "difficulty": "easy",
+    "id": "19f4b0a1-8f2a-41df-a5c8-445b80ec7df6"
+  },
+  {
+    "word": "Taş",
+    "forbidden": [
+      "Sert",
+      "Doğa",
+      "Kaya",
+      "Gri",
+      "Fırlatmak"
+    ],
+    "difficulty": "easy",
+    "id": "a8bdaceb-e2cf-4835-83ed-c7fa0419adf4"
+  },
+  {
+    "word": "Dağ",
+    "forbidden": [
+      "Yüksek",
+      "Toprak",
+      "Kaya",
+      "Tırmanmak",
+      "Zirve"
+    ],
+    "difficulty": "easy",
+    "id": "e110b395-fd4c-48a8-afdb-41529bef4c67"
+  },
+  {
+    "word": "Deniz",
+    "forbidden": [
+      "Su",
+      "Mavi",
+      "Balık",
+      "Gemi",
+      "Geniş"
+    ],
+    "difficulty": "easy",
+    "id": "9243011b-c6c1-4094-be4b-337350e90898"
+  },
+  {
+    "word": "Nehir",
+    "forbidden": [
+      "Akarsu",
+      "Balık",
+      "Kenar",
+      "Tekne",
+      "Tatlı Su"
+    ],
+    "difficulty": "easy",
+    "id": "f179c905-37b6-4cef-bd91-aa1d05fc9694"
+  },
+  {
+    "word": "Göl",
+    "forbidden": [
+      "Su",
+      "Çevre",
+      "Balık",
+      "Büyük",
+      "Durgun"
+    ],
+    "difficulty": "easy",
+    "id": "5ef9a8e7-03a9-4c7b-9ede-c370ae73a8a2"
+  },
+  {
+    "word": "Yağmur",
+    "forbidden": [
+      "Su",
+      "Islanmak",
+      "Bulut",
+      "Gökyüzü",
+      "Damla"
+    ],
+    "difficulty": "easy",
+    "id": "e6154fa8-2de7-4841-b761-c203dbeb8167"
+  },
+  {
+    "word": "Kar",
+    "forbidden": [
+      "Beyaz",
+      "Soğuk",
+      "Kış",
+      "Yağmak",
+      "Pul"
+    ],
+    "difficulty": "easy",
+    "id": "9ad7bdfd-699d-4329-b98c-04cc942a8177"
+  },
+  {
+    "word": "Rüzgar",
+    "forbidden": [
+      "Hava",
+      "Esinti",
+      "Hareket",
+      "Yaprak",
+      "Görünmez"
+    ],
+    "difficulty": "easy",
+    "id": "1b0fc587-874d-40f7-8a57-dbc98ec263be"
+  },
+  {
+    "word": "Bulut",
+    "forbidden": [
+      "Gökyüzü",
+      "Beyaz",
+      "Yağmur",
+      "Pamuk",
+      "Hava"
+    ],
+    "difficulty": "easy",
+    "id": "083388d9-ca20-4d44-88c9-26b111ed67e1"
+  },
+  {
+    "word": "Yıldız",
+    "forbidden": [
+      "Gökyüzü",
+      "Işık",
+      "Gece",
+      "Parlama",
+      "Uzak"
+    ],
+    "difficulty": "easy",
+    "id": "94c45020-c4f8-477b-b84a-b31773b80c78"
+  },
+  {
+    "word": "Ay",
+    "forbidden": [
+      "Gece",
+      "Gökyüzü",
+      "Dünya",
+      "Yörünge",
+      "Parlama"
+    ],
+    "difficulty": "easy",
+    "id": "2f82470c-9731-440f-bb1a-39962629036a"
+  },
+  {
+    "word": "Gezegen",
+    "forbidden": [
+      "Uzay",
+      "Dönmek",
+      "Yıldız",
+      "Dünya",
+      "Güneş"
+    ],
+    "difficulty": "easy",
+    "id": "2104f0d7-4449-4a26-963f-87e2243c5ff6"
+  },
+  {
+    "word": "Uzay",
+    "forbidden": [
+      "Boşluk",
+      "Gezegen",
+      "Yıldız",
+      "Siyah",
+      "Sonsuz"
+    ],
+    "difficulty": "easy",
+    "id": "77c1bab5-7970-4463-8e54-3ab7d7355e80"
+  },
+  {
+    "word": "Mikroskop",
+    "forbidden": [
+      "Küçük",
+      "Büyütmek",
+      "Görmek",
+      "Bilim",
+      "Lens"
+    ],
+    "difficulty": "easy",
+    "id": "30083a97-5b79-4961-88c9-b9edd19d78ed"
+  },
+  {
+    "word": "Teleskop",
+    "forbidden": [
+      "Uzay",
+      "Yıldız",
+      "Uzak",
+      "Görmek",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "732be349-ad52-407e-890c-f4dd80e6c2b8"
+  },
+  {
+    "word": "Deney",
+    "forbidden": [
+      "Bilim",
+      "Sonuç",
+      "Yapmak",
+      "Laboratuvar",
+      "Gözlem"
+    ],
+    "difficulty": "easy",
+    "id": "123cf4c9-9539-4f84-bd0b-edd2192d4198"
+  },
+  {
+    "word": "Gözlem",
+    "forbidden": [
+      "Bakmak",
+      "Bilim",
+      "Sonuç",
+      "Dikkat",
+      "Yapmak"
+    ],
+    "difficulty": "easy",
+    "id": "70b750cb-1f2f-452f-87dc-a41e3d6f9a94"
+  },
+  {
+    "word": "Bilim Adamı",
+    "forbidden": [
+      "Araştırma",
+      "Deney",
+      "Laboratuvar",
+      "Akıllı",
+      "Keşfetmek"
+    ],
+    "difficulty": "easy",
+    "id": "4a6b6815-4d34-448c-b9c0-988f748d6ea3"
+  },
+  {
+    "word": "Laboratuvar",
+    "forbidden": [
+      "Deney",
+      "Bilim",
+      "Kimya",
+      "Tüp",
+      "Araştırma"
+    ],
+    "difficulty": "easy",
+    "id": "c648b886-9288-4ff3-9a91-5199f8116ed4"
+  },
+  {
+    "word": "Formül",
+    "forbidden": [
+      "Matematik",
+      "Kimya",
+      "Çözüm",
+      "Yazmak",
+      "Sayı"
+    ],
+    "difficulty": "easy",
+    "id": "6df1aee5-4aa6-46ed-833e-367f7407846a"
+  },
+  {
+    "word": "Teori",
+    "forbidden": [
+      "Fikir",
+      "Açıklama",
+      "Kanıt",
+      "Bilim",
+      "Düşünce"
+    ],
+    "difficulty": "easy",
+    "id": "55861b3c-6e26-4c66-9557-8541fca5148e"
+  },
+  {
+    "word": "Hipotez",
+    "forbidden": [
+      "Tahmin",
+      "Deney",
+      "Doğrulama",
+      "Fikir",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "e4232682-8262-48a5-80d4-9e61a8732caa"
+  },
+  {
+    "word": "Keşif",
+    "forbidden": [
+      "Bulmak",
+      "Yeni",
+      "Bilim",
+      "Araştırma",
+      "Sır"
+    ],
+    "difficulty": "easy",
+    "id": "8ebe0141-1474-45de-b619-ea08cf2d6f42"
+  },
+  {
+    "word": "İcat",
+    "forbidden": [
+      "Yapmak",
+      "Yeni",
+      "Teknoloji",
+      "Bilim",
+      "Kullanmak"
+    ],
+    "difficulty": "easy",
+    "id": "51eda419-c4fb-416a-8578-d2ce0df872b0"
+  },
+  {
+    "word": "Teknoloji",
+    "forbidden": [
+      "Bilim",
+      "Gelişim",
+      "Yeni",
+      "Makine",
+      "Kullanmak"
+    ],
+    "difficulty": "easy",
+    "id": "2a04e235-62f9-486b-a81a-e78dadc287cc"
+  },
+  {
+    "word": "Biyoloji",
+    "forbidden": [
+      "Canlı",
+      "Yaşam",
+      "Bitki",
+      "Hayvan",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "08013be7-cafb-4974-9567-a720f81bd3bc"
+  },
+  {
+    "word": "Kimya",
+    "forbidden": [
+      "Madde",
+      "Deney",
+      "Tepkime",
+      "Laboratuvar",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "9cf4019f-02d6-4847-aa26-b267db20d825"
+  },
+  {
+    "word": "Fizik",
+    "forbidden": [
+      "Hareket",
+      "Enerji",
+      "Evren",
+      "Kuvvet",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "6e08c8f3-b6d8-4cce-a978-1821fd70d7ea"
+  },
+  {
+    "word": "Matematik",
+    "forbidden": [
+      "Sayı",
+      "Hesaplama",
+      "Problem",
+      "Formül",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "87e7e5a3-8749-44ce-adae-0ccc4032bcd3"
+  },
+  {
+    "word": "Astronomi",
+    "forbidden": [
+      "Uzay",
+      "Yıldız",
+      "Gezegen",
+      "Evren",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "f558b18d-a780-439c-92ce-452f3c442912"
+  },
+  {
+    "word": "Coğrafya",
+    "forbidden": [
+      "Dünya",
+      "Harita",
+      "Ülke",
+      "Dağ",
+      "Deniz"
+    ],
+    "difficulty": "easy",
+    "id": "edaa8ceb-e17e-400f-b636-16c31f7a8c0e"
+  },
+  {
+    "word": "Jeoloji",
+    "forbidden": [
+      "Yer",
+      "Toprak",
+      "Kaya",
+      "Deprem",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "fda39078-9d04-4346-91a2-539ecdce2312"
+  },
+  {
+    "word": "Tıp",
+    "forbidden": [
+      "Sağlık",
+      "Hastalık",
+      "Doktor",
+      "Tedavi",
+      "İnsan"
+    ],
+    "difficulty": "easy",
+    "id": "5b431e5a-5e34-4fc2-9ab5-2bca5ee5c42b"
+  },
+  {
+    "word": "Gezegenler",
+    "forbidden": [
+      "Mars",
+      "Venüs",
+      "Jüpiter",
+      "Güneş",
+      "Uydular"
+    ],
+    "difficulty": "easy",
+    "id": "c78de111-bb22-4976-9b1c-fa537de75658"
+  },
+  {
+    "word": "Güneş Sistemi",
+    "forbidden": [
+      "Güneş",
+      "Gezegen",
+      "Yıldız",
+      "Uzay",
+      "Yörünge"
+    ],
+    "difficulty": "easy",
+    "id": "e20a6043-6df1-44ce-8cfb-e81de7b6db45"
+  },
+  {
+    "word": "Galaksi",
+    "forbidden": [
+      "Yıldız",
+      "Samanyolu",
+      "Uzay",
+      "Büyük",
+      "Sistem"
+    ],
+    "difficulty": "easy",
+    "id": "b46fd399-9319-4fda-a4a6-72250f8041df"
+  },
+  {
+    "word": "Kara Delik",
+    "forbidden": [
+      "Uzay",
+      "Çekim",
+      "Işık",
+      "Görünmez",
+      "Büyük"
+    ],
+    "difficulty": "easy",
+    "id": "3f19f604-6280-4f76-af45-e3a1216b67a5"
+  },
+  {
+    "word": "Atom",
+    "forbidden": [
+      "Küçük",
+      "Parça",
+      "Madde",
+      "Elektron",
+      "Çekirdek"
+    ],
+    "difficulty": "easy",
+    "id": "948244a0-8e22-4a9f-bfed-0019f4af8aa9"
+  },
+  {
+    "word": "Molekül",
+    "forbidden": [
+      "Atom",
+      "İki",
+      "Bağ",
+      "Kimya",
+      "Su"
+    ],
+    "difficulty": "easy",
+    "id": "3b401107-a1fa-48c0-b260-00888d8b3354"
+  },
+  {
+    "word": "Hücre",
+    "forbidden": [
+      "Yaşam",
+      "Küçük",
+      "Canlı",
+      "Organizma",
+      "Biyoloji"
+    ],
+    "difficulty": "easy",
+    "id": "4c36799e-c30f-43d5-94b8-5ca0fc062bcd"
+  },
+  {
+    "word": "DNA",
+    "forbidden": [
+      "Genetik",
+      "Bilgi",
+      "Yaşam",
+      "Sarmal",
+      "Hücre"
+    ],
+    "difficulty": "easy",
+    "id": "c5319e2a-92c7-435c-9c50-7df43b7ea19c"
+  },
+  {
+    "word": "Gen",
+    "forbidden": [
+      "DNA",
+      "Kalıtım",
+      "Özellik",
+      "Hücre",
+      "Bilgi"
+    ],
+    "difficulty": "easy",
+    "id": "1a043d1d-cdff-4638-8aec-ace69f7a0001"
+  },
+  {
+    "word": "Evrim",
+    "forbidden": [
+      "Değişim",
+      "Canlı",
+      "Gelişim",
+      "Darwin",
+      "Doğa"
+    ],
+    "difficulty": "easy",
+    "id": "451a6541-114e-4c89-a9d8-b3d6574f8873"
+  },
+  {
+    "word": "Doğal Seçilim",
+    "forbidden": [
+      "Darwin",
+      "Canlı",
+      "Uyum",
+      "Yaşam",
+      "Evrim"
+    ],
+    "difficulty": "easy",
+    "id": "00823021-b1b6-4fa0-ba47-8a864061c9a9"
+  },
+  {
+    "word": "Fotosentez",
+    "forbidden": [
+      "Bitki",
+      "Güneş Işığı",
+      "Su",
+      "Karbondioksit",
+      "Oksijen"
+    ],
+    "difficulty": "easy",
+    "id": "4c2b748e-ec2a-44b3-b69e-7ad1f026c9e1"
+  },
+  {
+    "word": "Solunum",
+    "forbidden": [
+      "Nefes Almak",
+      "Oksijen",
+      "Karbondioksit",
+      "Yaşam",
+      "Akciğer"
+    ],
+    "difficulty": "easy",
+    "id": "37872849-0f82-4c5d-b7d8-95123324d94c"
+  },
+  {
+    "word": "Sindirim",
+    "forbidden": [
+      "Yemek",
+      "Mide",
+      "Besin",
+      "Enerji",
+      "Vücut"
+    ],
+    "difficulty": "easy",
+    "id": "97390811-4c80-4268-9223-55386ad0f6e8"
+  },
+  {
+    "word": "Kan Dolaşımı",
+    "forbidden": [
+      "Kalp",
+      "Kan",
+      "Damar",
+      "Vücut",
+      "Oksijen"
+    ],
+    "difficulty": "easy",
+    "id": "282c7fb5-95a9-4748-8ddd-a0d83431f371"
+  },
+  {
+    "word": "Sinir Sistemi",
+    "forbidden": [
+      "Beyin",
+      "Omurilik",
+      "Mesaj",
+      "Tepki",
+      "Vücut"
+    ],
+    "difficulty": "easy",
+    "id": "e384243d-1f70-46a2-b55b-a02401306ebf"
+  },
+  {
+    "word": "Yer Çekimi",
+    "forbidden": [
+      "Düşmek",
+      "Kuvvet",
+      "Dünya",
+      "Newton",
+      "Aşağı"
+    ],
+    "difficulty": "easy",
+    "id": "3037baf7-cbac-49ab-ac62-af4fed353e42"
+  },
+  {
+    "word": "Elektrik",
+    "forbidden": [
+      "Ampul",
+      "Priz",
+      "Enerji",
+      "Akım",
+      "Kablo"
+    ],
+    "difficulty": "easy",
+    "id": "3c9ac0ed-1045-46bd-94a2-c0cc1cdfc7bf"
+  },
+  {
+    "word": "Manyetizma",
+    "forbidden": [
+      "Mıknatıs",
+      "Demir",
+      "Çekmek",
+      "Kuvvet",
+      "Kutup"
+    ],
+    "difficulty": "easy",
+    "id": "ea3eacc9-ea02-4580-9872-724c5e9d2b16"
+  },
+  {
+    "word": "Ses",
+    "forbidden": [
+      "Duyma",
+      "Kulak",
+      "Dalga",
+      "Titreşim",
+      "Konuşma"
+    ],
+    "difficulty": "easy",
+    "id": "82fe7881-ec0d-41f3-8d4f-47364b598b60"
+  },
+  {
+    "word": "Işık",
+    "forbidden": [
+      "Görmek",
+      "Göz",
+      "Hız",
+      "Dalga",
+      "Güneş"
+    ],
+    "difficulty": "easy",
+    "id": "47c64a9f-4fa9-4d73-af68-7dfa277c1ceb"
+  },
+  {
+    "word": "Isı",
+    "forbidden": [
+      "Sıcak",
+      "Termometre",
+      "Enerji",
+      "Ateş",
+      "Yakmak"
+    ],
+    "difficulty": "easy",
+    "id": "dc2b8938-d413-4a60-ba1d-5de1007d47ca"
+  },
+  {
+    "word": "Enerji",
+    "forbidden": [
+      "İş Yapmak",
+      "Güç",
+      "Hareket",
+      "Yakıt",
+      "Üretmek"
+    ],
+    "difficulty": "easy",
+    "id": "2518e96c-7b66-4694-a4aa-bf6ce2ad3848"
+  },
+  {
+    "word": "Kuvvet",
+    "forbidden": [
+      "İtmek",
+      "Çekmek",
+      "Newton",
+      "Hareket",
+      "Güç"
+    ],
+    "difficulty": "easy",
+    "id": "b7871dd4-0c91-4486-908b-c151920a764a"
+  },
+  {
+    "word": "Hız",
+    "forbidden": [
+      "Çabuk",
+      "Zaman",
+      "Mesafe",
+      "Sürat",
+      "Koşmak"
+    ],
+    "difficulty": "easy",
+    "id": "4a3b5f0a-3878-4f1c-a6d1-12f348f6830f"
+  },
+  {
+    "word": "Zaman",
+    "forbidden": [
+      "Saat",
+      "Dakika",
+      "Saniye",
+      "Geçmek",
+      "Ölçmek"
+    ],
+    "difficulty": "easy",
+    "id": "c25056bc-29fa-4166-b2eb-c47d04002cf7"
+  },
+  {
+    "word": "Mesafe",
+    "forbidden": [
+      "Uzaklık",
+      "Metre",
+      "Kilometre",
+      "Ölçmek",
+      "Yol"
+    ],
+    "difficulty": "easy",
+    "id": "1170a088-d08f-4086-b4df-761c980dca7d"
+  },
+  {
+    "word": "Kütle",
+    "forbidden": [
+      "Ağırlık",
+      "Madde",
+      "Gram",
+      "Kilogram",
+      "Ölçmek"
+    ],
+    "difficulty": "easy",
+    "id": "605b1d96-1c62-44e2-b86a-08d10761c5b0"
+  },
+  {
+    "word": "Hacim",
+    "forbidden": [
+      "Boşluk",
+      "Metreküp",
+      "Litre",
+      "Doldurmak",
+      "Ölçmek"
+    ],
+    "difficulty": "easy",
+    "id": "8f64145c-7d0d-47d8-b76b-b966f5d4b626"
+  },
+  {
+    "word": "Sıcaklık",
+    "forbidden": [
+      "Termometre",
+      "Celsius",
+      "Fahrenheit",
+      "Isı",
+      "Ölçmek"
+    ],
+    "difficulty": "easy",
+    "id": "a0111a86-cc2e-4d57-8f2d-b9c271345c3b"
+  },
+  {
+    "word": "Basınç",
+    "forbidden": [
+      "Kuvvet",
+      "Alan",
+      "Hava",
+      "Gaz",
+      "Ölçmek"
+    ],
+    "difficulty": "easy",
+    "id": "79f146ca-aadf-4520-9f58-c4b0942bb9a4"
+  },
+  {
+    "word": "Yoğunluk",
+    "forbidden": [
+      "Madde",
+      "Kütle",
+      "Hacim",
+      "Ağır",
+      "Hafif"
+    ],
+    "difficulty": "easy",
+    "id": "5b06d1a3-4447-415b-b0b7-43f4d0f7e20d"
+  },
+  {
+    "word": "Çözelti",
+    "forbidden": [
+      "Su",
+      "Tuz",
+      "Karışım",
+      "Erimiş",
+      "Sıvı"
+    ],
+    "difficulty": "easy",
+    "id": "1091ea15-78d2-447e-a869-1f3b0fa84259"
+  },
+  {
+    "word": "Asit",
+    "forbidden": [
+      "Ekşi",
+      "Tepkime",
+      "pH",
+      "Kuvvetli",
+      "Kimya"
+    ],
+    "difficulty": "easy",
+    "id": "7eeab892-890c-46e8-9dcc-2e3a940c3f8a"
+  },
+  {
+    "word": "Baz",
+    "forbidden": [
+      "Acı",
+      "Sabun",
+      "pH",
+      "Kimya",
+      "Tepkime"
+    ],
+    "difficulty": "easy",
+    "id": "6491d00b-3994-46eb-b945-929ab4daea74"
+  },
+  {
+    "word": "pH",
+    "forbidden": [
+      "Asit",
+      "Baz",
+      "Ölçü",
+      "Kimya",
+      "Denge"
+    ],
+    "difficulty": "easy",
+    "id": "d21c05cb-dd0d-460e-9e14-86682c0df74c"
+  },
+  {
+    "word": "Oksijen",
+    "forbidden": [
+      "Nefes",
+      "Hava",
+      "Gaz",
+      "Yaşam",
+      "Solunum"
+    ],
+    "difficulty": "easy",
+    "id": "4eb3deae-4eb3-48e7-b2f4-4abe82315a2e"
+  },
+  {
+    "word": "Karbondioksit",
+    "forbidden": [
+      "Bitki",
+      "Nefes",
+      "Gaz",
+      "Hava",
+      "Yakmak"
+    ],
+    "difficulty": "easy",
+    "id": "a31e050a-37da-428e-ade2-3bd7dfca72eb"
+  },
+  {
+    "word": "Azot",
+    "forbidden": [
+      "Hava",
+      "Gaz",
+      "Element",
+      "Toprak",
+      "Gübre"
+    ],
+    "difficulty": "easy",
+    "id": "8626815d-89ec-415a-a230-ac38f89beafb"
+  },
+  {
+    "word": "Hidrojen",
+    "forbidden": [
+      "Gaz",
+      "Element",
+      "Su",
+      "Patlayıcı",
+      "En Hafif"
+    ],
+    "difficulty": "easy",
+    "id": "ff51e04e-2799-41e8-9ba5-fc73fc64abb6"
+  },
+  {
+    "word": "Demir",
+    "forbidden": [
+      "Metal",
+      "Sert",
+      "Mıknatıs",
+      "Kırmızı",
+      "Paslanmak"
+    ],
+    "difficulty": "easy",
+    "id": "2b3245c1-5ac8-4c3f-83f6-63c0e26051b9"
+  },
+  {
+    "word": "Altın",
+    "forbidden": [
+      "Metal",
+      "Parlak",
+      "Sarı",
+      "Değerli",
+      "Mücevher"
+    ],
+    "difficulty": "easy",
+    "id": "31b475ef-0e9b-46b0-b384-55827cce0d23"
+  },
+  {
+    "word": "Gümüş",
+    "forbidden": [
+      "Metal",
+      "Parlak",
+      "Beyaz",
+      "Değerli",
+      "Takı"
+    ],
+    "difficulty": "easy",
+    "id": "30b1a000-04a1-488d-bdf3-98190635adb8"
+  },
+  {
+    "word": "Bakır",
+    "forbidden": [
+      "Metal",
+      "Kırmızı",
+      "Kablo",
+      "İletken",
+      "Eski"
+    ],
+    "difficulty": "easy",
+    "id": "4a9f3181-9ca2-41c0-bc7e-229eb2490afd"
+  },
+  {
+    "word": "Element",
+    "forbidden": [
+      "Madde",
+      "Atom",
+      "Periyodik Tablo",
+      "Temel",
+      "Kimya"
+    ],
+    "difficulty": "easy",
+    "id": "c9a6e257-c279-42a7-b071-4590a88ecbd9"
+  },
+  {
+    "word": "Bileşik",
+    "forbidden": [
+      "İki",
+      "Element",
+      "Kimya",
+      "Su",
+      "Madde"
+    ],
+    "difficulty": "easy",
+    "id": "ffede26e-66a5-4ff7-b933-905784645f8a"
+  },
+  {
+    "word": "Karışım",
+    "forbidden": [
+      "Tuzlu Su",
+      "Hava",
+      "Farklı",
+      "Birleşme",
+      "Madde"
+    ],
+    "difficulty": "easy",
+    "id": "a962cd89-14e7-46bd-bbc2-05d8f6036d91"
+  },
+  {
+    "word": "Çekirdek",
+    "forbidden": [
+      "Atom",
+      "Merkez",
+      "Proton",
+      "Nötron",
+      "Hücre"
+    ],
+    "difficulty": "easy",
+    "id": "af167cca-0d29-4859-8e9f-e94a2a79761f"
+  },
+  {
+    "word": "Elektron",
+    "forbidden": [
+      "Atom",
+      "Negatif",
+      "Yörünge",
+      "Küçük",
+      "Hareket"
+    ],
+    "difficulty": "easy",
+    "id": "8665688d-d6b1-4794-92cd-04689c19318e"
+  },
+  {
+    "word": "Proton",
+    "forbidden": [
+      "Atom",
+      "Pozitif",
+      "Çekirdek",
+      "Nötron",
+      "Küçük"
+    ],
+    "difficulty": "easy",
+    "id": "eb30e0fd-1f8f-47c2-be79-50cc68774670"
+  },
+  {
+    "word": "Nötron",
+    "forbidden": [
+      "Atom",
+      "Yük",
+      "Çekirdek",
+      "Proton",
+      "Küçük"
+    ],
+    "difficulty": "easy",
+    "id": "3f07b7a5-11ad-4dda-9cb7-7a945c045e0b"
+  },
+  {
+    "word": "Kuantum",
+    "forbidden": [
+      "Fizik",
+      "Küçük",
+      "Parçacık",
+      "Enerji",
+      "Dalga"
+    ],
+    "difficulty": "easy",
+    "id": "80e60598-13b0-4937-a2d3-39808a5b9a04"
+  },
+  {
+    "word": "Radyoaktivite",
+    "forbidden": [
+      "Işın",
+      "Nükleer",
+      "Enerji",
+      "Zehirli",
+      "Element"
+    ],
+    "difficulty": "easy",
+    "id": "dfec960f-d0eb-45b3-93c9-c13323ef42c0"
+  },
+  {
+    "word": "Çevre",
+    "forbidden": [
+      "Doğa",
+      "Koruma",
+      "Yaşam",
+      "İnsan",
+      "Kirlilik"
+    ],
+    "difficulty": "easy",
+    "id": "f0c1cdef-8164-43e0-a967-f621efadf853"
+  },
+  {
+    "word": "Ekoloji",
+    "forbidden": [
+      "Çevre",
+      "Canlı",
+      "Deniz",
+      "Orman",
+      "Bilim"
+    ],
+    "difficulty": "easy",
+    "id": "a4ce5d7b-35df-4660-adff-43d55aba8505"
+  },
+  {
+    "word": "İklim",
+    "forbidden": [
+      "Hava",
+      "Değişim",
+      "Sıcaklık",
+      "Yağmur",
+      "Dünya"
+    ],
+    "difficulty": "easy",
+    "id": "4e5374d1-eae0-4be8-bcfc-50762d2a7847"
+  },
+  {
+    "word": "Güneş Enerjisi",
+    "forbidden": [
+      "Isı",
+      "Işık",
+      "Panel",
+      "Temiz",
+      "Yenilenebilir"
+    ],
+    "difficulty": "easy",
+    "id": "898ac959-6d57-4721-8b9e-7f30fd76a189"
+  },
+  {
+    "word": "Rüzgar Enerjisi",
+    "forbidden": [
+      "Hava",
+      "Tribün",
+      "Elektrik",
+      "Temiz",
+      "Yenilenebilir"
+    ],
+    "difficulty": "easy",
+    "id": "f8a5c8c2-c23b-4b8f-afe2-80460a3dc811"
+  },
+  {
+    "word": "Biyoyakıt",
+    "forbidden": [
+      "Bitki",
+      "Enerji",
+      "Dizel",
+      "Motor",
+      "Yenilenebilir"
+    ],
+    "difficulty": "easy",
+    "id": "1fee2566-0dc4-4371-ab77-734c666b74df"
+  },
+  {
+    "word": "Yer Çekimi Kanunu",
+    "forbidden": [
+      "Newton",
+      "Elma",
+      "Dünya",
+      "Kuvvet",
+      "Kütle"
+    ],
+    "difficulty": "medium",
+    "id": "196c94f6-a91b-4ac0-80f8-32a5fed4f26e"
+  },
+  {
+    "word": "Elektromanyetizma",
+    "forbidden": [
+      "Elektrik",
+      "Manyetizma",
+      "Dalga",
+      "Alan",
+      "Maxwell"
+    ],
+    "difficulty": "medium",
+    "id": "100f4dfe-fead-4f10-8974-dbad0ff4fe33"
+  },
+  {
+    "word": "Atom Teorisi",
+    "forbidden": [
+      "Dalton",
+      "Bohr",
+      "Çekirdek",
+      "Elektron",
+      "Madde"
+    ],
+    "difficulty": "medium",
+    "id": "58360530-d145-4b3b-80d4-ec60dd52802f"
+  },
+  {
+    "word": "Genetik Mühendisliği",
+    "forbidden": [
+      "DNA",
+      "Gen",
+      "Biyoteknoloji",
+      "Değiştirmek",
+      "Organizması"
+    ],
+    "difficulty": "medium",
+    "id": "35ae09aa-f006-4be2-9911-9d0b0cb1fcf9"
+  },
+  {
+    "word": "Hücre Teorisi",
+    "forbidden": [
+      "Yaşam",
+      "Temel Birim",
+      "Mikroskop",
+      "Canlı",
+      "Organizma"
+    ],
+    "difficulty": "medium",
+    "id": "e0419821-5a2f-4ce2-89d9-fe7332e3c805"
+  },
+  {
+    "word": "Evrim Teorisi",
+    "forbidden": [
+      "Darwin",
+      "Doğal Seçilim",
+      "Canlı",
+      "Değişim",
+      "Türler"
+    ],
+    "difficulty": "medium",
+    "id": "ae46b50e-39f0-49ac-bf23-d1dfb362049c"
+  },
+  {
+    "word": "Rölativite Teorisi",
+    "forbidden": [
+      "Einstein",
+      "Zaman",
+      "Uzay",
+      "Işık Hızı",
+      "Kütle"
+    ],
+    "difficulty": "medium",
+    "id": "1deaea9f-59f7-42b9-9cb2-e25a380d94bf"
+  },
+  {
+    "word": "Kuantum Mekaniği",
+    "forbidden": [
+      "Atom Altı",
+      "Parçacık",
+      "Belirsizlik",
+      "Dalga",
+      "Fizik"
+    ],
+    "difficulty": "medium",
+    "id": "43e59af4-db88-4684-a297-c1fd4b62be5a"
+  },
+  {
+    "word": "Termodinamik",
+    "forbidden": [
+      "Isı",
+      "Enerji",
+      "Sistem",
+      "Kanunlar",
+      "Fizik"
+    ],
+    "difficulty": "medium",
+    "id": "65a196b2-110d-40a4-a521-7ad9bc039adc"
+  },
+  {
+    "word": "Genom Projesi",
+    "forbidden": [
+      "DNA",
+      "Harita",
+      "İnsan",
+      "Kalıtım",
+      "Biyoloji"
+    ],
+    "difficulty": "medium",
+    "id": "21ad36dc-07e9-4b2f-b4cd-dec4bcdd5630"
+  },
+  {
+    "word": "Kök Hücre",
+    "forbidden": [
+      "Tedavi",
+      "Yenilenme",
+      "Uzmanlaşmamış",
+      "Vücut",
+      "Biyoloji"
+    ],
+    "difficulty": "medium",
+    "id": "c96d316c-a3c8-4b15-9a18-fcee22eec6d8"
+  },
+  {
+    "word": "Yapay Zeka",
+    "forbidden": [
+      "Bilgisayar",
+      "Öğrenme",
+      "Akıllı",
+      "Algoritma",
+      "Robot"
+    ],
+    "difficulty": "medium",
+    "id": "26291429-0995-4821-adc2-86adfc70dc66"
+  },
+  {
+    "word": "Büyük Veri (Big Data)",
+    "forbidden": [
+      "Veri",
+      "Analiz",
+      "Hacim",
+      "Hız",
+      "Çeşitlilik"
+    ],
+    "difficulty": "medium",
+    "id": "fd79484f-671c-48d3-b0de-0b59cff067f0"
+  },
+  {
+    "word": "Blockchain",
+    "forbidden": [
+      "Kripto",
+      "Veri",
+      "Dağıtılmış",
+      "Güvenli",
+      "Defter"
+    ],
+    "difficulty": "medium",
+    "id": "71789df2-c51b-4fb5-8420-431f6febffc7"
+  },
+  {
+    "word": "Kuantum Bilgisayarı",
+    "forbidden": [
+      "Kubit",
+      "Süperpozisyon",
+      "Dolaşıklık",
+      "Hızlı",
+      "Teknoloji"
+    ],
+    "difficulty": "medium",
+    "id": "4bc89840-958a-4252-b446-50cdaf3f0165"
+  },
+  {
+    "word": "Nanoteknoloji",
+    "forbidden": [
+      "Küçük",
+      "Ölçek",
+      "Malzeme",
+      "Bilim",
+      "Atom"
+    ],
+    "difficulty": "medium",
+    "id": "67518972-1273-464a-bc2d-56dc4d4c99ed"
+  },
+  {
+    "word": "Biyoteknoloji",
+    "forbidden": [
+      "Canlı",
+      "Teknoloji",
+      "Genetik",
+      "Üretim",
+      "Yaşam"
+    ],
+    "difficulty": "medium",
+    "id": "796c3fce-1a5a-4cb3-8a8b-3043bf496ff9"
+  },
+  {
+    "word": "Klonlama",
+    "forbidden": [
+      "Kopya",
+      "Genetik",
+      "Canlı",
+      "Tıpkı",
+      "Üretim"
+    ],
+    "difficulty": "medium",
+    "id": "4ed43638-94db-4034-985b-5e645bccaf93"
+  },
+  {
+    "word": "CRISPR",
+    "forbidden": [
+      "Gen Düzenleme",
+      "Makas",
+      "DNA",
+      "Bakteri",
+      "Teknoloji"
+    ],
+    "difficulty": "medium",
+    "id": "762ed72b-73e0-4647-b542-75fdb57d9149"
+  },
+  {
+    "word": "Aşı",
+    "forbidden": [
+      "Hastalık",
+      "Koruma",
+      "Virüs",
+      "Bağışıklık",
+      "İğne"
+    ],
+    "difficulty": "medium",
+    "id": "a44fe74e-3229-4b8b-a992-dfa8336d8763"
+  },
+  {
+    "word": "Antikor",
+    "forbidden": [
+      "Vücut",
+      "Bağışıklık",
+      "Hastalık",
+      "Savunma",
+      "Protein"
+    ],
+    "difficulty": "medium",
+    "id": "6189466c-74df-4c57-bb6f-a2efac44f368"
+  },
+  {
+    "word": "Antibiyotik",
+    "forbidden": [
+      "Bakteri",
+      "İlaç",
+      "Hastalık",
+      "Öldürmek",
+      "Penisilin"
+    ],
+    "difficulty": "medium",
+    "id": "5b981be5-a488-4503-a044-fd3c2565d3ba"
+  },
+  {
+    "word": "Hormon",
+    "forbidden": [
+      "Vücut",
+      "Salgı",
+      "Kimyasal",
+      "Mesajcı",
+      "Büyüme"
+    ],
+    "difficulty": "medium",
+    "id": "8f3008a5-9b0e-4c72-b7f1-cf4f5153a81b"
+  },
+  {
+    "word": "Enzim",
+    "forbidden": [
+      "Protein",
+      "Hızlandırıcı",
+      "Kimyasal Tepkime",
+      "Biyoloji",
+      "Canlı"
+    ],
+    "difficulty": "medium",
+    "id": "8b2c946b-5769-41f5-8ed7-b680cf9b164b"
+  },
+  {
+    "word": "Protein",
+    "forbidden": [
+      "Amino Asit",
+      "Vücut",
+      "Yapı",
+      "Kas",
+      "Besin"
+    ],
+    "difficulty": "medium",
+    "id": "cf0c9364-15fc-4b99-bb91-5fce717cd35d"
+  },
+  {
+    "word": "Karbonhidrat",
+    "forbidden": [
+      "Enerji",
+      "Şeker",
+      "Besin",
+      "Vücut",
+      "Nişasta"
+    ],
+    "difficulty": "medium",
+    "id": "a3c895bf-7043-4173-9305-a92df708f54e"
+  },
+  {
+    "word": "Yağ",
+    "forbidden": [
+      "Enerji",
+      "Besin",
+      "Vücut",
+      "Depolama",
+      "Lipit"
+    ],
+    "difficulty": "medium",
+    "id": "a9eccd14-3e64-4f1d-9c3c-b9aa07d0ebdb"
+  },
+  {
+    "word": "Vitamin",
+    "forbidden": [
+      "Vücut",
+      "Besin",
+      "Sağlık",
+      "Eksiklik",
+      "Organik"
+    ],
+    "difficulty": "medium",
+    "id": "25912a78-c7bc-4ec2-b437-c61c863f1ffb"
+  },
+  {
+    "word": "Mineral",
+    "forbidden": [
+      "Vücut",
+      "Besin",
+      "Toprak",
+      "İnorganik",
+      "Kalsiyum"
+    ],
+    "difficulty": "medium",
+    "id": "ae891fdc-54b0-4066-b2bc-0b918116f2ef"
+  },
+  {
+    "word": "Metabolizma",
+    "forbidden": [
+      "Vücut",
+      "Enerji",
+      "Dönüşüm",
+      "Besin",
+      "Kimyasal"
+    ],
+    "difficulty": "medium",
+    "id": "f809ca5f-8b69-4aa8-acfb-addf34b0107a"
+  },
+  {
+    "word": "Ozon Tabakası",
+    "forbidden": [
+      "Güneş",
+      "Koru mak",
+      "Atmosfer",
+      "Morötesi",
+      "Oksijen"
+    ],
+    "difficulty": "medium",
+    "id": "e3fe5f77-ce07-4987-a071-e0b56555b32a"
+  },
+  {
+    "word": "Küresel Isınma",
+    "forbidden": [
+      "İklim",
+      "Dünya",
+      "Karbon",
+      "Sıcaklık",
+      "Tehlike"
+    ],
+    "difficulty": "medium",
+    "id": "1f0b3da9-69e7-498f-8c49-6c6252091998"
+  },
+  {
+    "word": "Sera Gazı",
+    "forbidden": [
+      "Karbondioksit",
+      "Metan",
+      "Atmosfer",
+      "Isı",
+      "Dünya"
+    ],
+    "difficulty": "medium",
+    "id": "0553ae36-c91e-4fb5-9908-7dca7114a2e3"
+  },
+  {
+    "word": "Yenilenebilir Enerji",
+    "forbidden": [
+      "Güneş",
+      "Rüzgar",
+      "Temiz",
+      "Doğa",
+      "Tükenmez"
+    ],
+    "difficulty": "medium",
+    "id": "656a5f03-e2f8-48d6-9deb-428f6f40703c"
+  },
+  {
+    "word": "Nükleer Enerji",
+    "forbidden": [
+      "Atom",
+      "Uranyum",
+      "Patlama",
+      "Santral",
+      "Radyoaktif"
+    ],
+    "difficulty": "medium",
+    "id": "49e804ef-b5af-4d62-9647-bfe1fbef076e"
+  },
+  {
+    "word": "Fosil Yakıtlar",
+    "forbidden": [
+      "Kömür",
+      "Petrol",
+      "Doğalgaz",
+      "Yer Altı",
+      "Tükenmek"
+    ],
+    "difficulty": "medium",
+    "id": "c6409a06-8e90-49c1-9f31-d15197198ad2"
+  },
+  {
+    "word": "Güneş Paneli",
+    "forbidden": [
+      "Işık",
+      "Elektrik",
+      "Enerji",
+      "Yüzey",
+      "Sistem"
+    ],
+    "difficulty": "medium",
+    "id": "fe3673c8-af56-4648-9551-285081a7b5f2"
+  },
+  {
+    "word": "Rüzgar Türbini",
+    "forbidden": [
+      "Hava",
+      "Elektrik",
+      "Enerji",
+      "Pervane",
+      "Üretim"
+    ],
+    "difficulty": "medium",
+    "id": "88ccec07-a1bf-44b5-a46d-a95034ee2ce5"
+  },
+  {
+    "word": "Hidroelektrik Santrali",
+    "forbidden": [
+      "Su",
+      "Baraj",
+      "Elektrik",
+      "Enerji",
+      "Üretim"
+    ],
+    "difficulty": "medium",
+    "id": "5bd8e818-0c5d-4c4c-9697-c599477ee6df"
+  },
+  {
+    "word": "Jeotermal Enerji",
+    "forbidden": [
+      "Yer Altı",
+      "Sıcak",
+      "Su",
+      "Buhar",
+      "Elektrik"
+    ],
+    "difficulty": "medium",
+    "id": "23fdfa19-93d9-4da6-8674-b099b4565cb7"
+  },
+  {
+    "word": "Biyokütle Enerjisi",
+    "forbidden": [
+      "Bitki",
+      "Organik",
+      "Yakıt",
+      "Enerji",
+      "Atık"
+    ],
+    "difficulty": "medium",
+    "id": "063f5e85-e863-42c0-a646-14e7c04f1512"
+  },
+  {
+    "word": "Gelgit Enerjisi",
+    "forbidden": [
+      "Deniz",
+      "Akıntı",
+      "Dalga",
+      "Elektrik",
+      "Enerji"
+    ],
+    "difficulty": "medium",
+    "id": "1c55f21c-6429-41a9-a902-64cfaa26ce7d"
+  },
+  {
+    "word": "Güneş Patlaması",
+    "forbidden": [
+      "Güneş",
+      "Enerji",
+      "Işın",
+      "Manyetik",
+      "Tehlikeli"
+    ],
+    "difficulty": "medium",
+    "id": "45331c48-8f91-4b62-8cdb-60505b34e9f9"
+  },
+  {
+    "word": "Kutup Işıkları",
+    "forbidden": [
+      "Aurora",
+      "Gökyüzü",
+      "Renk",
+      "Kuzey",
+      "Manyetik"
+    ],
+    "difficulty": "medium",
+    "id": "2976e149-26d5-4628-9ee4-f5c0217363c9"
+  },
+  {
+    "word": "Asteroid",
+    "forbidden": [
+      "Uzay",
+      "Taş",
+      "Gezegen",
+      "Çarpma",
+      "Kuyruklu Yıldız"
+    ],
+    "difficulty": "medium",
+    "id": "b5c3a487-1f9b-4c38-869d-e11a40f01fe9"
+  },
+  {
+    "word": "Kuyruklu Yıldız",
+    "forbidden": [
+      "Buz",
+      "Toz",
+      "Uzay",
+      "Güneş",
+      "Kuyruk"
+    ],
+    "difficulty": "medium",
+    "id": "14dc586b-f4c4-4d49-a57e-b095a2412f36"
+  },
+  {
+    "word": "Meteor",
+    "forbidden": [
+      "Gök Taşı",
+      "Uzay",
+      "Düşmek",
+      "Yanmak",
+      "Ateş"
+    ],
+    "difficulty": "medium",
+    "id": "c436b81f-1104-43c1-a968-fae31aa4f99a"
+  },
+  {
+    "word": "Göktaşı",
+    "forbidden": [
+      "Meteor",
+      "Yer",
+      "Çarpma",
+      "Uzay",
+      "Kaya"
+    ],
+    "difficulty": "medium",
+    "id": "05ebf33c-efba-4ae3-866c-474b5870742a"
+  },
+  {
+    "word": "Uydu",
+    "forbidden": [
+      "Dünya",
+      "Uzay",
+      "Yörünge",
+      "Kamera",
+      "İletişim"
+    ],
+    "difficulty": "medium",
+    "id": "f60d7d56-5db4-4650-b61f-29f2c0350795"
+  },
+  {
+    "word": "Teleskop (Uzay)",
+    "forbidden": [
+      "Hubble",
+      "Görüntü",
+      "Uzay",
+      "Yıldız",
+      "Galaksi"
+    ],
+    "difficulty": "medium",
+    "id": "134e77de-8087-45ed-8085-992206b541da"
+  },
+  {
+    "word": "Uzay Mekiği",
+    "forbidden": [
+      "Yolculuk",
+      "Astronot",
+      "Gemi",
+      "Uzay",
+      "Kaldırmak"
+    ],
+    "difficulty": "medium",
+    "id": "e51d660a-606a-4834-a1c4-9fbc9505425a"
+  },
+  {
+    "word": "Roket",
+    "forbidden": [
+      "Uzay",
+      "Fırlatmak",
+      "Yakıt",
+      "Hız",
+      "Motor"
+    ],
+    "difficulty": "medium",
+    "id": "6d36490e-9a6a-4b58-8d7c-001b4f56aacf"
+  },
+  {
+    "word": "Astronot",
+    "forbidden": [
+      "Uzay",
+      "Yolculuk",
+      "Giysi",
+      "Ay",
+      "Gemi"
+    ],
+    "difficulty": "medium",
+    "id": "76e17890-dcd5-492d-8d17-429b9a62ead4"
+  },
+  {
+    "word": "Kozmonot",
+    "forbidden": [
+      "Rusya",
+      "Uzay",
+      "Yolculuk",
+      "Astronot",
+      "Gemi"
+    ],
+    "difficulty": "medium",
+    "id": "e6711c77-2588-48ff-9401-7a4fc1910475"
+  },
+  {
+    "word": "Dinozor",
+    "forbidden": [
+      "Eski",
+      "Hayvan",
+      "Sürüngen",
+      "Büyük",
+      "Yok Oluş"
+    ],
+    "difficulty": "medium",
+    "id": "512f1f95-0f67-4c30-a4c5-09c9eded6247"
+  },
+  {
+    "word": "Fosil",
+    "forbidden": [
+      "Taşlaşmış",
+      "Kemik",
+      "Eski",
+      "Hayvan",
+      "Bitki"
+    ],
+    "difficulty": "medium",
+    "id": "585ef228-0e55-4f35-b2c8-8f5e9b0ac06d"
+  },
+  {
+    "word": "Buzul Çağı",
+    "forbidden": [
+      "Soğuk",
+      "Buz",
+      "Hayvan",
+      "Dünya",
+      "İklim"
+    ],
+    "difficulty": "medium",
+    "id": "2da0ada4-a219-46c1-9a3b-771776264ffc"
+  },
+  {
+    "word": "Pangea",
+    "forbidden": [
+      "Kıtalar",
+      "Birleşme",
+      "Dünya",
+      "Eski",
+      "Jeoloji"
+    ],
+    "difficulty": "medium",
+    "id": "1022e265-2d9e-4e40-abc3-2c40a015fded"
+  },
+  {
+    "word": "Tektonik Plakalar",
+    "forbidden": [
+      "Yer Kabuğu",
+      "Deprem",
+      "Hareket",
+      "Kıta",
+      "Jeoloji"
+    ],
+    "difficulty": "medium",
+    "id": "e2588aa8-02a2-4f46-81c5-34c9c71a3971"
+  },
+  {
+    "word": "Volkan",
+    "forbidden": [
+      "Dağ",
+      "Patlama",
+      "Lav",
+      "Yanardağ",
+      "Kül"
+    ],
+    "difficulty": "medium",
+    "id": "3ce57e6d-8a7d-46b3-a346-37cadddec2fd"
+  },
+  {
+    "word": "Deprem",
+    "forbidden": [
+      "Yer Sallanması",
+      "Fay Hattı",
+      "Yıkım",
+      "Doğal Afet",
+      "Jeoloji"
+    ],
+    "difficulty": "medium",
+    "id": "faaeaf80-9d45-4a2f-ab81-d7850315bc84"
+  },
+  {
+    "word": "Tsunami",
+    "forbidden": [
+      "Dalga",
+      "Deniz",
+      "Deprem",
+      "Büyük",
+      "Yıkım"
+    ],
+    "difficulty": "medium",
+    "id": "43b3c147-14ad-4fd3-bf10-bc4828354fba"
+  },
+  {
+    "word": "Kasırga",
+    "forbidden": [
+      "Fırtına",
+      "Rüzgar",
+      "Siklon",
+      "Yıkım",
+      "Doğal Afet"
+    ],
+    "difficulty": "medium",
+    "id": "7a970e8e-71c5-4b17-b1a3-2eb54126ee0e"
+  },
+  {
+    "word": "Tornado",
+    "forbidden": [
+      "Hava",
+      "Huni",
+      "Sıcak",
+      "Rüzgar",
+      "Kule"
+    ],
+    "difficulty": "medium",
+    "id": "4cff01e1-4de0-4ba2-abed-3fe8b68b33af"
+  },
+  {
+    "word": "Çölleşme",
+    "forbidden": [
+      "Kuraklık",
+      "Toprak",
+      "Bitki",
+      "Su",
+      "Değişim"
+    ],
+    "difficulty": "medium",
+    "id": "a706d8fe-7a0d-4823-8951-babb068c1373"
+  },
+  {
+    "word": "Biyolojik Çeşitlilik",
+    "forbidden": [
+      "Tür",
+      "Yaşam",
+      "Farklılık",
+      "Ekoloji",
+      "Doğa"
+    ],
+    "difficulty": "medium",
+    "id": "d151be56-3d85-4813-9d16-b3b39008e490"
+  },
+  {
+    "word": "Ekosistem",
+    "forbidden": [
+      "Canlı",
+      "Çevre",
+      "Etkileşim",
+      "Denge",
+      "Doğa"
+    ],
+    "difficulty": "medium",
+    "id": "81a7b1f5-880b-4736-92fd-a5fffc77ba26"
+  },
+  {
+    "word": "Gıda Zinciri",
+    "forbidden": [
+      "Beslenme",
+      "Avcı",
+      "Av",
+      "Enerji",
+      "Canlı"
+    ],
+    "difficulty": "medium",
+    "id": "54e29e99-2962-4438-83ee-0429405dbfac"
+  },
+  {
+    "word": "Karbon Döngüsü",
+    "forbidden": [
+      "Karbon",
+      "Oksijen",
+      "Atmosfer",
+      "Bitki",
+      "Hayvan"
+    ],
+    "difficulty": "medium",
+    "id": "9a4a763f-f8f7-4192-93b9-f3c1e9bcb124"
+  },
+  {
+    "word": "Su Döngüsü",
+    "forbidden": [
+      "Buharlaşma",
+      "Yağmur",
+      "Deniz",
+      "Bulut",
+      "Doğa"
+    ],
+    "difficulty": "medium",
+    "id": "aac8fe55-60c7-48ce-8701-08aeef73d3a2"
+  },
+  {
+    "word": "Bitki Türleri",
+    "forbidden": [
+      "Ağaç",
+      "Çiçek",
+      "Otluk",
+      "Orman",
+      "Biyoloji"
+    ],
+    "difficulty": "medium",
+    "id": "6c2d6b24-efa6-455c-ab6b-19ea173bb9b5"
+  },
+  {
+    "word": "Hayvan Türleri",
+    "forbidden": [
+      "Memeli",
+      "Kuş",
+      "Sürüngen",
+      "Balık",
+      "Böcek"
+    ],
+    "difficulty": "medium",
+    "id": "56561a17-2f67-4859-9121-d317492dae06"
+  },
+  {
+    "word": "Algoritma",
+    "forbidden": [
+      "Bilgisayar",
+      "Adım",
+      "Problem",
+      "Çözüm",
+      "Yazılım"
+    ],
+    "difficulty": "medium",
+    "id": "7a3ec23b-887d-430d-bcbc-a4d3bcfe989d"
+  },
+  {
+    "word": "Veri Bilimi",
+    "forbidden": [
+      "Bilgisayar",
+      "Veri",
+      "Analiz",
+      "İstatistik",
+      "Öngörü"
+    ],
+    "difficulty": "medium",
+    "id": "dd379ba6-9222-47f2-8774-87db6260d66a"
+  },
+  {
+    "word": "Yapay Sinir Ağı",
+    "forbidden": [
+      "Yapay Zeka",
+      "Öğrenme",
+      "Beyin",
+      "Bilgisayar",
+      "Model"
+    ],
+    "difficulty": "medium",
+    "id": "f841d6af-b203-488f-bb42-a5c922b6d285"
+  },
+  {
+    "word": "Sanatçı Zeka",
+    "forbidden": [
+      "Yapay Zeka",
+      "Yaratıcılık",
+      "Resim",
+      "Müzik",
+      "Algoritma"
+    ],
+    "difficulty": "medium",
+    "id": "bf9e2402-5e60-4fae-a578-b5123f8593f0"
+  },
+  {
+    "word": "Sanal Gerçeklik (Bilim)",
+    "forbidden": [
+      "Simülasyon",
+      "Bilgisayar",
+      "Gözlük",
+      "Deneyim",
+      "Gerçek"
+    ],
+    "difficulty": "medium",
+    "id": "339e55d2-c91e-4e82-9d04-5505307abb9c"
+  },
+  {
+    "word": "Artırılmış Gerçeklik (Bilim)",
+    "forbidden": [
+      "Kamera",
+      "Sanal",
+      "Görüntü",
+      "Gerçek",
+      "Bilgi"
+    ],
+    "difficulty": "medium",
+    "id": "716446a0-caaa-4ebd-915d-5ccb5b5cd7cd"
+  },
+  {
+    "word": "Robotik",
+    "forbidden": [
+      "Robot",
+      "Mühendislik",
+      "Otomatik",
+      "Makine",
+      "Kontrol"
+    ],
+    "difficulty": "medium",
+    "id": "de91a10d-526c-4305-aa0c-e4cec72ec471"
+  },
+  {
+    "word": "İnsansız Hava Aracı (İHA)",
+    "forbidden": [
+      "Drone",
+      "Kamera",
+      "Uçmak",
+      "Kontrol",
+      "Uzaktan"
+    ],
+    "difficulty": "medium",
+    "id": "30289b55-d53a-4b81-ab44-db82a5bb6c18"
+  },
+  {
+    "word": "Biyometrik Teknoloji",
+    "forbidden": [
+      "Parmak İzi",
+      "Yüz Tanıma",
+      "Kimlik",
+      "Güvenlik",
+      "İnsan"
+    ],
+    "difficulty": "medium",
+    "id": "578b0086-9b69-4ee0-8185-70a91a5fa70e"
+  },
+  {
+    "word": "Kriptografi",
+    "forbidden": [
+      "Şifreleme",
+      "Güvenli",
+      "İletişim",
+      "Gizli",
+      "Matematik"
+    ],
+    "difficulty": "medium",
+    "id": "cf1cc24e-9fee-4a93-90b5-12527013348c"
+  },
+  {
+    "word": "Siber Güvenlik",
+    "forbidden": [
+      "Bilgisayar",
+      "Hack",
+      "Koruma",
+      "Veri",
+      "Ağ"
+    ],
+    "difficulty": "medium",
+    "id": "15e592f4-a639-4f4b-9935-fe31f9a0e3ff"
+  },
+  {
+    "word": "Uzay Madenciliği",
+    "forbidden": [
+      "Asteroid",
+      "Maden",
+      "Kaynak",
+      "Uzay",
+      "Çıkarma"
+    ],
+    "difficulty": "medium",
+    "id": "69993ec9-c43f-46dc-a31b-731dd2696271"
+  },
+  {
+    "word": "Terraforming",
+    "forbidden": [
+      "Gezegen",
+      "Yaşam",
+      "Dönüştürmek",
+      "Mars",
+      "İklim"
+    ],
+    "difficulty": "medium",
+    "id": "9ee51c7d-9f93-4999-96e7-61c939dc2d2a"
+  },
+  {
+    "word": "Yıldızlararası Seyahat",
+    "forbidden": [
+      "Uzay",
+      "Gemi",
+      "Işık Hızı",
+      "Uzak",
+      "Gezegen"
+    ],
+    "difficulty": "medium",
+    "id": "b72f47bd-40b8-411b-8f04-5ca07583fb33"
+  },
+  {
+    "word": "Paralel Evren",
+    "forbidden": [
+      "Farklı",
+      "Boyut",
+      "Zaman",
+      "Gerçeklik",
+      "Kuantum"
+    ],
+    "difficulty": "medium",
+    "id": "6ac0af66-87b5-4d9c-adb6-d736fea01863"
+  },
+  {
+    "word": "Algoritma (Bilim)",
+    "forbidden": [
+      "Bilgisayar",
+      "Adım",
+      "Problem",
+      "Çözüm",
+      "Yazılım"
+    ],
+    "difficulty": "medium",
+    "id": "03f9b9a4-d055-4f20-aa11-5b5035c25320"
+  },
+  {
+    "word": "İnsansız Hava Aracı",
+    "forbidden": [
+      "Drone",
+      "Kamera",
+      "Uçmak",
+      "Kontrol",
+      "Uzaktan"
+    ],
+    "difficulty": "medium",
+    "id": "546d2d44-db39-44d1-a1d6-8173667327ed"
+  },
+  {
+    "word": "Hologram",
+    "forbidden": [
+      "3D",
+      "Görüntü",
+      "Lazer",
+      "Sanal",
+      "Yansıma"
+    ],
+    "difficulty": "medium",
+    "id": "00518a06-6b52-424e-8312-186d4c1fb675"
+  },
+  {
+    "word": "Teleportasyon",
+    "forbidden": [
+      "Işınlanma",
+      "Uzay",
+      "Anında",
+      "Yolculuk",
+      "Bilim Kurgu"
+    ],
+    "difficulty": "medium",
+    "id": "aa836eec-93f8-411c-9679-5a737c16317b"
+  },
+  {
+    "word": "Zaman Yolculuğu",
+    "forbidden": [
+      "Geçmiş",
+      "Gelecek",
+      "Makine",
+      "Bilim Kurgu",
+      "Değişim"
+    ],
+    "difficulty": "medium",
+    "id": "eb8957c2-e736-4726-ab88-cc156a2622d1"
+  },
+  {
+    "word": "Siborg",
+    "forbidden": [
+      "İnsan",
+      "Makine",
+      "Yarı",
+      "Robot",
+      "Gelişmiş"
+    ],
+    "difficulty": "medium",
+    "id": "656301fa-1471-4703-bc37-437ac9ea96da"
+  },
+  {
+    "word": "Android",
+    "forbidden": [
+      "Robot",
+      "İnsan",
+      "Benzemek",
+      "Yapay Zeka",
+      "Makine"
+    ],
+    "difficulty": "medium",
+    "id": "74bc854b-e723-4c60-95f4-5c606bec9de8"
+  },
+  {
+    "word": "Biyonik",
+    "forbidden": [
+      "İnsan",
+      "Makine",
+      "Uzuv",
+      "Teknoloji",
+      "Tıp"
+    ],
+    "difficulty": "medium",
+    "id": "1bd4de46-e9f9-43fe-a1b2-2872109ccdb4"
+  },
+  {
+    "word": "Süperiletken",
+    "forbidden": [
+      "Elektrik",
+      "Direnç",
+      "Sıfır",
+      "Enerji",
+      "Manyetik"
+    ],
+    "difficulty": "medium",
+    "id": "1daac78a-df1b-45fa-94e9-046accc50461"
+  },
+  {
+    "word": "Nanotüp",
+    "forbidden": [
+      "Karbon",
+      "Küçük",
+      "Güçlü",
+      "Malzeme",
+      "Teknoloji"
+    ],
+    "difficulty": "medium",
+    "id": "0929a895-7a61-49d5-abb3-a47dbc509bd4"
+  },
+  {
+    "word": "Grafen",
+    "forbidden": [
+      "Karbon",
+      "İnce",
+      "Güçlü",
+      "Malzeme",
+      "İletken"
+    ],
+    "difficulty": "medium",
+    "id": "c5bc5d8a-3e81-4fb2-ac4f-6a8e84bafac5"
+  },
+  {
+    "word": "Metamalzeme",
+    "forbidden": [
+      "Doğada Olmayan",
+      "Özel",
+      "Dalga",
+      "Işık",
+      "Manyetik"
+    ],
+    "difficulty": "medium",
+    "id": "94b294d5-a114-49e0-b9b6-6780687a7184"
+  },
+  {
+    "word": "Plazma (Fizik)",
+    "forbidden": [
+      "Gaz",
+      "İyon",
+      "Elektrik",
+      "Dördüncü Hal",
+      "Yüksek Sıcaklık"
+    ],
+    "difficulty": "medium",
+    "id": "3dba87b3-d672-4f2c-9b5f-031c994335bf"
+  },
+  {
+    "word": "Kuantum Dolanıklık",
+    "forbidden": [
+      "Kuantum",
+      "Dolanıklık",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "6a1332a1-90ce-410f-a223-8ac47ca25c91"
+  },
+  {
+    "word": "Kuantum Işınlama",
+    "forbidden": [
+      "Kuantum",
+      "Işınlama",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "cf73bf59-bc18-4f33-9e26-7080d4df53ae"
+  },
+  {
+    "word": "Kuantum Yürüyüş",
+    "forbidden": [
+      "Kuantum",
+      "Yürüyüş",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "a23899a5-b092-48bd-9be1-05c079999e45"
+  },
+  {
+    "word": "Kuantum Tünelleme",
+    "forbidden": [
+      "Kuantum",
+      "Tünelleme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "1d034cce-99b1-4225-95ef-042693299968"
+  },
+  {
+    "word": "Kuantum Hall Etkisi",
+    "forbidden": [
+      "Kuantum",
+      "Hall",
+      "Etkisi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "eb38bd42-2fb3-42fb-9b9c-f3b9275ff901"
+  },
+  {
+    "word": "Topolojik İzolatör",
+    "forbidden": [
+      "Topolojik",
+      "İzolatör",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "370009d9-eb80-4bfd-ae10-614e1fa63fe7"
+  },
+  {
+    "word": "Grafen Malzeme",
+    "forbidden": [
+      "Grafen",
+      "Malzeme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "e3c2c731-5a89-4268-be90-90d42d197e85"
+  },
+  {
+    "word": "Metamalzeme Tasarımı",
+    "forbidden": [
+      "Metamalzeme",
+      "Tasarımı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "cdab5d27-555c-49de-8cde-0c131507d0f4"
+  },
+  {
+    "word": "Kara Enerji",
+    "forbidden": [
+      "Kara",
+      "Enerji",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "b6b7cff2-81e6-4d62-8875-8a4e0b85c650"
+  },
+  {
+    "word": "Karanlık Madde",
+    "forbidden": [
+      "Karanlık",
+      "Madde",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "b4523661-4207-4a85-9695-cd70a5932c92"
+  },
+  {
+    "word": "Kozmik Mikrodalga Fon",
+    "forbidden": [
+      "Kozmik",
+      "Mikrodalga",
+      "Fon",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "0e386208-e829-44d2-ba6e-97b6247f0789"
+  },
+  {
+    "word": "Gravitasyonel Dalga",
+    "forbidden": [
+      "Gravitasyonel",
+      "Dalga",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "4f37843b-3ddd-4eff-8d4e-5c4fdebccbbf"
+  },
+  {
+    "word": "Yerçekimsel Merceklenme",
+    "forbidden": [
+      "Yerçekimsel",
+      "Merceklenme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "425fae38-166c-483d-b6fb-ad9f20042e74"
+  },
+  {
+    "word": "Kozmik Şişme",
+    "forbidden": [
+      "Kozmik",
+      "Şişme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "c4b6d4ec-a171-4c11-858b-767facc071de"
+  },
+  {
+    "word": "Büyük Patlama Nükleosentezi",
+    "forbidden": [
+      "Büyük",
+      "Patlama",
+      "Nükleosentezi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "11e492d8-bdfb-4f1e-9599-d41e80d3d93a"
+  },
+  {
+    "word": "Higgs Bozonu",
+    "forbidden": [
+      "Higgs",
+      "Bozonu",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "eff9ba18-86e4-416e-9cbd-d30a9d2a7aec"
+  },
+  {
+    "word": "Standart Model",
+    "forbidden": [
+      "Standart",
+      "Model",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "6fee6b1f-a43e-48ed-9bb4-f4cac224287f"
+  },
+  {
+    "word": "Süpersimetri Kuramı",
+    "forbidden": [
+      "Süpersimetri",
+      "Kuramı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "076500ea-fce9-4ff9-ac01-b4140f83e3c2"
+  },
+  {
+    "word": "Nötrino Salınımı",
+    "forbidden": [
+      "Nötrino",
+      "Salınımı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "179114f9-6705-4eac-80f2-3be5e6a4da95"
+  },
+  {
+    "word": "Nötrino Kütlesi",
+    "forbidden": [
+      "Nötrino",
+      "Kütlesi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "46fa788a-500e-442e-9f3d-9522214d6468"
+  },
+  {
+    "word": "Kuantum Alan Kuramı",
+    "forbidden": [
+      "Kuantum",
+      "Alan",
+      "Kuramı",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "04315278-3fa4-4fa3-869e-ebf24be19076"
+  },
+  {
+    "word": "Renormalizasyon Grubu",
+    "forbidden": [
+      "Renormalizasyon",
+      "Grubu",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "c89c2f1c-461d-404c-955d-cd6db5efcc50"
+  },
+  {
+    "word": "Lazer Soğutma",
+    "forbidden": [
+      "Lazer",
+      "Soğutma",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "ad70d7e6-dcd4-48ce-aa91-eefa7e84e903"
+  },
+  {
+    "word": "Bose-Einstein Yoğuşması",
+    "forbidden": [
+      "Bose",
+      "Einstein",
+      "Yoğuşması",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "992173a2-bd4a-4d15-b1f4-ef887cea508d"
+  },
+  {
+    "word": "Süperiletkenlik",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "hard",
+    "id": "0369aebc-c34d-46fb-afaf-72983ddd081d"
+  },
+  {
+    "word": "Meissner Etkisi",
+    "forbidden": [
+      "Meissner",
+      "Etkisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "65ceb321-6f1c-43f9-b51b-1e79e475dd0b"
+  },
+  {
+    "word": "Flux Pinning",
+    "forbidden": [
+      "Flux",
+      "Pinning",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "e3d03f25-c9de-4235-9ec3-0ba1cfb34381"
+  },
+  {
+    "word": "Plazma Fiziği",
+    "forbidden": [
+      "Plazma",
+      "Fiziği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "44b5bf57-5810-452d-ac8c-991d4bb1a894"
+  },
+  {
+    "word": "Manyetik Kapanım",
+    "forbidden": [
+      "Manyetik",
+      "Kapanım",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "5f51f7be-3d3c-4aa2-bd1c-167b89a82847"
+  },
+  {
+    "word": "Tokamak Reaktörü",
+    "forbidden": [
+      "Tokamak",
+      "Reaktörü",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "ab553353-e9ee-4551-bf1b-1ab036ee2b31"
+  },
+  {
+    "word": "Stellarator Tasarımı",
+    "forbidden": [
+      "Stellarator",
+      "Tasarımı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "2f42062f-69a4-4e1e-b3b1-b422da5a688e"
+  },
+  {
+    "word": "Nükleer Füzyon",
+    "forbidden": [
+      "Nükleer",
+      "Füzyon",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "cc664e31-5573-41a9-b80f-683e3af48d7d"
+  },
+  {
+    "word": "Nükleer Fisyon",
+    "forbidden": [
+      "Nükleer",
+      "Fisyon",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "cc1bc000-5789-44b3-8b9b-c7933deb032c"
+  },
+  {
+    "word": "Hızlandırıcı Fiziği",
+    "forbidden": [
+      "Hızlandırıcı",
+      "Fiziği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "bfbb8c41-fec2-42d4-b2e8-08a280e55d5c"
+  },
+  {
+    "word": "Parçacık Demeti",
+    "forbidden": [
+      "Parçacık",
+      "Demeti",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "d0da17d1-3bc2-470b-8a8b-ed0ad0befd15"
+  },
+  {
+    "word": "Sinkrotron Işıması",
+    "forbidden": [
+      "Sinkrotron",
+      "Işıması",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "56fbabdc-d3df-476c-b9ea-aba39cac3306"
+  },
+  {
+    "word": "X-Işını Kırınımı",
+    "forbidden": [
+      "X",
+      "Işını",
+      "Kırınımı",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "47029384-e190-4f8b-81ee-dfe2d23e6c11"
+  },
+  {
+    "word": "Nötron Saçılması",
+    "forbidden": [
+      "Nötron",
+      "Saçılması",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "275f51d4-7508-475f-bf0d-00d2b37f9532"
+  },
+  {
+    "word": "Atomik Kuvvet Mikroskobu",
+    "forbidden": [
+      "Atomik",
+      "Kuvvet",
+      "Mikroskobu",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "4e079f51-eb1a-4757-9270-40e378f1a9b9"
+  },
+  {
+    "word": "Taramalı Tünelleme Mikroskobu",
+    "forbidden": [
+      "Taramalı",
+      "Tünelleme",
+      "Mikroskobu",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "74f97edd-12cf-4943-b8db-7267f799299f"
+  },
+  {
+    "word": "Spektroskopi Teknikleri",
+    "forbidden": [
+      "Spektroskopi",
+      "Teknikleri",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "e2c1fce7-258b-4312-8058-c287553af235"
+  },
+  {
+    "word": "Kütle Spektrometresi",
+    "forbidden": [
+      "Kütle",
+      "Spektrometresi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "92f76932-f0e1-460a-9f64-acfe431da942"
+  },
+  {
+    "word": "NMR Spektroskopisi",
+    "forbidden": [
+      "NMR",
+      "Spektroskopisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "75c619f7-9ad1-44a4-9b74-9a240051c1a2"
+  },
+  {
+    "word": "ESR Spektroskopisi",
+    "forbidden": [
+      "ESR",
+      "Spektroskopisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "56d36ec7-4511-4021-b2f5-a25fed46c677"
+  },
+  {
+    "word": "İzotop Jeokimyası",
+    "forbidden": [
+      "İzotop",
+      "Jeokimyası",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "8eb0ac5e-8b22-4928-887a-41c8c35a99a1"
+  },
+  {
+    "word": "Jeotermal Gradyan",
+    "forbidden": [
+      "Jeotermal",
+      "Gradyan",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "b9b3733f-45f9-4f9d-8b17-6d89494f2898"
+  },
+  {
+    "word": "Levha Tektoniği",
+    "forbidden": [
+      "Levha",
+      "Tektoniği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "7ab354a2-2347-4c93-a300-52a6177e34da"
+  },
+  {
+    "word": "Sismik Tomografi",
+    "forbidden": [
+      "Sismik",
+      "Tomografi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "416bc3e2-ca8d-46f8-86f0-361061693249"
+  },
+  {
+    "word": "İklim Modellemesi",
+    "forbidden": [
+      "İklim",
+      "Modellemesi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "b207cbfd-e4b6-4433-a51c-b0e36a1bdf3e"
+  },
+  {
+    "word": "Paleoklimatoloji",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "hard",
+    "id": "6fdb5167-21db-47e5-a1bf-4b1284bb1a52"
+  },
+  {
+    "word": "Metan Hidrat",
+    "forbidden": [
+      "Metan",
+      "Hidrat",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "0f05ce34-c270-4cb1-8834-eaaf3540afeb"
+  },
+  {
+    "word": "Okyanus Asitlenmesi",
+    "forbidden": [
+      "Okyanus",
+      "Asitlenmesi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "bc10888c-ea06-4f4c-b494-e50b9a380e33"
+  },
+  {
+    "word": "Ekzoplanet Spektroskopisi",
+    "forbidden": [
+      "Ekzoplanet",
+      "Spektroskopisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "9518771a-f712-4c36-a3a7-04e591f20750"
+  },
+  {
+    "word": "Astrobiyoloji",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "hard",
+    "id": "199e75b6-fce8-40be-ba1e-56cd8dfdd75a"
+  },
+  {
+    "word": "Yıldız Evrimi",
+    "forbidden": [
+      "Yıldız",
+      "Evrimi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "64fabcbe-3868-44fb-a896-c50f59b9b87a"
+  },
+  {
+    "word": "Kırmızı Dev",
+    "forbidden": [
+      "Kırmızı",
+      "Dev",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "5b8817c9-f51f-44e1-b1fd-f5f896852a3d"
+  },
+  {
+    "word": "Beyaz Cüce",
+    "forbidden": [
+      "Beyaz",
+      "Cüce",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "5755701e-c865-45d5-a2aa-a3baee77ebe3"
+  },
+  {
+    "word": "Nötron Yıldızı",
+    "forbidden": [
+      "Nötron",
+      "Yıldızı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "a9e7d0e9-6294-42ac-8ad4-ffcdb1ee0d25"
+  },
+  {
+    "word": "Kara Delik Buharlaşması",
+    "forbidden": [
+      "Kara",
+      "Delik",
+      "Buharlaşması",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "0a5d072b-699b-41a6-bff1-552f5ec4705d"
+  },
+  {
+    "word": "Hawking Işıması",
+    "forbidden": [
+      "Hawking",
+      "Işıması",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "92e9a69e-c93d-40e3-a79e-6309bb4dd1cc"
+  },
+  {
+    "word": "Akresyon Diski",
+    "forbidden": [
+      "Akresyon",
+      "Diski",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "aaf38147-ea84-48da-a895-48d84975b1f6"
+  },
+  {
+    "word": "Relativistik Jet",
+    "forbidden": [
+      "Relativistik",
+      "Jet",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "ca9ea96c-6b6a-4b9c-babe-59de5095a760"
+  },
+  {
+    "word": "Manyetar",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "hard",
+    "id": "fea8cc52-30eb-49b2-b8c2-c8bc1a72bec1"
+  },
+  {
+    "word": "Kuazar",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "hard",
+    "id": "2ea12513-7157-435c-ada0-532a9b56944f"
+  },
+  {
+    "word": "Pulsar Zamanlama",
+    "forbidden": [
+      "Pulsar",
+      "Zamanlama",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "f2f9a919-ca95-4bef-9a45-c3e8b54ddc8c"
+  },
+  {
+    "word": "Galaktik Dinamik",
+    "forbidden": [
+      "Galaktik",
+      "Dinamik",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "509c6a58-23b4-4a4a-b1e1-ff23606cc493"
+  },
+  {
+    "word": "Kümelenme Oluşumu",
+    "forbidden": [
+      "Kümelenme",
+      "Oluşumu",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "a98cd13a-766e-40bf-8728-85aab8782ee9"
+  },
+  {
+    "word": "Kozmolojik Sabit",
+    "forbidden": [
+      "Kozmolojik",
+      "Sabit",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "d5c2aa8a-eca7-4743-ad19-c5bd3e0574aa"
+  },
+  {
+    "word": "Fermiyon Yoğuşması",
+    "forbidden": [
+      "Fermiyon",
+      "Yoğuşması",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "f86f0c5c-1437-494a-a21d-05be6090b4f0"
+  },
+  {
+    "word": "Spintronik",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "hard",
+    "id": "8ee5b3d4-aedc-40cf-a9f5-39790ea9a521"
+  },
+  {
+    "word": "Manyetorezistif Hafıza",
+    "forbidden": [
+      "Manyetorezistif",
+      "Hafıza",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "dbcebcca-e55a-44d8-9021-3ae504ec152b"
+  },
+  {
+    "word": "Holografik Depolama",
+    "forbidden": [
+      "Holografik",
+      "Depolama",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "9437ac60-cf74-4ebb-ab30-cc951757e7e5"
+  },
+  {
+    "word": "Fotovoltaik Hücre",
+    "forbidden": [
+      "Fotovoltaik",
+      "Hücre",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "b3355163-82a9-4ae6-b5c3-afc0f7660781"
+  },
+  {
+    "word": "Termoelektrik Malzeme",
+    "forbidden": [
+      "Termoelektrik",
+      "Malzeme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "a03e5f80-4dd1-4fd6-b6a6-ca576825f04b"
+  },
+  {
+    "word": "Perovskit Güneş Hücresi",
+    "forbidden": [
+      "Perovskit",
+      "Güneş",
+      "Hücresi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "1ede4289-c448-490e-8f23-b9cce875c8cb"
+  },
+  {
+    "word": "Organik Elektronik",
+    "forbidden": [
+      "Organik",
+      "Elektronik",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "4661d837-f56a-4112-9ff0-c23d02025d7d"
+  },
+  {
+    "word": "Polimer Malzeme Bilimi",
+    "forbidden": [
+      "Polimer",
+      "Malzeme",
+      "Bilimi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "f260294d-2517-4c14-a885-7134034cc216"
+  },
+  {
+    "word": "Biyomalzeme Mühendisliği",
+    "forbidden": [
+      "Biyomalzeme",
+      "Mühendisliği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "e55ad844-d0f5-4169-8501-1cfc62445d5f"
+  },
+  {
+    "word": "Doku Mühendisliği",
+    "forbidden": [
+      "Doku",
+      "Mühendisliği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "d69f63ce-e82b-4af9-bef4-d9092c3ac590"
+  },
+  {
+    "word": "Hücresel Otomat",
+    "forbidden": [
+      "Hücresel",
+      "Otomat",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "c49c02f9-5b1a-41ae-888f-fc852ff0b42e"
+  },
+  {
+    "word": "Sinir Ağı Modellemesi",
+    "forbidden": [
+      "Sinir",
+      "Ağı",
+      "Modellemesi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "b56ca963-fe27-4618-8a50-65d9409250cd"
+  },
+  {
+    "word": "Simülasyon Temelli Tasarım",
+    "forbidden": [
+      "Simülasyon",
+      "Temelli",
+      "Tasarım",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "0d97e2af-dbf6-4bbb-a7da-2384126dfc6e"
+  },
+  {
+    "word": "Sayısal Akışkanlar",
+    "forbidden": [
+      "Sayısal",
+      "Akışkanlar",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "151e8bab-0721-4d1f-af4b-30620987754c"
+  },
+  {
+    "word": "Hesaplamalı Kimya",
+    "forbidden": [
+      "Hesaplamalı",
+      "Kimya",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "01e3ae71-75f5-41b8-9cdb-654507754b7f"
+  },
+  {
+    "word": "Moleküler Dinamik",
+    "forbidden": [
+      "Moleküler",
+      "Dinamik",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "5446239e-28bc-4e6f-b826-fd279c2f6ac0"
+  },
+  {
+    "word": "Kuantum Kimya",
+    "forbidden": [
+      "Kuantum",
+      "Kimya",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "d458c14b-d1fc-4a55-b3f0-95dcb7327794"
+  },
+  {
+    "word": "Yoğunluk Fonksiyonel Teori",
+    "forbidden": [
+      "Yoğunluk",
+      "Fonksiyonel",
+      "Teori",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "hard",
+    "id": "80020d96-6a52-40e6-8883-f5cfcde931e7"
+  },
+  {
+    "word": "Kristal Mühendisliği",
+    "forbidden": [
+      "Kristal",
+      "Mühendisliği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "d54a9a03-1a4d-4597-a58e-22a4115935bf"
+  },
+  {
+    "word": "Protein Katlanması",
+    "forbidden": [
+      "Protein",
+      "Katlanması",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "88143e58-01fa-487b-bd6d-0a9127ede96a"
+  },
+  {
+    "word": "Yapısal Biyoloji",
+    "forbidden": [
+      "Yapısal",
+      "Biyoloji",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "3248bc4d-8043-46d7-a0de-7796139c3513"
+  },
+  {
+    "word": "Cryo-EM",
+    "forbidden": [
+      "Cryo",
+      "EM",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "a0a16f91-ffec-4838-afd8-ce8fda55811e"
+  },
+  {
+    "word": "Genom Düzenleme",
+    "forbidden": [
+      "Genom",
+      "Düzenleme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "22488331-d04d-4524-be4d-d5c5c2840f7c"
+  },
+  {
+    "word": "CRISPR Teknolojisi",
+    "forbidden": [
+      "CRISPR",
+      "Teknolojisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "2d3e09fa-1b67-4f1e-a577-89155d92ab04"
+  },
+  {
+    "word": "Epigenetik Düzenleme",
+    "forbidden": [
+      "Epigenetik",
+      "Düzenleme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "7a9ea41b-76fc-442a-8c30-a93ae6e32f2e"
+  },
+  {
+    "word": "Metagenomik Analiz",
+    "forbidden": [
+      "Metagenomik",
+      "Analiz",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "ea3841e5-b0b0-48bd-b321-9425f3bfa4ac"
+  },
+  {
+    "word": "Mikrobiyom Araştırmaları",
+    "forbidden": [
+      "Mikrobiyom",
+      "Araştırmaları",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "c77245eb-a576-435d-8192-a1a66390a5bf"
+  },
+  {
+    "word": "Sistem Biyolojisi",
+    "forbidden": [
+      "Sistem",
+      "Biyolojisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "5e617cc6-7c5a-40bb-977d-047677b7681b"
+  },
+  {
+    "word": "Sentetik Biyoloji",
+    "forbidden": [
+      "Sentetik",
+      "Biyoloji",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "08d7b588-6e11-4f83-9bee-8c4196223f0c"
+  },
+  {
+    "word": "Metabolik Mühendislik",
+    "forbidden": [
+      "Metabolik",
+      "Mühendislik",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "fd69e788-e1d7-43c6-b220-af694070a2fa"
+  },
+  {
+    "word": "Biyoreaktör Tasarımı",
+    "forbidden": [
+      "Biyoreaktör",
+      "Tasarımı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "hard",
+    "id": "fe7b216e-bedc-4ea5-ba1c-926519f61326"
+  },
+  {
+    "word": "Adiabatik Kuantum Hesaplama",
+    "forbidden": [
+      "Adiabatik",
+      "Kuantum",
+      "Hesaplama",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "54f3c65f-5884-4f06-8234-fb7df9bdd156"
+  },
+  {
+    "word": "Kuantum Hata Düzeltme",
+    "forbidden": [
+      "Kuantum",
+      "Hata",
+      "Düzeltme",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "762b209a-f4c7-49de-9620-99cc9a13787b"
+  },
+  {
+    "word": "Topolojik Kuantum Bit",
+    "forbidden": [
+      "Topolojik",
+      "Kuantum",
+      "Bit",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "c6b6b319-33a3-4a0a-b544-41bd2e3fea9b"
+  },
+  {
+    "word": "Manyel İterferometri",
+    "forbidden": [
+      "Manyel",
+      "İterferometri",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "329115a0-c12f-4dd5-b481-c2aba3471f2d"
+  },
+  {
+    "word": "Optomekanik Soğutma",
+    "forbidden": [
+      "Optomekanik",
+      "Soğutma",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "f0660d61-9029-44ee-a96d-4a90d9f39f57"
+  },
+  {
+    "word": "Kuantum Anahtarlama",
+    "forbidden": [
+      "Kuantum",
+      "Anahtarlama",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "6eccbf57-5bbb-4ebe-a1b6-481a9d8cb77c"
+  },
+  {
+    "word": "Kuantum Açıklık",
+    "forbidden": [
+      "Kuantum",
+      "Açıklık",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "2bfbe373-2e1a-427a-ab13-e57198998957"
+  },
+  {
+    "word": "Berry Fazı",
+    "forbidden": [
+      "Berry",
+      "Fazı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "22428980-c3a6-475d-b472-99d1e99b39a8"
+  },
+  {
+    "word": "Floquet Mühendisliği",
+    "forbidden": [
+      "Floquet",
+      "Mühendisliği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "1bf946b5-af49-40a9-ab3d-27b6d991f6f1"
+  },
+  {
+    "word": "Kuantum Simülasyon",
+    "forbidden": [
+      "Kuantum",
+      "Simülasyon",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "60dfc7d7-dc46-4b01-a287-5ce306270321"
+  },
+  {
+    "word": "Kuantum Monte Carlo",
+    "forbidden": [
+      "Kuantum",
+      "Monte",
+      "Carlo",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "9f3d380b-76b2-4934-90c8-b74aaf6a9b91"
+  },
+  {
+    "word": "Lattice QCD",
+    "forbidden": [
+      "Lattice",
+      "QCD",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "35254c5a-0064-4c56-bd9a-d12fa6139a8c"
+  },
+  {
+    "word": "Holografik İlke",
+    "forbidden": [
+      "Holografik",
+      "İlke",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "fcd7a1fa-bd92-4aae-ba5a-55d3128f29dd"
+  },
+  {
+    "word": "AdS/CFT Yazışması",
+    "forbidden": [
+      "AdS",
+      "CFT",
+      "Yazışması",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "3af5e06b-202a-4a11-8a25-7d7852e0d6ab"
+  },
+  {
+    "word": "Loop Kuantum Kütleçekim",
+    "forbidden": [
+      "Loop",
+      "Kuantum",
+      "Kütleçekim",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "e5d34961-e90a-4967-9841-7dd49f0f7012"
+  },
+  {
+    "word": "Kuantum Kozmoloji",
+    "forbidden": [
+      "Kuantum",
+      "Kozmoloji",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "9d54d024-4d4c-4582-8516-99ddd1a7ef36"
+  },
+  {
+    "word": "Inflaton Alanı",
+    "forbidden": [
+      "Inflaton",
+      "Alanı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "d0db397f-8144-43aa-a75f-68d6216b5c7e"
+  },
+  {
+    "word": "Görüngesel Kararlılık",
+    "forbidden": [
+      "Görüngesel",
+      "Kararlılık",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "379fb581-0d31-460e-a88a-a9b081cca38a"
+  },
+  {
+    "word": "Gravitasyonel Dalga Lensi",
+    "forbidden": [
+      "Gravitasyonel",
+      "Dalga",
+      "Lensi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "97003468-a488-4743-b359-a2b27d84bfd3"
+  },
+  {
+    "word": "Standart Mum Gözcü",
+    "forbidden": [
+      "Standart",
+      "Mum",
+      "Gözcü",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "ca4c13bf-4e9c-43d3-b766-a33f93df34dc"
+  },
+  {
+    "word": "Baryon Akustik Salınım",
+    "forbidden": [
+      "Baryon",
+      "Akustik",
+      "Salınım",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "910d7c3d-40a1-4e85-abd5-610ae7c4c231"
+  },
+  {
+    "word": "Zayıf Lensleme",
+    "forbidden": [
+      "Zayıf",
+      "Lensleme",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "d571ea7a-4a35-4b4a-9a37-c9ad4e645a19"
+  },
+  {
+    "word": "CMB Polarizasyonu",
+    "forbidden": [
+      "CMB",
+      "Polarizasyonu",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "2d97bf37-3735-4c25-86e4-9d6e2945925e"
+  },
+  {
+    "word": "21 cm Kozmolojisi",
+    "forbidden": [
+      "21",
+      "cm",
+      "Kozmolojisi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "8baff829-8dfb-4db4-9fcb-413593519436"
+  },
+  {
+    "word": "Nötrinolu Kozmoloji",
+    "forbidden": [
+      "Nötrinolu",
+      "Kozmoloji",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "1fffaedf-30c8-456f-9ed8-8bc94d74f72b"
+  },
+  {
+    "word": "Steril Nötrino",
+    "forbidden": [
+      "Steril",
+      "Nötrino",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "72c3ed4d-4d8d-4089-a8b0-18b69eb0d645"
+  },
+  {
+    "word": "Ayna Madde",
+    "forbidden": [
+      "Ayna",
+      "Madde",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "65f98cb8-836f-4617-8119-127f33a30781"
+  },
+  {
+    "word": "Simetri Kırılması",
+    "forbidden": [
+      "Simetri",
+      "Kırılması",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "bfc9e1bd-a5c7-4d45-8f9d-e08e7bbc4fea"
+  },
+  {
+    "word": "Hiyerarşi Problemi",
+    "forbidden": [
+      "Hiyerarşi",
+      "Problemi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "4e33b4f2-b647-49d4-9d1c-6b27f41c57db"
+  },
+  {
+    "word": "Kompaktifikasyon",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "expert",
+    "id": "bcc151a9-8219-44e5-a096-3e48f4071553"
+  },
+  {
+    "word": "Kaluza-Klein Teorisi",
+    "forbidden": [
+      "Kaluza",
+      "Klein",
+      "Teorisi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "52177558-c181-4889-9f08-51f901fc2f32"
+  },
+  {
+    "word": "Bran Kozmolojisi",
+    "forbidden": [
+      "Bran",
+      "Kozmolojisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "42eb165d-1e41-4fcd-bfce-9b5d23b7a3e2"
+  },
+  {
+    "word": "String Alan Teorisi",
+    "forbidden": [
+      "String",
+      "Alan",
+      "Teorisi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "c0901893-f0bc-4285-bed0-c21f33c21d11"
+  },
+  {
+    "word": "M-Teorisi",
+    "forbidden": [
+      "M",
+      "Teorisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "dd2a38a7-6488-4b64-a554-a4c4c60aee6c"
+  },
+  {
+    "word": "Kategorik Kuantum Mekaniği",
+    "forbidden": [
+      "Kategorik",
+      "Kuantum",
+      "Mekaniği",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "1844ac57-d54e-4d0a-8abe-248dc91201ac"
+  },
+  {
+    "word": "Anyonsal İstatistik",
+    "forbidden": [
+      "Anyonsal",
+      "İstatistik",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "8f0ce3a1-4b94-49e8-8783-bcb85c3fdea8"
+  },
+  {
+    "word": "Topolojik Dereceler",
+    "forbidden": [
+      "Topolojik",
+      "Dereceler",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "baec7973-3f9b-448c-9884-541a6b9f2202"
+  },
+  {
+    "word": "Majorana Modu",
+    "forbidden": [
+      "Majorana",
+      "Modu",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "8c35f521-b9db-46e0-a203-c1c8424effb0"
+  },
+  {
+    "word": "Fraksiyonel Kuantum Hall",
+    "forbidden": [
+      "Fraksiyonel",
+      "Kuantum",
+      "Hall",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "d0fcbc68-daea-4d40-b65c-3a227484c5df"
+  },
+  {
+    "word": "Spin Sıvısı",
+    "forbidden": [
+      "Spin",
+      "Sıvısı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "9e9ababc-a483-42c6-bb3d-cc8fcb5abb3e"
+  },
+  {
+    "word": "Magnon Kondensatı",
+    "forbidden": [
+      "Magnon",
+      "Kondensatı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "8568e912-f6b5-46cb-9817-6469b6a9ae0d"
+  },
+  {
+    "word": "Skyrmion Kristali",
+    "forbidden": [
+      "Skyrmion",
+      "Kristali",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "87588ece-13fd-48ba-b1a9-854a2b7c1487"
+  },
+  {
+    "word": "Spin Buz",
+    "forbidden": [
+      "Spin",
+      "Buz",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "0ecf9a90-0586-4c4a-83a5-4a4978df74aa"
+  },
+  {
+    "word": "Fotokatalitik Su Ayrışı",
+    "forbidden": [
+      "Fotokatalitik",
+      "Su",
+      "Ayrışı",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "88358c05-8a31-4bfa-ba15-09eac17deeb0"
+  },
+  {
+    "word": "Elektrokataliz",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "expert",
+    "id": "2ac9ff54-2c36-4048-8926-fa9e42ff8619"
+  },
+  {
+    "word": "CO2 Elektrolizi",
+    "forbidden": [
+      "CO2",
+      "Elektrolizi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "a10ce54d-d7d4-4f19-8e02-db1698f7fe89"
+  },
+  {
+    "word": "Metal-Hava Pili",
+    "forbidden": [
+      "Metal",
+      "Hava",
+      "Pili",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "32c851e1-ff00-4771-b3ec-f61c61c32982"
+  },
+  {
+    "word": "Süperkapasitör Elektrodu",
+    "forbidden": [
+      "Süperkapasitör",
+      "Elektrodu",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "795fdbec-4db9-4d93-9c33-d4feefe2ea6b"
+  },
+  {
+    "word": "İyonik Sıvı Elektrolit",
+    "forbidden": [
+      "İyonik",
+      "Sıvı",
+      "Elektrolit",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "b7c77d20-4133-4d0f-ab57-681196d0b485"
+  },
+  {
+    "word": "Solid State Elektrolit",
+    "forbidden": [
+      "Solid",
+      "State",
+      "Elektrolit",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "360a6cc9-cea2-4cac-b168-f474aa085b80"
+  },
+  {
+    "word": "Operando Spektroskopi",
+    "forbidden": [
+      "Operando",
+      "Spektroskopi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "277c0543-a312-49e1-99d9-231978f6a6c1"
+  },
+  {
+    "word": "Femtosaniye Lazer",
+    "forbidden": [
+      "Femtosaniye",
+      "Lazer",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "117ea83d-1286-47f8-91d1-3ca386b5139d"
+  },
+  {
+    "word": "Ultrahızlı Spektroskopi",
+    "forbidden": [
+      "Ultrahızlı",
+      "Spektroskopi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "f2e71886-63de-4775-895e-d31801062ea4"
+  },
+  {
+    "word": "Pump-Probe Deneyi",
+    "forbidden": [
+      "Pump",
+      "Probe",
+      "Deneyi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "9b91982b-dc01-409b-ab31-ccf46acdfb8a"
+  },
+  {
+    "word": "Nonlineer Optik",
+    "forbidden": [
+      "Nonlineer",
+      "Optik",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "00d44a06-ee4a-4170-9b4d-7f10a107bbaa"
+  },
+  {
+    "word": "Kerr Etkisi",
+    "forbidden": [
+      "Kerr",
+      "Etkisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "7d69cf9d-518d-4c33-80cf-3e1d724c7ce6"
+  },
+  {
+    "word": "Şelkunov Denklemleri",
+    "forbidden": [
+      "Şelkunov",
+      "Denklemleri",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "193b907d-5442-44d7-8c6e-e4d21f3d3c82"
+  },
+  {
+    "word": "Plazmonik Rezonans",
+    "forbidden": [
+      "Plazmonik",
+      "Rezonans",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "81f1cae6-b502-42cd-9fb3-4289b443f1f0"
+  },
+  {
+    "word": "Yüzey Geliştirilmiş Raman",
+    "forbidden": [
+      "Yüzey",
+      "Geliştirilmiş",
+      "Raman",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "f625459c-1475-44c3-9512-6d57e1e1cc67"
+  },
+  {
+    "word": "Fotoakustik Mikroskopi",
+    "forbidden": [
+      "Fotoakustik",
+      "Mikroskopi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "9ca469a3-5e13-4f07-9236-ab2f22ce15af"
+  },
+  {
+    "word": "X-FEL Kaynağı",
+    "forbidden": [
+      "X",
+      "FEL",
+      "Kaynağı",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "cc48fb39-2043-4fc7-85ea-a62d867d1fd8"
+  },
+  {
+    "word": "Kriyo-ET",
+    "forbidden": [
+      "Kriyo",
+      "ET",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "a119d3bd-453f-4d29-8744-e41db92e503e"
+  },
+  {
+    "word": "Tek Molekül Floresans",
+    "forbidden": [
+      "Tek",
+      "Molekül",
+      "Floresans",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "9c4247b9-9af3-4e6f-94fc-6574132208e2"
+  },
+  {
+    "word": "Sekanslama-by-Synthesis",
+    "forbidden": [
+      "Sekanslama",
+      "by",
+      "Synthesis",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "ce7fa68f-2115-46fe-97a9-c5a5b1eea443"
+  },
+  {
+    "word": "Uzun Okuma Sekanslama",
+    "forbidden": [
+      "Uzun",
+      "Okuma",
+      "Sekanslama",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "6da59ee5-a0b7-49b1-9289-21b21c5198c5"
+  },
+  {
+    "word": "Tek Hücre Transkriptomik",
+    "forbidden": [
+      "Tek",
+      "Hücre",
+      "Transkriptomik",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "02ca4e41-d7a6-4047-a2e8-6eb42c8f3e0e"
+  },
+  {
+    "word": "Tek Hücre Epigenomik",
+    "forbidden": [
+      "Tek",
+      "Hücre",
+      "Epigenomik",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "509530e1-a2be-44ab-92c5-bfed514286fa"
+  },
+  {
+    "word": "Proteomik Kütle Spektrometresi",
+    "forbidden": [
+      "Proteomik",
+      "Kütle",
+      "Spektrometresi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "00a853f3-2aab-4dc9-8b61-ac4e9bc0c27c"
+  },
+  {
+    "word": "Fosfoproteomik",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "expert",
+    "id": "0e140c87-786b-44d8-9ff7-feb3dd4ed297"
+  },
+  {
+    "word": "Metabolomik Profil",
+    "forbidden": [
+      "Metabolomik",
+      "Profil",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "d2ddf4b7-5d21-4a6a-83a8-1f50b70cfa26"
+  },
+  {
+    "word": "Lipidomik Analiz",
+    "forbidden": [
+      "Lipidomik",
+      "Analiz",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "18285065-c213-4a78-b815-15dd8cea07f6"
+  },
+  {
+    "word": "Sistem İmmünolojisi",
+    "forbidden": [
+      "Sistem",
+      "İmmünolojisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "9ccd9e51-98d1-4bf2-a58c-d8b10c98cb3c"
+  },
+  {
+    "word": "Hücresel Reprogramlama",
+    "forbidden": [
+      "Hücresel",
+      "Reprogramlama",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "3c8684f7-4fa8-4f06-9780-f784b9e6929b"
+  },
+  {
+    "word": "Organoid Teknolojisi",
+    "forbidden": [
+      "Organoid",
+      "Teknolojisi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "8a90acea-948e-4c3c-a1ff-dface9bdcfef"
+  },
+  {
+    "word": "Mikroçevre Mühendisliği",
+    "forbidden": [
+      "Mikroçevre",
+      "Mühendisliği",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "ca4c9d6c-d4e6-4ecf-995e-00fbc73aa161"
+  },
+  {
+    "word": "İmmünoterapi Tasarımı",
+    "forbidden": [
+      "İmmünoterapi",
+      "Tasarımı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "d09874ca-6b2d-49ba-b409-c0f0d04b2fbb"
+  },
+  {
+    "word": "CAR-T Hücresi",
+    "forbidden": [
+      "CAR",
+      "T",
+      "Hücresi",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "fc594f72-a23a-4532-a71b-e9cb77bfbd48"
+  },
+  {
+    "word": "Neoantijen Aşısı",
+    "forbidden": [
+      "Neoantijen",
+      "Aşısı",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "077da035-9df7-4cf7-b0b3-c0b451d6e6e3"
+  },
+  {
+    "word": "Yapay Doku Yazdırma",
+    "forbidden": [
+      "Yapay",
+      "Doku",
+      "Yazdırma",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "914262cd-f9aa-4678-8c60-9defd6eae027"
+  },
+  {
+    "word": "Biyobaskı",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "expert",
+    "id": "7ee49c3e-e239-4818-a349-a94b6b20cb90"
+  },
+  {
+    "word": "Mikroneedle Patch",
+    "forbidden": [
+      "Mikroneedle",
+      "Patch",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "954809f8-6212-4481-ad3b-9ba642dd7056"
+  },
+  {
+    "word": "Akıllı Protez",
+    "forbidden": [
+      "Akıllı",
+      "Protez",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "21bcb247-2643-4ce2-aa78-8178f9af43a4"
+  },
+  {
+    "word": "Beyin-Bilgisayar Arayüzü",
+    "forbidden": [
+      "Beyin",
+      "Bilgisayar",
+      "Arayüzü",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "3b6b33fe-a508-4d80-bf94-d4e8ecf09f0c"
+  },
+  {
+    "word": "Derin Beyin Uyarımı",
+    "forbidden": [
+      "Derin",
+      "Beyin",
+      "Uyarımı",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "80563eed-cebe-41f0-99f8-b67438789c4b"
+  },
+  {
+    "word": "Optogenetik",
+    "forbidden": [
+      "Bilim",
+      "Deney",
+      "Teori",
+      "Hipotez",
+      "Veri"
+    ],
+    "difficulty": "expert",
+    "id": "91e4e5e9-9efb-45b9-8118-06f79f95e8fc"
+  },
+  {
+    "word": "Kemosensör Ağ",
+    "forbidden": [
+      "Kemosensör",
+      "Ağ",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "b3ace227-8f45-4193-8af9-21faab9e684b"
+  },
+  {
+    "word": "Duyusal Kod Çözme",
+    "forbidden": [
+      "Duyusal",
+      "Kod",
+      "Çözme",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "1d976a83-8e02-464e-98e9-755172e1179a"
+  },
+  {
+    "word": "Nöral Devre Haritalama",
+    "forbidden": [
+      "Nöral",
+      "Devre",
+      "Haritalama",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "8d7b6b96-2d2b-4fd0-995b-c4b3cc2f7887"
+  },
+  {
+    "word": "Konnektom Projesi",
+    "forbidden": [
+      "Konnektom",
+      "Projesi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "17359b02-3502-4807-8364-42664a02f022"
+  },
+  {
+    "word": "Hesaplamalı Nörobilim",
+    "forbidden": [
+      "Hesaplamalı",
+      "Nörobilim",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "52688681-223c-4964-ad70-bf5a3b15f729"
+  },
+  {
+    "word": "Derin Takviyeli Öğrenme",
+    "forbidden": [
+      "Derin",
+      "Takviyeli",
+      "Öğrenme",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "2c939de5-009d-4abf-ad40-97de04593d7c"
+  },
+  {
+    "word": "Evrimsel Hesaplama",
+    "forbidden": [
+      "Evrimsel",
+      "Hesaplama",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "1e54f49a-0578-4c49-bd17-d6172fb78f34"
+  },
+  {
+    "word": "Genetik Algoritma",
+    "forbidden": [
+      "Genetik",
+      "Algoritma",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "5905838d-46a2-4532-a688-bb1dd52e5899"
+  },
+  {
+    "word": "Çok Amaçlı Optimizasyon",
+    "forbidden": [
+      "Çok",
+      "Amaçlı",
+      "Optimizasyon",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "18927f37-1a09-4fe5-b740-710747e5cf40"
+  },
+  {
+    "word": "Bayesçi Çıkarım",
+    "forbidden": [
+      "Bayesçi",
+      "Çıkarım",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "84e465fa-55c5-4a98-92a1-5547336ccd7a"
+  },
+  {
+    "word": "MCMC Yöntemleri",
+    "forbidden": [
+      "MCMC",
+      "Yöntemleri",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "c480358e-49ba-4bfc-9b12-a4aaa611a11b"
+  },
+  {
+    "word": "Variasyonel Çıkarım",
+    "forbidden": [
+      "Variasyonel",
+      "Çıkarım",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "08388d59-85c8-4fc9-b6a1-daa242013855"
+  },
+  {
+    "word": "Olasılıksal Programlama",
+    "forbidden": [
+      "Olasılıksal",
+      "Programlama",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "1453e3aa-b669-447c-8dce-6ce7dcfa033a"
+  },
+  {
+    "word": "Kuantum İlhamlı Algoritma",
+    "forbidden": [
+      "Kuantum",
+      "İlhamlı",
+      "Algoritma",
+      "Bilim",
+      "Deney"
+    ],
+    "difficulty": "expert",
+    "id": "738ae6c9-a205-4afd-9c13-42b83e62b7a7"
+  },
+  {
+    "word": "Ising Makinesi",
+    "forbidden": [
+      "Ising",
+      "Makinesi",
+      "Bilim",
+      "Deney",
+      "Teori"
+    ],
+    "difficulty": "expert",
+    "id": "856d6bcd-dc01-4a91-9bcd-fee0fb193c16"
+  }
+]
