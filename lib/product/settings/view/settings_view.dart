@@ -5,6 +5,7 @@ import 'package:tabumium/product/game/view/game_view.dart';
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/cache_manager.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
+import '../../../features/utility/enum/enum_categories.dart';
 import '../../../features/utility/enum/enum_slider_type.dart';
 import '../../../features/utility/enum/enum_teams.dart';
 import '../../../features/utility/sound_manager.dart';
@@ -14,7 +15,8 @@ import '../../../features/widget/custom_slider_widget.dart';
 import '../../../features/widget/team_name_widget.dart';
 
 class SettingsView extends StatefulWidget {
-  const SettingsView({super.key});
+  final Categories category;
+  const SettingsView({super.key, required this.category});
 
   @override
   State<SettingsView> createState() => _SettingsViewState();
@@ -31,14 +33,21 @@ class _SettingsViewState extends State<SettingsView> {
   void initState() {
     super.initState();
     gameModel = CacheManager.db.getGameModel();
-    if (gameModel == null) {
-      CacheManager.db.clearGameModel();
-    }
     nameController1.text = gameModel!.teamName1 ?? "";
     nameController2.text = gameModel!.teamName2 ?? "";
     passCount.value = (gameModel!.pass ?? 3).toDouble();
     timeCount.value = (gameModel!.time ?? 60).toDouble();
     maxPointCount.value = (gameModel!.point ?? 20).toDouble();
+  }
+
+  @override
+  dispose() {
+    nameController1.dispose();
+    nameController2.dispose();
+    passCount.dispose();
+    timeCount.dispose();
+    maxPointCount.dispose();
+    super.dispose();
   }
 
   List<SliderType> sliderTypeList = SliderType.values;
@@ -121,13 +130,14 @@ class _SettingsViewState extends State<SettingsView> {
                     pass: passCount.value.toInt(),
                     time: timeCount.value.toInt(),
                     point: maxPointCount.value.toInt());
-                CacheManager.db.putAll(gameModel);
+                CacheManager.db.saveGameModel(gameModel);
                 SoundManager().playVibrationAndClick();
                 Navigator.push(
                     context,
                     MaterialPageRoute(
                         builder: (context) => GameView(
                               gameModel: gameModel,
+                              category: widget.category,
                             )));
               }
             },
