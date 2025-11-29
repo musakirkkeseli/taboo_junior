@@ -5,6 +5,8 @@ import 'package:tabumium/features/utility/const/constant_string.dart';
 enum EnumCustomAppbarType {
   selectCategory,
   gameSettings,
+  pauseGame,
+  exitGame,
   winnerTeam;
 
   String get titleValue {
@@ -13,6 +15,10 @@ enum EnumCustomAppbarType {
         return ConstantString.selectCategory;
       case EnumCustomAppbarType.gameSettings:
         return ConstantString.gameSettings;
+      case EnumCustomAppbarType.pauseGame:
+        return ConstantString.pauseGame;
+      case EnumCustomAppbarType.exitGame:
+        return ConstantString.exitGame;
       case EnumCustomAppbarType.winnerTeam:
         return ConstantString.winnerTeam;
     }
@@ -24,6 +30,10 @@ enum EnumCustomAppbarType {
         return ConstantString.appbarDark;
       case EnumCustomAppbarType.gameSettings:
         return ConstantString.appbarDark;
+      case EnumCustomAppbarType.pauseGame:
+        return ConstantString.appbarPause;
+      case EnumCustomAppbarType.exitGame:
+        return ConstantString.appbarLight;
       case EnumCustomAppbarType.winnerTeam:
         return ConstantString.appbarWinner;
     }
@@ -35,6 +45,8 @@ enum EnumCustomAppbarType {
         return true;
       case EnumCustomAppbarType.gameSettings:
         return true;
+      case EnumCustomAppbarType.pauseGame:
+      case EnumCustomAppbarType.exitGame:
       case EnumCustomAppbarType.winnerTeam:
         return false;
     }
@@ -52,6 +64,16 @@ enum EnumCustomAppbarType {
             .textTheme
             .bodyLarge
             ?.copyWith(color: ConstColor.white);
+      case EnumCustomAppbarType.pauseGame:
+        return Theme.of(context)
+            .textTheme
+            .bodyLarge
+            ?.copyWith(color: ConstColor.white);
+      case EnumCustomAppbarType.exitGame:
+        return Theme.of(context)
+            .textTheme
+            .bodyLarge
+            ?.copyWith(color: ConstColor.lightBlue);
       case EnumCustomAppbarType.winnerTeam:
         return Theme.of(context)
             .textTheme
