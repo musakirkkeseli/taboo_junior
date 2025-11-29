@@ -11,6 +11,8 @@ class ConstantString {
   //category images
   static const entertainmentImage =
       'assets/images/categories/entertainment.png';
+  static const entertainmentImage2 =
+      'assets/images/categories/entertainment2.png';
   static const fashionImage = 'assets/images/categories/fashion.png';
   static const musicImage = 'assets/images/categories/music.png';
   static const cinemaImage = 'assets/images/categories/cinema.png';
@@ -24,6 +26,7 @@ class ConstantString {
   static const appbarLight = 'assets/images/appbars/appbar_light.png';
   static const appbarDark = 'assets/images/appbars/appbar_dark.png';
   static const appbarWinner = 'assets/images/appbars/appbar_winner.png';
+  static const appbarPause = 'assets/images/appbars/appbar_pause.png';
 
   // background path
   static const bannedWordBg = 'assets/images/backgrounds/banned_word_bg.png';
@@ -48,22 +51,35 @@ class ConstantString {
   static const passButtonBg = 'assets/images/buttons/pass_button_bg.png';
   static const nextGameTeam1Bg = 'assets/images/buttons/next_game_team1_bg.png';
   static const nextGameTeam2Bg = 'assets/images/buttons/next_game_team2_bg.png';
+  static const backHomeBg = 'assets/images/buttons/back_home_button_bg.png';
+  static const continueButtonBg =
+      'assets/images/buttons/continue_button_bg.png';
   // static const soloGameButtonBg ='assets/images/buttons/solo_game_button_bg.png';
 
   // icon path
   static const appIc = 'assets/images/icons/app_ic.png';
   static const settingsIc = 'assets/images/icons/settings_ic.png';
   static const adsIc = 'assets/images/icons/ads_ic.png';
-  static const appIcSvg = 'assets/images/icons/app_ic.svg';
   static const settingsIcSvg = 'assets/images/icons/settings_ic.svg';
   static const adsIcSvg = 'assets/images/icons/ads_ic.svg';
   static const complatedLevelIc = 'assets/images/icons/complated_level_ic.png';
   static const playIc = 'assets/images/icons/play_ic.png';
   static const winnerImage = 'assets/images/icons/winner_image.png';
   static const teamGameIc = 'assets/images/icons/team_game_ic.png';
+  static const exitGameIc = 'assets/images/icons/exit_game_ic.png';
+  static const pauseGameIc = 'assets/images/icons/pause_game_ic.png';
+  static const backToHomeIc = 'assets/images/icons/back_to_home_ic.png';
 
   // words path
   static const dataWords = 'assets/data/words.json';
+  static const dataEntertainmentWords = 'assets/data/entertainment.json';
+  static const dataFashionWords = 'assets/data/fashion.json';
+  static const dataMusicWords = 'assets/data/music.json';
+  static const dataCinemaWords = 'assets/data/cinema.json';
+  static const dataFootballWords = 'assets/data/football.json';
+  static const dataHistoryWords = 'assets/data/history.json';
+  static const dataScienceWords = 'assets/data/science.json';
+  static const dataLiteratureWords = 'assets/data/literature.json';
 
   // strings
   static const game = "Oyna";
@@ -108,4 +124,11 @@ class ConstantString {
   static const winnerTeam = "Kazanan Takım";
   static const newGame = "Yeni Oyun";
   static const remainingTime = "Kalan Zaman";
+  static const pauseGame = "Oyunu Durdur";
+  static const exitGame = "Oyundan Çık";
+  static const continueGame = "Oyuna Devam Et";
+  static const keepContinue = "Devam Et";
+  static const gamePaused = "Oyun şu anda duraklatıldı.";
+  static const exitGameConfirmation =
+      "Oyundan çıkmak istediğinize emin misiniz?";
 }
