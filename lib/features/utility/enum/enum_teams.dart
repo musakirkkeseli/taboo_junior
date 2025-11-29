@@ -35,15 +35,12 @@ class TeamManager {
   TeamManager(this.team);
 
   String get nameValue {
-    GameModel? gameModel = CacheManager.db.getGameModel();
-    if (gameModel == null) {
-      CacheManager.db.clearGameModel();
-    }
+    GameModel gameModel = CacheManager.db.getGameModel();
     switch (team) {
       case Teams.team1:
-        return gameModel?.teamName1 ?? ConstantString.team1;
+        return gameModel.teamName1 ?? ConstantString.team1;
       case Teams.team2:
-        return gameModel?.teamName2 ?? ConstantString.team2;
+        return gameModel.teamName2 ?? ConstantString.team2;
     }
   }
 
