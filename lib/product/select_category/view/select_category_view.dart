@@ -44,7 +44,9 @@ class SelectCategoryView extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => SettingsView()));
+                                builder: (context) => SettingsView(
+                                      category: category,
+                                    )));
                       },
                       child: Container(
                         decoration: BoxDecoration(
