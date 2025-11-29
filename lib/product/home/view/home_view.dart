@@ -3,11 +3,11 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 
 import '../../../features/utility/const/constant_string.dart';
+import '../../../features/utility/cache_manager.dart';
 import '../../../features/utility/sound_manager.dart';
 import '../../../features/widget/custom_elevated_button.dart';
 import '../../../features/widget/custom_outlined_button.dart';
 import '../../select_category/view/select_category_view.dart';
-import '../../settings/view/settings_view.dart';
 import 'widget/customSettingSwitch.dart';
 
 class HomeView extends StatefulWidget {
@@ -36,7 +36,16 @@ class _HomeViewState extends State<HomeView> {
   @override
   void initState() {
     super.initState();
-    _initSound();
+    _loadSettingsAndInitSound();
+  }
+
+  Future<void> _loadSettingsAndInitSound() async {
+    await CacheManager.db.init();
+    // load saved settings
+    _sound.value = CacheManager.db.getSound();
+    _music.value = CacheManager.db.getMusic();
+    _vibration.value = CacheManager.db.getVibration();
+    await _initSound();
   }
 
   @override
@@ -48,12 +57,12 @@ class _HomeViewState extends State<HomeView> {
 
         double appIconHeight = 0.0;
         double appIconWidth = 0.0;
-        if (maxHeight * .167 * 2.084 >= maxWidth * .75) {
-          appIconHeight = maxHeight * .167;
-          appIconWidth = maxHeight * .167 * 2.084;
+        if (maxHeight * .235 * 1.82 >= maxWidth * .92) {
+          appIconHeight = maxHeight * .235;
+          appIconWidth = maxHeight * .235 * 1.82;
         } else {
-          appIconHeight = maxWidth * .75 * .479;
-          appIconWidth = maxWidth * .75;
+          appIconHeight = maxWidth * .92 * .548;
+          appIconWidth = maxWidth * .92;
         }
         return Container(
           decoration: BoxDecoration(
@@ -169,14 +178,13 @@ class _HomeViewState extends State<HomeView> {
                                                 return CustomSettingSwitch(
                                                     title: ConstantString.sound,
                                                     isOn: soundValue,
-                                                    onTap: () {
-                                                      if (soundValue) {
-                                                        sm.changeSfxOpen(false);
-                                                      } else {
-                                                        sm.changeSfxOpen(true);
-                                                      }
-                                                      _sound.value =
+                                                    onTap: () async {
+                                                      final newVal =
                                                           !soundValue;
+                                                      sm.changeSfxOpen(newVal);
+                                                      _sound.value = newVal;
+                                                      await CacheManager.db
+                                                          .setSound(newVal);
                                                     });
                                               }),
                                           ValueListenableBuilder(
@@ -186,16 +194,14 @@ class _HomeViewState extends State<HomeView> {
                                                 return CustomSettingSwitch(
                                                     title: ConstantString.music,
                                                     isOn: musicValue,
-                                                    onTap: () {
-                                                      if (musicValue) {
-                                                        sm.changeMusicOpen(
-                                                            false);
-                                                      } else {
-                                                        sm.changeMusicOpen(
-                                                            true);
-                                                      }
-                                                      _music.value =
+                                                    onTap: () async {
+                                                      final newVal =
                                                           !musicValue;
+                                                      sm.changeMusicOpen(
+                                                          newVal);
+                                                      _music.value = newVal;
+                                                      await CacheManager.db
+                                                          .setMusic(newVal);
                                                     });
                                               }),
                                           ValueListenableBuilder(
@@ -206,8 +212,13 @@ class _HomeViewState extends State<HomeView> {
                                                   title:
                                                       ConstantString.vibration,
                                                   isOn: vibrationValue,
-                                                  onTap: () => _vibration
-                                                      .value = !vibrationValue,
+                                                  onTap: () async {
+                                                    final newVal =
+                                                        !vibrationValue;
+                                                    _vibration.value = newVal;
+                                                    await CacheManager.db
+                                                        .setVibration(newVal);
+                                                  },
                                                 );
                                               }),
                                           // SizedBox(height: 14),
@@ -320,12 +331,7 @@ class _HomeViewState extends State<HomeView> {
                   maxWidth: maxWidth,
                   title: ConstantString.shareUs,
                   icon: Icons.share,
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => SettingsView()));
-                  },
+                  onPressed: () {},
                 )
               ],
             ),
