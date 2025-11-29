@@ -8,10 +8,8 @@ enum Categories {
   football,
   history,
   science,
-  literature
-}
+  literature;
 
-extension CategoriesNameExtension on Categories {
   String get titleValue {
     switch (this) {
       case Categories.entertainment:
@@ -32,13 +30,11 @@ extension CategoriesNameExtension on Categories {
         return ConstantString.literature;
     }
   }
-}
 
-extension CategoriesImageExtension on Categories {
   String get imageValue {
     switch (this) {
       case Categories.entertainment:
-        return ConstantString.entertainmentImage;
+        return ConstantString.entertainmentImage2;
       case Categories.fashion:
         return ConstantString.fashionImage;
       case Categories.music:
@@ -53,6 +49,27 @@ extension CategoriesImageExtension on Categories {
         return ConstantString.scienceImage;
       case Categories.literature:
         return ConstantString.literatureImage;
+    }
+  }
+
+  String get dataPath {
+    switch (this) {
+      case Categories.entertainment:
+        return ConstantString.dataEntertainmentWords;
+      case Categories.fashion:
+        return ConstantString.dataFashionWords;
+      case Categories.music:
+        return ConstantString.dataMusicWords;
+      case Categories.cinema:
+        return ConstantString.dataCinemaWords;
+      case Categories.football:
+        return ConstantString.dataFootballWords;
+      case Categories.history:
+        return ConstantString.dataHistoryWords;
+      case Categories.science:
+        return ConstantString.dataScienceWords;
+      case Categories.literature:
+        return ConstantString.dataLiteratureWords;
     }
   }
 }
