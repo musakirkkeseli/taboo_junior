@@ -1,19 +1,8 @@
-
-import 'package:hive_flutter/hive_flutter.dart';
-
-part 'game_model.g.dart';
-
-@HiveType(typeId: 1)
 class GameModel {
-  @HiveField(0)
   String? teamName1;
-  @HiveField(1)
   String? teamName2;
-  @HiveField(2)
   int? pass;
-  @HiveField(3)
   int? time;
-  @HiveField(4)
   int? point;
 
   GameModel({
@@ -23,4 +12,20 @@ class GameModel {
     this.time,
     this.point,
   });
+
+  Map<String, dynamic> toJson() => {
+        'teamName1': teamName1,
+        'teamName2': teamName2,
+        'pass': pass,
+        'time': time,
+        'point': point,
+      };
+
+  factory GameModel.fromJson(Map<String, dynamic> json) => GameModel(
+        teamName1: json['teamName1'] as String?,
+        teamName2: json['teamName2'] as String?,
+        pass: json['pass'] as int?,
+        time: json['time'] as int?,
+        point: json['point'] as int?,
+      );
 }
