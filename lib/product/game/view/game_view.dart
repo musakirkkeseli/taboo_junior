@@ -1,21 +1,23 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tabumium/features/utility/const/constant_color.dart';
-import 'package:tabumium/features/utility/const/constant_string.dart';
-import 'package:tabumium/product/game/cubit/game_cubit.dart';
-import 'package:tabumium/features/utility/enum/enum_teams.dart';
 
 import '../../../features/model/game_model.dart';
+import '../../../features/utility/const/constant_color.dart';
+import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
+import '../../../features/utility/enum/enum_categories.dart';
 import '../../../features/utility/enum/enum_sound.dart';
+import '../../../features/utility/enum/enum_teams.dart';
 import '../../../features/utility/sound_manager.dart';
 import '../../../features/widget/custom_appbar_widget.dart';
+import '../cubit/game_cubit.dart';
 import 'widget/game_body.dart';
 import 'widget/win_screen_widget.dart';
 
 class GameView extends StatefulWidget {
   final GameModel gameModel;
-  const GameView({super.key, required this.gameModel});
+  final Categories category;
+  const GameView({super.key, required this.gameModel, required this.category});
 
   @override
   State<GameView> createState() => _GameViewState();
@@ -67,6 +69,7 @@ class _GameViewState extends State<GameView> {
   Widget build(BuildContext context) {
     return BlocProvider<GameCubit>(
       create: (context) => GameCubit(
+          category: widget.category,
           pass: widget.gameModel.pass ?? 3,
           // time: 3,
           time: widget.gameModel.time ?? 60,
@@ -200,6 +203,14 @@ class _GameViewState extends State<GameView> {
         return CustomAppbarWidget(
           appbarType: EnumCustomAppbarType.winnerTeam,
         );
+      case Status.gamePause:
+        return CustomAppbarWidget(
+          appbarType: EnumCustomAppbarType.pauseGame,
+        );
+      case Status.gameExit:
+        return CustomAppbarWidget(
+          appbarType: EnumCustomAppbarType.exitGame,
+        );
       default:
         double _t = timeLoading(state.remainingSeconds).clamp(0.0, 1.0);
 
@@ -283,7 +294,7 @@ class _GameViewState extends State<GameView> {
                       ),
                       child: IconButton(
                         icon: Icon(
-                          state.isPaused ? Icons.play_arrow : Icons.pause,
+                          Icons.pause,
                           color: Colors.white,
                         ),
                         onPressed: () {
@@ -315,8 +326,10 @@ class _GameViewState extends State<GameView> {
                         color: Colors.white,
                       ),
                       onPressed: () {
-                        context.read<GameCubit>().close();
-                        Navigator.pop(context);
+                        SoundManager()
+                            .playVibrationAndClick(sound: EnumSound.stopTime);
+                        context.read<GameCubit>().stopAndStartTimer();
+                        context.read<GameCubit>().isExit();
                       },
                     ),
                   ),

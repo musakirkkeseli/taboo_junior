@@ -1,11 +1,15 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tabumium/features/utility/const/constant_color.dart';
 import 'package:tabumium/features/utility/const/constant_string.dart';
 
 import '../../../../features/utility/enum/enum_control_button.dart';
 import '../../../../features/utility/enum/enum_teams.dart';
+import '../../../../features/utility/sound_manager.dart';
+import '../../../../features/widget/custom_elevated_button.dart';
+import '../../../../features/widget/custom_elevated_button2.dart';
 import '../../cubit/game_cubit.dart';
 import '../../model/tabu_model.dart';
 
@@ -21,116 +25,133 @@ class TabuBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
+    return Stack(
       children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: Teams.values.map((e) {
-            return SizedBox(
-                height: MediaQuery.sizeOf(context).height * .1,
-                width: (MediaQuery.sizeOf(context).width - 50) / 2,
-                child: Row(
-                  spacing: 14,
-                  textDirection:
-                      e == Teams.team1 ? TextDirection.ltr : TextDirection.rtl,
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    Container(
-                      padding: EdgeInsets.all(2),
-                      decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                              colors: [Color(0xffFFFFFF), Color(0xffD6E2FF)],
-                              begin: Alignment.topCenter,
-                              end: Alignment.bottomCenter),
-                          borderRadius: BorderRadius.horizontal(
-                            right: Radius.circular(e == Teams.team1 ? 10 : 0),
-                            left: Radius.circular(e == Teams.team2 ? 10 : 0),
-                          )),
-                      child: Container(
-                        width: 63,
-                        height: 36,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                            color: e == state.currentTeam
-                                ? ConstColor.otherTextColor
-                                : ConstColor.white,
-                            borderRadius: BorderRadius.horizontal(
-                              right: Radius.circular(e == Teams.team1 ? 10 : 0),
-                              left: Radius.circular(e == Teams.team2 ? 10 : 0),
-                            )),
-                        child: Text(
-                            e == Teams.team1
-                                ? formatPoint(state.teamPoint1)
-                                : formatPoint(state.teamPoint2),
-                            style:
-                                Theme.of(context).textTheme.bodyLarge?.copyWith(
-                                      color: e == Teams.team1
-                                          ? ConstColor.gameLeftColor
-                                          : ConstColor.tabuWordColor,
-                                    )),
-                      ),
-                    ),
-                    // Column(
-                    //   spacing: 0,
-                    //   crossAxisAlignment: e.index == 0
-                    //       ? CrossAxisAlignment.start
-                    //       : CrossAxisAlignment.end,
-                    //   mainAxisAlignment: MainAxisAlignment.end,
-                    //   children: [
-                    //     Text(
-                    //         e == state.currentTeam
-                    //             ? "${ConstantString.gameOrder}\n"
-                    //             : "",
-                    //         style:
-                    //             TextStyle(color: Colors.yellow, fontSize: 10)),
-                    //     Text(
-                    //       TeamManager(e).nameValue,
-                    //       style: TextStyle(
-                    //           fontSize: 20,
-                    //           fontWeight: FontWeight.bold,
-                    //           color: Colors.white),
-                    //     ),
-                    //   ],
-                    // )
-                    Expanded(
-                      child: RichText(
-                        overflow: TextOverflow.clip,
-                        maxLines: 2,
-                        textAlign:
-                            e.index == 0 ? TextAlign.start : TextAlign.end,
-                        text: TextSpan(
-                            text: "${ConstantString.gameOrder}\n",
-                            style: Theme.of(context)
-                                .textTheme
-                                .labelSmall
-                                ?.copyWith(
-                                  color: e == state.currentTeam
-                                      ? ConstColor.otherTextColor
-                                      : ConstColor.transparent,
-                                ),
-                            children: <TextSpan>[
-                              TextSpan(
-                                text: TeamManager(e).nameValue,
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: Teams.values.map((e) {
+                return SizedBox(
+                    height: MediaQuery.sizeOf(context).height * .1,
+                    width: (MediaQuery.sizeOf(context).width - 50) / 2,
+                    child: Row(
+                      spacing: 14,
+                      textDirection: e == Teams.team1
+                          ? TextDirection.ltr
+                          : TextDirection.rtl,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(2),
+                          decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                  colors: [
+                                    Color(0xffFFFFFF),
+                                    Color(0xffD6E2FF)
+                                  ],
+                                  begin: Alignment.topCenter,
+                                  end: Alignment.bottomCenter),
+                              borderRadius: BorderRadius.horizontal(
+                                right:
+                                    Radius.circular(e == Teams.team1 ? 10 : 0),
+                                left:
+                                    Radius.circular(e == Teams.team2 ? 10 : 0),
+                              )),
+                          child: Container(
+                            width: 63,
+                            height: 36,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                                color: e == state.currentTeam
+                                    ? ConstColor.otherTextColor
+                                    : ConstColor.white,
+                                borderRadius: BorderRadius.horizontal(
+                                  right: Radius.circular(
+                                      e == Teams.team1 ? 10 : 0),
+                                  left: Radius.circular(
+                                      e == Teams.team2 ? 10 : 0),
+                                )),
+                            child: Text(
+                                e == Teams.team1
+                                    ? formatPoint(state.teamPoint1)
+                                    : formatPoint(state.teamPoint2),
                                 style: Theme.of(context)
                                     .textTheme
                                     .bodyLarge
                                     ?.copyWith(
-                                      color: ConstColor.white,
+                                      color: e == Teams.team1
+                                          ? ConstColor.gameLeftColor
+                                          : ConstColor.tabuWordColor,
+                                    )),
+                          ),
+                        ),
+                        // Column(
+                        //   spacing: 0,
+                        //   crossAxisAlignment: e.index == 0
+                        //       ? CrossAxisAlignment.start
+                        //       : CrossAxisAlignment.end,
+                        //   mainAxisAlignment: MainAxisAlignment.end,
+                        //   children: [
+                        //     Text(
+                        //         e == state.currentTeam
+                        //             ? "${ConstantString.gameOrder}\n"
+                        //             : "",
+                        //         style:
+                        //             TextStyle(color: Colors.yellow, fontSize: 10)),
+                        //     Text(
+                        //       TeamManager(e).nameValue,
+                        //       style: TextStyle(
+                        //           fontSize: 20,
+                        //           fontWeight: FontWeight.bold,
+                        //           color: Colors.white),
+                        //     ),
+                        //   ],
+                        // )
+                        Expanded(
+                          child: RichText(
+                            overflow: TextOverflow.clip,
+                            maxLines: 2,
+                            textAlign:
+                                e.index == 0 ? TextAlign.start : TextAlign.end,
+                            text: TextSpan(
+                                text: "${ConstantString.gameOrder}\n",
+                                style: Theme.of(context)
+                                    .textTheme
+                                    .labelSmall
+                                    ?.copyWith(
+                                      color: e == state.currentTeam
+                                          ? ConstColor.otherTextColor
+                                          : ConstColor.transparent,
                                     ),
-                              )
-                            ]),
-                      ),
-                    ),
-                  ],
-                ));
-          }).toList(),
+                                children: <TextSpan>[
+                                  TextSpan(
+                                    text: TeamManager(e).nameValue,
+                                    style: Theme.of(context)
+                                        .textTheme
+                                        .bodyLarge
+                                        ?.copyWith(
+                                          color: ConstColor.white,
+                                        ),
+                                  )
+                                ]),
+                          ),
+                        ),
+                      ],
+                    ));
+              }).toList(),
+            ),
+            const SizedBox(height: 20),
+            Expanded(
+              child: widgetColumn(context, state),
+            ),
+            SizedBox(height: MediaQuery.paddingOf(context).bottom),
+          ],
         ),
-        const SizedBox(height: 20),
-        Expanded(
-          child: widgetColumn(context, state),
-        ),
-        SizedBox(height: MediaQuery.paddingOf(context).bottom),
+        // Overlay for pause and exit states
+        if (state.status == Status.gamePause || state.status == Status.gameExit)
+          pauseAndExitOverlay(context, state),
       ],
     );
   }
@@ -176,7 +197,8 @@ class TabuBody extends StatelessWidget {
                       highlightColor: Colors.transparent,
                       splashFactory: NoSplash.splashFactory,
                       onTap: state.status == Status.timerFinish ||
-                              state.isPaused ||
+                              (state.status == Status.gamePause ||
+                                  state.status == Status.gameExit) ||
                               (e == Buttons.Pass && state.remainingPassNum == 0)
                           ? null
                           : e.onTap(context),
@@ -217,9 +239,10 @@ class TabuBody extends StatelessWidget {
     if (state.tabuModel is TabuModel) {
       TabuModel tabuModel = state.tabuModel!;
       return ImageFiltered(
-        imageFilter: state.isPaused
-            ? ImageFilter.blur(sigmaX: 7.0, sigmaY: 7.0)
-            : ImageFilter.blur(sigmaX: 0.0, sigmaY: 0.0),
+        imageFilter:
+            state.status == Status.gamePause || state.status == Status.gameExit
+                ? ImageFilter.blur(sigmaX: 7.0, sigmaY: 7.0)
+                : ImageFilter.blur(sigmaX: 0.0, sigmaY: 0.0),
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 5),
           decoration: BoxDecoration(
@@ -262,7 +285,7 @@ class TabuBody extends StatelessWidget {
                   padding: const EdgeInsets.symmetric(vertical: 30.0),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: (tabuModel.taboo ?? []).map((taboo) {
+                    children: (tabuModel.forbidden ?? []).map((taboo) {
                       return Text(
                         taboo,
                         style: (taboo.length > 18)
@@ -314,6 +337,92 @@ class TabuBody extends StatelessWidget {
     } else {
       return SizedBox();
     }
+  }
+
+  pauseAndExitOverlay(BuildContext context, GameState state) {
+    return Container(
+      color: Colors.black.withOpacity(0.7),
+      padding: EdgeInsets.symmetric(horizontal: 50),
+      child: Center(
+        child: Column(
+          children: [
+            Spacer(),
+            LayoutBuilder(
+              builder: (context, constraints) {
+                final screenWidth = MediaQuery.sizeOf(context).width;
+                final screenHeight = MediaQuery.sizeOf(context).height;
+
+                // İkon oranları
+                const horizontalRatio =
+                    0.55; // resmin yatay uzunluğu / ekranın yatay uzunluğu
+                const verticalRatio =
+                    0.256; // resmin dikey uzunluğu / ekranın dikey uzunluğu
+                const aspectRatio = 1.0; // resmin yatay / resmin dikey
+
+                // Önce yatay orana göre hesapla
+                double iconWidth = screenWidth * horizontalRatio;
+                double iconHeight = iconWidth / aspectRatio;
+
+                // Eğer dikey olarak sığmıyorsa, dikey orana göre yeniden hesapla
+                if (iconHeight > screenHeight * verticalRatio) {
+                  iconHeight = screenHeight * verticalRatio;
+                  iconWidth = iconHeight * aspectRatio;
+                }
+
+                return Image.asset(
+                  state.status == Status.gamePause
+                      ? ConstantString.pauseGameIc
+                      : ConstantString.exitGameIc,
+                  width: iconWidth,
+                  height: iconHeight,
+                );
+              },
+            ),
+            SizedBox(height: 20),
+            Text(
+                state.status == Status.gamePause
+                    ? ConstantString.gamePaused
+                    : ConstantString.exitGameConfirmation,
+                style: Theme.of(context)
+                    .textTheme
+                    .titleMedium
+                    ?.copyWith(color: ConstColor.white),
+                textAlign: TextAlign.center),
+            Spacer(),
+            state.status == Status.gamePause
+                ? CustomElevatedButton(
+                    maxWidth: MediaQuery.sizeOf(context).width,
+                    title: ConstantString.keepContinue,
+                    onTap: () {
+                      SoundManager().playVibrationAndClick();
+                      context.read<GameCubit>().stopAndStartTimer();
+                    },
+                    iconPath: ConstantString.playIc,
+                  )
+                : Column(
+                    children: [
+                      CustomElevatedButton2(
+                        buttonType: ButtonType.secondary,
+                        onTap: () {
+                          SoundManager().playVibrationAndClick();
+                          context.read<GameCubit>().stopAndStartTimer();
+                        },
+                      ),
+                      CustomElevatedButton2(
+                        buttonType: ButtonType.primary,
+                        onTap: () {
+                          context.read<GameCubit>().close();
+                          SoundManager().playVibrationAndClick();
+                          Navigator.popUntil(context, ModalRoute.withName('/'));
+                        },
+                      ),
+                    ],
+                  ),
+            SizedBox(height: MediaQuery.paddingOf(context).bottom + 20),
+          ],
+        ),
+      ),
+    );
   }
 
   String formatPoint(int point) {

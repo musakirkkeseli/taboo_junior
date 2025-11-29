@@ -5,18 +5,20 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tabumium/features/utility/const/constant_string.dart';
 
+import '../../../features/utility/enum/enum_categories.dart';
 import '../../../features/utility/enum/enum_teams.dart';
 import '../model/tabu_model.dart';
 
 part 'game_state.dart';
 
 class GameCubit extends Cubit<GameState> {
+  final Categories category;
   final int time;
   final int winPoint;
   final int pass;
   GameCubit({
+    required this.category,
     required this.time,
     required this.winPoint,
     required this.pass,
@@ -107,6 +109,10 @@ class GameCubit extends Cubit<GameState> {
     startTimer();
   }
 
+  void isExit() {
+    emit(state.copyWith(status: Status.gameExit));
+  }
+
   @override
   Future<void> close() {
     _timer?.cancel();
@@ -117,9 +123,12 @@ class GameCubit extends Cubit<GameState> {
     if (_timer != null && _timer!.isActive) {
       _timer?.cancel();
       pausedSeconds = state.remainingSeconds; // Kalan süreyi kaydet
-      emit(state.copyWith(isPaused: true));
-    } else if (state.isPaused && pausedSeconds != null) {
-      emit(state.copyWith(remainingSeconds: pausedSeconds!, isPaused: false));
+      emit(state.copyWith(status: Status.gamePause));
+    } else if ((state.status == Status.gamePause ||
+            state.status == Status.gameExit) &&
+        pausedSeconds != null) {
+      emit(state.copyWith(
+          remainingSeconds: pausedSeconds!, status: Status.game));
       startTimer();
     }
   }
@@ -152,35 +161,38 @@ class GameCubit extends Cubit<GameState> {
 
   void addTeamPoint1(int point) {
     print("addTeamPoint1");
-    teamPoint1 += point;
-    if (teamPoint1 >= winPoint) {
-      emit(state.copyWith(
-          status: Status.gamefinish,
-          winTeam: Teams.team1,
-          teamPoint1: teamPoint1));
-      _timer?.cancel();
-    } else {
-      emit(state.copyWith(teamPoint1: teamPoint1));
+    if (teamPoint1 > -99) {
+      teamPoint1 += point;
+      if (teamPoint1 >= winPoint) {
+        emit(state.copyWith(
+            status: Status.gamefinish,
+            winTeam: Teams.team1,
+            teamPoint1: teamPoint1));
+        _timer?.cancel();
+      } else {
+        emit(state.copyWith(teamPoint1: teamPoint1));
+      }
     }
   }
 
   void addTeamPoint2(int point) {
-    teamPoint2 += point;
-    if (teamPoint2 >= winPoint) {
-      emit(state.copyWith(
-          status: Status.gamefinish,
-          winTeam: Teams.team2,
-          teamPoint2: teamPoint2));
-      _timer?.cancel();
-    } else {
-      emit(state.copyWith(teamPoint2: teamPoint2));
+    if (teamPoint2 > -99) {
+      teamPoint2 += point;
+      if (teamPoint2 >= winPoint) {
+        emit(state.copyWith(
+            status: Status.gamefinish,
+            winTeam: Teams.team2,
+            teamPoint2: teamPoint2));
+        _timer?.cancel();
+      } else {
+        emit(state.copyWith(teamPoint2: teamPoint2));
+      }
     }
   }
 
   Future<List<TabuModel>> loadTabuData() async {
     // JSON dosyasını oku
-    final String response =
-        await rootBundle.loadString(ConstantString.dataWords);
+    final String response = await rootBundle.loadString(category.dataPath);
 
     // JSON'u decode et ve TabuModel listesine dönüştür
     final List<dynamic> data = json.decode(response);
@@ -203,7 +215,6 @@ class GameCubit extends Cubit<GameState> {
         teamPoint2: 0,
         status: Status.init,
         stopTime: false,
-        isPaused: false,
         remainingPassNum: 0,
         passNum: 0,
       ));

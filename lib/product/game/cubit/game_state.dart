@@ -1,11 +1,6 @@
 part of 'game_cubit.dart';
 
-enum Status {
-  init,
-  game,
-  timerFinish,
-  gamefinish,
-}
+enum Status { init, game, gamePause, timerFinish, gamefinish, gameExit }
 
 class GameState {
   final int remainingSeconds;
@@ -16,7 +11,6 @@ class GameState {
   final int teamPoint2;
   final Status status;
   final bool stopTime;
-  final bool isPaused;
   final int passNum;
   final int remainingPassNum;
 
@@ -29,7 +23,6 @@ class GameState {
       this.teamPoint2 = 0,
       this.status = Status.init,
       this.stopTime = false,
-      this.isPaused = false,
       this.passNum = 0,
       this.remainingPassNum = 0});
 
@@ -42,7 +35,6 @@ class GameState {
     int? teamPoint2,
     Status? status,
     bool? stopTime,
-    bool? isPaused,
     int? passNum,
     int? remainingPassNum,
   }) {
@@ -55,7 +47,6 @@ class GameState {
       teamPoint2: teamPoint2 ?? this.teamPoint2,
       status: status ?? this.status,
       stopTime: stopTime ?? this.stopTime,
-      isPaused: isPaused ?? this.isPaused,
       passNum: passNum ?? this.passNum,
       remainingPassNum: remainingPassNum ?? this.remainingPassNum,
     );
