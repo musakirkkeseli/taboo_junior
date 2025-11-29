@@ -13,6 +13,9 @@ class ConstColor {
   static const backbg = Color(0xff0069BF);
   static const buttonBorder = Color(0xff25C1FF);
 
+  static const lightBlue = Color(0xFF9EBBFF);
+  static const blue607AB8 = Color(0xFF607AB8);
+
 
 
   static const primaryColor = Color(0xffA31D1D);
