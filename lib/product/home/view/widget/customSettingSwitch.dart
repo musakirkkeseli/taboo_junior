@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tabumium/features/utility/const/constant_color.dart';
 import 'package:tabumium/features/utility/const/constant_string.dart';
 
 class CustomSettingSwitch extends StatelessWidget {
@@ -28,7 +29,7 @@ class CustomSettingSwitch extends StatelessWidget {
             height: 36,
             padding: EdgeInsets.symmetric(horizontal: 3),
             decoration: BoxDecoration(
-              color: isOn ? Color(0xFFA8D868) : Color(0xFF9EBBFF),
+              color: isOn ? ConstColor.greenA8D868 : ConstColor.lightBlue,
               borderRadius: BorderRadius.circular(18),
               border: Border.all(color: Color(0xFF7990C7)),
             ),
