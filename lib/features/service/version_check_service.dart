@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 import 'package:package_info_plus/package_info_plus.dart';
 
@@ -35,7 +36,7 @@ class VersionCheckService {
         buildNo: buildNumber,
         deviceType: deviceType,
       );
-      print('Version check request: ${request.toJson()}');
+      debugPrint('Version check request: ${request.toJson()}');
 
       // Make POST request
       final url = Uri.parse('$_baseUrl$_checkUpdateEndpoint');
@@ -46,7 +47,7 @@ class VersionCheckService {
         },
         body: jsonEncode(request.toJson()),
       );
-      print('Version check response: ${response.body}');
+      debugPrint('Version check response: ${response.body}');
 
       if (response.statusCode == 200) {
         final jsonResponse = jsonDecode(response.body) as Map<String, dynamic>;
