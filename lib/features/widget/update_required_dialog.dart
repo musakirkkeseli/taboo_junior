@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class UpdateRequiredDialog extends StatelessWidget {
@@ -16,8 +17,8 @@ class UpdateRequiredDialog extends StatelessWidget {
     return PopScope(
       canPop: false, // Prevent dismissing dialog
       child: AlertDialog(
-        title: const Text(
-          'Güncelleme Gerekli',
+        title: Text(
+          ConstantString.updateRequiredTitle,
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         content: Text(message),
@@ -29,7 +30,7 @@ class UpdateRequiredDialog extends StatelessWidget {
                 await launchUrl(uri, mode: LaunchMode.externalApplication);
               }
             },
-            child: const Text('Güncelle'),
+            child: Text(ConstantString.update),
           ),
         ],
       ),
