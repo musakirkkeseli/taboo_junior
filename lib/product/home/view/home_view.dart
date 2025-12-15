@@ -5,6 +5,8 @@ import 'package:package_info_plus/package_info_plus.dart';
 import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/cache_manager.dart';
 import '../../../features/utility/sound_manager.dart';
+import '../../../features/service/version_check_service.dart';
+import '../../../features/widget/update_required_dialog.dart';
 import '../../../features/widget/custom_elevated_button.dart';
 import '../../../features/widget/custom_outlined_button.dart';
 import '../../select_category/view/select_category_view.dart';
@@ -46,6 +48,35 @@ class _HomeViewState extends State<HomeView> {
     _music.value = CacheManager.db.getMusic();
     _vibration.value = CacheManager.db.getVibration();
     await _initSound();
+
+    // Check for version update
+    _checkVersionUpdate();
+  }
+
+  Future<void> _checkVersionUpdate() async {
+    try {
+      final versionCheckService = VersionCheckService();
+      final response = await versionCheckService.checkVersion();
+
+      if (!(response.success ?? false) &&
+          response.data != null &&
+          response.data!.storeUrl != null &&
+          mounted) {
+        // Show update required dialog
+        showDialog(
+          context: context,
+          barrierDismissible: false,
+          builder: (context) => UpdateRequiredDialog(
+            message: response.message ?? ConstantString.updateRequired,
+            storeUrl: response.data!.storeUrl ?? "",
+          ),
+        );
+      }
+    } catch (e) {
+      // Silently fail - don't block user if version check fails
+      // In production, you might want to log this error
+      debugPrint('Version check failed: $e');
+    }
   }
 
   @override
