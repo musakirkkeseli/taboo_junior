@@ -131,4 +131,7 @@ class ConstantString {
   static const gamePaused = "Oyun şu anda duraklatıldı.";
   static const exitGameConfirmation =
       "Oyundan çıkmak istediğinize emin misiniz?";
+  static const updateRequired = "Uygulamanızı güncellemeniz gerekmektedir";
+  static const updateRequiredTitle = "Güncelleme Gerekli";
+  static const update = "Güncelle";
 }
