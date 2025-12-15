@@ -123,7 +123,7 @@ class _SettingsViewState extends State<SettingsView> {
             onTap: () {
               if (formkey.currentState!.validate()) {
                 formkey.currentState!.save();
-                print("save pass ${passCount.value}");
+                debugPrint("save pass ${passCount.value}");
                 GameModel gameModel = GameModel(
                     teamName1: nameController1.text,
                     teamName2: nameController2.text,

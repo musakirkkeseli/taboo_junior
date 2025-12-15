@@ -160,7 +160,7 @@ class GameCubit extends Cubit<GameState> {
   }
 
   void addTeamPoint1(int point) {
-    print("addTeamPoint1");
+    debugPrint("addTeamPoint1");
     if (teamPoint1 > -99) {
       teamPoint1 += point;
       if (teamPoint1 >= winPoint) {
