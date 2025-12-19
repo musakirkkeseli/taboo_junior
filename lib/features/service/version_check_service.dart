@@ -3,13 +3,14 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:tabumium/features/utility/const/constant_string.dart';
 
 import '../model/version_check_request_model.dart';
 import '../model/version_check_response_model.dart';
 
 class VersionCheckService {
-  static const String _baseUrl = 'https://api.tabumium.com';
-  static const String _checkUpdateEndpoint = '/check-update';
+  final String _baseUrl = ConstantString.backendUrl;
+  static const String _checkUpdateEndpoint = '/flows/trigger/7dff2f2b-4823-4abc-9d5a-c58cf3dec71d';
 
   /// Checks if app version is up to date
   /// Returns VersionCheckResponseModel or throws exception on error
