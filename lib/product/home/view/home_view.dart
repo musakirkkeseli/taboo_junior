@@ -9,6 +9,7 @@ import '../../../features/service/version_check_service.dart';
 import '../../../features/widget/update_required_dialog.dart';
 import '../../../features/widget/custom_elevated_button.dart';
 import '../../../features/widget/custom_outlined_button.dart';
+import '../../../features/widget/banner_ad_widget.dart';
 import '../../select_category/view/select_category_view.dart';
 import 'widget/customSettingSwitch.dart';
 
@@ -363,7 +364,9 @@ class _HomeViewState extends State<HomeView> {
                   title: ConstantString.shareUs,
                   icon: Icons.share,
                   onPressed: () {},
-                )
+                ),
+                SizedBox(height: 10),
+                BannerAdWidget(),
               ],
             ),
           ),
