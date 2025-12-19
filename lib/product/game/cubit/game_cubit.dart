@@ -1,24 +1,27 @@
 import 'dart:async';
-import 'dart:convert';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:tabumium/features/utility/enum/enum_general_state.dart';
 
-import '../../../features/utility/enum/enum_categories.dart';
+import '../../../core/exception/network_exception.dart';
+import '../../../core/utility/logger_service.dart';
 import '../../../features/utility/enum/enum_teams.dart';
 import '../model/tabu_model.dart';
+import '../service/IGameService.dart';
 
 part 'game_state.dart';
 
 class GameCubit extends Cubit<GameState> {
-  final Categories category;
+  final IGameService service;
+  final String categoryId;
   final int time;
   final int winPoint;
   final int pass;
   GameCubit({
-    required this.category,
+    required this.service,
+    required this.categoryId,
     required this.time,
     required this.winPoint,
     required this.pass,
@@ -33,31 +36,74 @@ class GameCubit extends Cubit<GameState> {
 
   Random random = Random();
 
-  void startGame() {
-    fetchTabuData();
+  Future<void> startGame() async {
+    // fetchTabuData();
+    try {
+      final data = await service.getWordList(0, categoryId);
+
+      if (data.data != null && (data.data ?? []).isNotEmpty) {
+        List<TabuModel> wordList = data.data ?? [];
+        tabuModelList.addAll(wordList);
+        emit(state.copyWith(page: 1));
+        selectTabuModel();
+        emit(state.copyWith(
+            status: EnumGeneralStateStatus.completed,
+            gameStatus: GameStatus.game,
+            remainingSeconds: time,
+            passNum: pass,
+            remainingPassNum: pass));
+        startTimer();
+      } else {
+        emit(state.copyWith(status: EnumGeneralStateStatus.failure));
+      }
+    } on NetworkException catch (e) {
+      emit(state.copyWith(status: EnumGeneralStateStatus.failure));
+      MyLog("cubit NetworkException $e");
+    } catch (e) {
+      emit(state.copyWith(status: EnumGeneralStateStatus.failure));
+      MyLog("cubit catch $e");
+    }
   }
 
-  void fetchTabuData() async {
-    tabuModelList = await loadTabuData();
-    selectTabuModel();
-    emit(state.copyWith(
-        status: Status.game,
-        remainingSeconds: time,
-        passNum: pass,
-        remainingPassNum: pass));
-    startTimer();
+  Future<void> fetchWordList() async {
+    try {
+      final data = await service.getWordList(state.page + 1, categoryId);
+
+      if (data.data != null) {
+        List<TabuModel> wordList = data.data ?? [];
+        tabuModelList.addAll(wordList);
+        emit(state.copyWith(page: state.page + 1));
+      }
+    } on NetworkException catch (e) {
+      MyLog("cubit NetworkException $e");
+    } catch (e) {
+      MyLog("cubit catch $e");
+    }
   }
+
+  // void fetchTabuData() async {
+  //   await fetchWordList();
+  //   selectTabuModel();
+  //   emit(state.copyWith(
+  //       status: Status.game,
+  //       remainingSeconds: time,
+  //       passNum: pass,
+  //       remainingPassNum: pass));
+  //   startTimer();
+  // }
 
   void selectTabuModel() {
     if ((teamPoint1 < winPoint && teamPoint2 < winPoint) &&
         tabuModelList.isNotEmpty) {
-      int randomNumber = random.nextInt(tabuModelList.length);
-      TabuModel tabuModel = tabuModelList[randomNumber];
+      if (tabuModelList.length < 3) {
+        fetchWordList();
+      }
+      TabuModel tabuModel = tabuModelList[0];
       emit(state.copyWith(tabuModel: tabuModel));
-      tabuModelList.removeAt(randomNumber);
+      tabuModelList.removeAt(0);
     } else if (tabuModelList.isEmpty) {
       emit(state.copyWith(
-          status: Status.gamefinish,
+          gameStatus: GameStatus.gamefinish,
           winTeam: teamPoint1 > teamPoint2
               ? Teams.team1
               : teamPoint1 < teamPoint2
@@ -72,7 +118,7 @@ class GameCubit extends Cubit<GameState> {
       case Teams.team1:
         emit(state.copyWith(
           currentTeam: Teams.team2,
-          status: Status.game,
+          gameStatus: GameStatus.game,
           remainingPassNum: pass,
         ));
         selectTabuModel();
@@ -81,7 +127,7 @@ class GameCubit extends Cubit<GameState> {
       default:
         emit(state.copyWith(
           currentTeam: Teams.team1,
-          status: Status.game,
+          gameStatus: GameStatus.game,
           remainingPassNum: pass,
         ));
         selectTabuModel();
@@ -98,7 +144,7 @@ class GameCubit extends Cubit<GameState> {
                 state.remainingSeconds - 1)); // Yeni durumu Bloc'a bildir
       } else {
         timer.cancel();
-        emit(state.copyWith(status: Status.timerFinish));
+        emit(state.copyWith(gameStatus: GameStatus.timerFinish));
       }
     });
   }
@@ -110,7 +156,7 @@ class GameCubit extends Cubit<GameState> {
   }
 
   void isExit() {
-    emit(state.copyWith(status: Status.gameExit));
+    emit(state.copyWith(gameStatus: GameStatus.gameExit));
   }
 
   @override
@@ -123,12 +169,12 @@ class GameCubit extends Cubit<GameState> {
     if (_timer != null && _timer!.isActive) {
       _timer?.cancel();
       pausedSeconds = state.remainingSeconds; // Kalan süreyi kaydet
-      emit(state.copyWith(status: Status.gamePause));
-    } else if ((state.status == Status.gamePause ||
-            state.status == Status.gameExit) &&
+      emit(state.copyWith(gameStatus: GameStatus.gamePause));
+    } else if ((state.gameStatus == GameStatus.gamePause ||
+            state.gameStatus == GameStatus.gameExit) &&
         pausedSeconds != null) {
       emit(state.copyWith(
-          remainingSeconds: pausedSeconds!, status: Status.game));
+          remainingSeconds: pausedSeconds!, gameStatus: GameStatus.game));
       startTimer();
     }
   }
@@ -165,7 +211,7 @@ class GameCubit extends Cubit<GameState> {
       teamPoint1 += point;
       if (teamPoint1 >= winPoint) {
         emit(state.copyWith(
-            status: Status.gamefinish,
+            gameStatus: GameStatus.gamefinish,
             winTeam: Teams.team1,
             teamPoint1: teamPoint1));
         _timer?.cancel();
@@ -180,7 +226,7 @@ class GameCubit extends Cubit<GameState> {
       teamPoint2 += point;
       if (teamPoint2 >= winPoint) {
         emit(state.copyWith(
-            status: Status.gamefinish,
+            gameStatus: GameStatus.gamefinish,
             winTeam: Teams.team2,
             teamPoint2: teamPoint2));
         _timer?.cancel();
@@ -188,15 +234,6 @@ class GameCubit extends Cubit<GameState> {
         emit(state.copyWith(teamPoint2: teamPoint2));
       }
     }
-  }
-
-  Future<List<TabuModel>> loadTabuData() async {
-    // JSON dosyasını oku
-    final String response = await rootBundle.loadString(category.dataPath);
-
-    // JSON'u decode et ve TabuModel listesine dönüştür
-    final List<dynamic> data = json.decode(response);
-    return data.map((item) => TabuModel.fromJson(item)).toList();
   }
 
   clear() {
@@ -207,16 +244,18 @@ class GameCubit extends Cubit<GameState> {
       teamPoint2 = 0;
       pausedSeconds = null;
       emit(state.copyWith(
+        status: EnumGeneralStateStatus.loading,
         remainingSeconds: 0,
         tabuModel: null,
         currentTeam: Teams.team1,
         winTeam: null,
         teamPoint1: 0,
         teamPoint2: 0,
-        status: Status.init,
+        gameStatus: GameStatus.game,
         stopTime: false,
         remainingPassNum: 0,
         passNum: 0,
+        page: 1,
       ));
       startGame();
     }

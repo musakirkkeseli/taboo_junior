@@ -150,7 +150,8 @@ class TabuBody extends StatelessWidget {
           ],
         ),
         // Overlay for pause and exit states
-        if (state.status == Status.gamePause || state.status == Status.gameExit)
+        if (state.gameStatus == GameStatus.gamePause ||
+            state.gameStatus == GameStatus.gameExit)
           pauseAndExitOverlay(context, state),
       ],
     );
@@ -196,9 +197,9 @@ class TabuBody extends StatelessWidget {
                       splashColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       splashFactory: NoSplash.splashFactory,
-                      onTap: state.status == Status.timerFinish ||
-                              (state.status == Status.gamePause ||
-                                  state.status == Status.gameExit) ||
+                      onTap: state.gameStatus == GameStatus.timerFinish ||
+                              (state.gameStatus == GameStatus.gamePause ||
+                                  state.gameStatus == GameStatus.gameExit) ||
                               (e == Buttons.Pass && state.remainingPassNum == 0)
                           ? null
                           : e.onTap(context),
@@ -239,10 +240,10 @@ class TabuBody extends StatelessWidget {
     if (state.tabuModel is TabuModel) {
       TabuModel tabuModel = state.tabuModel!;
       return ImageFiltered(
-        imageFilter:
-            state.status == Status.gamePause || state.status == Status.gameExit
-                ? ImageFilter.blur(sigmaX: 7.0, sigmaY: 7.0)
-                : ImageFilter.blur(sigmaX: 0.0, sigmaY: 0.0),
+        imageFilter: state.gameStatus == GameStatus.gamePause ||
+                state.gameStatus == GameStatus.gameExit
+            ? ImageFilter.blur(sigmaX: 7.0, sigmaY: 7.0)
+            : ImageFilter.blur(sigmaX: 0.0, sigmaY: 0.0),
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 5),
           decoration: BoxDecoration(
@@ -370,7 +371,7 @@ class TabuBody extends StatelessWidget {
                 }
 
                 return Image.asset(
-                  state.status == Status.gamePause
+                  state.gameStatus == GameStatus.gamePause
                       ? ConstantString.pauseGameIc
                       : ConstantString.exitGameIc,
                   width: iconWidth,
@@ -380,7 +381,7 @@ class TabuBody extends StatelessWidget {
             ),
             SizedBox(height: 20),
             Text(
-                state.status == Status.gamePause
+                state.gameStatus == GameStatus.gamePause
                     ? ConstantString.gamePaused
                     : ConstantString.exitGameConfirmation,
                 style: Theme.of(context)
@@ -389,7 +390,7 @@ class TabuBody extends StatelessWidget {
                     ?.copyWith(color: ConstColor.white),
                 textAlign: TextAlign.center),
             Spacer(),
-            state.status == Status.gamePause
+            state.gameStatus == GameStatus.gamePause
                 ? CustomElevatedButton(
                     maxWidth: MediaQuery.sizeOf(context).width,
                     title: ConstantString.keepContinue,

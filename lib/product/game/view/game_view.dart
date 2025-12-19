@@ -1,23 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:tabumium/core/utility/http_service.dart';
+import 'package:tabumium/product/game/service/game_service.dart';
 
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/const/constant_color.dart';
 import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
-import '../../../features/utility/enum/enum_categories.dart';
+import '../../../features/utility/enum/enum_general_state.dart';
 import '../../../features/utility/enum/enum_sound.dart';
 import '../../../features/utility/enum/enum_teams.dart';
 import '../../../features/utility/sound_manager.dart';
 import '../../../features/widget/custom_appbar_widget.dart';
+import '../../../features/widget/banner_ad_widget.dart';
+import '../../../features/service/ad_manager.dart';
 import '../cubit/game_cubit.dart';
 import 'widget/game_body.dart';
 import 'widget/win_screen_widget.dart';
 
 class GameView extends StatefulWidget {
   final GameModel gameModel;
-  final Categories category;
-  const GameView({super.key, required this.gameModel, required this.category});
+  final String categoryId;
+  const GameView(
+      {super.key, required this.gameModel, required this.categoryId});
 
   @override
   State<GameView> createState() => _GameViewState();
@@ -48,28 +54,82 @@ class _HalfEllipseClipper extends CustomClipper<Path> {
 }
 
 class _GameViewState extends State<GameView> {
-  // GameModel? gameModel;
+  InterstitialAd? _interstitialAd;
+  bool _isGameReady = false;
+
   @override
   void initState() {
     super.initState();
-    // gameModel = CacheManager.db.getGameModel();
-    // if (gameModel == null) {
-    //   CacheManager.db.clearGameModel();
-    // }
     SoundManager().stopBackground();
+    _loadInterstitialAd();
+  }
+
+  Future<void> _loadInterstitialAd() async {
+    print('Starting to load interstitial ad...');
+    _interstitialAd = await AdManager().loadInterstitialAd();
+    print('Interstitial ad load completed. Ad is ${_interstitialAd != null ? "loaded" : "null"}');
+    
+    if (mounted) {
+      _showInterstitialAd();
+    }
+  }
+
+  void _showInterstitialAd() {
+    print('Attempting to show interstitial ad...');
+    if (_interstitialAd != null) {
+      AdManager().showInterstitialAd(
+        _interstitialAd,
+        onAdDismissed: () {
+          print('Interstitial ad dismissed, starting game...');
+          if (mounted) {
+            setState(() {
+              _isGameReady = true;
+            });
+          }
+        },
+      );
+    } else {
+      print('No interstitial ad to show, starting game immediately...');
+      if (mounted) {
+        setState(() {
+          _isGameReady = true;
+        });
+      }
+    }
   }
 
   @override
   void dispose() {
+    _interstitialAd?.dispose();
     super.dispose();
     SoundManager().playBackground();
   }
 
   @override
   Widget build(BuildContext context) {
+    // Reklam henüz yüklenmediyse veya oyun hazır değilse loading göster
+    if (!_isGameReady) {
+      return Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(ConstantString.gameBg),
+              fit: BoxFit.fill,
+            ),
+          ),
+          child: Center(
+            child: CircularProgressIndicator(
+              color: ConstColor.primaryColor,
+            ),
+          ),
+        ),
+      );
+    }
+
     return BlocProvider<GameCubit>(
       create: (context) => GameCubit(
-          category: widget.category,
+          service: GameService(HttpService()),
+          categoryId: widget.categoryId,
           pass: widget.gameModel.pass ?? 3,
           // time: 3,
           time: widget.gameModel.time ?? 60,
@@ -77,8 +137,8 @@ class _GameViewState extends State<GameView> {
         ..startGame(),
       child: BlocConsumer<GameCubit, GameState>(
         listener: (context, state) {
-          switch (state.status) {
-            case Status.timerFinish:
+          switch (state.gameStatus) {
+            case GameStatus.timerFinish:
               Navigator.of(context)
                   .push(RawDialogRoute(
                       pageBuilder: (_, animation, secondaryAnimation) =>
@@ -177,7 +237,7 @@ class _GameViewState extends State<GameView> {
           return Container(
             decoration: BoxDecoration(
                 image: DecorationImage(
-                    image: AssetImage(state.status == Status.gamefinish
+                    image: AssetImage(state.gameStatus == GameStatus.gamefinish
                         ? ConstantString.winnerBg
                         : ConstantString.gameBg),
                     fit: BoxFit.fill)),
@@ -188,6 +248,7 @@ class _GameViewState extends State<GameView> {
                 children: [
                   _appbar(state),
                   Expanded(child: _body(state)),
+                  BannerAdWidget(),
                 ],
               ),
             ),
@@ -198,16 +259,16 @@ class _GameViewState extends State<GameView> {
   }
 
   _appbar(GameState state) {
-    switch (state.status) {
-      case Status.gamefinish:
+    switch (state.gameStatus) {
+      case GameStatus.gamefinish:
         return CustomAppbarWidget(
           appbarType: EnumCustomAppbarType.winnerTeam,
         );
-      case Status.gamePause:
+      case GameStatus.gamePause:
         return CustomAppbarWidget(
           appbarType: EnumCustomAppbarType.pauseGame,
         );
-      case Status.gameExit:
+      case GameStatus.gameExit:
         return CustomAppbarWidget(
           appbarType: EnumCustomAppbarType.exitGame,
         );
@@ -343,11 +404,29 @@ class _GameViewState extends State<GameView> {
 
   _body(GameState state) {
     switch (state.status) {
-      case Status.init:
+      case EnumGeneralStateStatus.loading:
         return Center(
           child: CircularProgressIndicator(),
         );
-      case Status.gamefinish:
+      case EnumGeneralStateStatus.completed:
+        return _gameViews(state);
+      default:
+        return Center(
+          child: Text(
+            ConstantString.wordsRefreshing,
+            textAlign: TextAlign.center,
+            style: Theme.of(context)
+                .textTheme
+                .bodySmall
+                ?.copyWith(color: ConstColor.white),
+          ),
+        );
+    }
+  }
+
+  _gameViews(GameState state) {
+    switch (state.gameStatus) {
+      case GameStatus.gamefinish:
         return WinScreenWidget(
           state: state,
         );

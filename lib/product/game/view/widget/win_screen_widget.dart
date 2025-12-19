@@ -42,7 +42,13 @@ class _WinScreenWidgetState extends State<WinScreenWidget> {
                 children: [
                   Image.asset(ConstantString.winnerImage),
                   widget.state.winTeam == null
-                      ? Text(ConstantString.friendshipWon)
+                      ? Text(ConstantString.friendshipWon,
+                          style: Theme.of(context)
+                              .textTheme
+                              .bodyLarge
+                              ?.copyWith(
+                                color: ConstColor.white,
+                              ))
                       : Text(
                           TeamManager(widget.state.winTeam ?? Teams.team1)
                               .nameValue,
