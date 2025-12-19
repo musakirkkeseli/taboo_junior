@@ -3,7 +3,7 @@ description: "A new Flutter project."
 
 publish_to: 'none'
 
-version: 1.0.0+1
+version: 1.0.2+3
 
 environment:
   sdk: ^3.6.1
@@ -21,17 +21,24 @@ dependencies:
   # design
   cupertino_icons: ^1.0.8
   flutter_svg: ^2.2.2
-  
+  cached_network_image: ^3.4.1  
 
   # services
   package_info_plus: ^9.0.0
   audioplayers: ^6.5.1
   vibration: ^3.1.4
-  http: ^1.2.2
   url_launcher: ^6.3.1
+  logger: ^2.6.2
+
+  # http
+  dio: ^5.9.0
+  http: ^1.2.2
 
   # security
   flutter_dotenv: ^6.0.0
+
+  # ads
+  google_mobile_ads: ^7.0.0
 
 dev_dependencies:
   flutter_test:
@@ -46,11 +53,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/data/
+    - .env
     - assets/images/appbars/
     - assets/images/backgrounds/
     - assets/images/buttons/
-    - assets/images/categories/
     - assets/images/icons/
     - assets/audio/
 
