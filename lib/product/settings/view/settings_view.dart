@@ -5,7 +5,6 @@ import 'package:tabumium/product/game/view/game_view.dart';
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/cache_manager.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
-import '../../../features/utility/enum/enum_categories.dart';
 import '../../../features/utility/enum/enum_slider_type.dart';
 import '../../../features/utility/enum/enum_teams.dart';
 import '../../../features/utility/sound_manager.dart';
@@ -13,9 +12,10 @@ import '../../../features/widget/custom_appbar_widget.dart';
 import '../../../features/widget/custom_elevated_button.dart';
 import '../../../features/widget/custom_slider_widget.dart';
 import '../../../features/widget/team_name_widget.dart';
+import '../../select_category/mıodel/category_model.dart';
 
 class SettingsView extends StatefulWidget {
-  final Categories category;
+  final CategoryModel category;
   const SettingsView({super.key, required this.category});
 
   @override
@@ -137,7 +137,7 @@ class _SettingsViewState extends State<SettingsView> {
                     MaterialPageRoute(
                         builder: (context) => GameView(
                               gameModel: gameModel,
-                              category: widget.category,
+                              categoryId: widget.category.id ?? "",
                             )));
               }
             },
