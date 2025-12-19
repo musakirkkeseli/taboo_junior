@@ -1,4 +1,9 @@
+import 'environment.dart';
+
 class ConstantString {
+  static var backendUrl = Environment.backendUrl;
+  static var token = Environment.token;
+
   // audio path
   static const bgMusic = 'audio/music.mp3';
   static const clickSound = 'audio/click.mp3';
@@ -8,19 +13,6 @@ class ConstantString {
   static const passSound = 'audio/pass.mp3';
   static const stopTimeSound = 'audio/stop_time.mp3';
 
-  //category images
-  static const entertainmentImage =
-      'assets/images/categories/entertainment.png';
-  static const entertainmentImage2 =
-      'assets/images/categories/entertainment2.png';
-  static const fashionImage = 'assets/images/categories/fashion.png';
-  static const musicImage = 'assets/images/categories/music.png';
-  static const cinemaImage = 'assets/images/categories/cinema.png';
-  static const footballImage = 'assets/images/categories/football.png';
-  static const historyImage = 'assets/images/categories/history.png';
-  static const scienceImage = 'assets/images/categories/science.png';
-  static const literatureImage = 'assets/images/categories/literature.png';
-  static const categoryCardBg = 'assets/images/categories/category_card_bg.png';
 
   // appbar path
   static const appbarLight = 'assets/images/appbars/appbar_light.png';
@@ -37,6 +29,7 @@ class ConstantString {
   static const soloMapBg = 'assets/images/backgrounds/solo_map_bg.png';
   static const tabuWordBg = 'assets/images/backgrounds/tabu_word_bg.png';
   static const winnerBg = 'assets/images/backgrounds/winner_bg.png';
+  static const categoryCardBg = 'assets/images/backgrounds/category_card_bg.png';
   // static const unplayableLevelBg = 'assets/images/backgrounds/unplayable_level_bg.png';
   // static const complatedLevelBg = 'assets/images/backgrounds/complated_level_bg.png';
   // static const playableLevelBg = 'assets/images/backgrounds/playable_level_bg.png';
@@ -70,17 +63,6 @@ class ConstantString {
   static const pauseGameIc = 'assets/images/icons/pause_game_ic.png';
   static const backToHomeIc = 'assets/images/icons/back_to_home_ic.png';
 
-  // words path
-  static const dataWords = 'assets/data/words.json';
-  static const dataEntertainmentWords = 'assets/data/entertainment.json';
-  static const dataFashionWords = 'assets/data/fashion.json';
-  static const dataMusicWords = 'assets/data/music.json';
-  static const dataCinemaWords = 'assets/data/cinema.json';
-  static const dataFootballWords = 'assets/data/football.json';
-  static const dataHistoryWords = 'assets/data/history.json';
-  static const dataScienceWords = 'assets/data/science.json';
-  static const dataLiteratureWords = 'assets/data/literature.json';
-
   // strings
   static const game = "Oyna";
   static const settings = "Ayarlar";
@@ -108,7 +90,7 @@ class ConstantString {
   static const literature = "Edebiyat";
   static const gameOrder = "OYUN SIRASI";
   static const winningTeam = "Kazanan Takım";
-  static const friendshipWon = "Beraber ile dostluk kazandı";
+  static const friendshipWon = "Beraberlik ile dostluk kazandı";
   static const score = "Puan";
   static const times = "Defa";
   static const second = "Saniye";
@@ -134,4 +116,6 @@ class ConstantString {
   static const updateRequired = "Uygulamanızı güncellemeniz gerekmektedir";
   static const updateRequiredTitle = "Güncelleme Gerekli";
   static const update = "Güncelle";
+  static const unexpectedError = "Beklenmedik bir hata oluştu.";
+  static const wordsRefreshing = "Kelimeler yenileniyor... \nLütfen daha sonra tekrar deneyin.";
 }
