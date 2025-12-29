@@ -6,6 +6,7 @@ import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
 import '../../../features/utility/enum/enum_general_state.dart';
 import '../../../features/utility/sound_manager.dart';
+import '../../../features/widget/banner_ad_widget.dart';
 import '../../../features/widget/custom_appbar_widget.dart';
 import '../../../features/widget/custom_image.dart';
 import '../../settings/view/settings_view.dart';
@@ -27,12 +28,20 @@ class SelectCategoryView extends StatelessWidget {
                   image: AssetImage(ConstantString.soloMapBg),
                   fit: BoxFit.fill)),
           child: Scaffold(
-            body: Column(
+            body: Stack(
               children: [
-                CustomAppbarWidget(
-                  appbarType: EnumCustomAppbarType.selectCategory,
+                Column(
+                  children: [
+                    CustomAppbarWidget(
+                      appbarType: EnumCustomAppbarType.selectCategory,
+                    ),
+                    categoryListBody(state),
+                  ],
                 ),
-                categoryListBody(state)
+                Positioned(
+                    bottom: MediaQuery.paddingOf(context).bottom,
+                    width: MediaQuery.sizeOf(context).width,
+                    child: BannerAdWidget()),
               ],
             ),
           ),
@@ -57,7 +66,7 @@ class SelectCategoryView extends StatelessWidget {
             padding: EdgeInsets.symmetric(horizontal: 20),
             child: GridView.builder(
               shrinkWrap: true,
-              padding: EdgeInsets.only(top: 35, bottom: 35),
+              padding: EdgeInsets.only(top: 35, bottom: 70),
               itemCount: state.categoryList.length,
               gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2, crossAxisSpacing: 15, mainAxisSpacing: 5),
