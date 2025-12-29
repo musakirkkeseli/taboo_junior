@@ -1,6 +1,9 @@
+import 'dart:async';
+
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
+import 'package:tabumium/core/utility/logger_service.dart';
 import 'package:tabumium/features/utility/const/constant_string.dart';
-import 'package:tabumium/product/game/view/game_view.dart';
 
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/cache_manager.dart';
@@ -12,6 +15,7 @@ import '../../../features/widget/custom_appbar_widget.dart';
 import '../../../features/widget/custom_elevated_button.dart';
 import '../../../features/widget/custom_slider_widget.dart';
 import '../../../features/widget/team_name_widget.dart';
+import '../../game/view/game_view.dart';
 import '../../select_category/mıodel/category_model.dart';
 
 class SettingsView extends StatefulWidget {
@@ -29,6 +33,9 @@ class _SettingsViewState extends State<SettingsView> {
   final ValueNotifier<double> passCount = ValueNotifier<double>(3);
   final ValueNotifier<double> timeCount = ValueNotifier<double>(60);
   final ValueNotifier<double> maxPointCount = ValueNotifier<double>(20);
+  bool _hasInternet = true;
+  final Connectivity _connectivity = Connectivity();
+  StreamSubscription<List<ConnectivityResult>>? _connectivitySubscription;
   @override
   void initState() {
     super.initState();
@@ -38,10 +45,39 @@ class _SettingsViewState extends State<SettingsView> {
     passCount.value = (gameModel!.pass ?? 3).toDouble();
     timeCount.value = (gameModel!.time ?? 60).toDouble();
     maxPointCount.value = (gameModel!.point ?? 20).toDouble();
+    _checkInitialConnectivity();
+    _connectivitySubscription =
+        _connectivity.onConnectivityChanged.listen(_updateConnectionStatus);
+  }
+
+  Future<void> _checkInitialConnectivity() async {
+    try {
+      final result = await _connectivity.checkConnectivity();
+      if (mounted) {
+        setState(() {
+          _hasInternet = !result.contains(ConnectivityResult.none);
+        });
+      }
+    } catch (e) {
+      if (mounted) {
+        setState(() {
+          _hasInternet = false;
+        });
+      }
+    }
+  }
+
+  void _updateConnectionStatus(List<ConnectivityResult> result) {
+    if (mounted) {
+      setState(() {
+        _hasInternet = !result.contains(ConnectivityResult.none);
+      });
+    }
   }
 
   @override
   dispose() {
+    _connectivitySubscription?.cancel();
     nameController1.dispose();
     nameController2.dispose();
     passCount.dispose();
@@ -121,9 +157,24 @@ class _SettingsViewState extends State<SettingsView> {
             maxWidth: MediaQuery.sizeOf(context).width,
             title: ConstantString.game,
             onTap: () {
+              if (!_hasInternet) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      'İnternet bağlantınız olmadığı için oyuna başlayamazsınız. Lütfen internet bağlantınızı kontrol edin.',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    backgroundColor: Colors.red[700],
+                    duration: Duration(seconds: 3),
+                    behavior: SnackBarBehavior.floating,
+                  ),
+                );
+                return;
+              }
+
               if (formkey.currentState!.validate()) {
                 formkey.currentState!.save();
-                debugPrint("save pass ${passCount.value}");
+                MyLog.debug("save pass ${passCount.value}");
                 GameModel gameModel = GameModel(
                     teamName1: nameController1.text,
                     teamName2: nameController2.text,
