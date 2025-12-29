@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:flutter/cupertino.dart';
 import 'package:http/http.dart' as http;
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:tabumium/core/utility/logger_service.dart';
 import 'package:tabumium/features/utility/const/constant_string.dart';
 
 import '../model/version_check_request_model.dart';
@@ -10,7 +10,8 @@ import '../model/version_check_response_model.dart';
 
 class VersionCheckService {
   final String _baseUrl = ConstantString.backendUrl;
-  static const String _checkUpdateEndpoint = '/flows/trigger/7dff2f2b-4823-4abc-9d5a-c58cf3dec71d';
+  static const String _checkUpdateEndpoint =
+      '/flows/trigger/7dff2f2b-4823-4abc-9d5a-c58cf3dec71d';
 
   /// Checks if app version is up to date
   /// Returns VersionCheckResponseModel or throws exception on error
@@ -37,7 +38,7 @@ class VersionCheckService {
         buildNo: buildNumber,
         deviceType: deviceType,
       );
-      debugPrint('Version check request: ${request.toJson()}');
+      MyLog.debug('Version check request: ${request.toJson()}');
 
       // Make POST request
       final url = Uri.parse('$_baseUrl$_checkUpdateEndpoint');
@@ -48,7 +49,7 @@ class VersionCheckService {
         },
         body: jsonEncode(request.toJson()),
       );
-      debugPrint('Version check response: ${response.body}');
+      MyLog.debug('Version check response: ${response.body}');
 
       if (response.statusCode == 200) {
         final jsonResponse = jsonDecode(response.body) as Map<String, dynamic>;
