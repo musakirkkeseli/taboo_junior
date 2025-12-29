@@ -2,32 +2,32 @@ import 'dart:async';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:tabumium/core/utility/logger_service.dart';
+
+import '../utility/const/constant_string.dart';
 
 class AdManager {
   static final AdManager _instance = AdManager._internal();
   factory AdManager() => _instance;
   AdManager._internal();
 
+  final MyLog _log = MyLog('AdManager');
+
   // Test Ad Unit IDs - Production için .env dosyasından alınacak
   static String get bannerAdUnitId {
     if (Platform.isAndroid) {
-      return dotenv.env['ADMOB_BANNER_ANDROID'] ??
-          'ca-app-pub-3940256099942544/6300978111'; // Test ID
+      return ConstantString.admobBannerAndroid;
     } else if (Platform.isIOS) {
-      return dotenv.env['ADMOB_BANNER_IOS'] ??
-          'ca-app-pub-3940256099942544/2934735716'; // Test ID
+      return ConstantString.admobBannerIos;
     }
     throw UnsupportedError('Unsupported platform');
   }
 
   static String get interstitialAdUnitId {
     if (Platform.isAndroid) {
-      return dotenv.env['ADMOB_INTERSTITIAL_ANDROID'] ??
-          'ca-app-pub-3940256099942544/1033173712'; // Test ID
+      return ConstantString.admobInterstitialAndroid;
     } else if (Platform.isIOS) {
-      return dotenv.env['ADMOB_INTERSTITIAL_IOS'] ??
-          'ca-app-pub-3940256099942544/4411468910'; // Test ID
+      return ConstantString.admobInterstitialIos;
     }
     throw UnsupportedError('Unsupported platform');
   }
@@ -44,8 +44,8 @@ class AdManager {
       listener: BannerAdListener(
         onAdLoaded: onAdLoaded,
         onAdFailedToLoad: onAdFailedToLoad,
-        onAdOpened: (ad) => print('BannerAd opened'),
-        onAdClosed: (ad) => print('BannerAd closed'),
+        onAdOpened: (ad) => _log.d('BannerAd opened'),
+        onAdClosed: (ad) => _log.d('BannerAd closed'),
       ),
     );
   }
@@ -59,11 +59,11 @@ class AdManager {
       request: const AdRequest(),
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (ad) {
-          print('InterstitialAd loaded successfully');
+          _log.d('InterstitialAd loaded successfully');
           completer.complete(ad);
         },
         onAdFailedToLoad: (error) {
-          print('InterstitialAd failed to load: $error');
+          _log.e('InterstitialAd failed to load: $error');
           completer.complete(null);
         },
       ),
@@ -78,22 +78,22 @@ class AdManager {
     required VoidCallback onAdDismissed,
   }) {
     if (ad == null) {
-      print('InterstitialAd is not loaded yet');
+      _log.d('InterstitialAd is not loaded yet');
       onAdDismissed();
       return;
     }
 
     ad.fullScreenContentCallback = FullScreenContentCallback(
       onAdShowedFullScreenContent: (ad) {
-        print('InterstitialAd showed full screen');
+        _log.d('InterstitialAd showed full screen');
       },
       onAdDismissedFullScreenContent: (ad) {
-        print('InterstitialAd dismissed');
+        _log.d('InterstitialAd dismissed');
         ad.dispose();
         onAdDismissed();
       },
       onAdFailedToShowFullScreenContent: (ad, error) {
-        print('InterstitialAd failed to show: $error');
+        _log.e('InterstitialAd failed to show: $error');
         ad.dispose();
         onAdDismissed();
       },
