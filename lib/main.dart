@@ -30,9 +30,7 @@ void main() async {
       providers: [
         BlocProvider<SelectCategoryCubit>(
           lazy: false,
-          create: (context) =>
-              SelectCategoryCubit(SelectCategoryService(HttpService()))
-                ..fetchCategories(),
+          create: (context) => SelectCategoryCubit(SelectCategoryService(HttpService())),
         ),
       ],
       child: const MyApp(),
