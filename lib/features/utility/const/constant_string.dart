@@ -3,6 +3,10 @@ import 'environment.dart';
 class ConstantString {
   static var backendUrl = Environment.backendUrl;
   static var token = Environment.token;
+  static var admobBannerAndroid = Environment.admobBannerAndroid;
+  static var admobBannerIos = Environment.admobBannerIos;
+  static var admobInterstitialAndroid = Environment.admobInterstitialAndroid;
+  static var admobInterstitialIos = Environment.admobInterstitialIos;
 
   // audio path
   static const bgMusic = 'audio/music.mp3';
@@ -12,7 +16,6 @@ class ConstantString {
   static const trueSound = 'audio/true.mp3';
   static const passSound = 'audio/pass.mp3';
   static const stopTimeSound = 'audio/stop_time.mp3';
-
 
   // appbar path
   static const appbarLight = 'assets/images/appbars/appbar_light.png';
@@ -29,7 +32,8 @@ class ConstantString {
   static const soloMapBg = 'assets/images/backgrounds/solo_map_bg.png';
   static const tabuWordBg = 'assets/images/backgrounds/tabu_word_bg.png';
   static const winnerBg = 'assets/images/backgrounds/winner_bg.png';
-  static const categoryCardBg = 'assets/images/backgrounds/category_card_bg.png';
+  static const categoryCardBg =
+      'assets/images/backgrounds/category_card_bg.png';
   // static const unplayableLevelBg = 'assets/images/backgrounds/unplayable_level_bg.png';
   // static const complatedLevelBg = 'assets/images/backgrounds/complated_level_bg.png';
   // static const playableLevelBg = 'assets/images/backgrounds/playable_level_bg.png';
@@ -47,7 +51,7 @@ class ConstantString {
   static const backHomeBg = 'assets/images/buttons/back_home_button_bg.png';
   static const continueButtonBg =
       'assets/images/buttons/continue_button_bg.png';
-  // static const soloGameButtonBg ='assets/images/buttons/solo_game_button_bg.png';
+  static const soloGameButtonBg ='assets/images/buttons/solo_game_button_bg.png';
 
   // icon path
   static const appIc = 'assets/images/icons/app_ic.png';
@@ -57,6 +61,7 @@ class ConstantString {
   static const adsIcSvg = 'assets/images/icons/ads_ic.svg';
   static const complatedLevelIc = 'assets/images/icons/complated_level_ic.png';
   static const playIc = 'assets/images/icons/play_ic.png';
+  static const soloPlayIc = 'assets/images/icons/solo_play_ic.png';
   static const winnerImage = 'assets/images/icons/winner_image.png';
   static const teamGameIc = 'assets/images/icons/team_game_ic.png';
   static const exitGameIc = 'assets/images/icons/exit_game_ic.png';
@@ -96,6 +101,7 @@ class ConstantString {
   static const second = "Saniye";
   static const selectCategory = "Kategori Seçimi";
   static const teamGame = "Takım Oyunu";
+  static const soloGame = "Solo Oyun";
   static const shareUs = "Bizi paylaşın";
   static const open = "Açık";
   static const closed = "Kapalı";
@@ -117,5 +123,7 @@ class ConstantString {
   static const updateRequiredTitle = "Güncelleme Gerekli";
   static const update = "Güncelle";
   static const unexpectedError = "Beklenmedik bir hata oluştu.";
-  static const wordsRefreshing = "Kelimeler yenileniyor... \nLütfen daha sonra tekrar deneyin.";
+  static const wordsRefreshing =
+      "Kelimeler yenileniyor... \nLütfen daha sonra tekrar deneyin.";
+  static const comingSoon = "Yakında...";
 }
