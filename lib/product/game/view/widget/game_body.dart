@@ -8,6 +8,7 @@ import 'package:tabumium/features/utility/const/constant_string.dart';
 import '../../../../features/utility/enum/enum_control_button.dart';
 import '../../../../features/utility/enum/enum_teams.dart';
 import '../../../../features/utility/sound_manager.dart';
+import '../../../../features/widget/banner_ad_widget.dart';
 import '../../../../features/widget/custom_elevated_button.dart';
 import '../../../../features/widget/custom_elevated_button2.dart';
 import '../../cubit/game_cubit.dart';
@@ -283,24 +284,28 @@ class TabuBody extends StatelessWidget {
               ),
               Expanded(
                 child: Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 30.0),
+                  padding: const EdgeInsets.symmetric(vertical: 15.0),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: (tabuModel.forbidden ?? []).map((taboo) {
-                      return Text(
-                        taboo,
-                        style: (taboo.length > 18)
-                            ? Theme.of(context)
-                                .textTheme
-                                .bodyLarge
-                                ?.copyWith(color: ConstColor.white)
-                            : Theme.of(context)
-                                .textTheme
-                                .titleMedium
-                                ?.copyWith(color: ConstColor.white),
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        textAlign: TextAlign.center,
+                      return Flexible(
+                        child: Center(
+                          child: Text(
+                            taboo,
+                            style: (taboo.length > 18)
+                                ? Theme.of(context)
+                                    .textTheme
+                                    .bodyLarge
+                                    ?.copyWith(color: ConstColor.white)
+                                : Theme.of(context)
+                                    .textTheme
+                                    .titleMedium
+                                    ?.copyWith(color: ConstColor.white),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
                       );
                     }).toList(),
                   ),
@@ -347,6 +352,9 @@ class TabuBody extends StatelessWidget {
       child: Center(
         child: Column(
           children: [
+            state.gameStatus == GameStatus.gamePause
+                ? BannerAdWidget()
+                : SizedBox(),
             Spacer(),
             LayoutBuilder(
               builder: (context, constraints) {

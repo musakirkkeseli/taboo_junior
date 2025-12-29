@@ -15,6 +15,8 @@ class GameState {
   final int passNum;
   final int remainingPassNum;
   final int page;
+  final String? errorMessage;
+  final bool notHasInternet;
 
   GameState(
       {this.status = EnumGeneralStateStatus.loading,
@@ -28,7 +30,9 @@ class GameState {
       this.stopTime = false,
       this.passNum = 0,
       this.remainingPassNum = 0,
-      this.page = 0});
+      this.page = 0,
+      this.errorMessage,
+      this.notHasInternet = false});
 
   GameState copyWith({
     EnumGeneralStateStatus? status,
@@ -43,6 +47,8 @@ class GameState {
     int? passNum,
     int? remainingPassNum,
     int? page,
+    String? errorMessage,
+    bool? notHasInternet,
   }) {
     return GameState(
       status: status ?? this.status,
@@ -57,6 +63,8 @@ class GameState {
       passNum: passNum ?? this.passNum,
       remainingPassNum: remainingPassNum ?? this.remainingPassNum,
       page: page ?? this.page,
+      errorMessage: errorMessage ?? this.errorMessage,
+      notHasInternet: notHasInternet ?? this.notHasInternet,
     );
   }
 }

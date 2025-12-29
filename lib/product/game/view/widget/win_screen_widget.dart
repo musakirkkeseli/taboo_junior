@@ -1,8 +1,10 @@
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tabumium/features/utility/const/constant_color.dart';
 import 'package:tabumium/features/utility/enum/enum_teams.dart';
 
+import '../../../../core/utility/logger_service.dart';
 import '../../../../features/utility/const/constant_string.dart';
 import '../../../../features/utility/enum/enum_sound.dart';
 import '../../../../features/utility/sound_manager.dart';
@@ -40,25 +42,55 @@ class _WinScreenWidgetState extends State<WinScreenWidget> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Image.asset(ConstantString.winnerImage),
-                  widget.state.winTeam == null
-                      ? Text(ConstantString.friendshipWon,
-                          style: Theme.of(context)
-                              .textTheme
-                              .bodyLarge
-                              ?.copyWith(
-                                color: ConstColor.white,
-                              ))
-                      : Text(
-                          TeamManager(widget.state.winTeam ?? Teams.team1)
-                              .nameValue,
-                          overflow: TextOverflow.ellipsis,
-                          style: Theme.of(context)
-                              .textTheme
-                              .headlineLarge
-                              ?.copyWith(
-                                color: ConstColor.white,
-                              ))
+                  // Image.asset(ConstantString.winnerImage),
+                  // widget.state.winTeam == null
+                  //     ? Text(ConstantString.friendshipWon,
+                  //         style: Theme.of(context)
+                  //             .textTheme
+                  //             .bodyLarge
+                  //             ?.copyWith(
+                  //               color: ConstColor.white,
+                  //             ))
+                  //     : Text(
+                  //         TeamManager(widget.state.winTeam ?? Teams.team1)
+                  //             .nameValue,
+                  //         overflow: TextOverflow.ellipsis,
+                  //         style: Theme.of(context)
+                  //             .textTheme
+                  //             .headlineLarge
+                  //             ?.copyWith(
+                  //               color: ConstColor.white,
+                  //             ))
+                  Flexible(
+                    flex: 3,
+                    child: FittedBox(
+                      fit: BoxFit.contain,
+                      child: Image.asset(ConstantString.winnerImage),
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Flexible(
+                    flex: 1,
+                    child: widget.state.winTeam == null
+                        ? Text(ConstantString.friendshipWon,
+                            textAlign: TextAlign.center,
+                            style:
+                                Theme.of(context).textTheme.bodyLarge?.copyWith(
+                                      color: ConstColor.white,
+                                    ))
+                        : Text(
+                            TeamManager(widget.state.winTeam ?? Teams.team1)
+                                .nameValue,
+                            textAlign: TextAlign.center,
+                            overflow: TextOverflow.ellipsis,
+                            maxLines: 2,
+                            style: Theme.of(context)
+                                .textTheme
+                                .headlineLarge
+                                ?.copyWith(
+                                  color: ConstColor.white,
+                                )),
+                  ),
                 ],
               )),
         ),
@@ -154,9 +186,29 @@ class _WinScreenWidgetState extends State<WinScreenWidget> {
           child: CustomElevatedButton(
             maxWidth: MediaQuery.sizeOf(context).width,
             title: ConstantString.newGame,
-            onTap: () {
-              SoundManager().playVibrationAndClick();
-              context.read<GameCubit>().clear();
+            onTap: () async {
+              final connectivityResult =
+                  await Connectivity().checkConnectivity();
+              final _hasInternet =
+                  !connectivityResult.contains(ConnectivityResult.none);
+              if (!_hasInternet) {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(
+                    content: Text(
+                      'İnternet bağlantınız olmadığı için oyuna başlayamazsınız. Lütfen internet bağlantınızı kontrol edin.',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                    backgroundColor: Colors.red[700],
+                    duration: Duration(seconds: 3),
+                    behavior: SnackBarBehavior.floating,
+                  ),
+                );
+                return;
+              } else {
+                MyLog.debug("Yeni Oyun butonuna basıldı");
+                SoundManager().playVibrationAndClick();
+                context.read<GameCubit>().clear();
+              }
             },
             iconPath: ConstantString.playIc,
           ),

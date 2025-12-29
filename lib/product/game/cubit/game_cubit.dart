@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
+import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:tabumium/features/utility/enum/enum_general_state.dart';
@@ -31,13 +32,37 @@ class GameCubit extends Cubit<GameState> {
   List<TabuModel> tabuModelList = [];
   int teamPoint1 = 0;
   int teamPoint2 = 0;
+  bool notHasInternet = false;
 
   int? pausedSeconds;
 
   Random random = Random();
 
+  final MyLog _log = MyLog('GameCubit');
+
   Future<void> startGame() async {
+    MyLog.debug("GameCubit startGame called");
     // fetchTabuData();
+    // İlk olarak internet bağlantısını kontrol et
+    try {
+      final connectivityResult = await Connectivity().checkConnectivity();
+      final hasInternet = !connectivityResult.contains(ConnectivityResult.none);
+
+      if (!hasInternet) {
+        _log.d("İnternet bağlantısı yok, oyun başlatılamıyor");
+        emit(state.copyWith(
+            status: EnumGeneralStateStatus.failure,
+            errorMessage: "İnternet bağlantısı yok"));
+        return;
+      }
+    } catch (e) {
+      _log.d("İnternet kontrolü başarısız: $e");
+      emit(state.copyWith(
+          status: EnumGeneralStateStatus.failure,
+          errorMessage: "İnternet kontrolü başarısız"));
+      return;
+    }
+
     try {
       final data = await service.getWordList(0, categoryId);
 
@@ -81,22 +106,21 @@ class GameCubit extends Cubit<GameState> {
     }
   }
 
-  // void fetchTabuData() async {
-  //   await fetchWordList();
-  //   selectTabuModel();
-  //   emit(state.copyWith(
-  //       status: Status.game,
-  //       remainingSeconds: time,
-  //       passNum: pass,
-  //       remainingPassNum: pass));
-  //   startTimer();
-  // }
-
-  void selectTabuModel() {
+  void selectTabuModel() async {
     if ((teamPoint1 < winPoint && teamPoint2 < winPoint) &&
         tabuModelList.isNotEmpty) {
       if (tabuModelList.length < 3) {
-        fetchWordList();
+        final connectivityResult = await Connectivity().checkConnectivity();
+        final hasInternet =
+            !connectivityResult.contains(ConnectivityResult.none);
+
+        if (hasInternet) {
+          notHasInternet = false;
+          fetchWordList();
+        } else {
+          notHasInternet = true;
+          _log.d("İnternet bağlantısı yok, yeni kelimeler yüklenemiyor");
+        }
       }
       TabuModel tabuModel = tabuModelList[0];
       emit(state.copyWith(tabuModel: tabuModel));
@@ -104,12 +128,14 @@ class GameCubit extends Cubit<GameState> {
     } else if (tabuModelList.isEmpty) {
       emit(state.copyWith(
           gameStatus: GameStatus.gamefinish,
+          notHasInternet: notHasInternet &
+              ((teamPoint1 < winPoint) & (teamPoint2 < winPoint)),
           winTeam: teamPoint1 > teamPoint2
               ? Teams.team1
               : teamPoint1 < teamPoint2
                   ? Teams.team2
                   : null));
-      close();
+      _timer?.cancel();
     }
   }
 
@@ -150,7 +176,6 @@ class GameCubit extends Cubit<GameState> {
   }
 
   void resetTimer() {
-    // _timer?.cancel();
     emit(state.copyWith(remainingSeconds: time));
     startTimer();
   }
@@ -206,12 +231,13 @@ class GameCubit extends Cubit<GameState> {
   }
 
   void addTeamPoint1(int point) {
-    debugPrint("addTeamPoint1");
+    _log.d("addTeamPoint1");
     if (teamPoint1 > -99) {
       teamPoint1 += point;
       if (teamPoint1 >= winPoint) {
         emit(state.copyWith(
             gameStatus: GameStatus.gamefinish,
+            notHasInternet: false,
             winTeam: Teams.team1,
             teamPoint1: teamPoint1));
         _timer?.cancel();
@@ -227,6 +253,7 @@ class GameCubit extends Cubit<GameState> {
       if (teamPoint2 >= winPoint) {
         emit(state.copyWith(
             gameStatus: GameStatus.gamefinish,
+            notHasInternet: false,
             winTeam: Teams.team2,
             teamPoint2: teamPoint2));
         _timer?.cancel();
@@ -237,7 +264,9 @@ class GameCubit extends Cubit<GameState> {
   }
 
   clear() {
+    MyLog.debug("GameCubit clear called");
     _timer = null;
+    MyLog.debug("isClosed $isClosed");
     if (!isClosed) {
       tabuModelList = [];
       teamPoint1 = 0;
@@ -256,8 +285,31 @@ class GameCubit extends Cubit<GameState> {
         remainingPassNum: 0,
         passNum: 0,
         page: 1,
+        notHasInternet: false,
       ));
       startGame();
+    }
+  }
+
+  continueGameClosed() {
+    notHasInternet = false;
+    emit(state.copyWith(notHasInternet: false));
+  }
+
+  Future<void> continueGameAfterInternet() async {
+    try {
+      await fetchWordList();
+      emit(state.copyWith(
+        gameStatus: GameStatus.game,
+        status: EnumGeneralStateStatus.completed,
+      ));
+      selectTabuModel();
+      startTimer();
+    } catch (e) {
+      _log.d("Oyuna devam edilirken hata: $e");
+      emit(state.copyWith(
+          status: EnumGeneralStateStatus.failure,
+          errorMessage: "Oyuna devam edilirken hata oluştu"));
     }
   }
 }
