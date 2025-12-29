@@ -1,17 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:tabumium/core/utility/logger_service.dart';
 
+import '../../../features/utility/connectivity_wrapper.dart';
 import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/cache_manager.dart';
 import '../../../features/utility/sound_manager.dart';
 import '../../../features/service/version_check_service.dart';
 import '../../../features/widget/update_required_dialog.dart';
-import '../../../features/widget/custom_elevated_button.dart';
 import '../../../features/widget/custom_outlined_button.dart';
 import '../../../features/widget/banner_ad_widget.dart';
-import '../../select_category/view/select_category_view.dart';
+import '../../select_category/cubit/select_category_cubit.dart';
 import 'widget/customSettingSwitch.dart';
+import 'widget/game_butons_widget.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -76,7 +79,7 @@ class _HomeViewState extends State<HomeView> {
     } catch (e) {
       // Silently fail - don't block user if version check fails
       // In production, you might want to log this error
-      debugPrint('Version check failed: $e');
+      MyLog.debug('Version check failed: $e');
     }
   }
 
@@ -316,47 +319,20 @@ class _HomeViewState extends State<HomeView> {
                     // ),
                   ],
                 ),
-                SizedBox(
-                  height: 56,
-                ),
+                // SizedBox(
+                //   height: 56,
+                // ),
                 Image.asset(
                   ConstantString.appIc,
                   height: appIconHeight,
                   width: appIconWidth,
                 ),
                 Spacer(),
-                // InkWell(
-                //   onTap: () {
-                //     Navigator.push(context,
-                //         MaterialPageRoute(builder: (context) => SoloMapView()));
-                //   },
-                //   child: Container(
-                //       height: maxWidth * .243,
-                //       padding: EdgeInsets.symmetric(horizontal: 15),
-                //       decoration: BoxDecoration(
-                //           image: DecorationImage(
-                //               image:
-                //                   AssetImage(ConstantString.soloGameButtonBg),
-                //               fit: BoxFit.fitWidth)),
-                //       child: Row(
-                //         spacing: 10,
-                //         children: [Icon(Icons.abc), Text("Solo Game")],
-                //       )),
-                // ),
-                // SizedBox(
-                //   height: 20,
-                // ),
-                CustomElevatedButton(
-                  maxWidth: maxWidth,
-                  title: ConstantString.teamGame,
-                  onTap: () {
-                    sm.playVibrationAndClick();
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => SelectCategoryView()));
+                ConnectivityWrapper(
+                  onConnected: () {
+                    context.read<SelectCategoryCubit>().fetchCategories();
                   },
-                  iconPath: ConstantString.teamGameIc,
+                  child: GameButonsWidget(maxWidth: maxWidth),
                 ),
                 Spacer(),
                 CustomOutlinedButton(
