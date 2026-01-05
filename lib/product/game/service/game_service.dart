@@ -13,7 +13,7 @@ class GameService extends IGameService {
         .filterByStatus('published')
         .filterByCategory(categoryId)
         .withWordFields()
-        .setLimit(10)
+        .setLimit(50)
         .setPage(page)
         .build();
     return http.requestList<TabuModel>(
