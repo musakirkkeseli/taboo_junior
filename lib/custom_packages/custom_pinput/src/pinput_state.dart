@@ -34,6 +34,9 @@ class _PinputState extends State<Pinput>
   bool _isHovering = false;
   String? _validatorErrorText;
   SmsRetriever? _smsRetriever;
+  
+  // Track which character indices have errors
+  final Set<int> _characterErrors = {};
 
   String? get _errorText => widget.errorText ?? _validatorErrorText;
 
@@ -115,8 +118,51 @@ class _PinputState extends State<Pinput>
         _recentControllerValue.text != _effectiveController.value.text;
     _recentControllerValue = _effectiveController.value;
     if (textChanged) {
+      // Validate and block incorrect characters
+      if (!_validateAndBlockIncorrectCharacters()) {
+        return; // Don't proceed if character was incorrect
+      }
       _onChanged(pin);
     }
+  }
+
+  bool _validateAndBlockIncorrectCharacters() {
+    if (widget.characterValidator == null) return true;
+    
+    final text = pin;
+    final lastCharIndex = text.length - 1;
+    
+    // Check if the last entered character is valid
+    if (lastCharIndex >= 0 && lastCharIndex < widget.length) {
+      final char = text[lastCharIndex];
+      final isValid = widget.characterValidator!(lastCharIndex, char);
+      
+      if (!isValid) {
+        // Mark this position as error
+        _characterErrors.add(lastCharIndex);
+        
+        // Remove the incorrect character and keep cursor at same position
+        final newText = text.substring(0, lastCharIndex);
+        _effectiveController.value = TextEditingValue(
+          text: newText,
+          selection: TextSelection.collapsed(offset: newText.length),
+        );
+        _recentControllerValue = _effectiveController.value;
+        
+        setState(() {});
+        return false; // Block progression
+      } else {
+        // Remove error for this position if it exists
+        _characterErrors.remove(lastCharIndex);
+        setState(() {});
+      }
+    }
+    
+    return true; // Allow progression
+  }
+
+  bool hasCharacterError(int index) {
+    return _characterErrors.contains(index);
   }
 
   void _onChanged(String pin) {
@@ -491,6 +537,11 @@ class _PinputState extends State<Pinput>
   PinItemStateType _getState(int index) {
     if (!isEnabled) {
       return PinItemStateType.disabled;
+    }
+
+    // Check if this specific character has an error
+    if (hasCharacterError(index)) {
+      return PinItemStateType.error;
     }
 
     if (showErrorState) {

@@ -109,6 +109,7 @@ class Pinput extends StatefulWidget {
     this.showErrorWhenFocused = false,
     this.errorText,
     this.validator,
+    this.characterValidator,
     this.errorBuilder,
     this.errorTextStyle,
     this.pinputAutovalidateMode = PinputAutovalidateMode.onSubmit,
@@ -165,6 +166,7 @@ class Pinput extends StatefulWidget {
     this.forceErrorState = false,
     this.showErrorWhenFocused = false,
     this.validator,
+    this.characterValidator,
     this.pinputAutovalidateMode = PinputAutovalidateMode.onSubmit,
     this.scrollPadding = const EdgeInsets.all(20),
     this.contextMenuBuilder = _defaultContextMenuBuilder,
@@ -417,6 +419,11 @@ class Pinput extends StatefulWidget {
 
   /// Return null if pin is valid or any String otherwise
   final FormFieldValidator<String>? validator;
+
+  /// Validates each character individually
+  /// Return true if character at index is valid, false otherwise
+  /// Example: (index, char) => char == correctWord[index]
+  final bool Function(int index, String char)? characterValidator;
 
   /// Return null if pin is valid or any String otherwise
   final PinputAutovalidateMode pinputAutovalidateMode;
