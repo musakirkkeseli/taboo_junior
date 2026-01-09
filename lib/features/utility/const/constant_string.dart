@@ -34,15 +34,18 @@ class ConstantString {
   static const winnerBg = 'assets/images/backgrounds/winner_bg.png';
   static const categoryCardBg =
       'assets/images/backgrounds/category_card_bg.png';
-  // static const unplayableLevelBg = 'assets/images/backgrounds/unplayable_level_bg.png';
-  // static const complatedLevelBg = 'assets/images/backgrounds/complated_level_bg.png';
-  // static const playableLevelBg = 'assets/images/backgrounds/playable_level_bg.png';
+  static const unplayableLevelBg =
+      'assets/images/backgrounds/unplayable_level_bg.png';
+  static const complatedLevelBg =
+      'assets/images/backgrounds/complated_level_bg.png';
+  static const playableLevelBg =
+      'assets/images/backgrounds/playable_level_bg.png';
+  static const pinputBg = 'assets/images/backgrounds/pinput_bg.png';
+  static const soloGameWordListBg = 'assets/images/backgrounds/solo_game_word_list_bg.png';
 
   // button path
   static const teamGameButtonBg =
       'assets/images/buttons/team_game_button_bg.png';
-  static const playGameButtonBg =
-      'assets/images/buttons/play_game_button_bg.png';
   static const trueButtonBg = 'assets/images/buttons/true_button_bg.png';
   static const tabooButtonBg = 'assets/images/buttons/taboo_button_bg.png';
   static const passButtonBg = 'assets/images/buttons/pass_button_bg.png';
@@ -51,7 +54,16 @@ class ConstantString {
   static const backHomeBg = 'assets/images/buttons/back_home_button_bg.png';
   static const continueButtonBg =
       'assets/images/buttons/continue_button_bg.png';
-  static const soloGameButtonBg ='assets/images/buttons/solo_game_button_bg.png';
+  static const soloGameButtonBg =
+      'assets/images/buttons/solo_game_button_bg.png';
+  static const soloGameTimeButtonBg =
+      'assets/images/buttons/solo_game_time_button_bg.png';
+  static const soloGamePassButtonBg =
+      'assets/images/buttons/solo_game_pass_button_bg.png';
+  static const soloGameLetterButtonBg =
+      'assets/images/buttons/solo_game_letter_button_bg.png';
+  static const soloGameHintButtonBg =
+      'assets/images/buttons/solo_game_hint_button_bg.png';
 
   // icon path
   static const appIc = 'assets/images/icons/app_ic.png';
@@ -59,7 +71,6 @@ class ConstantString {
   static const adsIc = 'assets/images/icons/ads_ic.png';
   static const settingsIcSvg = 'assets/images/icons/settings_ic.svg';
   static const adsIcSvg = 'assets/images/icons/ads_ic.svg';
-  static const complatedLevelIc = 'assets/images/icons/complated_level_ic.png';
   static const playIc = 'assets/images/icons/play_ic.png';
   static const soloPlayIc = 'assets/images/icons/solo_play_ic.png';
   static const winnerImage = 'assets/images/icons/winner_image.png';
@@ -126,4 +137,9 @@ class ConstantString {
   static const wordsRefreshing =
       "Kelimeler yenileniyor... \nLütfen daha sonra tekrar deneyin.";
   static const comingSoon = "Yakında...";
+  static const time = "Time";
+  static const pass = "Pass";
+  static const letter = "Letter";
+  static const hint = "Hint";
+  static const soloGameMap = "Solo Oyun Haritası";
 }
