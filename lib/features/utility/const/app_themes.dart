@@ -11,6 +11,10 @@ class AppThemes {
         fontWeight: FontWeight.w600,
         fontSize: 51.85,
       ),
+      displayMedium: TextStyle(
+        fontWeight: FontWeight.w600,
+        fontSize: 48,
+      ),
       headlineLarge: TextStyle(
         fontWeight: FontWeight.w600,
         fontSize: 37.48,
@@ -50,6 +54,10 @@ class AppThemes {
       labelSmall: TextStyle(
         fontWeight: FontWeight.w600,
         fontSize: 12,
+      ),
+      displaySmall: TextStyle(
+        fontWeight: FontWeight.w600,
+        fontSize: 14,
       ),
     ),
     textSelectionTheme: TextSelectionThemeData(
