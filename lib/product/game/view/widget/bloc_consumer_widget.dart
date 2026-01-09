@@ -14,6 +14,7 @@ import '../../../../features/utility/enum/enum_teams.dart';
 import '../../../../features/utility/sound_manager.dart';
 import '../../../../features/widget/banner_ad_widget.dart';
 import '../../../../features/widget/custom_appbar_widget.dart';
+import '../../../../features/widget/half_ellipse_clipper.dart';
 import '../../cubit/game_cubit.dart';
 import '../../service/game_service.dart';
 import 'game_body.dart';
@@ -282,7 +283,7 @@ class _BlocConsumerWidgetState extends State<BlocConsumerWidget> {
           final double ry = MediaQuery.paddingOf(context).top +
               MediaQuery.sizeOf(context).width * .200;
           return ClipPath(
-            clipper: _HalfEllipseClipper(rx: rx, ry: ry),
+            clipper: HalfEllipseClipper(rx: rx, ry: ry),
             child: Stack(
               children: [
                 Container(
@@ -456,29 +457,5 @@ class _BlocConsumerWidgetState extends State<BlocConsumerWidget> {
         ? TeamManager(Teams.team2).nameValue
         : TeamManager(Teams.team1).nameValue;
     return nextTeamName;
-  }
-}
-
-class _HalfEllipseClipper extends CustomClipper<Path> {
-  final double rx;
-  final double ry;
-
-  const _HalfEllipseClipper({required this.rx, required this.ry});
-
-  @override
-  Path getClip(Size size) {
-    final Path path = Path();
-    final Rect ovalRect = Rect.fromCenter(
-      center: Offset(size.width / 2, 0),
-      width: rx * 2,
-      height: ry * 2,
-    );
-    path.addOval(ovalRect);
-    return path;
-  }
-
-  @override
-  bool shouldReclip(covariant _HalfEllipseClipper oldClipper) {
-    return oldClipper.rx != rx || oldClipper.ry != ry;
   }
 }
