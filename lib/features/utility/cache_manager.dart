@@ -14,6 +14,7 @@ class CacheManager {
   static const _soundKey = 'settings_sound';
   static const _musicKey = 'settings_music';
   static const _vibrationKey = 'settings_vibration';
+  static const _soloLevelKey = 'solo_level';
 
   Future<void> init() async {
     _prefs = await SharedPreferences.getInstance();
@@ -37,6 +38,9 @@ class CacheManager {
     }
     if (!_prefs.containsKey(_vibrationKey)) {
       _prefs.setBool(_vibrationKey, true);
+    }
+    if (!_prefs.containsKey(_soloLevelKey)) {
+      _prefs.setInt(_soloLevelKey, 1);
     }
   }
 
@@ -85,5 +89,10 @@ class CacheManager {
   bool getVibration() => _prefs.getBool(_vibrationKey) ?? true;
   Future<void> setVibration(bool value) async {
     await _prefs.setBool(_vibrationKey, value);
+  }
+
+  int getSoloLevel() => _prefs.getInt(_soloLevelKey) ?? 1;
+  Future<void> setSoloLevel(int value) async {
+    await _prefs.setInt(_soloLevelKey, value);
   }
 }
