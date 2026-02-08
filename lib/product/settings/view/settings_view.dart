@@ -2,11 +2,10 @@ import 'dart:async';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:tabumium/core/utility/logger_service.dart';
-import 'package:tabumium/features/utility/const/constant_string.dart';
 
 import '../../../features/model/game_model.dart';
 import '../../../features/utility/cache_manager.dart';
+import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
 import '../../../features/utility/enum/enum_slider_type.dart';
 import '../../../features/utility/enum/enum_teams.dart';
@@ -33,6 +32,7 @@ class _SettingsViewState extends State<SettingsView> {
   final ValueNotifier<double> passCount = ValueNotifier<double>(3);
   final ValueNotifier<double> timeCount = ValueNotifier<double>(60);
   final ValueNotifier<double> maxPointCount = ValueNotifier<double>(20);
+  final ValueNotifier<double> difficulty = ValueNotifier<double>(2);
   bool _hasInternet = true;
   final Connectivity _connectivity = Connectivity();
   StreamSubscription<List<ConnectivityResult>>? _connectivitySubscription;
@@ -43,6 +43,7 @@ class _SettingsViewState extends State<SettingsView> {
     nameController1.text = gameModel!.teamName1 ?? "";
     nameController2.text = gameModel!.teamName2 ?? "";
     passCount.value = (gameModel!.pass ?? 3).toDouble();
+    difficulty.value = (gameModel!.difficulty ?? 2).toDouble();
     timeCount.value = (gameModel!.time ?? 60).toDouble();
     maxPointCount.value = (gameModel!.point ?? 20).toDouble();
     _checkInitialConnectivity();
@@ -81,6 +82,7 @@ class _SettingsViewState extends State<SettingsView> {
     nameController1.dispose();
     nameController2.dispose();
     passCount.dispose();
+    difficulty.dispose();
     timeCount.dispose();
     maxPointCount.dispose();
     super.dispose();
@@ -174,13 +176,13 @@ class _SettingsViewState extends State<SettingsView> {
 
               if (formkey.currentState!.validate()) {
                 formkey.currentState!.save();
-                MyLog.debug("save pass ${passCount.value}");
                 GameModel gameModel = GameModel(
                     teamName1: nameController1.text,
                     teamName2: nameController2.text,
                     pass: passCount.value.toInt(),
                     time: timeCount.value.toInt(),
-                    point: maxPointCount.value.toInt());
+                    point: maxPointCount.value.toInt(),
+                    difficulty: difficulty.value.toInt());
                 CacheManager.db.saveGameModel(gameModel);
                 SoundManager().playVibrationAndClick();
                 Navigator.push(
@@ -208,6 +210,8 @@ class _SettingsViewState extends State<SettingsView> {
         return timeCount;
       case SliderType.point:
         return maxPointCount;
+      case SliderType.difficulty:
+        return difficulty;
     }
   }
 }
