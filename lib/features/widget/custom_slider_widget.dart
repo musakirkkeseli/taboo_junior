@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../utility/const/constant_color.dart';
+import '../utility/const/constant_string.dart';
 
 class CustomSliderWidget extends StatefulWidget {
   final String title;
@@ -51,7 +52,7 @@ class _CustomSliderWidgetState extends State<CustomSliderWidget> {
               ValueListenableBuilder(
                 valueListenable: widget.value,
                 builder: (context, changevalue, child) => Text(
-                    "${changevalue.toInt().toString()} ${widget.valueString}",
+                    changevalueString(changevalue),
                     style: Theme.of(context)
                         .textTheme
                         .bodyMedium
@@ -74,5 +75,29 @@ class _CustomSliderWidgetState extends State<CustomSliderWidget> {
         )
       ],
     );
+  }
+
+  String changevalueString(double changevalue) {
+    switch (widget.title) {
+      case ConstantString.difficulty:
+        return getdifficultyString(changevalue.toInt());
+      default:
+        return "${changevalue.toInt().toString()} ${widget.valueString}";
+    }
+  }
+
+  String getdifficultyString(int value) {
+    switch (value) {
+      case 1:
+        return ConstantString.easy;
+      case 2:
+        return ConstantString.medium;
+      case 3:
+        return ConstantString.hard;
+      case 4:
+        return ConstantString.expert;
+      default:
+        return ConstantString.medium;
+    }
   }
 }
