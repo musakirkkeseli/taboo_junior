@@ -4,6 +4,7 @@ class GameModel {
   int? pass;
   int? time;
   int? point;
+  int? difficulty;
 
   GameModel({
     this.teamName1,
@@ -11,6 +12,7 @@ class GameModel {
     this.pass,
     this.time,
     this.point,
+    this.difficulty,
   });
 
   Map<String, dynamic> toJson() => {
@@ -19,6 +21,7 @@ class GameModel {
         'pass': pass,
         'time': time,
         'point': point,
+        'difficulty': difficulty,
       };
 
   factory GameModel.fromJson(Map<String, dynamic> json) => GameModel(
@@ -27,5 +30,6 @@ class GameModel {
         pass: json['pass'] as int?,
         time: json['time'] as int?,
         point: json['point'] as int?,
+        difficulty: json['difficulty'] as int?,
       );
 }
