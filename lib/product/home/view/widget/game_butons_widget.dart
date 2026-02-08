@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../features/utility/const/constant_color.dart';
@@ -5,6 +6,7 @@ import '../../../../features/utility/const/constant_string.dart';
 import '../../../../features/utility/sound_manager.dart';
 import '../../../../features/widget/custom_elevated_button.dart';
 import '../../../select_category/view/select_category_view.dart';
+import '../../../solo_map/view/solo_map_view.dart';
 
 class GameButonsWidget extends StatelessWidget {
   final double maxWidth;
@@ -20,8 +22,12 @@ class GameButonsWidget extends StatelessWidget {
           children: [
             InkWell(
               onTap: () {
-                // Navigator.push(context,
-                //     MaterialPageRoute(builder: (context) => SoloMapView()));
+                if (kDebugMode) {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => SoloMapView()),
+                  );
+                }
               },
               child: Container(
                   height: maxWidth * .243,
