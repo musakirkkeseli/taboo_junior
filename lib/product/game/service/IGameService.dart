@@ -7,5 +7,6 @@ abstract class IGameService {
 
   IGameService(this.http);
 
-  Future<ApiListResponse<TabuModel>> getWordList(int page, String categoryId);
+  Future<ApiListResponse<TabuModel>> getWordList(
+      int page, String categoryId, String difficulty);
 }

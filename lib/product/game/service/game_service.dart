@@ -8,11 +8,12 @@ class GameService extends IGameService {
 
   @override
   Future<ApiListResponse<TabuModel>> getWordList(
-      int page, String categoryId) async {
+      int page, String categoryId, String difficulty) async {
     final wordUrl = WordsEndpointExtension.words()
         .filterByStatus('published')
         .filterByCategory(categoryId)
         .withWordFields()
+        .filterByDifficulty(difficulty)
         .setLimit(50)
         .setPage(page)
         .build();

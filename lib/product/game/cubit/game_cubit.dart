@@ -17,12 +17,14 @@ part 'game_state.dart';
 class GameCubit extends BaseCubit<GameState> {
   final IGameService service;
   final String categoryId;
+  final int difficulty;
   final int time;
   final int winPoint;
   final int pass;
   GameCubit({
     required this.service,
     required this.categoryId,
+    required this.difficulty,
     required this.time,
     required this.winPoint,
     required this.pass,
@@ -33,6 +35,7 @@ class GameCubit extends BaseCubit<GameState> {
   int teamPoint1 = 0;
   int teamPoint2 = 0;
   bool notHasInternet = false;
+  String _difficultyString = '';
 
   int? pausedSeconds;
 
@@ -42,6 +45,22 @@ class GameCubit extends BaseCubit<GameState> {
 
   Future<void> startGame() async {
     MyLog.debug("GameCubit startGame called");
+    switch (difficulty) {
+      case 1:
+        _difficultyString = "easy";
+        break;
+      case 2:
+        _difficultyString = "medium";
+        break;
+      case 3:
+        _difficultyString = "hard";
+        break;
+      case 4:
+        _difficultyString = "expert";
+        break;
+      default:
+        _difficultyString = "medium";
+    }
     // fetchTabuData();
     // İlk olarak internet bağlantısını kontrol et
     try {
@@ -64,7 +83,7 @@ class GameCubit extends BaseCubit<GameState> {
     }
 
     try {
-      final data = await service.getWordList(0, categoryId);
+      final data = await service.getWordList(0, categoryId, _difficultyString);
 
       if (data.data != null && (data.data ?? []).isNotEmpty) {
         List<TabuModel> wordList = data.data ?? [];
@@ -92,7 +111,8 @@ class GameCubit extends BaseCubit<GameState> {
 
   Future<void> fetchWordList() async {
     try {
-      final data = await service.getWordList(state.page + 1, categoryId);
+      final data = await service.getWordList(
+          state.page + 1, categoryId, _difficultyString);
 
       if (data.data != null) {
         List<TabuModel> wordList = data.data ?? [];

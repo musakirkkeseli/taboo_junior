@@ -38,8 +38,8 @@ class _BlocConsumerWidgetState extends State<BlocConsumerWidget> {
           service: GameService(HttpService()),
           categoryId: widget.categoryId,
           pass: widget.gameModel.pass ?? 3,
-          // time: 3,
           time: widget.gameModel.time ?? 60,
+          difficulty: widget.gameModel.difficulty ?? 2,
           winPoint: widget.gameModel.point ?? 20)
         ..startGame(),
       child: BlocConsumer<GameCubit, GameState>(
