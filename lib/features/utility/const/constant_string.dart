@@ -7,6 +7,7 @@ class ConstantString {
   static var admobBannerIos = Environment.admobBannerIos;
   static var admobInterstitialAndroid = Environment.admobInterstitialAndroid;
   static var admobInterstitialIos = Environment.admobInterstitialIos;
+  static const privacyPolicyUrl = "https://tabumium.com/privacyPolicy/";
 
   // audio path
   static const bgMusic = 'audio/music.mp3';
@@ -142,4 +143,9 @@ class ConstantString {
   static const letter = "Letter";
   static const hint = "Hint";
   static const soloGameMap = "Solo Oyun Haritası";
+  static const difficulty = "Zorluk";
+  static const easy = "Kolay";
+  static const medium = "Orta";
+  static const hard = "Zor";
+  static const expert = "Uzman";
 }
