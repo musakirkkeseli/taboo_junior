@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:tabumium/core/utility/logger_service.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../features/utility/connectivity_wrapper.dart';
 import '../../../features/utility/const/constant_string.dart';
@@ -279,7 +280,17 @@ class _HomeViewState extends State<HomeView> {
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               TextButton(
-                                                  onPressed: () {},
+                                                  onPressed: () async {
+                                                    final uri = Uri.parse(
+                                                        ConstantString
+                                                            .privacyPolicyUrl);
+                                                    if (await canLaunchUrl(
+                                                        uri)) {
+                                                      await launchUrl(uri,
+                                                          mode: LaunchMode
+                                                              .externalApplication);
+                                                    }
+                                                  },
                                                   child: Text(
                                                     ConstantString
                                                         .privacyPolicy,
