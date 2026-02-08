@@ -26,6 +26,7 @@ class CacheManager {
         pass: 3,
         time: 60,
         point: 20,
+        difficulty: 2,
       );
       saveGameModel(defaultGame);
     }
