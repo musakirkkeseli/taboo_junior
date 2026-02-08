@@ -1,6 +1,6 @@
 import '../const/constant_string.dart';
 
-enum SliderType { pass, time, point }
+enum SliderType { time, point, difficulty, pass }
 
 extension SliderTypeTitleExtension on SliderType {
   String get titleValue {
@@ -11,6 +11,8 @@ extension SliderTypeTitleExtension on SliderType {
         return ConstantString.gameTime;
       case SliderType.point:
         return ConstantString.maxPoint;
+      case SliderType.difficulty:
+        return ConstantString.difficulty;
     }
   }
 }
@@ -24,6 +26,8 @@ extension SliderTypeMaxValueExtension on SliderType {
         return 120;
       case SliderType.point:
         return 50;
+      case SliderType.difficulty:
+        return 4;
     }
   }
 }
@@ -37,6 +41,8 @@ extension SliderTypeMinValueExtension on SliderType {
         return 30;
       case SliderType.point:
         return 5;
+      case SliderType.difficulty:
+        return 1;
     }
   }
 }
@@ -50,23 +56,8 @@ extension SliderTypeValueStringExtension on SliderType {
         return ConstantString.second;
       case SliderType.point:
         return "";
+      case SliderType.difficulty:
+        return "";
     }
   }
 }
-
-// extension SliderTypeUseValueExtension on SliderType {
-//   double get useValue {
-//     GameModel? gameModel = CacheManager.db.getGameModel();
-//     if (gameModel == null) {
-//       CacheManager.db.clearGameModel();
-//     }
-//     switch (this) {
-//       case SliderType.pass:
-//         return (gameModel!.pass ?? 0).toDouble();
-//       case SliderType.time:
-//         return (gameModel!.time ?? 0).toDouble();
-//       case SliderType.point:
-//         return (gameModel!.point ?? 0).toDouble();
-//     }
-//   }
-// }
