@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:share_plus/share_plus.dart';
 import 'package:tabumium/core/utility/logger_service.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -350,7 +351,10 @@ class _HomeViewState extends State<HomeView> {
                   maxWidth: maxWidth,
                   title: ConstantString.shareUs,
                   icon: Icons.share,
-                  onPressed: () {},
+                  onPressed: () {
+                    SharePlus.instance.share(
+                        ShareParams(text: ConstantString.shareUsText));
+                  },
                 ),
                 SizedBox(height: 10),
                 BannerAdWidget(),
