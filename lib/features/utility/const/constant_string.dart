@@ -8,6 +8,9 @@ class ConstantString {
   static var admobInterstitialAndroid = Environment.admobInterstitialAndroid;
   static var admobInterstitialIos = Environment.admobInterstitialIos;
   static const privacyPolicyUrl = "https://tabumium.com/privacyPolicy/";
+  static const shareUsUrl = "https://tabumium.com/share_us";
+  static const shareUsText =
+      "Kelime oyunlarını seviyorsan Tabumium'u mutlaka denemelisin! 🧠 Hem arkadaşlarınla tabu oynayabiliyorsun hem de tekli modda kendini test edebiliyorsun. Şuradan indirebilirsin: \n$shareUsUrl";
 
   // audio path
   static const bgMusic = 'audio/music.mp3';
@@ -42,7 +45,8 @@ class ConstantString {
   static const playableLevelBg =
       'assets/images/backgrounds/playable_level_bg.png';
   static const pinputBg = 'assets/images/backgrounds/pinput_bg.png';
-  static const soloGameWordListBg = 'assets/images/backgrounds/solo_game_word_list_bg.png';
+  static const soloGameWordListBg =
+      'assets/images/backgrounds/solo_game_word_list_bg.png';
 
   // button path
   static const teamGameButtonBg =
@@ -137,15 +141,17 @@ class ConstantString {
   static const unexpectedError = "Beklenmedik bir hata oluştu.";
   static const wordsRefreshing =
       "Kelimeler yenileniyor... \nLütfen daha sonra tekrar deneyin.";
-  static const comingSoon = "Yakında...";
-  static const time = "Time";
-  static const pass = "Pass";
-  static const letter = "Letter";
-  static const hint = "Hint";
+  static const time = "Süre";
+  static const pass = "Pas";
+  static const letter = "Harf";
+  static const hint = "İpucu";
   static const soloGameMap = "Solo Oyun Haritası";
   static const difficulty = "Zorluk";
   static const easy = "Kolay";
   static const medium = "Orta";
   static const hard = "Zor";
   static const expert = "Uzman";
+  static const level = "LEVEL";
+  static const congratulations = "Tebrikler!";
+  static const jokerHint = "Joker İpucu:";
 }
