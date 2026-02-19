@@ -1,4 +1,3 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -6,6 +5,7 @@ import '../../../features/utility/const/constant_color.dart';
 import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
 import '../../../features/utility/enum/enum_general_state.dart';
+import '../../../features/utility/sound_manager.dart';
 import '../../../features/widget/banner_ad_widget.dart';
 import '../../../features/widget/custom_appbar_widget.dart';
 import '../../solo_game/view/solo_game_view.dart';
@@ -22,6 +22,7 @@ class SoloMapView extends StatefulWidget {
 
 class _SoloMapViewState extends State<SoloMapView> {
   final GlobalKey currentLevelKey = GlobalKey();
+  final sm = SoundManager();
 
   @override
   Widget build(BuildContext context) {
@@ -153,20 +154,18 @@ class _SoloMapViewState extends State<SoloMapView> {
           visible: state.status == EnumGeneralStateStatus.completed,
           child: InkWell(
             onTap: () async {
-              if (kDebugMode) {
-                SoloGame? soloGame = state.soloGame;
-                if (soloGame is SoloGame) {
-                  final result = await Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) => SoloGameView(
-                                level: soloGame.id ?? 0,
-                                word: soloGame.word ?? "",
-                                clues: soloGame.clues ?? [],
-                              )));
-                  if (result == true) {
-                    context.read<SoloMapCubit>().levelUp();
-                  }
+              SoloGame? soloGame = state.soloGame;
+              if (soloGame is SoloGame) {
+                sm.playVibrationAndClick();
+                final result = await Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => SoloGameView(
+                              level: soloGame.id ?? 0,
+                              words: soloGame.words ?? [],
+                            )));
+                if (result == true) {
+                  context.read<SoloMapCubit>().levelUp();
                 }
               }
             },
