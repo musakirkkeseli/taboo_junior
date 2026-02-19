@@ -2,37 +2,32 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:tabumium/core/utility/logger_service.dart';
-import 'package:tabumium/custom_packages/custom_pinput/pinput.dart';
 import 'package:tabumium/features/utility/const/constant_color.dart';
 
 import '../../../features/utility/const/constant_string.dart';
 import '../../../features/utility/enum/enum_appbar.dart';
-import '../../../features/utility/enum/enum_solo_game_button.dart';
 import '../../../features/utility/enum/enum_sound.dart';
 import '../../../features/utility/sound_manager.dart';
 import '../../../features/service/ad_manager.dart';
 import '../../../features/widget/banner_ad_widget.dart';
 import '../../../features/widget/custom_appbar_widget.dart';
+import '../../../features/widget/custom_elevated_button.dart';
+import '../../../features/widget/custom_elevated_button2.dart';
 import '../../../features/widget/half_ellipse_clipper.dart';
+import '../../solo_map/model/solo_game_model.dart';
 import '../cubit/solo_game_cubit.dart';
+import 'widget/solo_game_body_widget.dart';
 
 class SoloGameView extends StatefulWidget {
   final int level;
-  final String word;
-  final List<String> clues;
-  const SoloGameView(
-      {super.key,
-      required this.word,
-      required this.level,
-      required this.clues});
+  final List<SoloGameWord> words;
+  const SoloGameView({super.key, required this.words, required this.level});
 
   @override
   State<SoloGameView> createState() => _SoloGameViewState();
 }
 
 class _SoloGameViewState extends State<SoloGameView> {
-  List<String> clues1 = [];
-  List<String> clues2 = [];
   InterstitialAd? _interstitialAd;
   bool _isGameReady = false;
 
@@ -41,8 +36,6 @@ class _SoloGameViewState extends State<SoloGameView> {
   @override
   void initState() {
     super.initState();
-    clues1 = widget.clues.sublist(0, 3);
-    clues2 = widget.clues.sublist(3);
     _loadInterstitialAd();
   }
 
@@ -108,9 +101,13 @@ class _SoloGameViewState extends State<SoloGameView> {
     }
 
     return BlocProvider(
-      create: (context) => SoloGameCubit(widget.word)..startSoloGame(),
+      create: (context) => SoloGameCubit(widget.words)..startSoloGame(),
       child: BlocConsumer<SoloGameCubit, SoloGameState>(
-        listener: (context, state) {},
+        listener: (context, state) {
+          if (state.soloGameStatus == SoloGameStatus.gamefinish) {
+            Navigator.pop(context, true);
+          }
+        },
         builder: (context, state) {
           return Scaffold(
             resizeToAvoidBottomInset: false,
@@ -121,13 +118,29 @@ class _SoloGameViewState extends State<SoloGameView> {
                   fit: BoxFit.fill,
                 ),
               ),
-              child: Column(
+              child: Stack(
                 children: [
-                  _appbar(state),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20.0),
-                    child: body(),
+                  Column(
+                    children: [
+                      _appbar(state),
+                      Padding(
+                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                        child: SoloGameBodyWidget(
+                          cubitContext: context,
+                          level: widget.level,
+                          wordCount: state.wordCount,
+                          wordIndex: state.wordIndex,
+                          word: state.word ?? "",
+                          jokerClue: state.jokerClue ?? "",
+                          clues1: state.clues1,
+                          clues2: state.clues2,
+                        ),
+                      ),
+                    ],
                   ),
+                  if (state.soloGameStatus == SoloGameStatus.gamePause ||
+                      state.soloGameStatus == SoloGameStatus.gameExit)
+                    pauseAndExitOverlay(context, state),
                 ],
               ),
             ),
@@ -137,7 +150,7 @@ class _SoloGameViewState extends State<SoloGameView> {
     );
   }
 
-  _appbar(SoloGameState state) {
+  Widget _appbar(SoloGameState state) {
     switch (state.soloGameStatus) {
       case SoloGameStatus.gamefinish:
         return CustomAppbarWidget(
@@ -152,7 +165,8 @@ class _SoloGameViewState extends State<SoloGameView> {
           appbarType: EnumCustomAppbarType.exitGame,
         );
       default:
-        double _t = timeLoading(state.remainingSeconds).clamp(0.0, 1.0);
+        double _t = timeLoading(state.remainingSeconds, state.totalSeconds)
+            .clamp(0.0, 1.0);
 
         return LayoutBuilder(builder: (context, constraints) {
           final double w = constraints.maxWidth;
@@ -268,16 +282,6 @@ class _SoloGameViewState extends State<SoloGameView> {
                       onPressed: () {
                         FocusScope.of(context).unfocus();
                         Navigator.of(context).pop();
-                        // if (state.status == EnumGeneralStateStatus.failure) {
-                        //   context.read<SoloGameCubit>().stopAndStartTimer();
-                        //   context.read<SoloGameCubit>().close();
-                        //   Navigator.of(context).pop();
-                        // } else {
-                        //   SoundManager()
-                        //       .playVibrationAndClick(sound: EnumSound.stopTime);
-                        //   context.read<SoloGameCubit>().stopAndStartTimer();
-                        //   context.read<SoloGameCubit>().isExit();
-                        // }
                       },
                     ),
                   ),
@@ -289,173 +293,98 @@ class _SoloGameViewState extends State<SoloGameView> {
     }
   }
 
-  body() {
-    final defaultPinTheme = PinTheme(
-      width: 56,
-      height: 56,
-      textStyle: Theme.of(context).textTheme.bodyMedium,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image: AssetImage(ConstantString.pinputBg),
-          fit: BoxFit.cover,
-        ),
-        borderRadius: BorderRadius.circular(6),
-      ),
-    );
-    // final focusedPinTheme = defaultPinTheme.copyDecorationWith();
-    final submittedPinTheme = defaultPinTheme.copyWith(
-      decoration: defaultPinTheme.decoration!.copyWith(
-        image: const DecorationImage(
-          image: AssetImage(ConstantString.pinputBg),
-          fit: BoxFit.cover,
-        ),
-        border: Border.all(color: Colors.black),
-      ),
-    );
-    final errorPinTheme = defaultPinTheme.copyWith(
-      decoration: defaultPinTheme.decoration!.copyWith(
-        image: const DecorationImage(
-          image: AssetImage(ConstantString.pinputBg),
-          fit: BoxFit.cover,
-        ),
-        border: Border.all(color: Colors.red),
-      ),
-    );
-    return SingleChildScrollView(
-      child: Column(
-        spacing: 32,
-        children: [
-          Padding(
-            padding: const EdgeInsets.only(top: 27.0),
-            child: Text(
-              "LEVEL ${widget.level}",
-              style: Theme.of(context)
-                  .textTheme
-                  .bodyLarge
-                  ?.copyWith(color: ConstColor.white),
-            ),
-          ),
-          Center(
-            child: Pinput(
-              length: widget.word.length,
-              autofocus: false,
-              defaultPinTheme: defaultPinTheme,
-              // focusedPinTheme: focusedPinTheme,
-              submittedPinTheme: submittedPinTheme,
-              errorPinTheme: errorPinTheme,
-              keyboardType: TextInputType.text,
-              // Character-based validation
-              characterValidator: (index, char) {
-                // Check if the character at this index matches the word
-                if (index < widget.word.length) {
-                  return char.toLowerCase() == widget.word[index].toLowerCase();
+  Widget pauseAndExitOverlay(BuildContext context, SoloGameState state) {
+    return Container(
+      color: Colors.black.withOpacity(0.7),
+      padding: EdgeInsets.symmetric(horizontal: 50),
+      child: Center(
+        child: Column(
+          children: [
+            SizedBox(height: MediaQuery.paddingOf(context).top + 80),
+            state.soloGameStatus == SoloGameStatus.gamePause
+                ? BannerAdWidget()
+                : SizedBox(),
+            Spacer(),
+            LayoutBuilder(
+              builder: (context, constraints) {
+                final screenWidth = MediaQuery.sizeOf(context).width;
+                final screenHeight = MediaQuery.sizeOf(context).height;
+
+                // İkon oranları
+                const horizontalRatio =
+                    0.55; // resmin yatay uzunluğu / ekranın yatay uzunluğu
+                const verticalRatio =
+                    0.256; // resmin dikey uzunluğu / ekranın dikey uzunluğu
+                const aspectRatio = 1.0; // resmin yatay / resmin dikey
+
+                // Önce yatay orana göre hesapla
+                double iconWidth = screenWidth * horizontalRatio;
+                double iconHeight = iconWidth / aspectRatio;
+
+                // Eğer dikey olarak sığmıyorsa, dikey orana göre yeniden hesapla
+                if (iconHeight > screenHeight * verticalRatio) {
+                  iconHeight = screenHeight * verticalRatio;
+                  iconWidth = iconHeight * aspectRatio;
                 }
-                return true;
-              },
-              validator: (s) {
-                return "";
-              },
-              pinputAutovalidateMode: PinputAutovalidateMode.onSubmit,
-              pinAnimationType: PinAnimationType.rotation,
-              showCursor: true,
-              onCompleted: (pin) {
-                MyLog.debug("Completed: $pin --- ${widget.word}");
-                if (pin.toLowerCase() == widget.word.toLowerCase()) {
-                  MyLog.info("Correct word!");
-                  Navigator.pop(context, true);
-                }
+
+                return Image.asset(
+                  state.soloGameStatus == SoloGameStatus.gamePause
+                      ? ConstantString.pauseGameIc
+                      : ConstantString.exitGameIc,
+                  width: iconWidth,
+                  height: iconHeight,
+                );
               },
             ),
-          ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: EnumSoloGameButton.values.map((e) {
-              return Column(
-                children: [
-                  Image.asset(e.buttonImage),
-                  Text(
-                    e.title,
-                    style: Theme.of(context)
-                        .textTheme
-                        .displaySmall
-                        ?.copyWith(color: ConstColor.white),
+            SizedBox(height: 20),
+            Text(
+                state.soloGameStatus == SoloGameStatus.gamePause
+                    ? ConstantString.gamePaused
+                    : ConstantString.exitGameConfirmation,
+                style: Theme.of(context)
+                    .textTheme
+                    .titleMedium
+                    ?.copyWith(color: ConstColor.white),
+                textAlign: TextAlign.center),
+            Spacer(),
+            state.soloGameStatus == SoloGameStatus.gamePause
+                ? CustomElevatedButton(
+                    maxWidth: MediaQuery.sizeOf(context).width,
+                    title: ConstantString.keepContinue,
+                    onTap: () {
+                      SoundManager().playVibrationAndClick();
+                      context.read<SoloGameCubit>().stopAndStartTimer();
+                    },
+                    iconPath: ConstantString.playIc,
+                  )
+                : Column(
+                    children: [
+                      CustomElevatedButton2(
+                        buttonType: ButtonType.secondary,
+                        onTap: () {
+                          SoundManager().playVibrationAndClick();
+                          context.read<SoloGameCubit>().stopAndStartTimer();
+                        },
+                      ),
+                      CustomElevatedButton2(
+                        buttonType: ButtonType.primary,
+                        onTap: () {
+                          context.read<SoloGameCubit>().close();
+                          SoundManager().playVibrationAndClick();
+                          Navigator.popUntil(context, ModalRoute.withName('/'));
+                        },
+                      ),
+                    ],
                   ),
-                ],
-              );
-            }).toList(),
-          ),
-          Container(
-            padding: EdgeInsets.all(20),
-            width: MediaQuery.sizeOf(context).width - 40,
-            height: (MediaQuery.sizeOf(context).width - 40) * .3,
-            decoration: BoxDecoration(
-              image: DecorationImage(
-                image: AssetImage(ConstantString.soloGameWordListBg),
-                fit: BoxFit.fitWidth,
-              ),
-            ),
-            alignment: Alignment.center,
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              spacing: 10,
-              children: [
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  spacing: 19,
-                  children: clues1
-                      .expand((e) => [
-                            Text(
-                              e.toUpperCase(),
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .labelLarge
-                                  ?.copyWith(color: ConstColor.white),
-                            ),
-                            Text(
-                              "|",
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .labelLarge
-                                  ?.copyWith(color: ConstColor.white),
-                            ),
-                          ])
-                      .toList()
-                    ..removeLast(),
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  spacing: 19,
-                  children: clues2
-                      .expand((e) => [
-                            Text(
-                              e.toUpperCase(),
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .labelLarge
-                                  ?.copyWith(color: ConstColor.white),
-                            ),
-                            Text(
-                              "|",
-                              style: Theme.of(context)
-                                  .textTheme
-                                  .labelLarge
-                                  ?.copyWith(color: ConstColor.white),
-                            ),
-                          ])
-                      .toList()
-                    ..removeLast(),
-                )
-              ],
-            ),
-          ),
-          BannerAdWidget()
-        ],
+            SizedBox(height: MediaQuery.paddingOf(context).bottom + 20),
+          ],
+        ),
       ),
     );
   }
 
-  double timeLoading(int seconds) {
-    return ((60 - seconds) / 60);
+  double timeLoading(int remainingSeconds, int totalSeconds) {
+    if (totalSeconds == 0) return 0.0;
+    return ((totalSeconds - remainingSeconds) / totalSeconds);
   }
 }
